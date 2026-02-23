@@ -1,0 +1,4 @@
+[{"id":1,"slug":"moskva","name":"Москва","name_prepositional":"Москве","region":"Московская область","is_active":true}, 
+ {"id":2,"slug":"krasnogorsk","name":"Красногорск","name_prepositional":"Красногорске","region":"Московская область","is_active":true}, 
+ {"id":3,"slug":"himki","name":"Химки","name_prepositional":"Химках","region":"Московская область","is_active":true}, 
+ {"id":4,"slug":"odintsovo","name":"Одинцово","name_prepositional":"Одинцово","region":"Московская область","is_active":true}]
