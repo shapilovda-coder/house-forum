@@ -1,17 +1,5 @@
 node_modules/
 .next/
 out/
-.vercel/
-
-# Scripts with sensitive data
-add_address_column.js
-check_schema.js
-fetch_companies.js
-get_companies.js
-
-# Backups
-.backups/
-
-# Large files
-*.zip
-*.tar.gz
+*.log
+.env.local
