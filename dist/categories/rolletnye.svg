@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#ffe4e6"/>
+  <text x="200" y="200" font-family="Arial" font-size="24" fill="#e11d48" text-anchor="middle" dominant-baseline="middle">Роллетные шкафы</text>
+  <rect x="130" y="100" width="140" height="200" fill="#fecdd3" rx="4"/>
+  <line x1="130" y1="140" x2="270" y2="140" stroke="#e11d48" stroke-width="2"/>
+  <line x1="130" y1="180" x2="270" y2="180" stroke="#e11d48" stroke-width="2"/>
+  <line x1="130" y1="220" x2="270" y2="220" stroke="#e11d48" stroke-width="2"/>
+  <line x1="130" y1="260" x2="270" y2="260" stroke="#e11d48" stroke-width="2"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#cffafe"/>
+  <text x="200" y="200" font-family="Arial" font-size="22" fill="#0891b2" text-anchor="middle" dominant-baseline="middle">Безрамное остекление</text>
+  <path d="M100 300 L200 100 L300 300" fill="none" stroke="#22d3ee" stroke-width="4"/>
+  <line x1="150" y1="200" x2="150" y2="300" stroke="#67e8f9" stroke-width="3"/>
+  <line x1="200" y1="150" x2="200" y2="300" stroke="#67e8f9" stroke-width="3"/>
+  <line x1="250" y1="200" x2="250" y2="300" stroke="#67e8f9" stroke-width="3"/>
+</svg>
