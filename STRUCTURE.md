@@ -56,19 +56,42 @@ const CITIES = [
 
 ## Общее количество страниц
 
-- Главная: 1
-- Статические: 4 (blog, kontakty, calculator, o-proekte)
-- Категории: 7
-- Категории + города: 7 × 16 = 112
-- Яндекс верификация: 3
-- **Итого: ~127 страниц**
+| Тип | Количество | Пример URL |
+|-----|------------|------------|
+| Главная | 1 | `/` |
+| Статические | 4 | `/blog/`, `/kontakty/`, `/calculator/` |
+| Категории | 7 | `/prozrachnye-rolstavni/` |
+| **Категория + Гео** | **112** | `/prozrachnye-rolstavni/moskva/` |
+| Яндекс верификация | 3 | `/yandex_*.html` |
+| **ИТОГО** | **~127** | — |
+
+## Гео-структура (Категория + Город)
+
+Для каждой из 7 категорий создаются страницы по 16 городам = 112 гео-страниц.
+
+### Примеры URL:
+
+| URL | Описание |
+|-----|----------|
+| `/prozrachnye-rolstavni/moskva/` | Прозрачные рольставни в Москве |
+| `/prozrachnye-rolstavni/sankt-peterburg/` | Прозрачные рольставни в СПб |
+| `/zashchitnye-rolstavni/krasnodar/` | Защитные рольставни в Краснодаре |
+| `/vorota/ekaterinburg/` | Ворота в Екатеринбурге |
+| `/bezramnoe-osteklenie/kazan/` | Безрамное остекление в Казани |
+| `/myagkie-okna/novosibirsk/` | Мягкие окна в Новосибирске |
+
+### SEO для гео-страниц:
+
+- **Title:** `[Категория] в [Городе] — поставщики, цены, отзывы`
+- **Description:** `Каталог поставщиков [категории] в [городе]. Реальные цены, отзывы, контакты.`
+- **H1:** `[Категория] в [Городе]`
 
 ## Компоненты
 
 | Компонент | Назначение |
 |-----------|------------|
 | `HomePage.tsx` | Главная страница с фильтрами |
-| `CategoryPage.tsx` | Страница категории |
+| `CategoryPage.tsx` | Страница категории (и гео) |
 | `CalculatorModal.tsx` | Модальное окно калькулятора |
 | `Footer.tsx` | Подвал сайта |
 | `layout.tsx` | Корневой layout с мета-тегами |
@@ -76,9 +99,9 @@ const CITIES = [
 
 ## Данные
 
-- **Supabase**: `https://zzellrqkamskeftyprkv.supabase.co`
-- **Таблицы**: companies, categories, cities, company_categories
-- **Резервная копия**: `data/backup/`
+- **Supabase:** `https://zzellrqkamskeftyprkv.supabase.co`
+- **Таблицы:** companies, categories, cities, company_categories
+- **Резервная копия:** `data/backup/`
 
 ## Домены
 
@@ -94,5 +117,5 @@ npm run build    # Static export (output: 'export')
 
 ## Деплой
 
-- **Хостинг**: Vercel
-- **URL**: https://www.stroysales.ru
+- **Хостинг:** Vercel
+- **URL:** https://www.stroysales.ru
