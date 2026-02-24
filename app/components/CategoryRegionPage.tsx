@@ -102,21 +102,12 @@ function CategoryRegionContent({
 
 export default function CategoryRegionPage(props: CategoryRegionPageProps) {
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-xl font-bold text-gray-900">Строй<span className="text-orange-500">Сейлс</span></span>
-          </Link>
-        </div>
-      </header>
-
+    <>
       <div className="max-w-5xl mx-auto px-4 py-8">
         <Suspense fallback={<div className="text-center py-12">Загрузка...</div>}>
           <CategoryRegionContent {...props} />
         </Suspense>
       </div>
-    </div>
+    </>
   )
 }
