@@ -13,10 +13,16 @@
       "info@stekloroll.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -46,10 +52,16 @@
       "info@artalico.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -75,10 +87,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -100,10 +118,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -121,10 +145,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -142,10 +172,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -167,10 +203,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -190,10 +232,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -215,10 +263,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -239,10 +293,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -264,10 +324,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -287,10 +353,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -318,12 +390,20 @@
       "sales@mjagkieokna.ru"
     ],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -348,10 +428,16 @@
       "zakaz@myagkie.com"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -376,10 +462,16 @@
       "7551878@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -400,10 +492,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -426,12 +524,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург",
-      "Москва"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      },
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "sankt-peterburg",
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -458,12 +564,20 @@
       "manager@miagkieokna.ru"
     ],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -486,10 +600,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -514,10 +634,16 @@
       "info@oknofabrika.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -542,10 +668,16 @@
       "zakaz@tent-sib.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -570,10 +702,16 @@
       "info@fabrikalive.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -594,10 +732,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -617,10 +761,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -640,10 +790,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -665,10 +821,16 @@
       "tentopt2020@gmail.com"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -692,10 +854,16 @@
       "sales@rollets.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -720,10 +888,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -749,10 +923,16 @@
       "info@tpkvd.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -777,10 +957,16 @@
       "rus-roll@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -803,10 +989,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -828,10 +1020,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -852,10 +1050,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -875,10 +1079,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -896,10 +1106,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -919,10 +1135,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -942,10 +1164,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy",
@@ -966,10 +1194,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy",
@@ -990,10 +1224,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1017,10 +1257,16 @@
       "info@gild24.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -1043,10 +1289,16 @@
       "info@rolmaster.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -1066,10 +1318,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -1089,10 +1347,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -1114,10 +1378,16 @@
       "info@grandline.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -1153,10 +1423,16 @@
       "info-77vorota@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -1177,10 +1453,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -1204,10 +1486,16 @@
       "zakaz@vorota750.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -1228,10 +1516,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1262,10 +1556,16 @@
       "oblzabor.zakaz@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota",
@@ -1286,10 +1586,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1309,10 +1615,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1332,10 +1644,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1355,10 +1673,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1378,10 +1702,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1401,10 +1731,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1426,10 +1762,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1449,10 +1791,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1474,10 +1822,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1497,10 +1851,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1520,10 +1880,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1543,10 +1909,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1566,10 +1938,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1589,10 +1967,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1612,10 +1996,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1635,10 +2025,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1658,10 +2054,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1681,10 +2083,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1704,10 +2112,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1727,10 +2141,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1750,10 +2170,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1773,10 +2199,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1796,10 +2228,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1819,10 +2257,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1842,10 +2286,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1865,10 +2315,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1888,10 +2344,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1911,10 +2373,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1934,10 +2402,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1957,10 +2431,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -1980,10 +2460,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2003,10 +2489,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2029,12 +2521,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2054,10 +2554,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2077,10 +2583,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2100,10 +2612,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2123,10 +2641,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2146,10 +2670,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2169,10 +2699,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2192,10 +2728,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2215,10 +2757,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2238,10 +2786,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2261,10 +2815,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2284,10 +2844,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2307,10 +2873,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2330,10 +2902,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -2357,10 +2935,16 @@
       "info@etalonmsk.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -2384,10 +2968,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -2412,12 +3002,20 @@
       "info@divals.ru"
     ],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -2441,10 +3039,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -2469,10 +3073,16 @@
       "rol@richrol.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -2493,10 +3103,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -2518,10 +3134,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -2541,10 +3163,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -2564,10 +3192,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -2587,10 +3221,16 @@
       "zakaz@gstrong.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва ",
@@ -2608,10 +3248,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2631,10 +3277,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2654,10 +3306,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2677,10 +3335,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2700,10 +3364,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2723,10 +3393,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2746,10 +3422,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2769,10 +3451,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2792,10 +3480,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2815,10 +3509,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2838,10 +3538,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2861,10 +3567,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2884,10 +3596,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2907,10 +3625,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2930,10 +3654,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2953,10 +3683,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -2976,10 +3712,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3002,12 +3744,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3030,12 +3780,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3055,10 +3813,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3078,10 +3842,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3101,10 +3871,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3124,10 +3900,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3147,10 +3929,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3170,10 +3958,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3193,10 +3987,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3216,10 +4016,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3239,10 +4045,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3262,10 +4074,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3285,10 +4103,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3308,10 +4132,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3331,10 +4161,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3354,10 +4190,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3377,10 +4219,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3404,10 +4252,16 @@
       "INFO@STINER.RU"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3434,12 +4288,20 @@
       "opt1@profmetmebel.ru"
     ],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3463,10 +4325,16 @@
       "info@werstakoff.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3486,10 +4354,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3509,10 +4383,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3532,10 +4412,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3555,10 +4441,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3578,10 +4470,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3601,10 +4499,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3624,10 +4528,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3647,10 +4557,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3670,10 +4586,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3696,12 +4618,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -3723,10 +4653,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, ул. Ленинская Слобода, д. 26",
@@ -3744,10 +4680,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3767,10 +4709,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -3790,10 +4738,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -3813,10 +4767,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -3836,10 +4796,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -3859,10 +4825,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -3882,10 +4854,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -3910,10 +4888,16 @@
       "info@vorota-top.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -3937,10 +4921,16 @@
       "otkatnye-vorota-tut@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -3965,10 +4955,16 @@
       "info@gruppa-masterov.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -3991,10 +4987,16 @@
       "info@vorota-mp.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4017,10 +5019,16 @@
       "info@allo-rolstavni.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4051,10 +5059,16 @@
       "info@automaticheskie-vorota.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4080,10 +5094,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4110,10 +5130,16 @@
       "vorota-vam@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4138,10 +5164,16 @@
       "profstavni@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4165,10 +5197,16 @@
       "info@vorota-dlya-doma.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4193,10 +5231,16 @@
       "zhalyuziag@gmail.com"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4219,10 +5263,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -4248,10 +5298,16 @@
       "g-okna77@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4274,10 +5330,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4301,10 +5363,16 @@
       "uyut-okna-rf@ya.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4328,10 +5396,16 @@
       "info@glasscore.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4353,10 +5427,16 @@
       "info@wallbest.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4376,10 +5456,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -4401,10 +5487,16 @@
       "INFO@UNION.RU"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -4424,10 +5516,16 @@
       "evro-rolstavni@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4447,10 +5545,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва",
@@ -4471,12 +5575,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -4498,10 +5610,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4525,10 +5643,16 @@
       "office@indigo-peregorodki.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4552,10 +5676,16 @@
       "accounts@dobriy-office.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г.Москва",
@@ -4573,10 +5703,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -4598,10 +5734,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва Тел: +7 (495) 648-48-90",
@@ -4657,12 +5799,20 @@
       "vorota-group1@yandex.ru"
     ],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -4688,10 +5838,16 @@
       "moscow@mebelstyle.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, Россия, наб. Академика Туполева, 15",
@@ -4713,10 +5869,16 @@
       "urban-glass@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, улица Подольских Курсантов, 34с2, офис 4",
@@ -4736,10 +5898,16 @@
     ],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, Рублевское шоссе 11 к.2",
@@ -4759,10 +5927,16 @@
       "zakaz@mebela.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва",
@@ -4780,10 +5954,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, ул. Угрешская, д.31",
@@ -4806,11 +5986,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "prozrachnye-rolstavni",
       "myagkie-okna",
@@ -4836,11 +6017,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -4863,10 +6045,16 @@
       "Place-box@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -4888,10 +6076,16 @@
       "9205710@mail.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -4909,10 +6103,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, улица Достоевского",
@@ -4930,10 +6130,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -4954,10 +6160,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -4977,10 +6189,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5000,10 +6218,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5023,10 +6247,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5046,10 +6276,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5073,10 +6309,16 @@
       "zakaz.shkaf-master@yandex.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва",
@@ -5098,10 +6340,16 @@
       "manager@shkaf-nabalkon.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5121,10 +6369,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, Угрешская, 31",
@@ -5142,10 +6396,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5165,10 +6425,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -5190,10 +6456,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni"
@@ -5213,12 +6485,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург",
-      "Москва"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      },
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "sankt-peterburg",
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -5239,10 +6519,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5262,10 +6548,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5285,10 +6577,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy",
@@ -5309,10 +6607,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5332,10 +6636,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni"
@@ -5355,10 +6665,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5378,10 +6694,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5401,10 +6723,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5424,10 +6752,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy",
@@ -5448,10 +6782,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -5471,11 +6811,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -5494,10 +6835,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5520,10 +6867,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5543,10 +6896,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5566,10 +6925,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5589,10 +6954,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5612,10 +6983,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5635,10 +7012,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5660,10 +7043,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5683,10 +7072,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5710,12 +7105,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5735,10 +7138,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5758,10 +7167,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5781,10 +7196,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5804,10 +7225,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5827,10 +7254,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5850,10 +7283,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5873,10 +7312,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5896,10 +7341,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5919,10 +7370,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -5942,10 +7399,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -5965,10 +7428,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -5988,10 +7457,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6011,10 +7486,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6034,10 +7515,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6057,10 +7544,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6080,10 +7573,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6103,10 +7602,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6126,12 +7631,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota",
@@ -6152,10 +7665,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6175,10 +7694,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6198,10 +7723,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6221,10 +7752,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6244,10 +7781,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -6267,10 +7810,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -6290,10 +7839,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6313,10 +7868,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6336,10 +7897,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6359,10 +7926,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6382,10 +7955,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6405,10 +7984,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6428,10 +8013,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6451,10 +8042,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6474,10 +8071,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6497,10 +8100,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6520,10 +8129,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6545,10 +8160,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6570,10 +8191,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6595,10 +8222,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6620,10 +8253,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6645,10 +8284,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6668,10 +8313,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6691,10 +8342,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6714,10 +8371,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6737,10 +8400,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6760,11 +8429,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "myagkie-okna",
       "ofisnye-peregorodki"
@@ -6784,10 +8454,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6807,10 +8483,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6830,10 +8512,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6853,10 +8541,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6876,10 +8570,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6899,10 +8599,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6922,10 +8628,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6951,10 +8663,16 @@
       "sale@region-vorota.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota",
@@ -6975,10 +8693,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -6998,10 +8722,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7021,10 +8751,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7044,10 +8780,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7069,10 +8811,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7092,10 +8840,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7115,10 +8869,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7138,10 +8898,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7165,12 +8931,20 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва",
-      "Санкт-Петербург"
+      {
+        "name": "Москва",
+        "slug": null
+      },
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo",
-      "sankt-peterburg"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7190,10 +8964,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7215,10 +8995,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7238,10 +9024,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7261,10 +9053,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7284,10 +9082,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7307,10 +9111,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7330,10 +9140,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7353,10 +9169,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7376,10 +9198,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7399,10 +9227,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7422,10 +9256,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7445,10 +9285,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7468,10 +9314,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7491,10 +9343,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7516,11 +9374,12 @@
     ],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "myagkie-okna"
     ],
@@ -7539,10 +9398,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7562,10 +9427,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7585,10 +9456,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7608,10 +9485,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7631,10 +9514,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7656,10 +9545,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7679,10 +9574,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7702,10 +9603,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7725,10 +9632,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7748,10 +9661,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7771,10 +9690,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7794,10 +9719,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7817,10 +9748,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -7840,10 +9777,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7863,10 +9806,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7886,10 +9835,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7909,10 +9864,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7932,10 +9893,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7955,10 +9922,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -7978,10 +9951,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8001,10 +9980,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8024,10 +10009,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8047,10 +10038,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8070,10 +10067,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8093,10 +10096,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8116,10 +10125,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8139,10 +10154,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8162,10 +10183,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8185,10 +10212,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8208,10 +10241,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8231,10 +10270,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8254,10 +10299,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8277,10 +10328,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8300,10 +10357,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8323,10 +10386,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8346,10 +10415,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8369,10 +10444,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8394,10 +10475,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8417,10 +10504,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -8440,10 +10533,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -8463,10 +10562,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -8486,10 +10591,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -8509,10 +10620,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8532,10 +10649,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "bezramnoe-osteklenie"
@@ -8555,10 +10678,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": null,
@@ -8576,10 +10705,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -8599,10 +10734,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "rolletnye-shkafy"
@@ -8622,11 +10763,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "prozrachnye-rolstavni",
       "vorota"
@@ -8649,11 +10791,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "myagkie-okna"
     ],
@@ -8676,10 +10819,16 @@
       "office@levin-group.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "zashchitnye-rolstavni",
@@ -8706,10 +10855,16 @@
       "zakaz@perof.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "г. Москва ул. Введенского владение 8",
@@ -8731,10 +10886,16 @@
       "info@glgrup.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "Москва, Научный проезд, 8с1",
@@ -8752,10 +10913,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "myagkie-okna"
@@ -8775,10 +10942,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -8802,10 +10975,16 @@
       "corp@металлбокс.рф"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [],
     "address": "гараж и мастерскую Калькулятор Фото работ О компании Доставка и оплата Монтаж Гарантия Сертификаты и лицензии Акции и скидки Отзывы Контакты КАЛЬКУЛЯТ",
@@ -8825,10 +11004,16 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "vorota"
@@ -8852,10 +11037,16 @@
       "info@zhaluzi-rolstavni.ru"
     ],
     "cities": [
-      "Москва"
+      {
+        "name": "Москва",
+        "slug": null
+      }
     ],
     "regions": [
-      "moskva-i-mo"
+      {
+        "slug": "moskva-i-mo",
+        "name": "Москва и Московская область"
+      }
     ],
     "categories": [
       "prozrachnye-rolstavni",
@@ -8876,11 +11067,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -8899,11 +11091,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "myagkie-okna"
     ],
@@ -8922,11 +11115,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "myagkie-okna"
     ],
@@ -8945,11 +11139,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "zashchitnye-rolstavni",
       "myagkie-okna"
@@ -8969,11 +11164,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -8992,11 +11188,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -9015,11 +11212,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "zashchitnye-rolstavni",
       "vorota"
@@ -9039,11 +11237,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -9062,11 +11261,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9087,11 +11287,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9110,11 +11311,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9137,11 +11339,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9160,11 +11363,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9183,11 +11387,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -9206,11 +11411,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -9229,11 +11435,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -9252,11 +11459,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie",
       "ofisnye-peregorodki"
@@ -9276,11 +11484,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie",
       "myagkie-okna"
@@ -9300,11 +11509,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -9323,11 +11533,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -9346,11 +11557,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "bezramnoe-osteklenie",
       "ofisnye-peregorodki"
@@ -9370,11 +11582,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -9393,11 +11606,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "rolletnye-shkafy",
       "prozrachnye-rolstavni",
@@ -9418,11 +11632,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -9441,11 +11656,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -9464,11 +11680,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -9487,11 +11704,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -9510,11 +11728,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -9533,11 +11752,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -9556,11 +11776,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -9579,11 +11800,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki",
       "myagkie-okna"
@@ -9603,11 +11825,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "ofisnye-peregorodki",
       "bezramnoe-osteklenie"
@@ -9627,11 +11850,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9650,11 +11874,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],
@@ -9673,11 +11898,12 @@
     "phones": [],
     "emails": [],
     "cities": [
-      "Санкт-Петербург"
+      {
+        "name": "Санкт-Петербург",
+        "slug": null
+      }
     ],
-    "regions": [
-      "sankt-peterburg"
-    ],
+    "regions": [],
     "categories": [
       "vorota"
     ],

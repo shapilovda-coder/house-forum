@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { CATEGORIES, REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
+import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
 import CategoryRegionPage from '../../components/CategoryRegionPage'
 
 function loadSuppliers() {
@@ -18,8 +18,8 @@ export async function generateStaticParams() {
   
   suppliers.forEach((s: any) => {
     s.categories.forEach((cat: string) => {
-      s.regions.forEach((reg: string) => {
-        combos.push({ category: cat, region: reg })
+      s.regions.forEach((reg: any) => {
+        combos.push({ category: cat, region: reg.slug })
       })
     })
   })
@@ -59,7 +59,7 @@ export default async function Page({
   
   // Validate
   const catData = CATEGORIES.find(c => c.slug === category)
-  const regData = REGIONS.find(r => r.slug === region)
+  const regData = CANONICAL_REGIONS.find(r => r.slug === region)
   
   if (!catData || !regData) {
     notFound()
@@ -69,7 +69,7 @@ export default async function Page({
   const suppliers = loadSuppliers()
   const filteredSuppliers = suppliers.filter((s: any) => 
     s.categories.includes(category) &&
-    s.regions.includes(region) &&
+    s.regions.some((r: any) => r.slug === region) &&
     s.status === 'active'
   )
   
@@ -84,7 +84,7 @@ export default async function Page({
   
   // Get cities in this region for filters
   const citiesInRegion = [...new Set(
-    filteredSuppliers.flatMap((s: any) => s.cities)
+    filteredSuppliers.flatMap((s: any) => s.cities.map((c: any) => c.name))
   )]
   
   return (

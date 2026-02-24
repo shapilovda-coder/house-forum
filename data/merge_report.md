@@ -1,6 +1,6 @@
 # Merge Report
 
-Generated: 2026-02-24T18:03:25.122Z
+Generated: 2026-02-24T18:08:12.520Z
 
 ## Summary
 
@@ -147,4 +147,23 @@ Generated: 2026-02-24T18:03:25.122Z
 ## Regions Available
 
 - moskva-i-mo
-- sankt-peterburg
+
+## Cities with >= 15 Suppliers (Future City Pages)
+
+**Note:** City pages will only be created if a city has >= 15 suppliers.
+
+| City | Region | Suppliers | Ready for Page? |
+|------|--------|-----------|-----------------|
+| Москва | Москва и Московская область | 359 | ✅ YES |
+| Санкт-Петербург | Москва и Московская область | 57 | ✅ YES |
+
+## All Cities (Top 30)
+
+| City | Suppliers |
+|------|-----------|
+| Москва | 359 |
+| Санкт-Петербург | 57 |
+
+---
+**Architecture Note:** Cities are stored as objects `{ name, slug }` to allow future slugification.
+City pages (`/[category]/[region]/[city]`) will be generated only for cities with >= 15 suppliers.

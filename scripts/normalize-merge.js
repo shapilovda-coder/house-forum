@@ -27,20 +27,74 @@ function getRootDomain(website) {
   return domain;
 }
 
-// Helper: slugify region name
-function slugifyRegion(name) {
-  const map = {
-    'Московская область': 'moskva-i-mo',
-    'Северо-Западный': 'sankt-peterburg',
-    'Приволжский': 'povolzhe',
-    'Сибирский': 'sibir',
-    'Уральский': 'ural',
-    'Центральный': 'centr',
-    'Южный': 'yug'
+// REGION_MAP — канонические регионы
+const REGION_MAP = {
+  // moskva-i-mo
+  'Москва': 'moskva-i-mo',
+  'Московская область': 'moskva-i-mo',
+  'МО': 'moskva-i-mo',
+  'Москва и МО': 'moskva-i-mo',
+  'Moscow': 'moskva-i-mo',
+  'Moscow Region': 'moskva-i-mo',
+  
+  // spb-lo
+  'Санкт-Петербург': 'spb-lo',
+  'СПб': 'spb-lo',
+  'Питер': 'spb-lo',
+  'Ленобласть': 'spb-lo',
+  'Ленинградская область': 'spb-lo',
+  'СПб и ЛО': 'spb-lo',
+  'Saint Petersburg': 'spb-lo',
+  'Leningrad Oblast': 'spb-lo',
+  
+  // Other regions (ready for future)
+  'Новосибирская область': 'novosibirskaya-oblast',
+  'Свердловская область': 'sverdlovskaya-oblast',
+  'Татарстан': 'tatarstan',
+  'Нижегородская область': 'nizhegorodskaya-oblast',
+  'Красноярский край': 'krasnoyarskiy-kray',
+  'Челябинская область': 'chelyabinskaya-oblast',
+  'Самарская область': 'samarskaya-oblast',
+  'Башкортостан': 'bashkortostan',
+  'Ростовская область': 'rostovskaya-oblast',
+  'Краснодарский край': 'krasnodarskiy-kray',
+  'Омская область': 'omskaya-oblast',
+  'Воронежская область': 'voronezhskaya-oblast',
+  'Пермский край': 'permskiy-kray',
+  'Волгоградская область': 'volgogradskaya-oblast',
+};
+
+function normalizeRegion(rawRegion) {
+  if (!rawRegion) return null;
+  return REGION_MAP[rawRegion] || null;
+}
+
+/**
+ * В будущем: порог для создания city-страницы
+ * City-страница создаётся только если поставщиков >= MIN_SUPPLIERS_FOR_CITY_PAGE
+ */
+const MIN_SUPPLIERS_FOR_CITY_PAGE = 15;
+
+function getRegionName(slug) {
+  const names = {
+    'moskva-i-mo': 'Москва и Московская область',
+    'spb-lo': 'Санкт-Петербург и Ленинградская область',
+    'novosibirskaya-oblast': 'Новосибирская область',
+    'sverdlovskaya-oblast': 'Свердловская область',
+    'tatarstan': 'Татарстан',
+    'nizhegorodskaya-oblast': 'Нижегородская область',
+    'krasnoyarskiy-kray': 'Красноярский край',
+    'chelyabinskaya-oblast': 'Челябинская область',
+    'samarskaya-oblast': 'Самарская область',
+    'bashkortostan': 'Башкортостан',
+    'rostovskaya-oblast': 'Ростовская область',
+    'krasnodarskiy-kray': 'Краснодарский край',
+    'omskaya-oblast': 'Омская область',
+    'voronezhskaya-oblast': 'Воронежская область',
+    'permskiy-kray': 'Пермский край',
+    'volgogradskaya-oblast': 'Волгоградская область',
   };
-  return map[name] || name.toLowerCase()
-    .replace(/[^a-zа-я0-9]+/gi, '-')
-    .replace(/^-|-$/g, '');
+  return names[slug] || slug;
 }
 function getSubdomain(website) {
   if (!website) return null;
@@ -82,10 +136,8 @@ Object.entries(groups).forEach(([rootDomain, companies]) => {
   if (companies.length === 1) {
     // Single company - no merge needed
     const c = companies[0];
-    // Normalize region
-    const rawRegion = c.city?.region;
-    const normalizedRegion = rawRegion === 'Московская область' ? 'moskva-i-mo' : 
-                              rawRegion ? slugifyRegion(rawRegion) : null;
+    // Normalize region using REGION_MAP
+    const normalizedRegion = normalizeRegion(c.city?.region);
     
     merged.push({
       id: c.id,
@@ -96,8 +148,10 @@ Object.entries(groups).forEach(([rootDomain, companies]) => {
       branches: getSubdomain(c.website) ? [getSubdomain(c.website)] : [],
       phones: c.phone ? [c.phone] : [],
       emails: c.email ? [c.email] : [],
-      cities: c.city ? [c.city.name] : [],
-      regions: normalizedRegion ? [normalizedRegion] : [],
+      // Cities as objects (ready for future slugification)
+      cities: c.city ? [{ name: c.city.name, slug: null }] : [],
+      // Regions as objects with canonical slugs
+      regions: normalizedRegion ? [{ slug: normalizedRegion, name: getRegionName(normalizedRegion) }] : [],
       categories: c.categories?.map(cc => cc.category?.slug).filter(Boolean) || [],
       address: c.address,
       is_verified: c.is_verified,
@@ -119,9 +173,10 @@ Object.entries(groups).forEach(([rootDomain, companies]) => {
       c.categories?.map(cc => cc.category?.slug).filter(Boolean) || []
     ))];
     
-    // Normalize regions: Москва + Московская область → moskva-i-mo
+    // Normalize regions using REGION_MAP
     const normalizedRegions = [...new Set(companies.map(c => c.city?.region).filter(Boolean))]
-      .map(r => r === 'Московская область' ? 'moskva-i-mo' : slugifyRegion(r));
+      .map(r => normalizeRegion(r))
+      .filter(Boolean); // Remove nulls
     
     merged.push({
       id: main.id,
@@ -132,8 +187,10 @@ Object.entries(groups).forEach(([rootDomain, companies]) => {
       branches: branches,
       phones: phones,
       emails: emails,
-      cities: cities,
-      regions: normalizedRegions,
+      // Cities as objects (ready for future slugification)
+      cities: cities.map(name => ({ name, slug: null })),
+      // Regions as objects with canonical slugs
+      regions: normalizedRegions.map(slug => ({ slug, name: getRegionName(slug) })),
       categories: categories,
       address: main.address,
       is_verified: companies.some(c => c.is_verified),
@@ -202,7 +259,53 @@ ${[...new Set(merged.flatMap(c => c.categories))].sort().map(c => `- ${c}`).join
 
 ## Regions Available
 
-${[...new Set(merged.flatMap(c => c.regions))].sort().map(r => `- ${r}`).join('\n')}
+${[...new Set(merged.flatMap(c => c.regions.map(r => r.slug)))].sort().map(r => `- ${r}`).join('\n')}
+
+## Cities with >= 15 Suppliers (Future City Pages)
+
+**Note:** City pages will only be created if a city has >= ${MIN_SUPPLIERS_FOR_CITY_PAGE} suppliers.
+
+| City | Region | Suppliers | Ready for Page? |
+|------|--------|-----------|-----------------|
+${(() => {
+  const cityCounts = {};
+  merged.forEach(s => {
+    s.cities.forEach(c => {
+      const key = c.name;
+      if (!cityCounts[key]) {
+        cityCounts[key] = { count: 0, region: s.regions[0]?.name || 'Unknown' };
+      }
+      cityCounts[key].count++;
+    });
+  });
+  return Object.entries(cityCounts)
+    .filter(([_, data]) => data.count >= MIN_SUPPLIERS_FOR_CITY_PAGE)
+    .sort((a, b) => b[1].count - a[1].count)
+    .map(([city, data]) => `| ${city} | ${data.region} | ${data.count} | ${data.count >= MIN_SUPPLIERS_FOR_CITY_PAGE ? '✅ YES' : '❌ NO'} |`)
+    .join('\n');
+})()}
+
+## All Cities (Top 30)
+
+| City | Suppliers |
+|------|-----------|
+${(() => {
+  const cityCounts = {};
+  merged.forEach(s => {
+    s.cities.forEach(c => {
+      cityCounts[c.name] = (cityCounts[c.name] || 0) + 1;
+    });
+  });
+  return Object.entries(cityCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 30)
+    .map(([city, count]) => `| ${city} | ${count} |`)
+    .join('\n');
+})()}
+
+---
+**Architecture Note:** Cities are stored as objects \`{ name, slug }\` to allow future slugification.
+City pages (\`/[category]/[region]/[city]\`) will be generated only for cities with >= ${MIN_SUPPLIERS_FOR_CITY_PAGE} suppliers.
 `;
 
 fs.writeFileSync(

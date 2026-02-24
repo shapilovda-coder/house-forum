@@ -69,9 +69,9 @@ export default async function Page({
     return (b.clicks || 0) - (a.clicks || 0)
   })
   
-  // Get available regions for this category
+  // Get available regions for this category (from regions objects)
   const availableRegions = [...new Set(
-    categorySuppliers.flatMap((s: any) => s.regions)
+    categorySuppliers.flatMap((s: any) => s.regions.map((r: any) => r.slug))
   )]
   
   return (

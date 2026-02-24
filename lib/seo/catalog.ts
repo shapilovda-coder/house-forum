@@ -1,4 +1,8 @@
-// lib/seo/catalog.ts — единый источник категорий и регионов
+// lib/seo/catalog.ts — единый источник категорий
+
+import { CANONICAL_REGIONS, normalizeRegion, getCanonicalRegion } from './regions';
+
+export { CANONICAL_REGIONS, normalizeRegion, getCanonicalRegion };
 
 export const CATEGORIES = [
   { 
@@ -38,27 +42,10 @@ export const CATEGORIES = [
   },
 ] as const;
 
-export const REGIONS = [
-  { slug: 'moskva-i-mo', name: 'Москва и Московская область' },
-  { slug: 'sankt-peterburg', name: 'Санкт-Петербург' },
-  { slug: 'novosibirskaya-oblast', name: 'Новосибирская область' },
-  { slug: 'sverdlovskaya-oblast', name: 'Свердловская область' },
-  { slug: 'tatarstan', name: 'Татарстан' },
-  { slug: 'nizhegorodskaya-oblast', name: 'Нижегородская область' },
-  { slug: 'krasnoyarskiy-kray', name: 'Красноярский край' },
-  { slug: 'chelyabinskaya-oblast', name: 'Челябинская область' },
-  { slug: 'samarskaya-oblast', name: 'Самарская область' },
-  { slug: 'bashkortostan', name: 'Башкортостан' },
-  { slug: 'rostovskaya-oblast', name: 'Ростовская область' },
-  { slug: 'krasnodarskiy-kray', name: 'Краснодарский край' },
-  { slug: 'omskaya-oblast', name: 'Омская область' },
-  { slug: 'voronezhskaya-oblast', name: 'Воронежская область' },
-  { slug: 'permskiy-kray', name: 'Пермский край' },
-  { slug: 'volgogradskaya-oblast', name: 'Волгоградская область' },
-] as const;
-
 export type CategorySlug = typeof CATEGORIES[number]['slug'];
-export type RegionSlug = typeof REGIONS[number]['slug'];
+
+// Re-export region types
+export type { Region } from './regions';
 
 // Generate metadata for category page
 export function getCategoryMetadata(slug: CategorySlug) {
@@ -73,9 +60,10 @@ export function getCategoryMetadata(slug: CategorySlug) {
 }
 
 // Generate metadata for category+region page
-export function getCategoryRegionMetadata(categorySlug: CategorySlug, regionSlug: RegionSlug) {
+export function getCategoryRegionMetadata(categorySlug: CategorySlug, regionSlug: string) {
   const cat = CATEGORIES.find(c => c.slug === categorySlug);
-  const region = REGIONS.find(r => r.slug === regionSlug);
+  const region = getCanonicalRegion(regionSlug);
+  
   if (!cat || !region) return null;
   
   return {
