@@ -9,7 +9,8 @@ interface CompanyCardProps {
     name: string
     root_domain: string | null
     website: string
-    phones: string[]
+    phone: string
+    phones?: string[]
     emails: string[]
     cities: { name: string; slug: string | null }[]
     address: string | null
@@ -38,6 +39,7 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   
   const displayDomain = formatDomain(company.website)
   const utmParams = 'utm_source=stroysales&utm_medium=referral&utm_campaign=catalog'
+  const phone = company.phones?.[0] || company.phone || ''
   
   return (
     <div className={`bg-white rounded-lg shadow-sm p-4 ${isPriority ? 'ring-2 ring-orange-400 ring-offset-2' : ''}`}>
@@ -73,9 +75,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
           )}
           
           {/* Phone */}
-          {company.phones[0] && (
+          {phone && (
             <p className="text-sm text-gray-600 mt-1">
-              📞 {company.phones[0]}
+              📞 {phone}
             </p>
           )}
           
@@ -117,9 +119,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
             </a>
           )}
           
-          {company.phones[0] && (
+          {phone && (
             <a 
-              href={`tel:${normalizePhone(company.phones[0])}`}
+              href={`tel:${normalizePhone(phone)}`}
               className="block w-full text-center py-2 text-sm text-gray-600 hover:text-orange-500 border border-gray-300 rounded transition"
             >
               Позвонить

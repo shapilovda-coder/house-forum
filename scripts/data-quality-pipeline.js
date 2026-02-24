@@ -140,14 +140,45 @@ rawData.forEach(supplier => {
     domainDisplay = domain;
   }
   
-  // Keep supplier
+  // Step 5: Determine region from city
+  const cityToRegion = {
+    'Москва': 'moskva-i-mo',
+    'Красногорск': 'moskva-i-mo',
+    'Химки': 'moskva-i-mo',
+    'Одинцово': 'moskva-i-mo',
+    'Санкт-Петербург': 'spb-lo',
+    'Новосибирск': 'novosibirskaya-oblast',
+    'Екатеринбург': 'sverdlovskaya-oblast',
+    'Казань': 'tatarstan',
+    'Нижний Новгород': 'nizhegorodskaya-oblast',
+    'Красноярск': 'krasnoyarskiy-kray',
+    'Челябинск': 'chelyabinskaya-oblast',
+    'Самара': 'samarskaya-oblast',
+    'Уфа': 'bashkortostan',
+    'Ростов-на-Дону': 'rostovskaya-oblast',
+    'Краснодар': 'krasnodarskiy-kray',
+    'Омск': 'omskaya-oblast',
+    'Воронеж': 'voronezhskaya-oblast',
+    'Пермь': 'permskiy-kray',
+    'Волгоград': 'volgogradskaya-oblast',
+  };
+  
+  const cityName = supplier.city?.name || '';
+  const regionSlug = cityToRegion[cityName] || 'other';
+  const regionName = regionSlug === 'moskva-i-mo' ? 'Москва и Московская область' :
+                     regionSlug === 'spb-lo' ? 'Санкт-Петербург и Ленинградская область' :
+                     'Другой регион';
+  
+  // Keep supplier with all original fields + new ones
   cleanSuppliers.push({
     ...supplier,
     phone: phone,
     phoneStatus: phoneStatus,
     domain_ascii: domain,
     domain_display: domainDisplay,
-    relevanceScore: relevanceScore
+    relevanceScore: relevanceScore,
+    regions: [{ slug: regionSlug, name: regionName }],
+    cities: [{ name: cityName, slug: null }]
   });
   stats.kept++;
 });

@@ -17,7 +17,9 @@ export async function generateStaticParams() {
   
   // Only categories that have suppliers
   const activeCategories: string[] = Array.from(new Set(
-    suppliers.flatMap((s: any) => s.categories as string[]).flat()
+    suppliers.flatMap((s: any) => 
+      s.categories.map((c: any) => c.category?.slug || c.slug || c)
+    )
   ))
   
   return activeCategories.map((cat) => ({ category: cat }))
@@ -57,7 +59,8 @@ export default async function Page({
   // Load suppliers for this category
   const suppliers = loadSuppliers()
   const categorySuppliers = suppliers.filter((s: any) => 
-    s.categories.includes(category) && s.status === 'active'
+    s.categories.some((c: any) => (c.category?.slug || c.slug || c) === category) && 
+    s.status === 'active'
   )
   
   // Sort: StekloRoll, Artalico first, then by clicks

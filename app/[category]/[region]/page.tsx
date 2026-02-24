@@ -17,9 +17,10 @@ export async function generateStaticParams() {
   const combos: { category: string; region: string }[] = []
   
   suppliers.forEach((s: any) => {
-    s.categories.forEach((cat: string) => {
+    s.categories.forEach((cat: any) => {
+      const catSlug = cat.category?.slug || cat.slug || cat
       s.regions.forEach((reg: any) => {
-        combos.push({ category: cat, region: reg.slug })
+        combos.push({ category: catSlug, region: reg.slug })
       })
     })
   })
@@ -76,7 +77,7 @@ export default async function Page({
   // Load suppliers for this category + region
   const suppliers = loadSuppliers()
   const filteredSuppliers = suppliers.filter((s: any) => 
-    s.categories.includes(category) &&
+    s.categories.some((c: any) => (c.category?.slug || c.slug || c) === category) &&
     s.regions.some((r: any) => r.slug === region) &&
     s.status === 'active'
   )
