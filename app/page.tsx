@@ -2,12 +2,40 @@ import Link from 'next/link'
 import HeroBanner from './components/HeroBanner'
 import CategoryTiles from './components/CategoryTiles'
 import SearchBar from './components/SearchBar'
+import CompanyCard from './components/CompanyCard'
 import { CANONICAL_REGIONS } from '@/lib/seo/catalog'
 
+// Load suppliers for homepage
+function loadSuppliers() {
+  try {
+    const fs = require('fs')
+    const path = require('path')
+    const dataPath = path.join(process.cwd(), 'data', 'suppliers_clean.json')
+    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+    return data.filter((s: any) => s.status === 'active')
+  } catch (e) {
+    return []
+  }
+}
+
 export default function HomePage() {
+  const suppliers = loadSuppliers()
+  
+  // Sort: StekloRoll, Artalico first, then by clicks
+  const sortedSuppliers = suppliers.sort((a: any, b: any) => {
+    if (a.slug?.includes('stekloroll')) return -1
+    if (b.slug?.includes('stekloroll')) return 1
+    if (a.slug?.includes('artalico')) return -1
+    if (b.slug?.includes('artalico')) return 1
+    return (b.clicks || 0) - (a.clicks || 0)
+  })
+  
+  // Top 6 for homepage
+  const topSuppliers = sortedSuppliers.slice(0, 6)
+  
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
+      {/* Header - sticky */}
       <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
@@ -30,24 +58,42 @@ export default function HomePage() {
       {/* Category Tiles */}
       <CategoryTiles />
 
-      {/* Search Bar */}
+      {/* Search Bar - sticky */}
       <SearchBar />
 
-      {/* Regions CTA */}
-      <div className="max-w-5xl mx-auto px-4 py-8">
-        <div className="bg-blue-50 rounded-xl p-8 text-center">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">
-            Или выберите регион
-          </h2>
-          <p className="text-gray-600 mb-6">
-            Найдите поставщиков рядом с вами
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
+      {/* Suppliers List */}
+      <div className="max-w-5xl mx-auto px-4 py-6">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-gray-900">Рекомендуемые поставщики</h2>
+          <span className="text-sm text-gray-500">{suppliers.length}+ компаний</span>
+        </div>
+        
+        <div className="space-y-3">
+          {topSuppliers.map((company: any) => (
+            <CompanyCard key={company.id} company={company} />
+          ))}
+        </div>
+        
+        <div className="mt-6 text-center">
+          <Link
+            href="/prozrachnye-rolstavni/"
+            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition"
+          >
+            Смотреть всех поставщиков
+          </Link>
+        </div>
+      </div>
+
+      {/* Compact Regions */}
+      <div className="max-w-5xl mx-auto px-4 pb-8">
+        <div className="bg-gray-100 rounded-lg p-4">
+          <p className="text-sm text-gray-600 mb-2">Популярные регионы:</p>
+          <div className="flex flex-wrap gap-2">
             {CANONICAL_REGIONS.map(region => (
               <Link
                 key={region.slug}
                 href={`/prozrachnye-rolstavni/${region.slug}/`}
-                className="bg-white border border-gray-200 text-gray-700 font-medium py-2 px-4 rounded-lg hover:border-orange-400 hover:text-orange-600 transition"
+                className="text-sm text-blue-600 hover:text-orange-500 transition"
               >
                 {region.name}
               </Link>
@@ -57,7 +103,7 @@ export default function HomePage() {
       </div>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-8 mt-12">
+      <footer className="bg-gray-800 text-white py-8">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <p className="text-gray-400">© 2026 СтройСейлс — каталог поставщиков</p>
         </div>

@@ -14,6 +14,7 @@ interface CategoryRegionPageProps {
   region: {
     slug: string
     name: string
+    namePrepositional?: string
   }
   suppliers: any[]
   cities: string[]
@@ -31,10 +32,18 @@ function CategoryRegionContent({
   const searchParams = useSearchParams()
   const selectedCity = searchParams.get('city')
   
-  // Filter by city if selected
-  const filteredSuppliers = selectedCity 
-    ? suppliers.filter(s => s.cities.some((c: any) => c.name === selectedCity))
+  // Validate: city must belong to current region's cities
+  const validCity = selectedCity && cities.includes(selectedCity) 
+    ? selectedCity 
+    : null
+  
+  // Filter by city if valid
+  const filteredSuppliers = validCity 
+    ? suppliers.filter(s => s.cities.some((c: any) => c.name === validCity))
     : suppliers
+  
+  // Use prepositional case for region name
+  const regionNamePrepositional = region.namePrepositional || region.name
   
   return (
     <>
@@ -47,18 +56,18 @@ function CategoryRegionContent({
         <span className="text-gray-900">{region.name}</span>
       </nav>
 
-      {/* H1 */}
+      {/* H1 with prepositional case */}
       <h1 className="text-3xl font-bold text-gray-900 mb-2">
-        {category.name} в {region.name}
+        {category.name} в {regionNamePrepositional}
       </h1>
       
       <p className="text-gray-600 mb-6">
         Найдено {filteredSuppliers.length} поставщиков
-        {selectedCity && ` в городе ${selectedCity}`}
+        {validCity && ` в городе ${validCity}`}
       </p>
       
-      {/* City Filter */}
-      <CityFilter cities={cities} selectedCity={selectedCity} />
+      {/* City Filter - only show cities from this region */}
+      <CityFilter cities={cities} selectedCity={validCity} />
       
       {/* Suppliers List */}
       <div className="space-y-3">
@@ -81,10 +90,10 @@ function CategoryRegionContent({
       
       {/* SEO Text */}
       <div className="mt-12 prose max-w-none">
-        <h2>О {category.name.toLowerCase()} в {region.name}</h2>
+        <h2>О {category.name.toLowerCase()} в {regionNamePrepositional}</h2>
         <p>
           На этой странице представлены проверенные поставщики {category.name.toLowerCase()} 
-          в {region.name}. Все компании проверены на наличие реальных отзывов и контактов.
+          в {regionNamePrepositional}. Все компании проверены на наличие реальных отзывов и контактов.
         </p>
       </div>
     </>

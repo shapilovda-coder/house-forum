@@ -66,9 +66,13 @@ export function getCategoryRegionMetadata(categorySlug: CategorySlug, regionSlug
   
   if (!cat || !region) return null;
   
+  // Use prepositional case for H1 (в Москве, в Санкт-Петербурге)
+  const regionNamePrepositional = region.namePrepositional || region.name;
+  
   return {
     title: `${cat.name} в ${region.name} — цены, поставщики, отзывы | СтройСейлс`,
     description: `Найдите поставщиков ${cat.name.toLowerCase()} в ${region.name}. Реальные цены, отзывы, контакты.`,
-    h1: `${cat.name} в ${region.name}`,
+    h1: `${cat.name} в ${regionNamePrepositional}`,
+    regionNamePrepositional,
   };
 }

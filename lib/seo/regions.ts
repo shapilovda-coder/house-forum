@@ -3,6 +3,7 @@
 export interface Region {
   slug: string
   name: string
+  namePrepositional: string
   aliases: string[]
 }
 
@@ -53,11 +54,13 @@ export const CANONICAL_REGIONS: Region[] = [
   {
     slug: 'moskva-i-mo',
     name: 'Москва и Московская область',
+    namePrepositional: 'Москве и Московской области',
     aliases: ['Москва', 'Московская область', 'МО', 'Moscow']
   },
   {
     slug: 'spb-lo',
     name: 'Санкт-Петербург и Ленинградская область',
+    namePrepositional: 'Санкт-Петербурге и Ленинградской области',
     aliases: ['Санкт-Петербург', 'СПб', 'Питер', 'Ленобласть', 'Ленинградская область']
   }
 ]

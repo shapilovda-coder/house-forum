@@ -90,12 +90,22 @@ export default function CompanyCard({ company }: CompanyCardProps) {
         {/* Buttons */}
         <div className="md:w-44 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-200 pt-3 md:pt-0 md:pl-4 space-y-2">
           {isPriority ? (
-            <button
-              className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm py-2 rounded transition"
-              onClick={() => {/* Calculator modal */}}
-            >
-              Рассчитать цену
-            </button>
+            <>
+              <a 
+                href={`${company.website}?${utmParams}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold text-sm py-2 rounded transition"
+              >
+                Перейти на сайт
+              </a>
+              <button
+                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm py-2 rounded transition"
+                onClick={() => {/* Calculator modal */}}
+              >
+                Рассчитать цену
+              </button>
+            </>
           ) : (
             <a 
               href={`${company.website}?${utmParams}`}
