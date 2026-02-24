@@ -2,7 +2,6 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HomePage from './HomePage'
 import CategoryPage from './CategoryPage'
-import { createClient } from '@supabase/supabase-js'
 
 // Конфигурация
 const CATEGORIES = [
@@ -34,13 +33,20 @@ const CITIES = [
   { slug: 'volgograd', name: 'Волгоград' },
 ]
 
-const STATIC_PAGES = ['blog', 'kontakty', 'calculator', 'o-proekte']
+const STATIC_PAGES = ['blog', 'kontakty', 'calculator', 'o-projekte']
 
-// Supabase client
-const supabase = createClient(
-  'https://zzellrqkamskeftyprkv.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6ZWxscnFrYW1za2VmdHlwcmt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3MDMyOTIsImV4cCI6MjA4NzI3OTI5Mn0.vNrzaaOWG2cDBCDcrQISN_R2PgKb0XekNTQAndLhNy8'
-)
+// Загрузка данных из JSON
+function loadData() {
+  try {
+    const companies = require('../../data/backup/companies.json') || []
+    const categories = require('../../data/backup/categories.json') || []
+    const companyCategories = require('../../data/backup/company_categories.json') || []
+    return { companies, categories, companyCategories }
+  } catch (e) {
+    console.error('Failed to load data:', e)
+    return { companies: [], categories: [], companyCategories: [] }
+  }
+}
 
 export async function generateStaticParams() {
   const paths: { slug: string[] }[] = []
@@ -117,13 +123,10 @@ export default async function Page({
   params: Promise<{ slug?: string[] }> 
 }) {
   const { slug = [] } = await params
+  const { companies, categories, companyCategories } = loadData()
   
   // Главная страница
   if (slug.length === 0) {
-    // Загружаем из бэкапа JSON для статической генерации
-    const companies = require('../../data/backup/companies.json') || []
-    const categories = require('../../data/backup/categories.json') || []
-    
     return <HomePage 
       companies={companies} 
       categories={categories} 
@@ -136,9 +139,8 @@ export default async function Page({
     
     // Статическая страница
     if (STATIC_PAGES.includes(segment)) {
-      // Редирект на существующие страницы
       if (segment === 'blog') {
-        return <div>Blog Page</div> // Или импорт существующей страницы
+        return <div>Blog Page</div>
       }
       if (segment === 'kontakty') {
         return <div>Contacts Page</div>
@@ -151,29 +153,28 @@ export default async function Page({
     // Страница категории
     const category = CATEGORIES.find(c => c.slug === segment)
     if (category) {
-      const { data: companies } = await supabase
-        .from('companies')
-        .select(`
-          *,
-          cities(name, slug),
-          company_categories!inner(
-            categories(name, slug)
-          )
-        `)
-        .eq('status', 'active')
-        .eq('company_categories.categories.slug', category.slug)
-        .order('clicks', { ascending: false })
+      // Фильтруем компании по категории
+      const categoryCompanyIds = companyCategories
+        .filter((cc: any) => cc.category_id === categories.find((c: any) => c.slug === category.slug)?.id)
+        .map((cc: any) => cc.company_id)
       
-      const { data: categories } = await supabase
-        .from('categories')
-        .select('*')
-        .eq('is_active', true)
-        .order('sort_order')
+      const filteredCompanies = companies.filter((c: any) => 
+        categoryCompanyIds.includes(c.id) && c.status === 'active'
+      )
+      
+      // Сортировка: StekloRoll, Artalico, затем по кликам
+      const sortedCompanies = filteredCompanies.sort((a: any, b: any) => {
+        if (a.slug?.includes('stekloroll')) return -1
+        if (b.slug?.includes('stekloroll')) return 1
+        if (a.slug?.includes('artalico')) return -1
+        if (b.slug?.includes('artalico')) return 1
+        return (b.clicks || 0) - (a.clicks || 0)
+      })
       
       return <CategoryPage
         category={category}
-        companies={companies || []}
-        categories={categories || []}
+        companies={sortedCompanies}
+        categories={categories}
       />
     }
   }
@@ -186,30 +187,27 @@ export default async function Page({
     
     if (category && city) {
       // TODO: Фильтрация по городу
-      const { data: companies } = await supabase
-        .from('companies')
-        .select(`
-          *,
-          cities(name, slug),
-          company_categories!inner(
-            categories(name, slug)
-          )
-        `)
-        .eq('status', 'active')
-        .eq('company_categories.categories.slug', category.slug)
-        .order('clicks', { ascending: false })
+      const categoryCompanyIds = companyCategories
+        .filter((cc: any) => cc.category_id === categories.find((c: any) => c.slug === category.slug)?.id)
+        .map((cc: any) => cc.company_id)
       
-      const { data: categories } = await supabase
-        .from('categories')
-        .select('*')
-        .eq('is_active', true)
-        .order('sort_order')
+      const filteredCompanies = companies.filter((c: any) => 
+        categoryCompanyIds.includes(c.id) && c.status === 'active'
+      )
+      
+      const sortedCompanies = filteredCompanies.sort((a: any, b: any) => {
+        if (a.slug?.includes('stekloroll')) return -1
+        if (b.slug?.includes('stekloroll')) return 1
+        if (a.slug?.includes('artalico')) return -1
+        if (b.slug?.includes('artalico')) return 1
+        return (b.clicks || 0) - (a.clicks || 0)
+      })
       
       return <CategoryPage
         category={category}
         city={city}
-        companies={companies || []}
-        categories={categories || []}
+        companies={sortedCompanies}
+        categories={categories}
       />
     }
   }
