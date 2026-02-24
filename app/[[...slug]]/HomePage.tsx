@@ -106,10 +106,13 @@ export default function HomePage({
       )
     }
     result.sort((a, b) => {
-      const aIsManuf = a.slug?.includes('stekloroll') || a.slug?.includes('artalico')
-      const bIsManuf = b.slug?.includes('stekloroll') || b.slug?.includes('artalico')
-      if (aIsManuf && !bIsManuf) return -1
-      if (!aIsManuf && bIsManuf) return 1
+      // 1. StekloRoll — всегда первый
+      if (a.slug?.includes('stekloroll')) return -1
+      if (b.slug?.includes('stekloroll')) return 1
+      // 2. Artalico — всегда второй
+      if (a.slug?.includes('artalico')) return -1
+      if (b.slug?.includes('artalico')) return 1
+      // 3. Остальные — по кликам
       return (b.clicks || 0) - (a.clicks || 0)
     })
     return result.filter(c => !EXCLUDED_SLUGS.includes(c.slug))
@@ -291,8 +294,15 @@ export default function HomePage({
                         {/* Бейджи для производителей */}
                         {isManufacturer && (
                           <div className="flex gap-2 mb-2">
-                            <span className="text-xs bg-orange-500 text-white px-2 py-0.5 rounded font-semibold">РЕКОМЕНДУЕМ</span>
-                            <span className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded font-semibold">{company.slug?.includes('stekloroll') ? 'ПРОИЗВОДИТЕЛЬ' : 'ПРЕМИУМ'}</span>
+                            {company.slug?.includes('stekloroll') && (
+                              <>
+                                <span className="text-xs bg-orange-500 text-white px-2 py-0.5 rounded font-semibold">РЕКОМЕНДУЕМ</span>
+                                <span className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded font-semibold">ПРОИЗВОДИТЕЛЬ</span>
+                              </>
+                            )}
+                            {company.slug?.includes('artalico') && (
+                              <span className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded font-semibold">ПРЕМИУМ</span>
+                            )}
                           </div>
                         )}
                         
@@ -312,6 +322,20 @@ export default function HomePage({
                             📍 {company.address}
                           </p>
                         )}
+                        
+                        {/* Теги услуг */}
+                        {
+                          (() => {
+                            const tags = SERVICE_TAGS[company.slug] || SERVICE_TAGS['default']
+                            return (
+                              <div className="flex flex-wrap gap-1 mt-2">
+                                {tags.map(tag => (
+                                  <span key={tag} className="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{tag}</span>
+                                ))}
+                              </div>
+                            )
+                          })()
+                        }
                       </div>
                       
                       {/* Кнопки справа */}
