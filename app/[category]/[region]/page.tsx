@@ -91,9 +91,9 @@ export default async function Page({
   })
   
   // Get cities in this region for filters
-  const citiesInRegion = [...new Set(
-    filteredSuppliers.flatMap((s: any) => s.cities.map((c: any) => c.name))
-  )]
+  const citiesInRegion: string[] = Array.from(new Set(
+    filteredSuppliers.flatMap((s: any) => s.cities.map((c: any) => c.name as string))
+  ))
   
   return (
     <CategoryRegionPage 

@@ -16,11 +16,11 @@ export async function generateStaticParams() {
   const suppliers = loadSuppliers()
   
   // Only categories that have suppliers
-  const activeCategories = [...new Set(
-    suppliers.flatMap((s: any) => s.categories)
-  )]
+  const activeCategories: string[] = Array.from(new Set(
+    suppliers.flatMap((s: any) => s.categories as string[]).flat()
+  ))
   
-  return activeCategories.map((cat: string) => ({ category: cat }))
+  return activeCategories.map((cat) => ({ category: cat }))
 }
 
 export async function generateMetadata({ 
@@ -70,9 +70,9 @@ export default async function Page({
   })
   
   // Get available regions for this category (from regions objects)
-  const availableRegions = [...new Set(
-    categorySuppliers.flatMap((s: any) => s.regions.map((r: any) => r.slug))
-  )]
+  const availableRegions: string[] = Array.from(new Set(
+    categorySuppliers.flatMap((s: any) => s.regions.map((r: any) => r.slug as string))
+  ))
   
   return (
     <CategoryPage 
