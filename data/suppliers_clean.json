@@ -1,0 +1,9689 @@
+[
+  {
+    "id": 13,
+    "slug": "stekloroll-ru",
+    "name": "Прозрачные рольставни из поликарбоната Москва",
+    "root_domain": "stekloroll.ru",
+    "website": "https://stekloroll.ru",
+    "branches": [],
+    "phones": [
+      "+7(901)3440412"
+    ],
+    "emails": [
+      "info@stekloroll.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "vorota",
+      "myagkie-okna",
+      "ofisnye-peregorodki",
+      "zashchitnye-rolstavni",
+      "rolletnye-shkafy",
+      "bezramnoe-osteklenie"
+    ],
+    "address": "Москва, Киевское шоссе, д.1, к.Б, БЦ Румянцево",
+    "is_verified": true,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 17,
+    "slug": "artalico-ru",
+    "name": "Безрамное остекление веранд, террас и беседок",
+    "root_domain": "artalico.ru",
+    "website": "https://artalico.ru",
+    "branches": [],
+    "phones": [
+      "+7 (903) 177-57-52"
+    ],
+    "emails": [
+      "info@artalico.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy",
+      "vorota",
+      "myagkie-okna",
+      "ofisnye-peregorodki",
+      "zashchitnye-rolstavni",
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 536,
+    "status": "active"
+  },
+  {
+    "id": 46,
+    "slug": "dzen-ru",
+    "name": "Дзен",
+    "root_domain": "dzen.ru",
+    "website": "https://dzen.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 3355,
+    "status": "active"
+  },
+  {
+    "id": 97,
+    "slug": "uslugi-yandex-ru",
+    "name": "Uslugi.Yandex",
+    "root_domain": "yandex.ru",
+    "website": "https://uslugi.yandex.ru",
+    "branches": [
+      "uslugi"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": false,
+    "clicks": 3355,
+    "status": "active"
+  },
+  {
+    "id": 104,
+    "slug": "forumhouse-ru",
+    "name": "Forumhouse",
+    "root_domain": "forumhouse.ru",
+    "website": "https://forumhouse.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": false,
+    "clicks": 3275,
+    "status": "active"
+  },
+  {
+    "id": 110,
+    "slug": "lemanapro-ru",
+    "name": "Lemanapro",
+    "root_domain": "lemanapro.ru",
+    "website": "https://lemanapro.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "myagkie-okna",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 3211,
+    "status": "active"
+  },
+  {
+    "id": 263,
+    "slug": "ivd-ru",
+    "name": "Ivd",
+    "root_domain": "ivd.ru",
+    "website": "https://ivd.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 2938,
+    "status": "active"
+  },
+  {
+    "id": 111,
+    "slug": "myagkiydom-ru",
+    "name": "Myagkiydom",
+    "root_domain": "myagkiydom.ru",
+    "website": "https://myagkiydom.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": "Москва, МО и других регионах РФ Наши страницы в социальных сетях создано в Repsar",
+    "is_verified": false,
+    "clicks": 1932,
+    "status": "active"
+  },
+  {
+    "id": 38,
+    "slug": "oknafactoria-ru",
+    "name": "ERROR",
+    "root_domain": "oknafactoria.ru",
+    "website": "https://oknafactoria.ru",
+    "branches": [
+      "solnechnogorsk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1794,
+    "status": "active"
+  },
+  {
+    "id": 373,
+    "slug": "svetokna-ru",
+    "name": "Светокна",
+    "root_domain": "svetokna.ru",
+    "website": "https://svetokna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1794,
+    "status": "active"
+  },
+  {
+    "id": 370,
+    "slug": "ramokna-ru",
+    "name": "Рамокна",
+    "root_domain": "ramokna.ru",
+    "website": "https://ramokna.ru",
+    "branches": [
+      "alum"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1794,
+    "status": "active"
+  },
+  {
+    "id": 382,
+    "slug": "fabrikaokon-ru",
+    "name": "Фабрика Окон",
+    "root_domain": "fabrikaokon.ru",
+    "website": "https://fabrikaokon.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1794,
+    "status": "active"
+  },
+  {
+    "id": 35,
+    "slug": "mjagkieokna-ru",
+    "name": "Мягкие окна для веранды, беседок и террас в Москве",
+    "root_domain": "mjagkieokna.ru",
+    "website": "https://mjagkieokna.ru",
+    "branches": [
+      "dmitrov",
+      "ekaterinburg",
+      "mytishchi",
+      "stupino",
+      "vsevologsk"
+    ],
+    "phones": [],
+    "emails": [
+      "sales@mjagkieokna.ru"
+    ],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1730,
+    "status": "active"
+  },
+  {
+    "id": 33,
+    "slug": "myagkie-com",
+    "name": "Мягкие окна для беседки, веранды или террасы купить от 1080₽/м2 в Москве",
+    "root_domain": "myagkie.com",
+    "website": "https://myagkie.com",
+    "branches": [],
+    "phones": [
+      "+7 (916) 498-56-17"
+    ],
+    "emails": [
+      "zakaz@myagkie.com"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": "Москва, улица Новодмитровская",
+    "is_verified": true,
+    "clicks": 1730,
+    "status": "active"
+  },
+  {
+    "id": 34,
+    "slug": "ctepan-ru",
+    "name": "Мягкие (гибкие) окна",
+    "root_domain": "ctepan.ru",
+    "website": "https://ctepan.ru",
+    "branches": [],
+    "phones": [
+      "+7 929 940-27-41"
+    ],
+    "emails": [
+      "7551878@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1730,
+    "status": "active"
+  },
+  {
+    "id": 210,
+    "slug": "oknatent-ru",
+    "name": "Oknatent",
+    "root_domain": "oknatent.ru",
+    "website": "https://oknatent.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1730,
+    "status": "active"
+  },
+  {
+    "id": 89,
+    "slug": "alutech-ru",
+    "name": "Alutech",
+    "root_domain": "alutech.ru",
+    "website": "https://alutech.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург",
+      "Москва"
+    ],
+    "regions": [
+      "sankt-peterburg",
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1643,
+    "status": "active"
+  },
+  {
+    "id": 36,
+    "slug": "miagkieokna-ru",
+    "name": "Мягкие окна в Москве для веранды, беседок и террас",
+    "root_domain": "miagkieokna.ru",
+    "website": "https://miagkieokna.ru",
+    "branches": [
+      "chehov",
+      "kirishi"
+    ],
+    "phones": [],
+    "emails": [
+      "manager@miagkieokna.ru"
+    ],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 40,
+    "slug": "oknakant-ru",
+    "name": "Мягкие окна ПВХ в Москве от 855₽/м² – Бесплатный замер и монтаж мягких окон ПВХ под ключ от производ",
+    "root_domain": "oknakant.ru",
+    "website": "https://oknakant.ru",
+    "branches": [],
+    "phones": [
+      "+7 (499) 390-43-95"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 43,
+    "slug": "oknofabrika-ru",
+    "name": "Мягкие окна для веранды, беседок и террас купить в Москве и МО от производителя",
+    "root_domain": "oknofabrika.ru",
+    "website": "https://oknofabrika.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 797-73-12"
+    ],
+    "emails": [
+      "info@oknofabrika.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 44,
+    "slug": "tentisib-ru",
+    "name": "Тенты, пологи, брезент",
+    "root_domain": "tentisib.ru",
+    "website": "https://tentisib.ru",
+    "branches": [],
+    "phones": [
+      "8 800 222-24-98"
+    ],
+    "emails": [
+      "zakaz@tent-sib.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 45,
+    "slug": "fabrikalive-ru",
+    "name": "Мягкие окна в Санкт",
+    "root_domain": "fabrikalive.ru",
+    "website": "https://fabrikalive.ru",
+    "branches": [],
+    "phones": [
+      "+7 (812) 946-46-44"
+    ],
+    "emails": [
+      "info@fabrikalive.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 203,
+    "slug": "myagkieokna24-ru",
+    "name": "Myagkieokna24",
+    "root_domain": "myagkieokna24.ru",
+    "website": "https://myagkieokna24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 209,
+    "slug": "oknadlyadachi-ru",
+    "name": "Oknadlyadachi",
+    "root_domain": "oknadlyadachi.ru",
+    "website": "https://oknadlyadachi.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 215,
+    "slug": "softglass-org",
+    "name": "Softglass.Org",
+    "root_domain": "softglass.org",
+    "website": "https://softglass.org",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 37,
+    "slug": "tentoptom-ru",
+    "name": "Тент купить в Москве",
+    "root_domain": "tentoptom.ru",
+    "website": "https://tentoptom.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "tentopt2020@gmail.com"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1595,
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "slug": "rollets-ru",
+    "name": "Производство и изготовление рольставней и ворот на заказ в Москве",
+    "root_domain": "rollets.ru",
+    "website": "https://rollets.ru",
+    "branches": [],
+    "phones": [
+      "+7(495)975-50-77"
+    ],
+    "emails": [
+      "sales@rollets.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy",
+      "vorota"
+    ],
+    "address": "Москва, Рязанский проспект",
+    "is_verified": true,
+    "clicks": 1588,
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "slug": "mskroll-ru",
+    "name": "Рольставни, гаражные ворота, шлагбаумы",
+    "root_domain": "mskroll.ru",
+    "website": "https://mskroll.ru",
+    "branches": [],
+    "phones": [
+      "8 499 408-60-74"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota",
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1508,
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "slug": "verend-ru",
+    "name": "Жалюзи, карнизы, рольставни, ворота и москитные сетки VEREND",
+    "root_domain": "verend.ru",
+    "website": "https://verend.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 125-41-14"
+    ],
+    "emails": [
+      "info@tpkvd.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г. Москва – ПВЗ – СДЭК. г. Москва – ПВЗ – Почта России. г. Москва – Курьер – от 1 дня. г. Москва – Самовывоз ",
+    "is_verified": true,
+    "clicks": 1508,
+    "status": "active"
+  },
+  {
+    "id": 76,
+    "slug": "rusroll-ru",
+    "name": "Рольставни, Ворота",
+    "root_domain": "rusroll.ru",
+    "website": "https://rusroll.ru",
+    "branches": [],
+    "phones": [
+      "+7(495) 181-53-53"
+    ],
+    "emails": [
+      "rus-roll@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1508,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "slug": "alfa24-ru",
+    "name": "Изготовление рольставней от производетеля в Москве",
+    "root_domain": "alfa24.ru",
+    "website": "https://alfa24.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 728-2885"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва, Головинское шоссе 5а",
+    "is_verified": true,
+    "clicks": 1508,
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "slug": "stranavorot-ru",
+    "name": "47.237.82.141 21.02.2026 23:02:51",
+    "root_domain": "stranavorot.ru",
+    "website": "https://stranavorot.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1481,
+    "status": "active"
+  },
+  {
+    "id": 92,
+    "slug": "tancom-ru",
+    "name": "Tancom",
+    "root_domain": "tancom.ru",
+    "website": "https://tancom.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1481,
+    "status": "active"
+  },
+  {
+    "id": 101,
+    "slug": "vorotaforum-ru",
+    "name": "Vorotaforum",
+    "root_domain": "vorotaforum.ru",
+    "website": "https://vorotaforum.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1481,
+    "status": "active"
+  },
+  {
+    "id": 325,
+    "slug": "svarnik-ru",
+    "name": "Svarnik",
+    "root_domain": "svarnik.ru",
+    "website": "https://svarnik.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1343,
+    "status": "active"
+  },
+  {
+    "id": 295,
+    "slug": "profi-ru",
+    "name": "Profi",
+    "root_domain": "profi.ru",
+    "website": "https://profi.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1279,
+    "status": "active"
+  },
+  {
+    "id": 140,
+    "slug": "alutech-moscow",
+    "name": "Alutech",
+    "root_domain": "alutech.moscow",
+    "website": "https://alutech.moscow",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy",
+      "vorota"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 1224,
+    "status": "active"
+  },
+  {
+    "id": 143,
+    "slug": "doorhan-moscow",
+    "name": "Doorhan",
+    "root_domain": "doorhan.moscow",
+    "website": "https://doorhan.moscow",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy",
+      "vorota"
+    ],
+    "address": "Москва Укажите свой город Населенного пункта по вашим критериям не найдено :( Ваш город Москва ? Да Изменит",
+    "is_verified": false,
+    "clicks": 1224,
+    "status": "active"
+  },
+  {
+    "id": 327,
+    "slug": "t-me",
+    "name": "T.Me",
+    "root_domain": "t.me",
+    "website": "https://t.me",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1208,
+    "status": "active"
+  },
+  {
+    "id": 70,
+    "slug": "gild24-ru",
+    "name": "Автоматические ворота DoorHan в Москве",
+    "root_domain": "gild24.ru",
+    "website": "https://gild24.ru",
+    "branches": [],
+    "phones": [
+      "+7 (916) 764-95-20"
+    ],
+    "emails": [
+      "info@gild24.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1171,
+    "status": "active"
+  },
+  {
+    "id": 75,
+    "slug": "rolmaster-ru",
+    "name": "RolMaster в Москве",
+    "root_domain": "rolmaster.ru",
+    "website": "https://rolmaster.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "info@rolmaster.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1171,
+    "status": "active"
+  },
+  {
+    "id": 184,
+    "slug": "rolstavni-shop",
+    "name": "Rolstavni.Shop",
+    "root_domain": "rolstavni.shop",
+    "website": "https://rolstavni.shop",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва, Россия, ул. Речников 7",
+    "is_verified": false,
+    "clicks": 1171,
+    "status": "active"
+  },
+  {
+    "id": 181,
+    "slug": "rollerdoor-ru",
+    "name": "Rollerdoor",
+    "root_domain": "rollerdoor.ru",
+    "website": "https://rollerdoor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1171,
+    "status": "active"
+  },
+  {
+    "id": 31,
+    "slug": "grandline-ru",
+    "name": "Grand Line ⌂",
+    "root_domain": "grandline.ru",
+    "website": "https://grandline.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "info@grandline.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва Алтуфьевское ш.",
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 29,
+    "slug": "77vorota-ru",
+    "name": "Производство автоматических гаражных распашных, секционных, откатных и промышленных ворот по низким ",
+    "root_domain": "77vorota.ru",
+    "website": "https://77vorota.ru",
+    "branches": [
+      "aprelevka",
+      "domodedovo",
+      "istra",
+      "krasnogorsk",
+      "naro-fominsk",
+      "odintsovo",
+      "podolsk",
+      "ruza",
+      "volokolamsk",
+      "zvenigorod"
+    ],
+    "phones": [
+      "+7 (926) 030-03-57"
+    ],
+    "emails": [
+      "info-77vorota@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва, Азовская ул.",
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 32,
+    "slug": "kinopoisk-ru",
+    "name": "Вы не робот?",
+    "root_domain": "kinopoisk.ru",
+    "website": "https://kinopoisk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 20,
+    "slug": "vorota750-ru",
+    "name": "Откатные ворота под ключ цена с установкой",
+    "root_domain": "vorota750.ru",
+    "website": "https://vorota750.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 532-98-42"
+    ],
+    "emails": [
+      "zakaz@vorota750.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 256,
+    "slug": "gatemart-ru",
+    "name": "Gatemart",
+    "root_domain": "gatemart.ru",
+    "website": "https://gatemart.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "г. Серпухов, ул. Ворошилова, д. 57",
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 26,
+    "slug": "oblzabor-ru",
+    "name": "Купить забор в Москве и в Московской области под ключ",
+    "root_domain": "oblzabor.ru",
+    "website": "https://oblzabor.ru",
+    "branches": [
+      "domodedovo",
+      "istra",
+      "naro-fominsk",
+      "ramenskoe",
+      "sergiev-posad",
+      "solnechnogorsk"
+    ],
+    "phones": [
+      "+7 (495) 320-13-28"
+    ],
+    "emails": [
+      "oblzabor.zakaz@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва, Каширское шоссе 19 к.1 Телефон 8 (495) 320-13-28 E-mail oblzabor.zakaz@yandex.ru Режим работы Пн. – ",
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 227,
+    "slug": "3list-ru",
+    "name": "3List",
+    "root_domain": "3list.ru",
+    "website": "https://3list.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 237,
+    "slug": "automaticgates-ru",
+    "name": "Automaticgates",
+    "root_domain": "automaticgates.ru",
+    "website": "https://automaticgates.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, проезд Серебрякова",
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 234,
+    "slug": "astorural-ru",
+    "name": "Astorural",
+    "root_domain": "astorural.ru",
+    "website": "https://astorural.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 239,
+    "slug": "avtoproezd-ru",
+    "name": "Avtoproezd",
+    "root_domain": "avtoproezd.ru",
+    "website": "https://avtoproezd.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 240,
+    "slug": "bramy-ru",
+    "name": "Bramy",
+    "root_domain": "bramy.ru",
+    "website": "https://bramy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 242,
+    "slug": "divamsk-ru",
+    "name": "Divamsk",
+    "root_domain": "divamsk.ru",
+    "website": "https://divamsk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 248,
+    "slug": "doorhan-ru",
+    "name": "Doorhan",
+    "root_domain": "doorhan.ru",
+    "website": "https://doorhan.ru",
+    "branches": [
+      "moscow"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 292,
+    "slug": "ozinkovka-ru",
+    "name": "Ozinkovka",
+    "root_domain": "ozinkovka.ru",
+    "website": "https://ozinkovka.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "г. Волоколамск, ул. Проховская, д. 6",
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 351,
+    "slug": "vorotnet-ru",
+    "name": "Vorotnet",
+    "root_domain": "vorotnet.ru",
+    "website": "https://vorotnet.ru",
+    "branches": [
+      "moskva"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 257,
+    "slug": "getgate-ru",
+    "name": "Getgate",
+    "root_domain": "getgate.ru",
+    "website": "https://getgate.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 269,
+    "slug": "ligazaborov-ru",
+    "name": "Ligazaborov",
+    "root_domain": "ligazaborov.ru",
+    "website": "https://ligazaborov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 270,
+    "slug": "logoslab-ru",
+    "name": "Logoslab",
+    "root_domain": "logoslab.ru",
+    "website": "https://logoslab.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 271,
+    "slug": "masterovit-ru",
+    "name": "Masterovit",
+    "root_domain": "masterovit.ru",
+    "website": "https://masterovit.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 274,
+    "slug": "metallproekt-ru",
+    "name": "Metallproekt",
+    "root_domain": "metallproekt.ru",
+    "website": "https://metallproekt.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 275,
+    "slug": "metzabor-ru",
+    "name": "Metzabor",
+    "root_domain": "metzabor.ru",
+    "website": "https://metzabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 297,
+    "slug": "profzaborstroy-ru",
+    "name": "Profzaborstroy",
+    "root_domain": "profzaborstroy.ru",
+    "website": "https://profzaborstroy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 298,
+    "slug": "promgates-ru",
+    "name": "Promgates",
+    "root_domain": "promgates.ru",
+    "website": "https://promgates.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 299,
+    "slug": "properimetr-ru",
+    "name": "Properimetr",
+    "root_domain": "properimetr.ru",
+    "website": "https://properimetr.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 301,
+    "slug": "pskzabor-ru",
+    "name": "Pskzabor",
+    "root_domain": "pskzabor.ru",
+    "website": "https://pskzabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 306,
+    "slug": "rulonvorota-ru",
+    "name": "Rulonvorota",
+    "root_domain": "rulonvorota.ru",
+    "website": "https://rulonvorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 307,
+    "slug": "russkiyzabor-ru",
+    "name": "Russkiyzabor",
+    "root_domain": "russkiyzabor.ru",
+    "website": "https://russkiyzabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 319,
+    "slug": "stalivan-ru",
+    "name": "Stalivan",
+    "root_domain": "stalivan.ru",
+    "website": "https://stalivan.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 322,
+    "slug": "stroyteks-net",
+    "name": "Stroyteks.Net",
+    "root_domain": "stroyteks.net",
+    "website": "https://stroyteks.net",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 323,
+    "slug": "stroyzabor-ru",
+    "name": "Stroyzabor",
+    "root_domain": "stroyzabor.ru",
+    "website": "https://stroyzabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 330,
+    "slug": "unitiki-com",
+    "name": "Unitiki",
+    "root_domain": "unitiki.com",
+    "website": "https://unitiki.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 331,
+    "slug": "valles-ru",
+    "name": "Valles",
+    "root_domain": "valles.ru",
+    "website": "https://valles.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 347,
+    "slug": "vorota-net",
+    "name": "Vorota.Net",
+    "root_domain": "vorota.net",
+    "website": "https://vorota.net",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 348,
+    "slug": "vorotaas-ru",
+    "name": "Vorotaas",
+    "root_domain": "vorotaas.ru",
+    "website": "https://vorotaas.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 349,
+    "slug": "vorotamagnat-ru",
+    "name": "Vorotamagnat",
+    "root_domain": "vorotamagnat.ru",
+    "website": "https://vorotamagnat.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 350,
+    "slug": "vorotasvai-ru",
+    "name": "Vorotasvai",
+    "root_domain": "vorotasvai.ru",
+    "website": "https://vorotasvai.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 352,
+    "slug": "weeco-ru",
+    "name": "Weeco",
+    "root_domain": "weeco.ru",
+    "website": "https://weeco.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 358,
+    "slug": "yell-ru",
+    "name": "Yell",
+    "root_domain": "yell.ru",
+    "website": "https://yell.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 360,
+    "slug": "zaborkin-ru",
+    "name": "Zaborkin",
+    "root_domain": "zaborkin.ru",
+    "website": "https://zaborkin.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 361,
+    "slug": "zaborking-ru",
+    "name": "Zaborking",
+    "root_domain": "zaborking.ru",
+    "website": "https://zaborking.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 362,
+    "slug": "zaboroff-ru",
+    "name": "Zaboroff",
+    "root_domain": "zaboroff.ru",
+    "website": "https://zaboroff.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 366,
+    "slug": "zavodzaborov-ru",
+    "name": "Zavodzaborov",
+    "root_domain": "zavodzaborov.ru",
+    "website": "https://zavodzaborov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 367,
+    "slug": "zipvorota-ru",
+    "name": "Zipvorota",
+    "root_domain": "zipvorota.ru",
+    "website": "https://zipvorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 368,
+    "slug": "zoon-ru",
+    "name": "Zoon",
+    "root_domain": "zoon.ru",
+    "website": "https://zoon.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 246,
+    "slug": "domsvai-ru",
+    "name": "Domsvai",
+    "root_domain": "domsvai.ru",
+    "website": "https://domsvai.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 254,
+    "slug": "extradoor-ru",
+    "name": "Extradoor",
+    "root_domain": "extradoor.ru",
+    "website": "https://extradoor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 265,
+    "slug": "kovkadvor-ru",
+    "name": "Kovkadvor",
+    "root_domain": "kovkadvor.ru",
+    "website": "https://kovkadvor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 296,
+    "slug": "profivorota-ru",
+    "name": "Profivorota",
+    "root_domain": "profivorota.ru",
+    "website": "https://profivorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 346,
+    "slug": "vorota-moscow",
+    "name": "Vorota.Moscow",
+    "root_domain": "vorota.moscow",
+    "website": "https://vorota.moscow",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 363,
+    "slug": "zaborovo-ru",
+    "name": "Zaborovo",
+    "root_domain": "zaborovo.ru",
+    "website": "https://zaborovo.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 228,
+    "slug": "albanydoorsystems-ru",
+    "name": "Albanydoorsystems",
+    "root_domain": "albanydoorsystems.ru",
+    "website": "https://albanydoorsystems.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Люберцы, Октябрьский проспект 127",
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 324,
+    "slug": "stynergy-ru",
+    "name": "Stynergy",
+    "root_domain": "stynergy.ru",
+    "website": "https://stynergy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, ул. Люблинская",
+    "is_verified": false,
+    "clicks": 1144,
+    "status": "active"
+  },
+  {
+    "id": 71,
+    "slug": "etalonmsk-ru",
+    "name": "Рольставни купить в Москве, недорого, выгодные цены",
+    "root_domain": "etalonmsk.ru",
+    "website": "https://etalonmsk.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 722-47-45"
+    ],
+    "emails": [
+      "info@etalonmsk.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 364,
+    "status": "active"
+  },
+  {
+    "id": 103,
+    "slug": "stylishblinds-ru",
+    "name": "Stylishblinds",
+    "root_domain": "stylishblinds.ru",
+    "website": "https://stylishblinds.ru",
+    "branches": [
+      "dmitrov",
+      "domodedovo"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва, проспект Мира",
+    "is_verified": false,
+    "clicks": 364,
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "slug": "divals-ru",
+    "name": "Интернет",
+    "root_domain": "divals.ru",
+    "website": "https://divals.ru",
+    "branches": [],
+    "phones": [
+      "+7 812 367-00-00"
+    ],
+    "emails": [
+      "info@divals.ru"
+    ],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "slug": "eurobriz-ru",
+    "name": "Продажа автоматических ворот с дистационным открытием [ГОРОД_ПП]",
+    "root_domain": "eurobriz.ru",
+    "website": "https://eurobriz.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 545 70 91"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 16,
+    "slug": "richrol-ru",
+    "name": "Произведем и устанавим прозрачные рольставни под ключ для вашего загородного дома",
+    "root_domain": "richrol.ru",
+    "website": "https://richrol.ru",
+    "branches": [],
+    "phones": [
+      "+7 (499) 647-49-51"
+    ],
+    "emails": [
+      "rol@richrol.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 100,
+    "slug": "grandelux-ru",
+    "name": "Grandelux",
+    "root_domain": "grandelux.ru",
+    "website": "https://grandelux.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г.Москва",
+    "is_verified": false,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 98,
+    "slug": "rolletvdom-ru",
+    "name": "Rolletvdom",
+    "root_domain": "rolletvdom.ru",
+    "website": "https://rolletvdom.ru",
+    "branches": [
+      "glass"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 90,
+    "slug": "glasrol-ru",
+    "name": "Glasrol",
+    "root_domain": "glasrol.ru",
+    "website": "https://glasrol.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 106,
+    "slug": "sports-ru",
+    "name": "Sports",
+    "root_domain": "sports.ru",
+    "website": "https://sports.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": false,
+    "clicks": 337,
+    "status": "active"
+  },
+  {
+    "id": 52,
+    "slug": "gstrong-ru",
+    "name": "Офисные перегородки в Москве",
+    "root_domain": "gstrong.ru",
+    "website": "https://gstrong.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "zakaz@gstrong.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва ",
+    "is_verified": true,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 371,
+    "slug": "mosbalkon-ru",
+    "name": "Мосбалкон",
+    "root_domain": "mosbalkon.ru",
+    "website": "https://mosbalkon.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 381,
+    "slug": "panokna-ru",
+    "name": "Панокна",
+    "root_domain": "panokna.ru",
+    "website": "https://panokna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 383,
+    "slug": "okonti-ru",
+    "name": "Оконти",
+    "root_domain": "okonti.ru",
+    "website": "https://okonti.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 384,
+    "slug": "oknaprosvet-ru",
+    "name": "Окна Просвет",
+    "root_domain": "oknaprosvet.ru",
+    "website": "https://oknaprosvet.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 386,
+    "slug": "fabrikaokna-ru",
+    "name": "Фабрика Окна",
+    "root_domain": "fabrikaokna.ru",
+    "website": "https://fabrikaokna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 388,
+    "slug": "glassproekt-ru",
+    "name": "Гласс Проект",
+    "root_domain": "glassproekt.ru",
+    "website": "https://glassproekt.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 389,
+    "slug": "melke-ru",
+    "name": "Мелке",
+    "root_domain": "melke.ru",
+    "website": "https://melke.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 391,
+    "slug": "corpsun-ru",
+    "name": "Корпсан",
+    "root_domain": "corpsun.ru",
+    "website": "https://corpsun.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 392,
+    "slug": "zavodbalkonov-ru",
+    "name": "Завод Балконов",
+    "root_domain": "zavodbalkonov.ru",
+    "website": "https://zavodbalkonov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 399,
+    "slug": "aluminarium-ru",
+    "name": "Алюминариум",
+    "root_domain": "aluminarium.ru",
+    "website": "https://aluminarium.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 401,
+    "slug": "horizonov-ru",
+    "name": "Горизонтов",
+    "root_domain": "horizonov.ru",
+    "website": "https://horizonov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 404,
+    "slug": "alumburg-ru",
+    "name": "Алюмбург",
+    "root_domain": "alumburg.ru",
+    "website": "https://alumburg.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 405,
+    "slug": "alumial-ru",
+    "name": "Алюмиал",
+    "root_domain": "alumial.ru",
+    "website": "https://alumial.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 406,
+    "slug": "alumoknamoskow-ru",
+    "name": "Алюмокна Москва",
+    "root_domain": "alumoknamoskow.ru",
+    "website": "https://alumoknamoskow.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 407,
+    "slug": "alumpremium-ru",
+    "name": "Алюм Премиум",
+    "root_domain": "alumpremium.ru",
+    "website": "https://alumpremium.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 408,
+    "slug": "alustroy-pro",
+    "name": "Алюстрой",
+    "root_domain": "alustroy.pro",
+    "website": "https://alustroy.pro",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 410,
+    "slug": "bezramnoesteklo77-ru",
+    "name": "Безрамное Стекло 77",
+    "root_domain": "bezramnoesteklo77.ru",
+    "website": "https://bezramnoesteklo77.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 411,
+    "slug": "bitango-ru",
+    "name": "Битанго",
+    "root_domain": "bitango.ru",
+    "website": "https://bitango.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 413,
+    "slug": "decolife-pro",
+    "name": "Деколайф",
+    "root_domain": "decolife.pro",
+    "website": "https://decolife.pro",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 414,
+    "slug": "ecookna-ru",
+    "name": "Экоокна",
+    "root_domain": "ecookna.ru",
+    "website": "https://ecookna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 415,
+    "slug": "forec-ru",
+    "name": "Форек",
+    "root_domain": "forec.ru",
+    "website": "https://forec.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 417,
+    "slug": "holzen-ru",
+    "name": "Хольцен",
+    "root_domain": "holzen.ru",
+    "website": "https://holzen.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 418,
+    "slug": "luxsist-ru",
+    "name": "Люкссист",
+    "root_domain": "luxsist.ru",
+    "website": "https://luxsist.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 421,
+    "slug": "netrama-ru",
+    "name": "Нетрама",
+    "root_domain": "netrama.ru",
+    "website": "https://netrama.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 422,
+    "slug": "oklandia-ru",
+    "name": "Окландия",
+    "root_domain": "oklandia.ru",
+    "website": "https://oklandia.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 427,
+    "slug": "oknafortaly-ru",
+    "name": "Окна Фортали",
+    "root_domain": "oknafortaly.ru",
+    "website": "https://oknafortaly.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 428,
+    "slug": "oknastreet-ru",
+    "name": "Окна Стрит",
+    "root_domain": "oknastreet.ru",
+    "website": "https://oknastreet.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 429,
+    "slug": "oknaville-ru",
+    "name": "Окнавилль",
+    "root_domain": "oknaville.ru",
+    "website": "https://oknaville.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 433,
+    "slug": "raluma-ru",
+    "name": "Ралума",
+    "root_domain": "raluma.ru",
+    "website": "https://raluma.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 435,
+    "slug": "smaltagroup-ru",
+    "name": "Смалта Групп",
+    "root_domain": "smaltagroup.ru",
+    "website": "https://smaltagroup.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 437,
+    "slug": "sunarts-ru",
+    "name": "Санартс",
+    "root_domain": "sunarts.ru",
+    "website": "https://sunarts.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 409,
+    "slug": "bezramnoeosteklenie-ru",
+    "name": "Безрамное Остекление",
+    "root_domain": "bezramnoeosteklenie.ru",
+    "website": "https://bezramnoeosteklenie.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 199,
+    "status": "active"
+  },
+  {
+    "id": 387,
+    "slug": "mosokna-ru",
+    "name": "Мосокна",
+    "root_domain": "mosokna.ru",
+    "website": "https://mosokna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 135,
+    "status": "active"
+  },
+  {
+    "id": 144,
+    "slug": "getangel-ru",
+    "name": "Getangel",
+    "root_domain": "getangel.ru",
+    "website": "https://getangel.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "Москва, Россия, ул.Свободы 103",
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 86,
+    "slug": "stiner-ru",
+    "name": "Системы хранения, роллетные и воротные системы, мебельные жалюзи и многое другое в интернет магазине",
+    "root_domain": "stiner.ru",
+    "website": "https://stiner.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 920-57-10"
+    ],
+    "emails": [
+      "INFO@STINER.RU"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 82,
+    "slug": "profmetmebel-ru",
+    "name": "Металлическая мебель от интернет",
+    "root_domain": "profmetmebel.ru",
+    "website": "https://profmetmebel.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [
+      "+7(499) 450-93-63"
+    ],
+    "emails": [
+      "opt1@profmetmebel.ru"
+    ],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "г. Москва ул. Рябиновая 41",
+    "is_verified": true,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 78,
+    "slug": "werstakoff-ru",
+    "name": "Верстакофф",
+    "root_domain": "werstakoff.ru",
+    "website": "https://werstakoff.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 150-18-09"
+    ],
+    "emails": [
+      "info@werstakoff.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 142,
+    "slug": "domebox-ru",
+    "name": "Domebox",
+    "root_domain": "domebox.ru",
+    "website": "https://domebox.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 146,
+    "slug": "korsarbox-ru",
+    "name": "Korsarbox",
+    "root_domain": "korsarbox.ru",
+    "website": "https://korsarbox.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 147,
+    "slug": "mebstal-ru",
+    "name": "Mebstal",
+    "root_domain": "mebstal.ru",
+    "website": "https://mebstal.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 148,
+    "slug": "metallfurniture-ru",
+    "name": "Metallfurniture",
+    "root_domain": "metallfurniture.ru",
+    "website": "https://metallfurniture.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 152,
+    "slug": "rollstaff-ru",
+    "name": "Rollstaff",
+    "root_domain": "rollstaff.ru",
+    "website": "https://rollstaff.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 153,
+    "slug": "rolmebel-ru",
+    "name": "Rolmebel",
+    "root_domain": "rolmebel.ru",
+    "website": "https://rolmebel.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 155,
+    "slug": "safes-ru",
+    "name": "Safes",
+    "root_domain": "safes.ru",
+    "website": "https://safes.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 157,
+    "slug": "skoggy-ru",
+    "name": "Skoggy",
+    "root_domain": "skoggy.ru",
+    "website": "https://skoggy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 159,
+    "slug": "stavni777-ru",
+    "name": "Stavni777",
+    "root_domain": "stavni777.ru",
+    "website": "https://stavni777.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 149,
+    "slug": "metprommebel-ru",
+    "name": "Metprommebel",
+    "root_domain": "metprommebel.ru",
+    "website": "https://metprommebel.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "говых и других помещений. Каталог Металлические стеллажи Верстаки Металлические шкафы Для раздевалок Мебель для производства Замки для металлической м",
+    "is_verified": true,
+    "clicks": 80,
+    "status": "active"
+  },
+  {
+    "id": 60,
+    "slug": "fdmebel-ru",
+    "name": "Межкомнатные перегородки в стиле лофт в Москве",
+    "root_domain": "fdmebel.ru",
+    "website": "https://fdmebel.ru",
+    "branches": [],
+    "phones": [
+      "+7 (499) 647-45-49"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, ул. Ленинская Слобода, д. 26",
+    "is_verified": true,
+    "clicks": 64,
+    "status": "active"
+  },
+  {
+    "id": 377,
+    "slug": "sbalkonom-ru",
+    "name": "С Балконом",
+    "root_domain": "sbalkonom.ru",
+    "website": "https://sbalkonom.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 64,
+    "status": "active"
+  },
+  {
+    "id": 439,
+    "slug": "winfin-ru",
+    "name": "Винфин",
+    "root_domain": "winfin.ru",
+    "website": "https://winfin.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 64,
+    "status": "active"
+  },
+  {
+    "id": 180,
+    "slug": "rolety24-ru",
+    "name": "Rolety24",
+    "root_domain": "rolety24.ru",
+    "website": "https://rolety24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 27,
+    "status": "active"
+  },
+  {
+    "id": 185,
+    "slug": "rolstavnimsk-ru",
+    "name": "Rolstavnimsk",
+    "root_domain": "rolstavnimsk.ru",
+    "website": "https://rolstavnimsk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 27,
+    "status": "active"
+  },
+  {
+    "id": 182,
+    "slug": "rolltop-ru",
+    "name": "Rolltop",
+    "root_domain": "rolltop.ru",
+    "website": "https://rolltop.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 27,
+    "status": "active"
+  },
+  {
+    "id": 190,
+    "slug": "tstn-ru",
+    "name": "Tstn",
+    "root_domain": "tstn.ru",
+    "website": "https://tstn.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 27,
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "slug": "zavod-rollet-ru",
+    "name": "User verification...",
+    "root_domain": "zavod-rollet.ru",
+    "website": "https://zavod-rollet.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "slug": "vorota-top-ru",
+    "name": "Гаражные ворота в Москве. Купить автоматические секционные ворота",
+    "root_domain": "vorota-top.ru",
+    "website": "https://vorota-top.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 001-45-33"
+    ],
+    "emails": [
+      "info@vorota-top.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota",
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 25,
+    "slug": "otkatnye-vorota-tut-ru",
+    "name": "Купить откатные ворота в Москве: на дачу, для частного дома, склада. Установка под ключ. Цена от про",
+    "root_domain": "otkatnye-vorota-tut.ru",
+    "website": "https://otkatnye-vorota-tut.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "otkatnye-vorota-tut@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 21,
+    "slug": "gruppa-masterov-ru",
+    "name": "Откатные ворота под ключ с установкой, цены в Москве и области",
+    "root_domain": "gruppa-masterov.ru",
+    "website": "https://gruppa-masterov.ru",
+    "branches": [],
+    "phones": [
+      "+7 495 532-44-20"
+    ],
+    "emails": [
+      "info@gruppa-masterov.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва, Ленинградское шоссе",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 24,
+    "slug": "vorota-mp-ru",
+    "name": "Производство и продажа металлических ворот: откатные, распашные ворота",
+    "root_domain": "vorota-mp.ru",
+    "website": "https://vorota-mp.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "info@vorota-mp.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "г. Москва ул.Каширское шоссе",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "slug": "allo-rolstavni-ru",
+    "name": "Рольставни по цене от 2500 руб. За 3 дня",
+    "root_domain": "allo-rolstavni.ru",
+    "website": "https://allo-rolstavni.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "info@allo-rolstavni.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 19,
+    "slug": "automaticheskie-vorota-ru",
+    "name": "Автоматические ворота в Москве",
+    "root_domain": "automaticheskie-vorota.ru",
+    "website": "https://automaticheskie-vorota.ru",
+    "branches": [
+      "orehovo-zuevo",
+      "sergiev-posad",
+      "podolsk",
+      "odintsovo",
+      "ramenskoe"
+    ],
+    "phones": [
+      "+7 (499) 703-02-17"
+    ],
+    "emails": [
+      "info@automaticheskie-vorota.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Голицыно, Можайское шоссе, д. 79",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "slug": "moskva-jaluzi-ru",
+    "name": "Заказать рольставни, жалюзи и ворота по выгодным ценам в Москве от компании «Системы Комфорта»",
+    "root_domain": "moskva-jaluzi.ru",
+    "website": "https://moskva-jaluzi.ru",
+    "branches": [
+      "mytishchi",
+      "podolsk"
+    ],
+    "phones": [
+      "+7 495 152-52-51"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "rolletnye-shkafy",
+      "prozrachnye-rolstavni",
+      "vorota"
+    ],
+    "address": "г. Москва: 1-й Люберецкий проезд.",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 18,
+    "slug": "vorota-vam-ru",
+    "name": "Автоматические ворота в Москве по низким ценам",
+    "root_domain": "vorota-vam.ru",
+    "website": "https://vorota-vam.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 223-66-39"
+    ],
+    "emails": [
+      "vorota-vam@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "ул. Дорожная, д. 60-Б, офис 520.",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "slug": "профставни-рф",
+    "name": "Рольставни автоматические в Москве и области",
+    "root_domain": "профставни.рф",
+    "website": "https://профставни.рф",
+    "branches": [],
+    "phones": [
+      "+7 (495) 255-09-56"
+    ],
+    "emails": [
+      "profstavni@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 22,
+    "slug": "vorota-dlya-doma-ru",
+    "name": "УСТАНОВКА ВОРОТ в области ПОД КЛЮЧ в Москве: Производство на заказ и готовые",
+    "root_domain": "vorota-dlya-doma.ru",
+    "website": "https://vorota-dlya-doma.ru",
+    "branches": [],
+    "phones": [
+      "+7(499)286-85-17"
+    ],
+    "emails": [
+      "info@vorota-dlya-doma.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва, м.Римская",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 30,
+    "slug": "vorota-vsem-ru",
+    "name": "Автоматические ворота DoorHan в Москве",
+    "root_domain": "vorota-vsem.ru",
+    "website": "https://vorota-vsem.ru",
+    "branches": [],
+    "phones": [
+      "+7 (906) 060-99-89"
+    ],
+    "emails": [
+      "zhalyuziag@gmail.com"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 64,
+    "slug": "sunsystems-rdo-ru",
+    "name": "Заказать жалюзи в Москве: на официальном сайте от производителя РДО",
+    "root_domain": "sunsystems-rdo.ru",
+    "website": "https://sunsystems-rdo.ru",
+    "branches": [],
+    "phones": [
+      "+7 926 990-09-90"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва 1-й Люберецкий проезд д. 2",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 39,
+    "slug": "g-okna-pro",
+    "name": "Мягкие окна для террасы и беседки Москва",
+    "root_domain": "g-okna.pro",
+    "website": "https://g-okna.pro",
+    "branches": [],
+    "phones": [
+      "+7 980 315 23 32"
+    ],
+    "emails": [
+      "g-okna77@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 41,
+    "slug": "кантим-рф",
+    "name": "Готовые мягкие окна – выгодные цены с доставкой!",
+    "root_domain": "кантим.рф",
+    "website": "https://кантим.рф",
+    "branches": [],
+    "phones": [
+      "+79991112575"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 42,
+    "slug": "уют-окна-рф",
+    "name": "Мягкие окна под ключ от производителя в Москве и МО",
+    "root_domain": "уют-окна.рф",
+    "website": "https://уют-окна.рф",
+    "branches": [],
+    "phones": [
+      "+7(926)405-97-05"
+    ],
+    "emails": [
+      "uyut-okna-rf@ya.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 48,
+    "slug": "glass-core-ru",
+    "name": "Стеклянные офисные перегородки в Москве с монтажом под ключ",
+    "root_domain": "glass-core.ru",
+    "website": "https://glass-core.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 410-16-08"
+    ],
+    "emails": [
+      "info@glasscore.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 50,
+    "slug": "wallbest-ru",
+    "name": "Офисные перегородки в Москве недорого",
+    "root_domain": "wallbest.ru",
+    "website": "https://wallbest.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "info@wallbest.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 54,
+    "slug": "express-office-ru",
+    "name": "Подтверждение кода безопасности \"Экспресс Офис\"",
+    "root_domain": "express-office.ru",
+    "website": "https://express-office.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 62,
+    "slug": "union-ru",
+    "name": "Межкомнатные двери и мебель от производителя в Москве. Купить в UNION",
+    "root_domain": "union.ru",
+    "website": "https://union.ru",
+    "branches": [],
+    "phones": [
+      "8 800 550 52 24"
+    ],
+    "emails": [
+      "INFO@UNION.RU"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 73,
+    "slug": "evro-rolstavni-ru",
+    "name": "Рольставни, ворота и жалюзи АЛЮТЕХ в Москве и МО – ПрофЛидер",
+    "root_domain": "evro-rolstavni.ru",
+    "website": "https://evro-rolstavni.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "evro-rolstavni@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 88,
+    "slug": "xn--80aestcfhjjs-xn--p1ai",
+    "name": "Профставни",
+    "root_domain": "xn--80aestcfhjjs.xn--p1ai",
+    "website": "https://xn--80aestcfhjjs.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 164,
+    "slug": "xn--80aaprl0afio1b-xn--p1ai",
+    "name": "Шкафмастер",
+    "root_domain": "xn--80aaprl0afio1b.xn--p1ai",
+    "website": "https://xn--80aaprl0afio1b.xn--p1ai",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 188,
+    "slug": "shop-ctepx-ru",
+    "name": "Shop.Ctepx",
+    "root_domain": "ctepx.ru",
+    "website": "https://shop.ctepx.ru",
+    "branches": [
+      "shop"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва и область) +7 (800) 775 - 48 - 54 (бесплатно по России) 308013",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 49,
+    "slug": "indigo-peregorodki-ru",
+    "name": "Алюминиевые перегородки на заказ – цены за 1 м2 в Москве",
+    "root_domain": "indigo-peregorodki.ru",
+    "website": "https://indigo-peregorodki.ru",
+    "branches": [],
+    "phones": [
+      "+7 495 032-32-82"
+    ],
+    "emails": [
+      "office@indigo-peregorodki.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г.Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 53,
+    "slug": "dobriy-office-ru",
+    "name": "Офисная мебель недорого в Москве",
+    "root_domain": "dobriy-office.ru",
+    "website": "https://dobriy-office.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 150-55-37"
+    ],
+    "emails": [
+      "accounts@dobriy-office.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г.Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 47,
+    "slug": "oki-doki-ru",
+    "name": "Are you not a robot?",
+    "root_domain": "oki-doki.ru",
+    "website": "https://oki-doki.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва, Нижняя Красносельская ул.",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 55,
+    "slug": "mebelux-ru",
+    "name": "Офисная мебель в Москве недорого 🔥",
+    "root_domain": "mebelux.ru",
+    "website": "https://mebelux.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 648-48-90"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва Тел: +7 (495) 648-48-90",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "slug": "vorota-group-ru",
+    "name": "Автоматические ворота и рольставни: купить в Москве с установкой по низким ценам под ключ",
+    "root_domain": "vorota-group.ru",
+    "website": "https://vorota-group.ru",
+    "branches": [
+      "chehov",
+      "dmitrov",
+      "dubna",
+      "egorevsk",
+      "himki",
+      "istra",
+      "kashira",
+      "klin",
+      "kolomna",
+      "korolev",
+      "mozhaysk",
+      "mytischi",
+      "naro-fominsk",
+      "domodedovo",
+      "noginsk",
+      "orekhovo-zuevo",
+      "pavlovsky-posad",
+      "podolsk",
+      "ramenskoe",
+      "ruza",
+      "sergiev-posad",
+      "serpuhov",
+      "shchyolkovo",
+      "solnechnogorsk",
+      "balashiha",
+      "ivanteevka",
+      "krasnogorsk",
+      "krasnoznamensk",
+      "losino-petrovsky",
+      "luhovitsy",
+      "odintsovo",
+      "pushkino",
+      "shatura",
+      "vidnoe",
+      "stupino"
+    ],
+    "phones": [],
+    "emails": [
+      "vorota-group1@yandex.ru"
+    ],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota",
+      "prozrachnye-rolstavni"
+    ],
+    "address": "Москва 8 (495) 122-12-01 vorota-group1@yandex.ru",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 56,
+    "slug": "mebelstyle-ru",
+    "name": "Купить офисную мебель недорого",
+    "root_domain": "mebelstyle.ru",
+    "website": "https://mebelstyle.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 215-58-88"
+    ],
+    "emails": [
+      "moscow@mebelstyle.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, Россия, наб. Академика Туполева, 15",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 57,
+    "slug": "nesthold-ru",
+    "name": "URBAN GLASS💠 8(495)999",
+    "root_domain": "nesthold.ru",
+    "website": "https://nesthold.ru",
+    "branches": [],
+    "phones": [
+      "+7 495 999-11-93"
+    ],
+    "emails": [
+      "urban-glass@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, улица Подольских Курсантов, 34с2, офис 4",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 61,
+    "slug": "perilaglavsnab-ru",
+    "name": "Перила и лестничные ограждения",
+    "root_domain": "perilaglavsnab.ru",
+    "website": "https://perilaglavsnab.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 646-14-21"
+    ],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, Рублевское шоссе 11 к.2",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 58,
+    "slug": "mebela-ru",
+    "name": "Офисная мебель",
+    "root_domain": "mebela.ru",
+    "website": "https://mebela.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [
+      "zakaz@mebela.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 72,
+    "slug": "интбест-рф",
+    "name": "Интернет",
+    "root_domain": "интбест.рф",
+    "website": "https://интбест.рф",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, ул. Угрешская, д.31",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 444,
+    "slug": "сдмк-spb",
+    "name": "СДМК",
+    "root_domain": "spb.ru",
+    "website": "https://sdmk.spb.ru",
+    "branches": [
+      "sdmk",
+      "sdmk",
+      "stekloff",
+      "stekloff"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "myagkie-okna",
+      "zashchitnye-rolstavni",
+      "ofisnye-peregorodki",
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 451,
+    "slug": "landal-spb",
+    "name": "Landal",
+    "root_domain": "landal.pro",
+    "website": "https://spb.landal.pro",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 80,
+    "slug": "шкафвпаркинг-мск-рф",
+    "name": "Роллетные шкафы для парковки от МосБокс",
+    "root_domain": "шкафвпаркинг-мск.рф",
+    "website": "https://шкафвпаркинг-мск.рф",
+    "branches": [],
+    "phones": [
+      "+7 (495) 790-51-71"
+    ],
+    "emails": [
+      "Place-box@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 81,
+    "slug": "роллетный-шкаф-рф",
+    "name": "Роллетные шкафы для паркинга с установкой от производителя",
+    "root_domain": "роллетный-шкаф.рф",
+    "website": "https://роллетный-шкаф.рф",
+    "branches": [],
+    "phones": [
+      "+7 (495) 920-57-10"
+    ],
+    "emails": [
+      "9205710@mail.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 108,
+    "slug": "xn--80aesjmcnkj2h-xn--p1ai",
+    "name": "Рольставни",
+    "root_domain": "xn--80aesjmcnkj2h.xn--p1ai",
+    "website": "https://xn--80aesjmcnkj2h.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, улица Достоевского",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 93,
+    "slug": "vorota-24-ru",
+    "name": "Vorota 24",
+    "root_domain": "vorota-24.ru",
+    "website": "https://vorota-24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 95,
+    "slug": "jaluzi-style-ru",
+    "name": "Jaluzi Style",
+    "root_domain": "jaluzi-style.ru",
+    "website": "https://jaluzi-style.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 96,
+    "slug": "otkatnye-vorotaa-ru",
+    "name": "Otkatnye Vorotaa",
+    "root_domain": "otkatnye-vorotaa.ru",
+    "website": "https://otkatnye-vorotaa.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 102,
+    "slug": "rol-servis-ru",
+    "name": "Rol Servis",
+    "root_domain": "rol-servis.ru",
+    "website": "https://rol-servis.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 105,
+    "slug": "podolskie-okna-ru",
+    "name": "Podolskie Okna",
+    "root_domain": "podolskie-okna.ru",
+    "website": "https://podolskie-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 109,
+    "slug": "sun-rolls-ru",
+    "name": "Sun Rolls",
+    "root_domain": "sun-rolls.ru",
+    "website": "https://sun-rolls.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 77,
+    "slug": "шкафмастер-рф",
+    "name": "Роллетные металлические шкафы с установкой от производителя «Шкаф Мастер» в Москве",
+    "root_domain": "шкафмастер.рф",
+    "website": "https://шкафмастер.рф",
+    "branches": [],
+    "phones": [
+      "+7(495) 023-38-39"
+    ],
+    "emails": [
+      "zakaz.shkaf-master@yandex.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 83,
+    "slug": "shkaf-nabalkon-ru",
+    "name": "Шкафы на балкон на заказ в Москве и области",
+    "root_domain": "shkaf-nabalkon.ru",
+    "website": "https://shkaf-nabalkon.ru",
+    "branches": [],
+    "phones": [
+      "+7 903 799-20-17"
+    ],
+    "emails": [
+      "manager@shkaf-nabalkon.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 107,
+    "slug": "xn--80aleen8i-xn--p1ai",
+    "name": "Жалюзи",
+    "root_domain": "xn--80aleen8i.xn--p1ai",
+    "website": "https://xn--80aleen8i.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, Угрешская, 31",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 91,
+    "slug": "rol-stroy-ru",
+    "name": "Rol Stroy",
+    "root_domain": "rol-stroy.ru",
+    "website": "https://rol-stroy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 94,
+    "slug": "abc-safety-ru",
+    "name": "Abc Safety",
+    "root_domain": "abc-safety.ru",
+    "website": "https://abc-safety.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": "Москва, Павелецкая набережная, д. 2, ст. 21",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 99,
+    "slug": "rolstavni-prom-ru",
+    "name": "Rolstavni Prom",
+    "root_domain": "rolstavni-prom.ru",
+    "website": "https://rolstavni-prom.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": "Москва: Адрес: Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 445,
+    "slug": "roll-box-spb",
+    "name": "Roll Box",
+    "root_domain": "roll-box.ru",
+    "website": "https://roll-box.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург",
+      "Москва"
+    ],
+    "regions": [
+      "sankt-peterburg",
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 145,
+    "slug": "good-docom",
+    "name": "Good Docom",
+    "root_domain": "good-docom",
+    "website": "https://good-docom",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 150,
+    "slug": "parus-msk-ru",
+    "name": "Parus Msk",
+    "root_domain": "parus-msk.ru",
+    "website": "https://parus-msk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 154,
+    "slug": "rolstavni-proru",
+    "name": "Rolstavni Proru",
+    "root_domain": "rolstavni-proru",
+    "website": "https://rolstavni-proru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy",
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 167,
+    "slug": "zavod-tsk-ru",
+    "name": "Zavod Tsk",
+    "root_domain": "zavod-tsk.ru",
+    "website": "https://zavod-tsk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 183,
+    "slug": "rolstavni-24-ru",
+    "name": "Rolstavni 24",
+    "root_domain": "rolstavni-24.ru",
+    "website": "https://rolstavni-24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 163,
+    "slug": "xn--80aaffyidzol4b7b-xn--p1ai",
+    "name": "Шкафвпаркинг",
+    "root_domain": "xn--80aaffyidzol4b7b.xn--p1ai",
+    "website": "https://xn--80aaffyidzol4b7b.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 156,
+    "slug": "shkaf-parking-msk-ru",
+    "name": "Shkaf Parking Msk",
+    "root_domain": "shkaf-parking-msk.ru",
+    "website": "https://shkaf-parking-msk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "Москва, ул.Профсоюзная 56",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 166,
+    "slug": "xn--80aczcttr3a-xn--p1ai",
+    "name": "Шкафбокс",
+    "root_domain": "xn--80aczcttr3a.xn--p1ai",
+    "website": "https://xn--80aczcttr3a.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 141,
+    "slug": "city-jaluzi-ru",
+    "name": "City Jaluzi",
+    "root_domain": "city-jaluzi.ru",
+    "website": "https://city-jaluzi.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "Москва, Новочеркасский б-р, д.41, к.3",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 158,
+    "slug": "st-box-ru",
+    "name": "St Box",
+    "root_domain": "st-box.ru",
+    "website": "https://st-box.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "Москва, Рязанский проспект",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 446,
+    "slug": "alumdevelop-spb",
+    "name": "Alumdevelop",
+    "root_domain": "alumdevelop.ru",
+    "website": "https://alumdevelop.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 191,
+    "slug": "55ru",
+    "name": "55Ru",
+    "root_domain": "55ru",
+    "website": "https://55ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 194,
+    "slug": "egorevsk-myagkieokna-mo-ru",
+    "name": "Egorevsk.Myagkieokna Mo",
+    "root_domain": "myagkieokna-mo.ru",
+    "website": "https://egorevsk.myagkieokna-mo.ru",
+    "branches": [
+      "egorevsk",
+      "voskresensk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 195,
+    "slug": "egorevsk-tentoptoru",
+    "name": "Egorevsk.Tentoptoru",
+    "root_domain": "egorevsk.tentoptoru",
+    "website": "https://egorevsk.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 197,
+    "slug": "fabrika-mjagkie-okna-ru",
+    "name": "Fabrika Mjagkie Okna",
+    "root_domain": "fabrika-mjagkie-okna.ru",
+    "website": "https://fabrika-mjagkie-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 198,
+    "slug": "kolomna-tentoptoru",
+    "name": "Kolomna.Tentoptoru",
+    "root_domain": "kolomna.tentoptoru",
+    "website": "https://kolomna.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 199,
+    "slug": "lider-tent-ru",
+    "name": "Lider Tent",
+    "root_domain": "lider-tent.ru",
+    "website": "https://lider-tent.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 201,
+    "slug": "myagkie-okna-klin-ru",
+    "name": "Myagkie Okna Klin",
+    "root_domain": "myagkie-okna-klin.ru",
+    "website": "https://myagkie-okna-klin.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 202,
+    "slug": "myagkie-okna-msk-ru",
+    "name": "Myagkie Okna.Msk",
+    "root_domain": "msk.ru",
+    "website": "https://myagkie-okna.msk.ru",
+    "branches": [
+      "myagkie-okna"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 205,
+    "slug": "naro-fominsk-tentoptoru",
+    "name": "Naro Fominsk.Tentoptoru",
+    "root_domain": "naro-fominsk.tentoptoru",
+    "website": "https://naro-fominsk.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 220,
+    "slug": "tent-opt-ru",
+    "name": "Tent Opt",
+    "root_domain": "tent-opt.ru",
+    "website": "https://tent-opt.ru",
+    "branches": [
+      "odincovo",
+      "sankt-peterburg",
+      "sankt-peterburg"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 207,
+    "slug": "okna-sofia-ru",
+    "name": "Okna Sofia",
+    "root_domain": "okna-sofia.ru",
+    "website": "https://okna-sofia.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 208,
+    "slug": "okna-vit-ru",
+    "name": "Okna Vit",
+    "root_domain": "okna-vit.ru",
+    "website": "https://okna-vit.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 211,
+    "slug": "proline-okna-ru",
+    "name": "Proline Okna",
+    "root_domain": "proline-okna.ru",
+    "website": "https://proline-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 212,
+    "slug": "ramenskoe-tentoptoru",
+    "name": "Ramenskoe.Tentoptoru",
+    "root_domain": "ramenskoe.tentoptoru",
+    "website": "https://ramenskoe.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 213,
+    "slug": "serpuhov-tentoptoru",
+    "name": "Serpuhov.Tentoptoru",
+    "root_domain": "serpuhov.tentoptoru",
+    "website": "https://serpuhov.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 214,
+    "slug": "shatura-tentoptoru",
+    "name": "Shatura.Tentoptoru",
+    "root_domain": "shatura.tentoptoru",
+    "website": "https://shatura.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 217,
+    "slug": "solnechnogorsk-tentoptoru",
+    "name": "Solnechnogorsk.Tentoptoru",
+    "root_domain": "solnechnogorsk.tentoptoru",
+    "website": "https://solnechnogorsk.tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 219,
+    "slug": "tent-chehol-com",
+    "name": "Tent Chehol.Com",
+    "root_domain": "tent-chehol.com",
+    "website": "https://tent-chehol.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 221,
+    "slug": "tentoptoru",
+    "name": "Tentoptoru",
+    "root_domain": "tentoptoru",
+    "website": "https://tentoptoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 236,
+    "slug": "automat-vorota-ru",
+    "name": "Automat Vorota",
+    "root_domain": "automat-vorota.ru",
+    "website": "https://automat-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, Планерная улица",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 226,
+    "slug": "1-zabor-ru",
+    "name": "1 Zabor",
+    "root_domain": "1-zabor.ru",
+    "website": "https://1-zabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 230,
+    "slug": "alutech-group-com",
+    "name": "Alutech Group",
+    "root_domain": "alutech-group.com",
+    "website": "https://alutech-group.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 231,
+    "slug": "alutech-proect-ru",
+    "name": "Alutech Proect",
+    "root_domain": "alutech-proect.ru",
+    "website": "https://alutech-proect.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 235,
+    "slug": "atlant-stal-ru",
+    "name": "Atlant Stal",
+    "root_domain": "atlant-stal.ru",
+    "website": "https://atlant-stal.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 238,
+    "slug": "av-door-ru",
+    "name": "Av Door",
+    "root_domain": "av-door.ru",
+    "website": "https://av-door.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 243,
+    "slug": "dock-lift-ru",
+    "name": "Dock Lift",
+    "root_domain": "dock-lift.ru",
+    "website": "https://dock-lift.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 229,
+    "slug": "all-zabor-ru",
+    "name": "All Zabor",
+    "root_domain": "all-zabor.ru",
+    "website": "https://all-zabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, Нововладыкинский пр.",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 247,
+    "slug": "doorhan-nw-ru",
+    "name": "Doorhan Nw",
+    "root_domain": "doorhan-nw.ru",
+    "website": "https://doorhan-nw.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota",
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 249,
+    "slug": "dor-ru",
+    "name": "Dor Ru",
+    "root_domain": "dor-ru",
+    "website": "https://dor-ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 250,
+    "slug": "dostup-zabor-ru",
+    "name": "Dostup Zabor",
+    "root_domain": "dostup-zabor.ru",
+    "website": "https://dostup-zabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 251,
+    "slug": "dveri-puls-ru",
+    "name": "Dveri Puls",
+    "root_domain": "dveri-puls.ru",
+    "website": "https://dveri-puls.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 252,
+    "slug": "evro-tent-ru",
+    "name": "Evro Tent",
+    "root_domain": "evro-tent.ru",
+    "website": "https://evro-tent.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 224,
+    "slug": "xn--80aqekd4a-xn--p1ai",
+    "name": "Кантим",
+    "root_domain": "xn--80aqekd4a.xn--p1ai",
+    "website": "https://xn--80aqekd4a.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 225,
+    "slug": "xn--b1afyerc2d-xn--p1ai",
+    "name": "Тентовъ",
+    "root_domain": "xn--b1afyerc2d.xn--p1ai",
+    "website": "https://xn--b1afyerc2d.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 241,
+    "slug": "constructor-rf-ru",
+    "name": "Constructor Rf",
+    "root_domain": "constructor-rf.ru",
+    "website": "https://constructor-rf.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, Северо-восточный склад ул. Красная Сосна",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 253,
+    "slug": "expert-vorota-ru",
+    "name": "Expert Vorota",
+    "root_domain": "expert-vorota.ru",
+    "website": "https://expert-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 268,
+    "slug": "lider-doors-ru",
+    "name": "Lider Doors",
+    "root_domain": "lider-doors.ru",
+    "website": "https://lider-doors.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Москва, Осташковская, 14с14",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 255,
+    "slug": "fireproof-doors-ru",
+    "name": "Fireproof Doors",
+    "root_domain": "fireproof-doors.ru",
+    "website": "https://fireproof-doors.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 258,
+    "slug": "good-zabor-ru",
+    "name": "Good Zabor",
+    "root_domain": "good-zabor.ru",
+    "website": "https://good-zabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 259,
+    "slug": "hormann-sales-ru",
+    "name": "Hormann Sales",
+    "root_domain": "hormann-sales.ru",
+    "website": "https://hormann-sales.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 264,
+    "slug": "kolesa-opori-ru",
+    "name": "Kolesa Opori",
+    "root_domain": "kolesa-opori.ru",
+    "website": "https://kolesa-opori.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 267,
+    "slug": "kupi-vorota-ru",
+    "name": "Kupi Vorota",
+    "root_domain": "kupi-vorota.ru",
+    "website": "https://kupi-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 273,
+    "slug": "metal-tehdoor-ru",
+    "name": "Metal Tehdoor",
+    "root_domain": "metal-tehdoor.ru",
+    "website": "https://metal-tehdoor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 276,
+    "slug": "mki-kovka-ru",
+    "name": "Mki Kovka",
+    "root_domain": "mki-kovka.ru",
+    "website": "https://mki-kovka.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 277,
+    "slug": "moscow-zabor-ru",
+    "name": "Moscow Zabor",
+    "root_domain": "moscow-zabor.ru",
+    "website": "https://moscow-zabor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 279,
+    "slug": "moscow-promportal-su",
+    "name": "Moscow.Promportal.Su",
+    "root_domain": "promportal.su",
+    "website": "https://moscow.promportal.su",
+    "branches": [
+      "moscow"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 280,
+    "slug": "moskva-korn-ru",
+    "name": "Moskva.Korn",
+    "root_domain": "korn.ru",
+    "website": "https://moskva.korn.ru",
+    "branches": [
+      "moskva"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 282,
+    "slug": "msk-doorhantd-ru",
+    "name": "Msk.Doorhantd",
+    "root_domain": "doorhantd.ru",
+    "website": "https://msk.doorhantd.ru",
+    "branches": [
+      "msk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 283,
+    "slug": "msk-dyntek-ru",
+    "name": "Msk.Dyntek",
+    "root_domain": "dyntek.ru",
+    "website": "https://msk.dyntek.ru",
+    "branches": [
+      "msk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 284,
+    "slug": "msk-kp-ru",
+    "name": "Msk.Kp",
+    "root_domain": "kp.ru",
+    "website": "https://msk.kp.ru",
+    "branches": [
+      "msk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 285,
+    "slug": "mva-rolltor-ru",
+    "name": "Mva Rolltor",
+    "root_domain": "mva-rolltor.ru",
+    "website": "https://mva-rolltor.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 288,
+    "slug": "nicedoby",
+    "name": "Nicedoby",
+    "root_domain": "nicedoby",
+    "website": "https://nicedoby",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 291,
+    "slug": "otkrytie-vorota-ru",
+    "name": "Otkrytie Vorota",
+    "root_domain": "otkrytie-vorota.ru",
+    "website": "https://otkrytie-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 294,
+    "slug": "prof-zabory-ru",
+    "name": "Prof Zabory",
+    "root_domain": "prof-zabory.ru",
+    "website": "https://prof-zabory.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 454,
+    "slug": "нестекла-spb",
+    "name": "Нестекла",
+    "root_domain": "nestekla.ru",
+    "website": "https://nestekla.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna",
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 300,
+    "slug": "proshlagbauru",
+    "name": "Proshlagbauru",
+    "root_domain": "proshlagbauru",
+    "website": "https://proshlagbauru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 302,
+    "slug": "raduga-zaborov-ru",
+    "name": "Raduga Zaborov",
+    "root_domain": "raduga-zaborov.ru",
+    "website": "https://raduga-zaborov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 305,
+    "slug": "remont-vorot24-ru",
+    "name": "Remont Vorot24",
+    "root_domain": "remont-vorot24.ru",
+    "website": "https://remont-vorot24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 309,
+    "slug": "sart-vorota-ru",
+    "name": "Sart Vorota",
+    "root_domain": "sart-vorota.ru",
+    "website": "https://sart-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 310,
+    "slug": "satro-paladin-com",
+    "name": "Satro Paladin",
+    "root_domain": "satro-paladin.com",
+    "website": "https://satro-paladin.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 311,
+    "slug": "sec-group-ru",
+    "name": "Sec Group",
+    "root_domain": "sec-group.ru",
+    "website": "https://sec-group.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 313,
+    "slug": "shazacom",
+    "name": "Shazacom",
+    "root_domain": "shazacom",
+    "website": "https://shazacom",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 23,
+    "slug": "region-vorota-ru",
+    "name": "Автоматические ворота в Москве. Купить автоматические ворота ДорХан по ценам производителя",
+    "root_domain": "region-vorota.ru",
+    "website": "https://region-vorota.ru",
+    "branches": [
+      "shelkovo"
+    ],
+    "phones": [
+      "+7 (495)-374-39-92"
+    ],
+    "emails": [
+      "sale@region-vorota.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota",
+      "zashchitnye-rolstavni"
+    ],
+    "address": "г. Москва",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 315,
+    "slug": "shlagbaum-grad-ru",
+    "name": "Shlagbaum Grad",
+    "root_domain": "shlagbaum-grad.ru",
+    "website": "https://shlagbaum-grad.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 316,
+    "slug": "shop-doorhan-ru",
+    "name": "Shop Doorhan",
+    "root_domain": "shop-doorhan.ru",
+    "website": "https://shop-doorhan.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 318,
+    "slug": "sovet-ingenera-com",
+    "name": "Sovet Ingenera",
+    "root_domain": "sovet-ingenera.com",
+    "website": "https://sovet-ingenera.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 260,
+    "slug": "horoshie-zabory-ru",
+    "name": "Horoshie Zabory",
+    "root_domain": "horoshie-zabory.ru",
+    "website": "https://horoshie-zabory.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "Химки, улица Заводская, 8",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 320,
+    "slug": "staraya-kupavna-metaldveri-ru",
+    "name": "Staraya Kupavna.Metaldveri",
+    "root_domain": "metaldveri.ru",
+    "website": "https://staraya-kupavna.metaldveri.ru",
+    "branches": [
+      "staraya-kupavna"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 321,
+    "slug": "stat-parts-ru",
+    "name": "Stat Parts",
+    "root_domain": "stat-parts.ru",
+    "website": "https://stat-parts.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 326,
+    "slug": "t-j-ru",
+    "name": "T J",
+    "root_domain": "t-j.ru",
+    "website": "https://t-j.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 328,
+    "slug": "tancoru",
+    "name": "Tancoru",
+    "root_domain": "tancoru",
+    "website": "https://tancoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 329,
+    "slug": "technograd-group-ru",
+    "name": "Technograd Group",
+    "root_domain": "technograd-group.ru",
+    "website": "https://technograd-group.ru",
+    "branches": [
+      "kirishi",
+      "volkhov",
+      "sosnovyy-bor"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва",
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "moskva-i-mo",
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 332,
+    "slug": "vektor-ts-com",
+    "name": "Vektor Ts",
+    "root_domain": "vektor-ts.com",
+    "website": "https://vektor-ts.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 334,
+    "slug": "volokolamsk-zabor-dlya-doma-ru",
+    "name": "Volokolamsk.Zabor Dlya Doma",
+    "root_domain": "zabor-dlya-doma.ru",
+    "website": "https://volokolamsk.zabor-dlya-doma.ru",
+    "branches": [
+      "volokolamsk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 335,
+    "slug": "vorota-auto-ru",
+    "name": "Vorota Auto",
+    "root_domain": "vorota-auto.ru",
+    "website": "https://vorota-auto.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 336,
+    "slug": "vorota-doma-ru",
+    "name": "Vorota Doma",
+    "root_domain": "vorota-doma.ru",
+    "website": "https://vorota-doma.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 337,
+    "slug": "vorota-doorhan-ru",
+    "name": "Vorota Doorhan",
+    "root_domain": "vorota-doorhan.ru",
+    "website": "https://vorota-doorhan.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 338,
+    "slug": "vorota-goroda-ru",
+    "name": "Vorota Goroda",
+    "root_domain": "vorota-goroda.ru",
+    "website": "https://vorota-goroda.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 339,
+    "slug": "vorota-ilan-ru",
+    "name": "Vorota Ilan",
+    "root_domain": "vorota-ilan.ru",
+    "website": "https://vorota-ilan.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 340,
+    "slug": "vorota-one-ru",
+    "name": "Vorota One",
+    "root_domain": "vorota-one.ru",
+    "website": "https://vorota-one.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 341,
+    "slug": "vorota-prestige-ru",
+    "name": "Vorota Prestige",
+    "root_domain": "vorota-prestige.ru",
+    "website": "https://vorota-prestige.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 342,
+    "slug": "vorota-stilstroy-ru",
+    "name": "Vorota Stilstroy",
+    "root_domain": "vorota-stilstroy.ru",
+    "website": "https://vorota-stilstroy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 343,
+    "slug": "vorota-varu",
+    "name": "Vorota Varu",
+    "root_domain": "vorota-varu",
+    "website": "https://vorota-varu",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 344,
+    "slug": "vorota-vseru",
+    "name": "Vorota Vseru",
+    "root_domain": "vorota-vseru",
+    "website": "https://vorota-vseru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 345,
+    "slug": "vorota-zmk-ru",
+    "name": "Vorota Zmk",
+    "root_domain": "vorota-zmk.ru",
+    "website": "https://vorota-zmk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 359,
+    "slug": "zabor-varu",
+    "name": "Zabor Varu",
+    "root_domain": "zabor-varu",
+    "website": "https://zabor-varu",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 452,
+    "slug": "фабрика-мо-spb",
+    "name": "Фабрика МО",
+    "root_domain": "myagkieokna-spb.ru",
+    "website": "https://myagkieokna-spb.ru",
+    "branches": [],
+    "phones": [
+      "+7 (812) 317-70-75"
+    ],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 364,
+    "slug": "zabory-deshevo-ru",
+    "name": "Zabory Deshevo",
+    "root_domain": "zabory-deshevo.ru",
+    "website": "https://zabory-deshevo.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 365,
+    "slug": "zavod-aviskoru",
+    "name": "Zavod Aviskoru",
+    "root_domain": "zavod-aviskoru",
+    "website": "https://zavod-aviskoru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 372,
+    "slug": "i-okna-ru",
+    "name": "Ай-Окна",
+    "root_domain": "i-okna.ru",
+    "website": "https://i-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 374,
+    "slug": "okna-vinchelli-ru",
+    "name": "Окна Винчелли",
+    "root_domain": "okna-vinchelli.ru",
+    "website": "https://okna-vinchelli.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 375,
+    "slug": "okna-v-pol-panoramnoe-osteklenie-balkonov-ru",
+    "name": "Окна в пол",
+    "root_domain": "okna-v-pol-panoramnoe-osteklenie-balkonov.ru",
+    "website": "https://okna-v-pol-panoramnoe-osteklenie-balkonov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 376,
+    "slug": "msk-okna-servise-com",
+    "name": "Окна-Сервис МСК",
+    "root_domain": "okna-servise.com",
+    "website": "https://msk.okna-servise.com",
+    "branches": [
+      "msk"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 378,
+    "slug": "al-solution-ru",
+    "name": "Ал-Солюшн",
+    "root_domain": "al-solution.ru",
+    "website": "https://al-solution.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 379,
+    "slug": "balkoni-nedorogo-ru",
+    "name": "Балконы Недорого",
+    "root_domain": "balkoni-nedorogo.ru",
+    "website": "https://balkoni-nedorogo.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 380,
+    "slug": "balkony-pod-kluch-ru",
+    "name": "Балконы Под Ключ",
+    "root_domain": "balkony-pod-kluch.ru",
+    "website": "https://balkony-pod-kluch.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 356,
+    "slug": "xn----7sbbefui0bjjhazu-xn--p1ai",
+    "name": "Монтаж Заборов",
+    "root_domain": "xn----7sbbefui0bjjhazu.xn--p1ai",
+    "website": "https://xn----7sbbefui0bjjhazu.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 357,
+    "slug": "xn--b1advnalp3h-xn--p1ai",
+    "name": "Дляворот",
+    "root_domain": "xn--b1advnalp3h.xn--p1ai",
+    "website": "https://xn--b1advnalp3h.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 354,
+    "slug": "xn-----6kcbidkv5a5agcfa3azcg5c9g-xn--p1ai",
+    "name": "Завод Откатных Ворот",
+    "root_domain": "xn-----6kcbidkv5a5agcfa3azcg5c9g.xn--p1ai",
+    "website": "https://xn-----6kcbidkv5a5agcfa3azcg5c9g.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 355,
+    "slug": "xn-----6kccfvpfatujekbkuok9c0j-xn--p1ai",
+    "name": "Наро Фоминские Заборы",
+    "root_domain": "xn-----6kccfvpfatujekbkuok9c0j.xn--p1ai",
+    "website": "https://xn-----6kccfvpfatujekbkuok9c0j.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 385,
+    "slug": "str-mos-ru",
+    "name": "Строй-Мос",
+    "root_domain": "str-mos.ru",
+    "website": "https://str-mos.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 390,
+    "slug": "francuzskoe-osteklenie-okon-balkona-ru",
+    "name": "Французское Остекление",
+    "root_domain": "francuzskoe-osteklenie-okon-balkona.ru",
+    "website": "https://francuzskoe-osteklenie-okon-balkona.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 393,
+    "slug": "okna-moscow-ru",
+    "name": "Окна-Москва",
+    "root_domain": "okna-moscow.ru",
+    "website": "https://okna-moscow.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 394,
+    "slug": "okna-moskva-ru",
+    "name": "Окна-Москва 2",
+    "root_domain": "okna-moskva.ru",
+    "website": "https://okna-moskva.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 395,
+    "slug": "balcon-msk-ru",
+    "name": "Балкон-МСК",
+    "root_domain": "balcon-msk.ru",
+    "website": "https://balcon-msk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 396,
+    "slug": "okon-centr-ru",
+    "name": "Окон-Центр",
+    "root_domain": "okon-centr.ru",
+    "website": "https://okon-centr.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 397,
+    "slug": "okno-msk-ru",
+    "name": "Окно-МСК",
+    "root_domain": "okno-msk.ru",
+    "website": "https://okno-msk.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 398,
+    "slug": "fokus-komforta-ru",
+    "name": "Фокус Комфорта",
+    "root_domain": "fokus-komforta.ru",
+    "website": "https://fokus-komforta.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 400,
+    "slug": "ok-no-ru",
+    "name": "Ок-Но",
+    "root_domain": "ok-no.ru",
+    "website": "https://ok-no.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 402,
+    "slug": "alum-paritet-ru",
+    "name": "Алюм-Паритет",
+    "root_domain": "alum-paritet.ru",
+    "website": "https://alum-paritet.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 412,
+    "slug": "climb-group-ru",
+    "name": "Клайм Групп",
+    "root_domain": "climb-group.ru",
+    "website": "https://climb-group.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 416,
+    "slug": "h-wd-ru",
+    "name": "H-WD",
+    "root_domain": "h-wd.ru",
+    "website": "https://h-wd.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 419,
+    "slug": "m-strana-ru",
+    "name": "М-Страна",
+    "root_domain": "m-strana.ru",
+    "website": "https://m-strana.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 420,
+    "slug": "miro-miro-ru",
+    "name": "Миро-Миро",
+    "root_domain": "miro-miro.ru",
+    "website": "https://miro-miro.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 423,
+    "slug": "okna-21-veka-ru",
+    "name": "Окна 21 Века",
+    "root_domain": "okna-21-veka.ru",
+    "website": "https://okna-21-veka.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 424,
+    "slug": "okna-proizvodstvo-ru",
+    "name": "Окна Производство",
+    "root_domain": "okna-proizvodstvo.ru",
+    "website": "https://okna-proizvodstvo.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 425,
+    "slug": "okna-remont-24-ru",
+    "name": "Окна Ремонт 24",
+    "root_domain": "okna-remont-24.ru",
+    "website": "https://okna-remont-24.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 426,
+    "slug": "okna2-0-ru",
+    "name": "Окна 2.0",
+    "root_domain": "okna2-0.ru",
+    "website": "https://okna2-0.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 430,
+    "slug": "osteklenie-balkonov-tut-ru",
+    "name": "Остекление Балконов Тут",
+    "root_domain": "osteklenie-balkonov-tut.ru",
+    "website": "https://osteklenie-balkonov-tut.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 431,
+    "slug": "osteklenie-geluas-ru",
+    "name": "Остекление Гелуас",
+    "root_domain": "osteklenie-geluas.ru",
+    "website": "https://osteklenie-geluas.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 432,
+    "slug": "ostekleniye-verandy-ru",
+    "name": "Остекление Веранды",
+    "root_domain": "ostekleniye-verandy.ru",
+    "website": "https://ostekleniye-verandy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 434,
+    "slug": "sks-stakusit-ru",
+    "name": "СКС Стакусит",
+    "root_domain": "sks-stakusit.ru",
+    "website": "https://sks-stakusit.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 436,
+    "slug": "sofos-okna-ru",
+    "name": "Софос Окна",
+    "root_domain": "sofos-okna.ru",
+    "website": "https://sofos-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 438,
+    "slug": "trinity-okna-ru",
+    "name": "Тринити Окна",
+    "root_domain": "trinity-okna.ru",
+    "website": "https://trinity-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 442,
+    "slug": "znaet-petrovich-ru",
+    "name": "Знает Петрович",
+    "root_domain": "petrovich.ru",
+    "website": "https://znaet.petrovich.ru",
+    "branches": [
+      "znaet"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 162,
+    "slug": "xn----8sbnqgcarft0a3a3czb-xn--p1ai",
+    "name": "Роллетный Шкаф",
+    "root_domain": "xn----8sbnqgcarft0a3a3czb.xn--p1ai",
+    "website": "https://xn----8sbnqgcarft0a3a3czb.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 160,
+    "slug": "xn----7sbahg3akddtiuou8a2d-xn--p1ai",
+    "name": "Шкафвпаркинг Мск",
+    "root_domain": "xn----7sbahg3akddtiuou8a2d.xn--p1ai",
+    "website": "https://xn----7sbahg3akddtiuou8a2d.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 223,
+    "slug": "xn----8sb3amdwg2g-xn--p1ai",
+    "name": "Уют Окна",
+    "root_domain": "xn----8sb3amdwg2g.xn--p1ai",
+    "website": "https://xn----8sb3amdwg2g.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 353,
+    "slug": "xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka-xn--p1ai",
+    "name": "Ам Дврпрёайрчаеслбйё Лснх",
+    "root_domain": "xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka.xn--p1ai",
+    "website": "https://xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 440,
+    "slug": "xn----7sbb2alsf9bq-xn--p1ai",
+    "name": "Окна Хауз",
+    "root_domain": "xn----7sbb2alsf9bq.xn--p1ai",
+    "website": "https://xn----7sbb2alsf9bq.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 441,
+    "slug": "xn----7sbgbipzyfcbn3f-xn--p1ai",
+    "name": "Завод Оконпвх",
+    "root_domain": "xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "website": "https://xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 443,
+    "slug": "region99-ru",
+    "name": "region99.ru",
+    "root_domain": "region99.ru",
+    "website": "https://region99.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 161,
+    "slug": "xn----7sbenacbbl2bhik1tlb-xn--p1ai",
+    "name": "Железная Мебель",
+    "root_domain": "xn----7sbenacbbl2bhik1tlb.xn--p1ai",
+    "website": "https://xn----7sbenacbbl2bhik1tlb.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "Москва 8 (495) 743-95-09 8 (495) 743-95-09 8 800 550-14-25",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 165,
+    "slug": "xn--80ackwdadv2ad-xn--p1ai",
+    "name": "Металлбокс",
+    "root_domain": "xn--80ackwdadv2ad.xn--p1ai",
+    "website": "https://xn--80ackwdadv2ad.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": "гараж и мастерскую Калькулятор Фото работ О компании Доставка и оплата Монтаж Гарантия Сертификаты и лицензии Акции и скидки Отзывы Контакты КАЛЬКУЛЯТ",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 450,
+    "slug": "ролставни-двери-ворота-spb",
+    "name": "Ролставни-Двери-Ворота",
+    "root_domain": "rolstavni-dveri-vorota.ru",
+    "website": "https://rolstavni-dveri-vorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 453,
+    "slug": "55м-spb",
+    "name": "55м",
+    "root_domain": "55m.ru",
+    "website": "https://spb.55m.ru",
+    "branches": [
+      "spb",
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 1,
+    "slug": "levin-group-ru",
+    "name": "Купить качественные жалюзи, рулонные шторы, рольставни и ворота в проверенной компании «Levin",
+    "root_domain": "levin-group.ru",
+    "website": "https://levin-group.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 777-55-07"
+    ],
+    "emails": [
+      "office@levin-group.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota",
+      "rolletnye-shkafy",
+      "prozrachnye-rolstavni"
+    ],
+    "address": "г. Москва Адрес: 1-й Люберецкий пр-д",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 51,
+    "slug": "perof-ru",
+    "name": "Изготовление стеклянных офисных перегородок и конструкций из алюминия на заказ в Москве",
+    "root_domain": "perof.ru",
+    "website": "https://perof.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 514-31-50"
+    ],
+    "emails": [
+      "zakaz@perof.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "г. Москва ул. Введенского владение 8",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 59,
+    "slug": "glgrup-ru",
+    "name": "Офисные перегородки в Москве от производителя GL GROUP",
+    "root_domain": "glgrup.ru",
+    "website": "https://glgrup.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 665-20-30"
+    ],
+    "emails": [
+      "info@glgrup.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "Москва, Научный проезд, 8с1",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 200,
+    "slug": "magic-okna-ru",
+    "name": "Magic Okna",
+    "root_domain": "magic-okna.ru",
+    "website": "https://magic-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 272,
+    "slug": "masterskay-zaborov-ru",
+    "name": "Masterskay Zaborov",
+    "root_domain": "masterskay-zaborov.ru",
+    "website": "https://masterskay-zaborov.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "г. Москва",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 79,
+    "slug": "металлбокс-рф",
+    "name": "Роллетные шкафы в паркинг, цены с установкой",
+    "root_domain": "металлбокс.рф",
+    "website": "https://металлбокс.рф",
+    "branches": [],
+    "phones": [
+      "+7 (495) 125-05-98"
+    ],
+    "emails": [
+      "corp@металлбокс.рф"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [],
+    "address": "гараж и мастерскую Калькулятор Фото работ О компании Доставка и оплата Монтаж Гарантия Сертификаты и лицензии Акции и скидки Отзывы Контакты КАЛЬКУЛЯТ",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 233,
+    "slug": "aprelevka-marditop-ru",
+    "name": "Aprelevka.Marditop",
+    "root_domain": "marditop.ru",
+    "website": "https://aprelevka.marditop.ru",
+    "branches": [
+      "aprelevka"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": "город, ул. Щорса, д. 8",
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 84,
+    "slug": "zhaluzi-rolstavni-ru",
+    "name": "Жалюзи и рольставни премиум",
+    "root_domain": "zhaluzi-rolstavni.ru",
+    "website": "https://zhaluzi-rolstavni.ru",
+    "branches": [],
+    "phones": [
+      "+7 (495) 799-49-67"
+    ],
+    "emails": [
+      "info@zhaluzi-rolstavni.ru"
+    ],
+    "cities": [
+      "Москва"
+    ],
+    "regions": [
+      "moskva-i-mo"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni",
+      "rolletnye-shkafy"
+    ],
+    "address": "г. Москва Электрозаводская Преображенская площадь Режим работы пн-пт с 9:00 до 19:00 сб/вс - выходной Телефон",
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 448,
+    "slug": "gateprof-spb",
+    "name": "GateProf",
+    "root_domain": "gateprof.ru",
+    "website": "https://gateprof.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "prozrachnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 455,
+    "slug": "мягкие-окна-спб-spb",
+    "name": "Мягкие Окна СПб",
+    "root_domain": "xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+    "website": "https://xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 456,
+    "slug": "мокнаспб-spb",
+    "name": "МОкнаСПб",
+    "root_domain": "moknaspb.ru",
+    "website": "https://moknaspb.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 475,
+    "slug": "окна-синди-sankt-peterburg",
+    "name": "Окна Синди",
+    "root_domain": "oknasindy.ru",
+    "website": "https://oknasindy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 476,
+    "slug": "роллмакс-sankt-peterburg",
+    "name": "Роллмакс",
+    "root_domain": "rollmaks.ru",
+    "website": "https://rollmaks.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 477,
+    "slug": "модерн-нева-sankt-peterburg",
+    "name": "Модерн-Нева",
+    "root_domain": "modern-neva.ru",
+    "website": "https://modern-neva.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 480,
+    "slug": "роллстандарт-sankt-peterburg",
+    "name": "РоллСтандарт",
+    "root_domain": "rollstandart.ru",
+    "website": "https://rollstandart.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni",
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 481,
+    "slug": "rewin-sankt-peterburg",
+    "name": "ReWin",
+    "root_domain": "re-win.ru",
+    "website": "https://re-win.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 482,
+    "slug": "мир-ворот-спб-sankt-peterburg",
+    "name": "Мир Ворот СПб",
+    "root_domain": "mirvorotspb.ru",
+    "website": "https://mirvorotspb.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 484,
+    "slug": "alutech-спб-ворота-sankt-peterburg",
+    "name": "Alutech СПб (ворота)",
+    "root_domain": "alutech.ru/vorota/",
+    "website": "https://spb.alutech.ru/vorota/",
+    "branches": [
+      "spb"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": false,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 485,
+    "slug": "питер-ворота-sankt-peterburg",
+    "name": "Питер Ворота",
+    "root_domain": "pitervorota.ru",
+    "website": "https://pitervorota.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 487,
+    "slug": "строй-двор-sankt-peterburg",
+    "name": "Строй-Двор",
+    "root_domain": "stroy-dvor.com",
+    "website": "https://spb.stroy-dvor.com",
+    "branches": [
+      "spb",
+      "spb",
+      "sosnovyy-bor"
+    ],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 488,
+    "slug": "ворота-пакс-sankt-peterburg",
+    "name": "Ворота-Пакс",
+    "root_domain": "vorota-pax.ru",
+    "website": "https://vorota-pax.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 489,
+    "slug": "hi-tech-glazing-sankt-peterburg",
+    "name": "Hi-Tech Glazing",
+    "root_domain": "hi-tech-glazing.ru",
+    "website": "https://hi-tech-glazing.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 490,
+    "slug": "балтпанорама-sankt-peterburg",
+    "name": "БалтПанорама",
+    "root_domain": "baltpanorama.ru",
+    "website": "https://baltpanorama.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 491,
+    "slug": "symmetry-sankt-peterburg",
+    "name": "Symmetry",
+    "root_domain": "symmetry.pro",
+    "website": "https://symmetry.pro",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 493,
+    "slug": "стеклодел-sankt-peterburg",
+    "name": "Стеклодел",
+    "root_domain": "steklodel-spb.ru",
+    "website": "https://steklodel-spb.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie",
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 494,
+    "slug": "анкорокна-sankt-peterburg",
+    "name": "Анкорокна",
+    "root_domain": "ankorokna.ru",
+    "website": "https://ankorokna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 495,
+    "slug": "фабрика-маркиз-sankt-peterburg",
+    "name": "Фабрика Маркиз",
+    "root_domain": "fabrikamarkiz.ru",
+    "website": "https://fabrikamarkiz.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 497,
+    "slug": "ваши-террасы-sankt-peterburg",
+    "name": "Ваши Террасы",
+    "root_domain": "vashiterrasy.ru",
+    "website": "https://vashiterrasy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 498,
+    "slug": "северстекло-sankt-peterburg",
+    "name": "Северстекло",
+    "root_domain": "seversteklo.ru",
+    "website": "https://seversteklo.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "bezramnoe-osteklenie",
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 499,
+    "slug": "шкаф-в-паркинг-sankt-peterburg",
+    "name": "Шкаф в Паркинг",
+    "root_domain": "shkaf-v-parking.ru",
+    "website": "https://shkaf-v-parking.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 502,
+    "slug": "роллеты-спб-sankt-peterburg",
+    "name": "Роллеты СПб",
+    "root_domain": "rolletyspb.ru",
+    "website": "https://rolletyspb.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy",
+      "prozrachnye-rolstavni",
+      "zashchitnye-rolstavni"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 504,
+    "slug": "двк-шоп-sankt-peterburg",
+    "name": "ДВК-Шоп",
+    "root_domain": "dvk-shop.ru",
+    "website": "https://dvk-shop.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 507,
+    "slug": "верстакофф-нева-sankt-peterburg",
+    "name": "Верстакофф-Нева",
+    "root_domain": "werstakoff-neva.ru",
+    "website": "https://werstakoff-neva.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "rolletnye-shkafy"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 509,
+    "slug": "азимут-гласс-sankt-peterburg",
+    "name": "Азимут Гласс",
+    "root_domain": "azimut-glass.ru",
+    "website": "https://azimut-glass.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 510,
+    "slug": "вермонд-sankt-peterburg",
+    "name": "Вермонд",
+    "root_domain": "vermond812.ru",
+    "website": "https://vermond812.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 511,
+    "slug": "ск-бекас-sankt-peterburg",
+    "name": "СК Бекас",
+    "root_domain": "skbekas.ru",
+    "website": "https://skbekas.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 512,
+    "slug": "перегородка-лаб-sankt-peterburg",
+    "name": "Перегородка Лаб",
+    "root_domain": "peregorodkalab.ru",
+    "website": "https://peregorodkalab.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 513,
+    "slug": "glassall-sankt-peterburg",
+    "name": "GlassAll",
+    "root_domain": "glassall.ru",
+    "website": "https://glassall.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 514,
+    "slug": "алианс-окна-sankt-peterburg",
+    "name": "Алианс-Окна",
+    "root_domain": "alians-okna.ru",
+    "website": "https://alians-okna.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki",
+      "myagkie-okna"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 515,
+    "slug": "остекление-812-sankt-peterburg",
+    "name": "Остекление 812",
+    "root_domain": "osteklenie812.ru",
+    "website": "https://osteklenie812.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "ofisnye-peregorodki",
+      "bezramnoe-osteklenie"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 573,
+    "slug": "забор-сервис-строй-spb",
+    "name": "Забор-Сервис-Строй",
+    "root_domain": "zabor-servis-stroy.ru",
+    "website": "https://zabor-servis-stroy.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 574,
+    "slug": "топ-хаус-spb",
+    "name": "ТОП ХАУС",
+    "root_domain": "tophouse.ru",
+    "website": "https://tophouse.ru",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  },
+  {
+    "id": 575,
+    "slug": "заборстрой-spb",
+    "name": "ЗаборСтрой",
+    "root_domain": "zaborstroi.com",
+    "website": "https://zaborstroi.com",
+    "branches": [],
+    "phones": [],
+    "emails": [],
+    "cities": [
+      "Санкт-Петербург"
+    ],
+    "regions": [
+      "sankt-peterburg"
+    ],
+    "categories": [
+      "vorota"
+    ],
+    "address": null,
+    "is_verified": true,
+    "clicks": 0,
+    "status": "active"
+  }
+]
