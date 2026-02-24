@@ -403,6 +403,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -535,6 +539,10 @@
     ],
     "regions": [
       {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      },
+      {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
       }
@@ -577,6 +585,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -2534,6 +2546,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -3015,6 +3031,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -3757,6 +3777,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -3793,6 +3817,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -4301,6 +4329,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -4631,6 +4663,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -5588,6 +5624,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -5812,6 +5852,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -5991,7 +6035,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "prozrachnye-rolstavni",
       "myagkie-okna",
@@ -6022,7 +6071,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -6496,6 +6550,10 @@
     ],
     "regions": [
       {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      },
+      {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
       }
@@ -6816,7 +6874,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -7118,6 +7181,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -7644,6 +7711,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -8434,7 +8505,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "myagkie-okna",
       "ofisnye-peregorodki"
@@ -8944,6 +9020,10 @@
       {
         "slug": "moskva-i-mo",
         "name": "Москва и Московская область"
+      },
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
       }
     ],
     "categories": [
@@ -9379,7 +9459,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "myagkie-okna"
     ],
@@ -10768,7 +10853,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "prozrachnye-rolstavni",
       "vorota"
@@ -10796,7 +10886,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "myagkie-okna"
     ],
@@ -11072,7 +11167,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "prozrachnye-rolstavni"
     ],
@@ -11096,7 +11196,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "myagkie-okna"
     ],
@@ -11120,7 +11225,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "myagkie-okna"
     ],
@@ -11144,7 +11254,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "zashchitnye-rolstavni",
       "myagkie-okna"
@@ -11169,7 +11284,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -11193,7 +11313,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -11217,7 +11342,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "zashchitnye-rolstavni",
       "vorota"
@@ -11242,7 +11372,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "zashchitnye-rolstavni"
     ],
@@ -11266,7 +11401,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11292,7 +11432,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11316,7 +11461,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11344,7 +11494,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11368,7 +11523,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11392,7 +11552,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -11416,7 +11581,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -11440,7 +11610,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -11464,7 +11639,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie",
       "ofisnye-peregorodki"
@@ -11489,7 +11669,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie",
       "myagkie-okna"
@@ -11514,7 +11699,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -11538,7 +11728,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie"
     ],
@@ -11562,7 +11757,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "bezramnoe-osteklenie",
       "ofisnye-peregorodki"
@@ -11587,7 +11787,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -11611,7 +11816,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "rolletnye-shkafy",
       "prozrachnye-rolstavni",
@@ -11637,7 +11847,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -11661,7 +11876,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "rolletnye-shkafy"
     ],
@@ -11685,7 +11905,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -11709,7 +11934,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -11733,7 +11963,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -11757,7 +11992,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -11781,7 +12021,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki"
     ],
@@ -11805,7 +12050,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki",
       "myagkie-okna"
@@ -11830,7 +12080,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "ofisnye-peregorodki",
       "bezramnoe-osteklenie"
@@ -11855,7 +12110,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11879,7 +12139,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],
@@ -11903,7 +12168,12 @@
         "slug": null
       }
     ],
-    "regions": [],
+    "regions": [
+      {
+        "slug": "spb-lo",
+        "name": "Санкт-Петербург и Ленинградская область"
+      }
+    ],
     "categories": [
       "vorota"
     ],

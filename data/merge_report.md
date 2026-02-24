@@ -1,6 +1,6 @@
 # Merge Report
 
-Generated: 2026-02-24T18:08:12.520Z
+Generated: 2026-02-24T18:10:47.666Z
 
 ## Summary
 
@@ -147,6 +147,7 @@ Generated: 2026-02-24T18:08:12.520Z
 ## Regions Available
 
 - moskva-i-mo
+- spb-lo
 
 ## Cities with >= 15 Suppliers (Future City Pages)
 

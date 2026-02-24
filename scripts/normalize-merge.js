@@ -46,6 +46,7 @@ const REGION_MAP = {
   'СПб и ЛО': 'spb-lo',
   'Saint Petersburg': 'spb-lo',
   'Leningrad Oblast': 'spb-lo',
+  'Северо-Западный': 'spb-lo',
   
   // Other regions (ready for future)
   'Новосибирская область': 'novosibirskaya-oblast',

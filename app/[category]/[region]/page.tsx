@@ -41,12 +41,20 @@ export async function generateMetadata({
   const meta = getCategoryRegionMetadata(category as any, region as any)
   
   if (!meta) {
-    return { title: 'СтройСейлс — каталог поставщиков' }
+    return { 
+      title: 'СтройСейлс — каталог поставщиков',
+      alternates: {
+        canonical: `/${category}/${region}`
+      }
+    }
   }
   
   return {
     title: meta.title,
     description: meta.description,
+    alternates: {
+      canonical: `/${category}/${region}`
+    }
   }
 }
 
