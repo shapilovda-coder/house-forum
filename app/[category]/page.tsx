@@ -85,7 +85,7 @@ export default async function Page({
     return (
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-8">
-          {/* Category Cover */}
+          {/* Category Cover - visual only, no H1 */}
           {(() => {
             const imageSrc = getCategoryImage(category)
             return imageSrc ? (
@@ -95,10 +95,11 @@ export default async function Page({
                 imageSrc={imageSrc}
                 imageAlt={catData.name}
               />
-            ) : null
+            ) : (
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">{catData.name}</h1>
+            )
           })()}
           
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">{catData.name}</h1>
           <p className="text-gray-600 mb-8">Выберите регион:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {regionsWithWhitelist.map(region => (

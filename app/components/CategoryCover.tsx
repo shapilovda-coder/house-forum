@@ -27,11 +27,11 @@ export default function CategoryCover({
           </div>
         </div>
         
-        {/* Text content */}
+        {/* Text content - NO H1/H2 here, only visual */}
         <div className="md:w-2/3 lg:w-3/4 p-4 md:p-6 flex flex-col justify-center">
-          <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+          <div className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
             {title}
-          </h1>          
+          </div>          
           {description && (
             <p className="text-gray-600 text-sm md:text-base">
               {description}
