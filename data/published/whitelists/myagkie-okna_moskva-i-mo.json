@@ -1,5 +1,33 @@
 [
   {
+    "source_url": "https://stekloroll.ru",
+    "url": "https://stekloroll.ru",
+    "domain": "stekloroll.ru",
+    "display_domain": "stekloroll.ru",
+    "company_name": "StekloRoll",
+    "phones": [
+      "+74951510979"
+    ],
+    "address": "Москва, Киевское шоссе, д.1, к.Б, БЦ Румянцево",
+    "parse_status": "ok",
+    "priority": 100,
+    "is_pinned": true
+  },
+  {
+    "source_url": "https://artalico.ru",
+    "url": "https://artalico.ru",
+    "domain": "artalico.ru",
+    "display_domain": "artalico.ru",
+    "company_name": "Artalico",
+    "phones": [
+      "+74951510979"
+    ],
+    "address": null,
+    "parse_status": "ok",
+    "priority": 90,
+    "is_pinned": true
+  },
+  {
     "source_url": "https://myagkie.com/",
     "display_domain": "myagkie.com",
     "company_name": "Мягкие окна для беседки, веранды или террасы купить от 1080₽/м2 в Москве",

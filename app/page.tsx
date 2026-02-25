@@ -4,34 +4,70 @@ import CategoryTiles from './components/CategoryTiles'
 import SearchBar from './components/SearchBar'
 import CompanyCard from './components/CompanyCard'
 import { CANONICAL_REGIONS } from '@/lib/seo/catalog'
+import { applyPinnedSuppliers } from '@/lib/pinnedConfig'
+import fs from 'fs'
+import path from 'path'
 
-// Load suppliers for homepage
-function loadSuppliers() {
-  try {
-    const fs = require('fs')
-    const path = require('path')
-    const dataPath = path.join(process.cwd(), 'data', 'suppliers_clean.json')
-    const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
-    return data.filter((s: any) => s.status === 'active')
-  } catch (e) {
-    return []
+// Load all Moscow whitelist suppliers for homepage
+function loadMoscowWhitelists() {
+  const whitelistsDir = path.join(process.cwd(), 'data', 'published', 'whitelists')
+  if (!fs.existsSync(whitelistsDir)) return []
+  
+  const allSuppliers: any[] = []
+  const seenDomains = new Set<string>()
+  
+  const files = fs.readdirSync(whitelistsDir).filter(f => 
+    f.endsWith('_moskva-i-mo.json') && !f.includes('_urls')
+  )
+  
+  for (const file of files) {
+    try {
+      const raw = fs.readFileSync(path.join(whitelistsDir, file), 'utf-8')
+      const data = JSON.parse(raw)
+      if (!Array.isArray(data)) continue
+      
+      // Filter valid entries
+      const valid = data.filter((w: any) => {
+        const domain = (w.display_domain || w.domain || '').toLowerCase()
+        if (!domain || seenDomains.has(domain)) return false
+        
+        // Check parse_status
+        const status = (w.parse_status || 'partial').toLowerCase().trim()
+        if (!['ok', 'partial'].includes(status)) return false
+        
+        seenDomains.add(domain)
+        return true
+      })
+      
+      allSuppliers.push(...valid.map((w: any) => ({
+        id: w.url || w.source_url,
+        slug: w.display_domain || w.domain,
+        name: w.company_name || w.display_domain || w.domain,
+        website: w.url || w.source_url,
+        domain_display: w.display_domain || w.domain,
+        phone: w.phones?.[0] || '',
+        phones: w.phones || [],
+        address: w.address,
+        cities: [{ name: 'Москва', slug: null }],
+        regions: [{ slug: 'moskva-i-mo', name: 'Москва и Московская область' }],
+        categories: [],
+        status: 'active',
+        clicks: w.priority || 0,
+        is_verified: true
+      })))
+    } catch (e) {
+      console.error(`Error loading ${file}:`, e)
+    }
   }
+  
+  return allSuppliers
 }
 
 export default function HomePage() {
-  const suppliers = loadSuppliers()
+  const suppliers = loadMoscowWhitelists()
   
-  // Sort: StekloRoll, Artalico first, then by clicks
-  const sortedSuppliers = suppliers.sort((a: any, b: any) => {
-    if (a.slug?.includes('stekloroll')) return -1
-    if (b.slug?.includes('stekloroll')) return 1
-    if (a.slug?.includes('artalico')) return -1
-    if (b.slug?.includes('artalico')) return 1
-    return (b.clicks || 0) - (a.clicks || 0)
-  })
-  
-  // Top 6 for homepage
-  const topSuppliers = sortedSuppliers.slice(0, 6)
+  // Apply pinned: Stekloroll #1, Artalico #2 for homepage
+  const finalSuppliers = applyPinnedSuppliers(suppliers, 'prozrachnye-rolstavni', 'moskva-i-mo')
   
   return (
     <>
@@ -44,26 +80,17 @@ export default function HomePage() {
       {/* Search Bar - sticky */}
       <SearchBar />
 
-      {/* Suppliers List */}
+      {/* Full Suppliers List */}
       <div className="max-w-5xl mx-auto px-4 py-6">
         <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-bold text-gray-900">Рекомендуемые поставщики</h2>
-          <span className="text-sm text-gray-500">{suppliers.length}+ компаний</span>
+          <h2 className="text-xl font-bold text-gray-900">Поставщики в Москве и МО</h2>
+          <span className="text-sm text-gray-500">{finalSuppliers.length} компаний</span>
         </div>
         
         <div className="space-y-3">
-          {topSuppliers.map((company: any) => (
+          {finalSuppliers.map((company: any) => (
             <CompanyCard key={company.id} company={company} />
           ))}
-        </div>
-        
-        <div className="mt-6 text-center">
-          <Link
-            href="/prozrachnye-rolstavni/"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded-lg transition"
-          >
-            Смотреть всех поставщиков
-          </Link>
         </div>
       </div>
 

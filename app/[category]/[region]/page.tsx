@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
 import CategoryRegionPage from '../../components/CategoryRegionPage'
 import { isWhitelistMode, getCatalogMode } from '@/lib/catalogMode'
-import { applyPins } from '@/lib/pins'
+import { applyPinnedSuppliers, getPinnedForCategory } from '@/lib/pinnedConfig'
 import fs from 'fs'
 import path from 'path'
 
@@ -170,36 +170,41 @@ export default async function Page({
       })
     }
     
-    const whitelistSuppliers = applyPins(allowedEntries.map((w: any) => ({
-        id: w.url || w.source_url,
-        slug: w.display_domain || w.domain,
-        name: w.company_name || w.display_domain || w.domain,
-        website: w.url || w.source_url,
-        domain_display: w.display_domain || w.domain,
-        phone: w.phones?.[0] || '',
-        phones: w.phones || [],
-        address: w.address,
-        cities: [{ name: 'Москва', slug: null }],
-        regions: [{ slug: region, name: regData.name }],
-        categories: [{ category: { slug: category, name: catData.name } }],
-        status: 'active',
-        clicks: w.priority || 0,
-        is_verified: true
-      })))
+    // Map to supplier format
+    const mappedSuppliers = allowedEntries.map((w: any) => ({
+      id: w.url || w.source_url,
+      slug: w.display_domain || w.domain,
+      name: w.company_name || w.display_domain || w.domain,
+      website: w.url || w.source_url,
+      domain_display: w.display_domain || w.domain,
+      phone: w.phones?.[0] || '',
+      phones: w.phones || [],
+      address: w.address,
+      cities: [{ name: 'Москва', slug: null }],
+      regions: [{ slug: region, name: regData.name }],
+      categories: [{ category: { slug: category, name: catData.name } }],
+      status: 'active',
+      clicks: w.priority || 0,
+      is_verified: true
+    }))
     
-    logBuild(category, region, 'whitelist', 'published/whitelists', whitelistSuppliers.length)
+    // Apply pinned suppliers (adds pinned not in list, reorders)
+    const finalSuppliers = applyPinnedSuppliers(mappedSuppliers, category, region)
     
-    // UI flags for whitelist categories
-    const showOnlyStekloRoll = ['rolletnye-shkafy', 'zashchitnye-rolstavni', 'prozrachnye-rolstavni'].includes(category)
-    const hideRecommended = category === 'myagkie-okna'
+    logBuild(category, region, 'whitelist', 'published/whitelists', finalSuppliers.length)
+    
+    // UI flags based on pinned config
+    const pinnedKeys = getPinnedForCategory(category, region)
+    const showOnlyStekloRoll = pinnedKeys.length === 1 && pinnedKeys[0] === 'stekloroll'
+    const hideRecommended = category === 'myagkie-okna' && pinnedKeys.length === 0
     
     return (
       <CategoryRegionPage 
         category={catData}
         region={regData}
-        suppliers={whitelistSuppliers}
+        suppliers={finalSuppliers}
         cities={['Москва']}
-        totalCount={whitelistSuppliers.length}
+        totalCount={finalSuppliers.length}
         showOnlyStekloRoll={showOnlyStekloRoll}
         hideRecommended={hideRecommended}
       />
@@ -214,28 +219,22 @@ export default async function Page({
     s.status === 'active'
   )
   
-  // Sort: StekloRoll, Artalico first, then by clicks
-  const sortedSuppliers = filteredSuppliers.sort((a: any, b: any) => {
-    if (a.slug?.includes('stekloroll')) return -1
-    if (b.slug?.includes('stekloroll')) return 1
-    if (a.slug?.includes('artalico')) return -1
-    if (b.slug?.includes('artalico')) return 1
-    return (b.clicks || 0) - (a.clicks || 0)
-  })
+  // Apply pinned for catalog mode too
+  const finalSuppliers = applyPinnedSuppliers(filteredSuppliers, category, region)
   
   const citiesInRegion: string[] = Array.from(new Set(
     filteredSuppliers.flatMap((s: any) => s.cities.map((c: any) => c.name as string))
   ))
   
-  logBuild(category, region, 'catalog', 'clean/suppliers_clean', sortedSuppliers.length)
+  logBuild(category, region, 'catalog', 'clean/suppliers_clean', finalSuppliers.length)
   
   return (
     <CategoryRegionPage 
       category={catData}
       region={regData}
-      suppliers={sortedSuppliers}
+      suppliers={finalSuppliers}
       cities={citiesInRegion}
-      totalCount={sortedSuppliers.length}
+      totalCount={finalSuppliers.length}
     />
   )
 }
