@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import { filterAddress } from '@/lib/validators/address'
 
 interface CompanyCardProps {
   company: {
@@ -43,6 +44,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   const utmParams = 'utm_source=stroysales&utm_medium=referral&utm_campaign=catalog'
   const phone = company.phones?.[0] || company.phone || ''
   
+  // Filter address through validator (returns null if invalid)
+  const validAddress = filterAddress(company.address)
+  
   return (
     <div className={`bg-white rounded-lg shadow-sm p-4 ${isPriority ? 'ring-2 ring-orange-400 ring-offset-2' : ''}`}>
       <div className="flex flex-col md:flex-row gap-4">
@@ -83,10 +87,10 @@ export default function CompanyCard({ company }: CompanyCardProps) {
             </p>
           )}
           
-          {/* Address */}
-          {company.address && (
+          {/* Address (filtered through validator) */}
+          {validAddress && (
             <p className="text-sm text-gray-500 mt-1">
-              📍 {company.address}
+              📍 {validAddress}
             </p>
           )}
         </div>

@@ -1,0 +1,572 @@
+[
+  {
+    "source_url": "https://alfa24.ru/",
+    "display_domain": "alfa24.ru",
+    "company_name": "Изготовление рольставней от производетеля в Москве | Рольставни от Alfa24.ru",
+    "phones": [
+      "+74956798498",
+      "+74951540785",
+      "+74951267275",
+      "+74957282885",
+      "+78716204837",
+      "+70776612924",
+      "+79163519722"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:10:39.470Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://alfa24.ru/rolstavni/stalnye-rolstavni/",
+    "display_domain": "alfa24.ru",
+    "company_name": "Стальные рольставни в Москве от Alfa24.ru",
+    "phones": [
+      "+74956798498",
+      "+74951540785",
+      "+74951267275",
+      "+74957282885",
+      "+78716204837",
+      "+70776612924",
+      "+79163519722",
+      "+75421359755",
+      "+76685793386",
+      "+79218482334",
+      "+75336690751",
+      "+71794734809"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:10:45.761Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://alfa24.ru/rolstavni/stalnye-rolstavni/antivandalnye-rolstavni/",
+    "display_domain": "alfa24.ru",
+    "company_name": "Купить антивандальные рольставни для окон в Москве от компании Alfa24.ru",
+    "phones": [
+      "+74956798498",
+      "+74951540785",
+      "+74951267275",
+      "+74957282885",
+      "+78716204837",
+      "+70776612924",
+      "+79163519722",
+      "+72547308950",
+      "+75421359755",
+      "+76685793386",
+      "+79218482334",
+      "+75336690751",
+      "+71794734809"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:10:49.279Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://alutech.ru/rolletnye-sistemy/rolstavni/antivandalnye/",
+    "display_domain": "alutech.ru",
+    "company_name": null,
+    "phones": [],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:10:53.358Z",
+    "parse_status": "failed",
+    "notes": "socket hang up"
+  },
+  {
+    "source_url": "https://etalonmsk.ru/stalnye-rolstavni/",
+    "display_domain": "etalonmsk.ru",
+    "company_name": "Стальные рольставни на окна в Москве, цены, акции★ на стальные профили",
+    "phones": [
+      "+74957224745"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:10:59.779Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://evro-rolstavni.ru/products/rolstavni/stalnye/",
+    "display_domain": "evro-rolstavni.ru",
+    "company_name": "Стальные рольставни от производителя &#8211; ПрофЛидер",
+    "phones": [
+      "+74956695633",
+      "+79303061520",
+      "+79000000000"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:02.811Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://gild24.ru/catalog/rolstavni/iz_stalnogo_profilya/",
+    "display_domain": "gild24.ru",
+    "company_name": "Стальные рольставни в Москве: цены на рольставни из стального нержавеющего профиля на официальном сайте представителя DoorHan",
+    "phones": [
+      "+79167649520",
+      "+72697122194",
+      "+78523507735",
+      "+79999999999"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:07.261Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://levin-group.ru/katalog/rolstavni/na-okna/",
+    "display_domain": "levin-group.ru",
+    "company_name": "Рольставни на окна - купить в Москве по цене от 4926 руб с гарантией 5 лет в Levin-Group",
+    "phones": [
+      "+74957775507",
+      "+79999999999",
+      "+78754972812"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:11.783Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://levin-group.ru/katalog/rolstavni/stalnye/",
+    "display_domain": "levin-group.ru",
+    "company_name": "Стальные рольставни купить в Москве по цене от 31560 руб с гарантией качества в Levin-Group",
+    "phones": [
+      "+74957775507",
+      "+79999999999",
+      "+78754972812"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:19.856Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://moskva-jaluzi.ru/rolstavni/",
+    "display_domain": "moskva-jaluzi.ru",
+    "company_name": "Рольставни - купить в Москве по низким ценам с бесплатным замером",
+    "phones": [
+      "+74951525251"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:24.345Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://moskva-jaluzi.ru/rolstavni/stalnie/",
+    "display_domain": "moskva-jaluzi.ru",
+    "company_name": "Стальные рольставни - купить по доступной цене в Москве у производителя Системы Комфорта",
+    "phones": [
+      "+74951525251"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:31.011Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://moskva-jaluzi.ru/rolstavni/zashitnie/",
+    "display_domain": "moskva-jaluzi.ru",
+    "company_name": "Антивандальные защитные рольставни - купить в Москве в компании Системы Комфорта",
+    "phones": [
+      "+74951525251"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:36.636Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://mskroll.ru/rolstavni/rolstavni-stalnye/",
+    "display_domain": "mskroll.ru",
+    "company_name": "Стальные рольставни в Москве",
+    "phones": [
+      "+79164647410",
+      "+74994086074",
+      "+79257435350",
+      "+72463114243",
+      "+71030288000",
+      "+71020000000"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:46.104Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://okna-everest.ru/rolstavni/protivovzlomnye",
+    "display_domain": "okna-everest.ru",
+    "company_name": "Противовзломные рольставни - купить в Москве, цена",
+    "phones": [
+      "+74958683003"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:48.196Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://rolgroup.ru/rolstavni-zaschitnye/",
+    "display_domain": "rolgroup.ru",
+    "company_name": "Защитные роллеты — купить жалюзи для защиты, цена на антивандальные рольставни в Москве",
+    "phones": [
+      "+74993933383",
+      "+74994330748"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:52.612Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://www.rollets.ru/rolstavni/stalnye/",
+    "display_domain": "rollets.ru",
+    "company_name": "Металлические рольставни в Москве - заказать стальные роллеты по ценам производителя Ролетс",
+    "phones": [
+      "+74959755077"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:11:58.920Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://rollmarket.ru/antivandal/",
+    "display_domain": "rollmarket.ru",
+    "company_name": "Антивандальные рольставни Alutech рассчитать стоимость на калькуляторе",
+    "phones": [
+      "+79255420548",
+      "+74955420548"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:03.172Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://www.rolmaster.ru/",
+    "display_domain": "rolmaster.ru",
+    "company_name": null,
+    "phones": [],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:05.898Z",
+    "parse_status": "failed",
+    "notes": ""
+  },
+  {
+    "source_url": "https://www.rolmaster.ru/product/zashchitnie-rolstavni/",
+    "display_domain": "rolmaster.ru",
+    "company_name": null,
+    "phones": [],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:10.992Z",
+    "parse_status": "failed",
+    "notes": ""
+  },
+  {
+    "source_url": "https://rolstavnimsk.ru/",
+    "display_domain": "rolstavnimsk.ru",
+    "company_name": null,
+    "phones": [],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:15.552Z",
+    "parse_status": "failed",
+    "notes": ""
+  },
+  {
+    "source_url": "https://rolstavni-prom.ru/rolstavni/rolstavni-dlya-dachi/antivandalnyie-rolstavni.html",
+    "display_domain": "rolstavni-prom.ru",
+    "company_name": null,
+    "phones": [],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:20.455Z",
+    "parse_status": "failed",
+    "notes": ""
+  },
+  {
+    "source_url": "https://rusroll.ru/rolstavni/na_okna/",
+    "display_domain": "rusroll.ru",
+    "company_name": "Рольставни на окна наружные, цена, заказать в Русролл",
+    "phones": [
+      "+74951815353",
+      "+79857607967",
+      "+72170849498"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:25.561Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://www.sart-vorota.ru/zashhitnye-rolstavni/",
+    "display_domain": "sart-vorota.ru",
+    "company_name": "Защитные рольставни - САРТ",
+    "phones": [
+      "+74951203870",
+      "+79999999999"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:28.881Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://sunsystems-rdo.ru/catalog/rolstavni-antivandalnie",
+    "display_domain": "sunsystems-rdo.ru",
+    "company_name": "Антивандальные рольставни: купить на окна наружные, цена",
+    "phones": [
+      "+79269900990",
+      "+79265258291",
+      "+74952588291"
+    ],
+    "address": "address\">г. Москва 1-й Люберецкий проезд д. 2",
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:32.591Z",
+    "parse_status": "ok",
+    "notes": ""
+  },
+  {
+    "source_url": "https://sunsystems-rdo.ru/catalog/rolstavni-na-okna",
+    "display_domain": "sunsystems-rdo.ru",
+    "company_name": "Рольставни на окна: заказать и купить в Москве, цена на наружные рольставни",
+    "phones": [
+      "+79269900990",
+      "+79265258291",
+      "+74952588291"
+    ],
+    "address": "address\">г. Москва 1-й Люберецкий проезд д. 2",
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:37.203Z",
+    "parse_status": "ok",
+    "notes": ""
+  },
+  {
+    "source_url": "https://vorota-group.ru/rolstavni/",
+    "display_domain": "vorota-group.ru",
+    "company_name": "Рольставни и роллеты — купить в Москве по цене от 4837 руб. от производителя",
+    "phones": [
+      "+74951221201",
+      "+72678582635",
+      "+72679233169",
+      "+74152036735",
+      "+74152070523",
+      "+74152014920",
+      "+74152018731",
+      "+74152036471",
+      "+75247578677",
+      "+78662241303",
+      "+72679745114",
+      "+74155227405",
+      "+74155270928",
+      "+74155417414",
+      "+72677608386",
+      "+74155816888",
+      "+72679871196",
+      "+74152095931",
+      "+74152076365",
+      "+74152066732",
+      "+74152041183",
+      "+74152023135",
+      "+74152042863",
+      "+74152013328",
+      "+76167641176",
+      "+72936162064",
+      "+73806275591",
+      "+79153344837"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:39.908Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://vorota-group.ru/rolstavni/na-okna/",
+    "display_domain": "vorota-group.ru",
+    "company_name": "Рольставни на окна - купить в Москве по низкой цене от производителя - Vorota Group",
+    "phones": [
+      "+74951221201",
+      "+74958450335",
+      "+72678582635",
+      "+72679233169",
+      "+74152036735",
+      "+74152070523",
+      "+74152014920",
+      "+74152018731",
+      "+74152036471",
+      "+75247578677",
+      "+78662241303",
+      "+72679745114",
+      "+74155227405",
+      "+74155270928",
+      "+74155417414",
+      "+72677608386",
+      "+74155816888",
+      "+72679871196",
+      "+74152095931",
+      "+74152076365",
+      "+74152066732",
+      "+74152041183",
+      "+74152023135",
+      "+74152042863",
+      "+74152013328",
+      "+76167641176",
+      "+72936162064",
+      "+73806275591",
+      "+79153344837"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:49.402Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://vorota-one.ru/catalog/rolstavni_i_rollety/dlya_okon/nakladnye/",
+    "display_domain": "vorota-one.ru",
+    "company_name": "Купить наружные рольставни на окна в Москве. Цены от официального представителя ДорХан",
+    "phones": [
+      "+79267763660",
+      "+71398408013",
+      "+76962126062",
+      "+72823791480",
+      "+70946589175",
+      "+79999999999"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:12:57.209Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://vorota-top.ru/shop/rolstavni/antivandalnye-rolstavni/rolstavni-na-okna-metallicheskie-doorhan",
+    "display_domain": "vorota-top.ru",
+    "company_name": "Рольставни на окна металлические DoorHan - купить в Москве от производителя - VOROTA TOP",
+    "phones": [
+      "+74950014533",
+      "+71803053914",
+      "+76231382563",
+      "+76919152736"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:13:02.023Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://vorota-vsem.ru/catalog/rolstavni/naruzhnye/",
+    "display_domain": "vorota-vsem.ru",
+    "company_name": "Рольставни наружные на окна в Москве: купить внешние (уличные) металлические рольставни, цены",
+    "phones": [
+      "+79060609989",
+      "+79852629407",
+      "+79852621383",
+      "+79852622148",
+      "+79852291218",
+      "+79852294680",
+      "+79852621667",
+      "+79852291704",
+      "+79852622962",
+      "+79852622522"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:13:09.845Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://xn--90aihuwdd.xn--p1ai/rolstavni/stalnye/",
+    "display_domain": "интбест.рф",
+    "company_name": "Металлические рольставни купить в Москве по низким ценам | Интернет-магазин ИнтерьерБест",
+    "phones": [
+      "+78003011145",
+      "+74951286112"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:13:44.515Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  },
+  {
+    "source_url": "https://zavodzaborov.ru/rolleta-zashchitnaya/",
+    "display_domain": "zavodzaborov.ru",
+    "company_name": "Роллета защитная (рольставни) на окна - купить с установкой по ценам производителя",
+    "phones": [
+      "+74954320505",
+      "+74912772797",
+      "+78312154499",
+      "+74951047272",
+      "+75950656188",
+      "+70661349656",
+      "+74951044334",
+      "+79999999999"
+    ],
+    "address": null,
+    "region": "moskva-i-mo",
+    "category": "zashitnye-rolstavni",
+    "updated_at": "2026-02-25T05:13:47.196Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
+  }
+]
