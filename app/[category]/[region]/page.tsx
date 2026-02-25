@@ -59,6 +59,20 @@ export async function generateMetadata({
   }
 }
 
+function loadWhitelist(category: string, region: string) {
+  try {
+    const fs = require('fs')
+    const path = require('path')
+    const whitelistPath = path.join(process.cwd(), 'data', 'whitelists', `${category}_${region}.json`)
+    if (fs.existsSync(whitelistPath)) {
+      return JSON.parse(fs.readFileSync(whitelistPath, 'utf8'))
+    }
+    return null
+  } catch (e) {
+    return null
+  }
+}
+
 export default async function Page({ 
   params 
 }: { 
@@ -74,7 +88,42 @@ export default async function Page({
     notFound()
   }
   
-  // Load suppliers for this category + region
+  // Check for whitelist first
+  const whitelist = loadWhitelist(category, region)
+  
+  if (whitelist) {
+    // Use whitelist data
+    const whitelistSuppliers = whitelist
+      .filter((w: any) => w.parse_status === 'ok' || w.parse_status === 'partial')
+      .map((w: any) => ({
+        id: w.source_url,
+        slug: w.display_domain,
+        name: w.company_name || w.display_domain,
+        website: w.source_url,
+        domain_display: w.display_domain,
+        phone: w.phones?.[0] || '',
+        phones: w.phones || [],
+        address: w.address,
+        cities: [{ name: 'Москва', slug: null }],
+        regions: [{ slug: region, name: regData.name }],
+        categories: [{ category: { slug: category, name: catData.name } }],
+        status: 'active',
+        clicks: 0,
+        is_verified: true
+      }))
+    
+    return (
+      <CategoryRegionPage 
+        category={catData}
+        region={regData}
+        suppliers={whitelistSuppliers}
+        cities={['Москва']}
+        totalCount={whitelistSuppliers.length}
+      />
+    )
+  }
+  
+  // Fallback to suppliers_clean.json
   const suppliers = loadSuppliers()
   const filteredSuppliers = suppliers.filter((s: any) => 
     s.categories.some((c: any) => (c.category?.slug || c.slug || c) === category) &&

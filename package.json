@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "parse:prozrachnye-moskva": "node scripts/parse-whitelist.ts --category prozrachnye-rolstavni --region moskva-i-mo"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.97.0",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

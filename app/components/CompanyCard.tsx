@@ -4,18 +4,19 @@ import Link from 'next/link'
 
 interface CompanyCardProps {
   company: {
-    id: number
+    id: number | string
     slug: string
     name: string
-    root_domain: string | null
+    root_domain?: string | null
     website: string
+    domain_display?: string
     phone: string
     phones?: string[]
-    emails: string[]
+    emails?: string[]
     cities: { name: string; slug: string | null }[]
     address: string | null
-    is_verified: boolean
-    clicks: number
+    is_verified?: boolean
+    clicks?: number
   }
 }
 
@@ -37,7 +38,8 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   const isArtalico = company.slug?.includes('artalico')
   const isPriority = isStekloRoll || isArtalico
   
-  const displayDomain = formatDomain(company.website)
+  // Use domain_display for UI (supports punycode decode), fallback to formatted website
+  const displayDomain = company.domain_display || formatDomain(company.website)
   const utmParams = 'utm_source=stroysales&utm_medium=referral&utm_campaign=catalog'
   const phone = company.phones?.[0] || company.phone || ''
   
