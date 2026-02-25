@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import { getCategoryName, getRegionName } from '@/lib/categories'
 
 interface Supplier {
   domain: string
@@ -12,6 +13,7 @@ interface Supplier {
   categories: string[]
   regions: string[]
   website: string
+  isPinned: boolean
 }
 
 interface AllSuppliersPageProps {
@@ -20,18 +22,12 @@ interface AllSuppliersPageProps {
   regions: { slug: string; name: string }[]
 }
 
-function normalizeDomain(input: string): string {
-  if (!input) return ''
-  let domain = input.toLowerCase().trim()
-  domain = domain.replace(/^https?:\/\//, '')
-  domain = domain.split('/')[0]
-  domain = domain.split('?')[0]
-  domain = domain.replace(/^www\./, '')
-  return domain
-}
-
 function formatPhone(phone: string): string {
-  return phone.replace(/(\d{1})(\d{3})(\d{3})(\d{2})(\d{2})/, '+$1 ($2) $3-$4-$5')
+  const cleaned = phone.replace(/\D/g, '')
+  if (cleaned.length === 11) {
+    return `+${cleaned[0]} (${cleaned.slice(1, 4)}) ${cleaned.slice(4, 7)}-${cleaned.slice(7, 9)}-${cleaned.slice(9, 11)}`
+  }
+  return phone
 }
 
 export default function AllSuppliersPage({ suppliers, categories, regions }: AllSuppliersPageProps) {
@@ -55,10 +51,8 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
     })
   }, [suppliers, selectedCategory, selectedRegion, searchQuery])
 
-  const uniqueCount = useMemo(() => {
-    const domains = new Set(filteredSuppliers.map(s => normalizeDomain(s.domain)))
-    return domains.size
-  }, [filteredSuppliers])
+  const uniqueCount = filteredSuppliers.length
+  const pinnedCount = filteredSuppliers.filter(s => s.isPinned).length
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -66,7 +60,12 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-2">Все поставщики</h1>
-          <p className="text-gray-600">Всего уникальных поставщиков: <span className="font-bold text-blue-600">{uniqueCount}</span></p>
+          <p className="text-gray-600">
+            Всего уникальных поставщиков: <span className="font-bold text-blue-600">{uniqueCount}</span>
+            {pinnedCount > 0 && (
+              <span className="text-sm text-gray-500 ml-2">(включая {pinnedCount} рекомендуемых)</span>
+            )}
+          </p>
         </div>
 
         {/* Filters */}
@@ -112,19 +111,41 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
         {/* Suppliers Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredSuppliers.map((supplier, idx) => (
-            <div key={`${supplier.domain}-${idx}`} className="bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow">
+            <div 
+              key={`${supplier.domain}-${idx}`} 
+              className={`bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow ${
+                supplier.isPinned ? 'ring-2 ring-orange-400 ring-offset-2' : ''
+              }`}
+            >
               <div className="flex items-start justify-between mb-2">
                 <h3 className="font-semibold text-gray-900 truncate" title={supplier.displayDomain}>
                   {supplier.displayDomain}
                 </h3>
-                <span className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
-                  {supplier.categories[0]}
-                </span>
+                {supplier.isPinned && (
+                  <span className="text-xs bg-orange-500 text-white px-2 py-1 rounded font-semibold">
+                    Рекомендуем
+                  </span>
+                )}
               </div>
 
               {supplier.name && supplier.name !== supplier.domain && (
                 <p className="text-sm text-gray-600 mb-2 truncate">{supplier.name}</p>
               )}
+
+              {/* Human-readable category tags */}
+              <div className="flex flex-wrap gap-1 mb-2">
+                {supplier.categories.slice(0, 3).map(catSlug => (
+                  <span 
+                    key={catSlug}
+                    className="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded"
+                  >
+                    {getCategoryName(catSlug)}
+                  </span>
+                ))}
+                {supplier.categories.length > 3 && (
+                  <span className="text-xs text-gray-500">+{supplier.categories.length - 3}</span>
+                )}
+              </div>
 
               {supplier.phones.length > 0 && (
                 <p className="text-sm text-gray-700 mb-2">
@@ -134,7 +155,7 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
 
               {supplier.regions.length > 0 && (
                 <p className="text-xs text-gray-500 mb-3">
-                  📍 {supplier.regions.join(', ')}
+                  📍 {supplier.regions.map(getRegionName).join(', ')}
                 </p>
               )}
 
