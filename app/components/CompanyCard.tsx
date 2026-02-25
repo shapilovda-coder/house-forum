@@ -18,6 +18,7 @@ interface CompanyCardProps {
     address: string | null
     is_verified?: boolean
     clicks?: number
+    is_pinned?: boolean
   }
 }
 
@@ -34,10 +35,20 @@ function formatDomain(website: string | null): string {
     .replace(/^www\./, '')
 }
 
+// Get dedupe key for supplier
+function getDedupeKey(company: any): string {
+  const domain = company.domain_display || company.slug || company.website || ''
+  return domain.toLowerCase()
+    .replace(/^https?:\/\//, '')
+    .replace(/^www\./, '')
+    .split('/')[0]
+    .split('?')[0]
+}
+
 export default function CompanyCard({ company }: CompanyCardProps) {
   const isStekloRoll = company.slug?.includes('stekloroll')
   const isArtalico = company.slug?.includes('artalico')
-  const isPriority = isStekloRoll || isArtalico
+  const isPriority = isStekloRoll || isArtalico || company.is_pinned
   
   // Use domain_display for UI (supports punycode decode), fallback to formatted website
   const displayDomain = company.domain_display || formatDomain(company.website)
@@ -47,8 +58,11 @@ export default function CompanyCard({ company }: CompanyCardProps) {
   // Filter address through validator (returns null if invalid)
   const validAddress = filterAddress(company.address)
   
+  // Dedupe key for data attribute
+  const dedupeKey = getDedupeKey(company)
+  
   return (
-    <div className={`bg-white rounded-lg shadow-sm p-4 ${isPriority ? 'ring-2 ring-orange-400 ring-offset-2' : ''}`}>
+    <div data-supplier-key={dedupeKey} className={`bg-white rounded-lg shadow-sm p-4 ${isPriority ? 'ring-2 ring-orange-400 ring-offset-2' : ''}`}>
       <div className="flex flex-col md:flex-row gap-4">
         <div className="flex-1">
           {/* Badges for priority companies */}
@@ -62,6 +76,9 @@ export default function CompanyCard({ company }: CompanyCardProps) {
               )}
               {isArtalico && (
                 <span className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded font-semibold">ПРЕМИУМ</span>
+              )}
+              {!isStekloRoll && !isArtalico && company.is_pinned && (
+                <span className="text-xs bg-orange-500 text-white px-2 py-0.5 rounded font-semibold">РЕКОМЕНДУЕМ</span>
               )}
             </div>
           )}

@@ -185,7 +185,8 @@ export default async function Page({
       categories: [{ category: { slug: category, name: catData.name } }],
       status: 'active',
       clicks: w.priority || 0,
-      is_verified: true
+      is_verified: true,
+      is_pinned: w.is_pinned || false
     }))
     
     // Apply pinned suppliers (adds pinned not in list, reorders)

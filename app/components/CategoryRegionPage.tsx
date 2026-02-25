@@ -48,23 +48,9 @@ function CategoryRegionContent({
     ? suppliers.filter(s => s.cities.some((c: any) => c.name === validCity))
     : suppliers
   
-  // Separate recommended (StekloRoll only for rolletnye-shkafy)
-  const recommendedSuppliers = showOnlyStekloRoll 
-    ? filteredSuppliers.filter(s => s.slug?.includes('stekloroll') || s.domain_display?.includes('stekloroll'))
-    : filteredSuppliers.filter(s => 
-        s.slug?.includes('stekloroll') || 
-        s.slug?.includes('artalico') ||
-        s.domain_display?.includes('stekloroll') ||
-        s.domain_display?.includes('artalico')
-      )
-  
-  // Main list (all except recommended for rolletnye-shkafy, all for others)
-  const mainSuppliers = showOnlyStekloRoll
-    ? filteredSuppliers.filter(s => 
-        !s.slug?.includes('stekloroll') && 
-        !s.domain_display?.includes('stekloroll')
-      )
-    : filteredSuppliers
+  // STRICT SEPARATION: recommended (is_pinned) vs main list
+  const recommendedSuppliers = filteredSuppliers.filter(s => s.is_pinned)
+  const mainSuppliers = filteredSuppliers.filter(s => !s.is_pinned)
   
   return (
     <>
@@ -97,7 +83,7 @@ function CategoryRegionContent({
         <CityFilter cities={cities} selectedCity={validCity} />
       </div>
       
-      {/* Recommended Section - только StekloRoll для rolletnye-shkafy */}
+      {/* Recommended Section - ONLY pinned suppliers */}
       {!hideRecommended && recommendedSuppliers.length > 0 && (
         <div className="mb-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-3">Рекомендуемые</h2>
@@ -109,11 +95,11 @@ function CategoryRegionContent({
         </div>
       )}
       
-      {/* Main Companies Section */}
+      {/* Main Companies Section - NO pinned suppliers here */}
       {mainSuppliers.length > 0 && (
         <div className="mb-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-3">
-            {showOnlyStekloRoll ? 'Все поставщики' : 'Компании и контакты'}
+            Все поставщики
           </h2>
           <div className="space-y-3">
             {mainSuppliers.map(company => (

@@ -14,20 +14,6 @@
     "is_pinned": true
   },
   {
-    "source_url": "https://artalico.ru",
-    "url": "https://artalico.ru",
-    "domain": "artalico.ru",
-    "display_domain": "artalico.ru",
-    "company_name": "Artalico",
-    "phones": [
-      "+74951510979"
-    ],
-    "address": null,
-    "parse_status": "ok",
-    "priority": 90,
-    "is_pinned": true
-  },
-  {
     "source_url": "https://levin-group.ru/katalog/rolstavni/prozrachnyie/",
     "display_domain": "levin-group.ru",
     "company_name": "Прозрачные рольставни для веранды, беседки или террасы купить в Москве по цене от 27000 руб с гарантией качества",
@@ -471,5 +457,19 @@
     "updated_at": "2026-02-25T05:09:23.550Z",
     "parse_status": "failed",
     "notes": ""
+  },
+  {
+    "source_url": "https://artalico.ru",
+    "url": "https://artalico.ru",
+    "domain": "artalico.ru",
+    "display_domain": "artalico.ru",
+    "company_name": "Artalico",
+    "phones": [
+      "+74951510979"
+    ],
+    "address": null,
+    "parse_status": "ok",
+    "priority": 99,
+    "is_pinned": true
   }
 ]

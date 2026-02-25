@@ -5,9 +5,7 @@
     "domain": "stekloroll.ru",
     "display_domain": "stekloroll.ru",
     "company_name": "StekloRoll",
-    "phones": [
-      "+74951510979"
-    ],
+    "phones": ["+74951510979"],
     "address": "Москва, Киевское шоссе, д.1, к.Б, БЦ Румянцево",
     "parse_status": "ok",
     "priority": 100,
@@ -19,9 +17,7 @@
     "domain": "artalico.ru",
     "display_domain": "artalico.ru",
     "company_name": "Artalico",
-    "phones": [
-      "+74951510979"
-    ],
+    "phones": ["+74951510979"],
     "address": null,
     "parse_status": "ok",
     "priority": 90,
