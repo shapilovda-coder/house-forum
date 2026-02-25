@@ -54,6 +54,10 @@ export const PINNED_CONFIG: Record<string, string[] | Record<string, string[]>> 
   'rolletnye-shkafy': {
     'moskva-i-mo': ['stekloroll'],
   },
+  // Ofisnye peregorodki: both pinned
+  'ofisnye-peregorodki': {
+    'moskva-i-mo': ['stekloroll', 'artalico'],
+  },
 }
 
 /**
