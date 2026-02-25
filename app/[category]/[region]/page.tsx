@@ -253,6 +253,8 @@ export default async function Page({
         return imageSrc ? (
           <div className="max-w-5xl mx-auto px-4 pt-4">
             <CategoryCover
+              title={`${catData.nameShort} — ${regData.nameShort}`}
+              description="Поставщики, цены и контакты"
               imageSrc={imageSrc}
               imageAlt={catData.name}
             />

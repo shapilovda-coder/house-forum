@@ -31,9 +31,9 @@ export default function CategoryCover({
         {(title || description) && (
           <div className="md:w-2/3 lg:w-3/4 p-4 md:p-6 flex flex-col justify-center">
             {title && (
-              <div className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+              <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
                 {title}
-              </div>
+              </h1>
             )}          
             {description && (
               <p className="text-gray-600 text-sm md:text-base">

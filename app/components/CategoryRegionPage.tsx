@@ -63,15 +63,7 @@ function CategoryRegionContent({
         <span className="text-gray-900">{region.nameShort}</span>
       </nav>
 
-      {/* H1 - Категория — Регион коротко */}
-      <h1 className="text-3xl font-bold text-gray-900 mb-2">
-        {category.nameShort} — {region.nameShort}
-      </h1>
-      
-      {/* Subtitle */}
-      <p className="text-gray-600 mb-2">Каталог поставщиков, цены и контакты.</p>
-      
-      {/* Count */}
+      {/* Count - без заголовка, сразу счётчик */}
       <p className="text-gray-500 text-sm mb-6">
         Найдено {filteredSuppliers.length} поставщиков
         {validCity && ` в городе ${validCity}`}
