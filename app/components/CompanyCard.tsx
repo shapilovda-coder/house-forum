@@ -20,6 +20,7 @@ interface CompanyCardProps {
     clicks?: number
     is_pinned?: boolean
   }
+  categorySlug?: string
 }
 
 // Normalize phone for tel: link
@@ -45,10 +46,13 @@ function getDedupeKey(company: any): string {
     .split('?')[0]
 }
 
-export default function CompanyCard({ company }: CompanyCardProps) {
+export default function CompanyCard({ company, categorySlug }: CompanyCardProps) {
   const isStekloRoll = company.slug?.includes('stekloroll')
   const isArtalico = company.slug?.includes('artalico')
   const isPriority = isStekloRoll || isArtalico || company.is_pinned
+  
+  // Show calculator button ONLY for StekloRoll in prozrachnye-rolstavni
+  const showCalculator = isStekloRoll && categorySlug === 'prozrachnye-rolstavni'
   
   // Use domain_display for UI (supports punycode decode), fallback to formatted website
   const displayDomain = company.domain_display || formatDomain(company.website)
@@ -114,7 +118,7 @@ export default function CompanyCard({ company }: CompanyCardProps) {
         
         {/* Buttons */}
         <div className="md:w-44 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-200 pt-3 md:pt-0 md:pl-4 space-y-2">
-          {isPriority ? (
+          {showCalculator ? (
             <>
               <a 
                 href={`${company.website}?${utmParams}`}
@@ -124,13 +128,22 @@ export default function CompanyCard({ company }: CompanyCardProps) {
               >
                 Перейти на сайт
               </a>
-              <button
-                className="w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold text-sm py-2 rounded transition"
-                onClick={() => {/* Calculator modal */}}
+              <Link
+                href="/prozrachnye-rolstavni/kalkulyator/"
+                className="block w-full bg-orange-500 hover:bg-orange-600 text-white text-center font-semibold text-sm py-2 rounded transition"
               >
                 Рассчитать цену
-              </button>
+              </Link>
             </>
+          ) : isPriority ? (
+            <a 
+              href={`${company.website}?${utmParams}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold text-sm py-2 rounded transition"
+            >
+              Перейти на сайт
+            </a>
           ) : (
             <a 
               href={`${company.website}?${utmParams}`}

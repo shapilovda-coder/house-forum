@@ -103,7 +103,7 @@ function CategoryRegionContent({
           <h2 className="text-lg font-semibold text-gray-900 mb-3">Рекомендуемые</h2>
           <div className="space-y-3">
             {recommendedSuppliers.map(company => (
-              <CompanyCard key={company.id} company={company} />
+              <CompanyCard key={company.id} company={company} categorySlug={category.slug} />
             ))}
           </div>
         </div>
@@ -117,7 +117,7 @@ function CategoryRegionContent({
           </h2>
           <div className="space-y-3">
             {mainSuppliers.map(company => (
-              <CompanyCard key={company.id} company={company} />
+              <CompanyCard key={company.id} company={company} categorySlug={category.slug} />
             ))}
           </div>
         </div>
