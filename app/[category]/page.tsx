@@ -85,16 +85,17 @@ export default async function Page({
     return (
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-8">
-          {/* Category Cover */}
+          {/* Category Cover - image only, no title (H1 is below) */}
           {(() => {
             const imageSrc = getCategoryImage(category)
             return imageSrc ? (
-              <CategoryCover
-                title={catData.name}
-                description={`Каталог поставщиков ${catData.name.toLowerCase()}`}
-                imageSrc={imageSrc}
-                imageAlt={catData.name}
-              />
+              <div className="mb-6">
+                <img 
+                  src={imageSrc} 
+                  alt={catData.name}
+                  className="w-full h-48 md:h-64 object-cover rounded-lg shadow-sm"
+                />
+              </div>
             ) : null
           })()}
           
