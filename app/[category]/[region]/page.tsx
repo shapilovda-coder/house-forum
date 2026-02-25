@@ -10,10 +10,33 @@ function loadSuppliers() {
   return JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 }
 
+function loadWhitelistCombinations() {
+  try {
+    const fs = require('fs')
+    const path = require('path')
+    const whitelistsDir = path.join(process.cwd(), 'data', 'whitelists')
+    if (!fs.existsSync(whitelistsDir)) return []
+    
+    const files = fs.readdirSync(whitelistsDir)
+    const combos: { category: string; region: string }[] = []
+    
+    files.forEach((file: string) => {
+      const match = file.match(/^(.+)_(.+)_urls\.json$/)
+      if (match) {
+        combos.push({ category: match[1], region: match[2] })
+      }
+    })
+    
+    return combos
+  } catch (e) {
+    return []
+  }
+}
+
 export async function generateStaticParams() {
   const suppliers = loadSuppliers()
   
-  // Generate only (category, region) pairs that have suppliers
+  // Generate from suppliers_clean.json
   const combos: { category: string; region: string }[] = []
   
   suppliers.forEach((s: any) => {
@@ -24,6 +47,10 @@ export async function generateStaticParams() {
       })
     })
   })
+  
+  // Add whitelist combinations
+  const whitelistCombos = loadWhitelistCombinations()
+  combos.push(...whitelistCombos)
   
   // Unique
   const unique = [...new Map(combos.map(c => 
