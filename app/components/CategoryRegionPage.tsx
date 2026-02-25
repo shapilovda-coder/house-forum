@@ -4,7 +4,6 @@ import { Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import CompanyCard from './CompanyCard'
-import CityFilter from './CityFilter'
 
 interface CategoryRegionPageProps {
   category: {
@@ -63,16 +62,39 @@ function CategoryRegionContent({
         <span className="text-gray-900">{region.nameShort}</span>
       </nav>
 
-      {/* Count - без заголовка, сразу счётчик */}
-      <p className="text-gray-500 text-sm mb-6">
-        Найдено {filteredSuppliers.length} поставщиков
-        {validCity && ` в городе ${validCity}`}
-      </p>
-      
-      {/* City Filter */}
-      <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
-        <h2 className="text-lg font-semibold text-gray-900 mb-3">Фильтр по городу</h2>
-        <CityFilter cities={cities} selectedCity={validCity} />
+      {/* Count + City Filter - компактный inline */}
+      <div className="mb-6">
+        <p className="text-gray-500 text-sm mb-3">
+          Найдено {filteredSuppliers.length} поставщиков
+          {validCity && ` в городе ${validCity}`}
+        </p>
+        
+        {/* City pills */}
+        <div className="flex flex-wrap gap-2">
+          <Link
+            href={`/${category.slug}/${region.slug}/`}
+            className={`text-sm px-3 py-1 rounded-full transition ${
+              !validCity 
+                ? 'bg-orange-500 text-white' 
+                : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+            }`}
+          >
+            Все
+          </Link>
+          {cities.map(city => (
+            <Link
+              key={city}
+              href={`/${category.slug}/${region.slug}/?city=${encodeURIComponent(city)}`}
+              className={`text-sm px-3 py-1 rounded-full transition ${
+                validCity === city 
+                  ? 'bg-orange-500 text-white' 
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
+            >
+              {city}
+            </Link>
+          ))}
+        </div>
       </div>
       
       {/* Recommended Section - ONLY pinned suppliers */}
@@ -144,12 +166,10 @@ function CategoryRegionContent({
 
 export default function CategoryRegionPage(props: CategoryRegionPageProps) {
   return (
-    <>
-      <div className="max-w-5xl mx-auto px-4 py-8">
-        <Suspense fallback={<div className="text-center py-12">Загрузка...</div>}>
-          <CategoryRegionContent {...props} />
-        </Suspense>
-      </div>
-    </>
+    <div className="max-w-5xl mx-auto px-4 py-8">
+      <Suspense fallback={<div className="text-center py-12">Загрузка...</div>}>
+        <CategoryRegionContent {...props} />
+      </Suspense>
+    </div>
   )
 }
