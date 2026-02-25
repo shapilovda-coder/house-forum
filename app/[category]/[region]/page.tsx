@@ -91,8 +91,9 @@ export default async function Page({
   // Check for whitelist first
   const whitelist = loadWhitelist(category, region)
   
-  // Special case: rolletnye-shkafy/moskva-i-mo — only StekloRoll in recommended, no Artalico
-  const showOnlyStekloRoll = category === 'rolletnye-shkafy' && region === 'moskva-i-mo'
+  // Special cases: whitelist categories — only StekloRoll in recommended, no Artalico
+  const showOnlyStekloRoll = (category === 'rolletnye-shkafy' || category === 'zashitnye-rolstavni') 
+    && region === 'moskva-i-mo'
   
   if (whitelist) {
     // Use whitelist data
