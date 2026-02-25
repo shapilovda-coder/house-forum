@@ -136,9 +136,40 @@ export default async function Page({
     }
     
     // Map whitelist data to supplier format
-    const whitelistSuppliers = whitelist
-      .filter((w: any) => w.parse_status === 'ok' || w.parse_status === 'partial')
-      .map((w: any) => ({
+    // Normalize parse_status and filter
+    const ALLOWED_STATUSES = new Set(['ok', 'partial'])
+    
+    const processedEntries = whitelist.map((w: any) => {
+      // Normalize parse_status
+      let status = w.parse_status
+      if (!status || typeof status !== 'string') {
+        status = 'partial' // default for missing/null
+      }
+      status = status.toLowerCase().trim()
+      
+      return {
+        ...w,
+        parse_status_normalized: status,
+        is_allowed: ALLOWED_STATUSES.has(status)
+      }
+    })
+    
+    // Build log for debugging
+    const totalInFile = processedEntries.length
+    const allowedEntries = processedEntries.filter((e: any) => e.is_allowed)
+    const excludedEntries = processedEntries.filter((e: any) => !e.is_allowed)
+    
+    if (DEBUG_BUILD) {
+      console.log(`[BUILD] ${category}/${region} whitelist:`)
+      console.log(`  total in file: ${totalInFile}`)
+      console.log(`  rendered: ${allowedEntries.length}`)
+      console.log(`  excluded: ${excludedEntries.length}`)
+      excludedEntries.forEach((e: any) => {
+        console.log(`    - ${e.domain || e.display_domain || 'unknown'}: parse_status="${e.parse_status}" (normalized: "${e.parse_status_normalized}")`)
+      })
+    }
+    
+    const whitelistSuppliers = allowedEntries.map((w: any) => ({
         id: w.url || w.source_url,
         slug: w.display_domain || w.domain,
         name: w.company_name || w.display_domain || w.domain,
