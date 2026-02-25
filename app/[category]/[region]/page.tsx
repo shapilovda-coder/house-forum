@@ -91,6 +91,9 @@ export default async function Page({
   // Check for whitelist first
   const whitelist = loadWhitelist(category, region)
   
+  // Special case: rolletnye-shkafy/moskva-i-mo — only StekloRoll in recommended, no Artalico
+  const showOnlyStekloRoll = category === 'rolletnye-shkafy' && region === 'moskva-i-mo'
+  
   if (whitelist) {
     // Use whitelist data
     const whitelistSuppliers = whitelist
@@ -119,6 +122,7 @@ export default async function Page({
         suppliers={whitelistSuppliers}
         cities={['Москва']}
         totalCount={whitelistSuppliers.length}
+        showOnlyStekloRoll={showOnlyStekloRoll}
       />
     )
   }

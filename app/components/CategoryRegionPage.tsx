@@ -21,6 +21,7 @@ interface CategoryRegionPageProps {
   suppliers: any[]
   cities: string[]
   totalCount: number
+  showOnlyStekloRoll?: boolean
 }
 
 // Inner component that uses useSearchParams
@@ -29,7 +30,8 @@ function CategoryRegionContent({
   region,
   suppliers,
   cities,
-  totalCount
+  totalCount,
+  showOnlyStekloRoll
 }: CategoryRegionPageProps) {
   const searchParams = useSearchParams()
   const selectedCity = searchParams.get('city')
@@ -43,6 +45,24 @@ function CategoryRegionContent({
   const filteredSuppliers = validCity 
     ? suppliers.filter(s => s.cities.some((c: any) => c.name === validCity))
     : suppliers
+  
+  // Separate recommended (StekloRoll only for rolletnye-shkafy)
+  const recommendedSuppliers = showOnlyStekloRoll 
+    ? filteredSuppliers.filter(s => s.slug?.includes('stekloroll') || s.domain_display?.includes('stekloroll'))
+    : filteredSuppliers.filter(s => 
+        s.slug?.includes('stekloroll') || 
+        s.slug?.includes('artalico') ||
+        s.domain_display?.includes('stekloroll') ||
+        s.domain_display?.includes('artalico')
+      )
+  
+  // Main list (all except recommended for rolletnye-shkafy, all for others)
+  const mainSuppliers = showOnlyStekloRoll
+    ? filteredSuppliers.filter(s => 
+        !s.slug?.includes('stekloroll') && 
+        !s.domain_display?.includes('stekloroll')
+      )
+    : filteredSuppliers
   
   return (
     <>
@@ -75,16 +95,31 @@ function CategoryRegionContent({
         <CityFilter cities={cities} selectedCity={validCity} />
       </div>
       
-      {/* Companies Section */}
-      <div className="mb-6">
-        <h2 className="text-lg font-semibold text-gray-900 mb-3">Компании и контакты</h2>
-        
-        <div className="space-y-3">
-          {filteredSuppliers.map(company => (
-            <CompanyCard key={company.id} company={company} />
-          ))}
+      {/* Recommended Section - только StekloRoll для rolletnye-shkafy */}
+      {recommendedSuppliers.length > 0 && (
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">Рекомендуемые</h2>
+          <div className="space-y-3">
+            {recommendedSuppliers.map(company => (
+              <CompanyCard key={company.id} company={company} />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
+      
+      {/* Main Companies Section */}
+      {mainSuppliers.length > 0 && (
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">
+            {showOnlyStekloRoll ? 'Все поставщики' : 'Компании и контакты'}
+          </h2>
+          <div className="space-y-3">
+            {mainSuppliers.map(company => (
+              <CompanyCard key={company.id} company={company} />
+            ))}
+          </div>
+        </div>
+      )}
       
       {filteredSuppliers.length === 0 && (
         <div className="text-center py-12 bg-white rounded-lg">
