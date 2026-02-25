@@ -4,7 +4,9 @@ import Link from 'next/link'
 import { CATEGORIES, getCategoryMetadata } from '@/lib/seo/catalog'
 import { CANONICAL_REGIONS } from '@/lib/seo/regions'
 import CategoryPage from '../components/CategoryPage'
+import CategoryCover from '../components/CategoryCover'
 import { getCatalogMode, isWhitelistMode } from '@/lib/catalogMode'
+import { getCategoryName, getCategoryImage } from '@/lib/categories'
 import fs from 'fs'
 import path from 'path'
 
@@ -82,7 +84,20 @@ export default async function Page({
     // Multiple regions: show region selector page
     return (
       <div className="min-h-screen bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="max-w-7xl mx-auto px-4 py-8">
+          {/* Category Cover */}
+          {(() => {
+            const imageSrc = getCategoryImage(category)
+            return imageSrc ? (
+              <CategoryCover
+                title={catData.name}
+                description={`Каталог поставщиков ${catData.name.toLowerCase()}`}
+                imageSrc={imageSrc}
+                imageAlt={catData.name}
+              />
+            ) : null
+          })()}
+          
           <h1 className="text-3xl font-bold text-gray-900 mb-4">{catData.name}</h1>
           <p className="text-gray-600 mb-8">Выберите регион:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

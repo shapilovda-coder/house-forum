@@ -2,8 +2,10 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
 import CategoryRegionPage from '../../components/CategoryRegionPage'
+import CategoryCover from '../../components/CategoryCover'
 import { isWhitelistMode, getCatalogMode } from '@/lib/catalogMode'
 import { applyPinnedSuppliers, getPinnedForCategory } from '@/lib/pinnedConfig'
+import { getCategoryImage } from '@/lib/categories'
 import fs from 'fs'
 import path from 'path'
 
@@ -200,15 +202,30 @@ export default async function Page({
     const hideRecommended = category === 'myagkie-okna' && pinnedKeys.length === 0
     
     return (
-      <CategoryRegionPage 
-        category={catData}
-        region={regData}
-        suppliers={finalSuppliers}
-        cities={['Москва']}
-        totalCount={finalSuppliers.length}
-        showOnlyStekloRoll={showOnlyStekloRoll}
-        hideRecommended={hideRecommended}
-      />
+      <>
+        {(() => {
+          const imageSrc = getCategoryImage(category)
+          return imageSrc ? (
+            <div className="max-w-5xl mx-auto px-4 pt-4">
+              <CategoryCover
+                title={`${catData.nameShort} — ${regData.nameShort}`}
+                description={`Каталог поставщиков ${catData.name.toLowerCase()} в ${regData.namePrepositional || regData.name}`}
+                imageSrc={imageSrc}
+                imageAlt={catData.name}
+              />
+            </div>
+          ) : null
+        })()}
+        <CategoryRegionPage 
+          category={catData}
+          region={regData}
+          suppliers={finalSuppliers}
+          cities={['Москва']}
+          totalCount={finalSuppliers.length}
+          showOnlyStekloRoll={showOnlyStekloRoll}
+          hideRecommended={hideRecommended}
+        />
+      </>
     )
   }
   
@@ -230,12 +247,28 @@ export default async function Page({
   logBuild(category, region, 'catalog', 'clean/suppliers_clean', finalSuppliers.length)
   
   return (
-    <CategoryRegionPage 
-      category={catData}
-      region={regData}
-      suppliers={finalSuppliers}
-      cities={citiesInRegion}
-      totalCount={finalSuppliers.length}
-    />
+    <>
+      {(() => {
+        const imageSrc = getCategoryImage(category)
+        return imageSrc ? (
+          <div className="max-w-5xl mx-auto px-4 pt-4">
+            <CategoryCover
+              title={`${catData.nameShort} — ${regData.nameShort}`}
+              description={`Каталог поставщиков ${catData.name.toLowerCase()} в ${regData.namePrepositional || regData.name}`}
+              imageSrc={imageSrc}
+              imageAlt={catData.name}
+            />
+          </div>
+        ) : null
+      })()}
+      
+      <CategoryRegionPage 
+        category={catData}
+        region={regData}
+        suppliers={finalSuppliers}
+        cities={citiesInRegion}
+        totalCount={finalSuppliers.length}
+      />
+    </>
   )
 }

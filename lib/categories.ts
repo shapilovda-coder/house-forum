@@ -1,4 +1,4 @@
-// lib/categories.ts — Human-readable category names
+// lib/categories.ts — Human-readable category names and images
 
 export const CATEGORY_NAMES: Record<string, string> = {
   'prozrachnye-rolstavni': 'Прозрачные рольставни',
@@ -10,6 +10,16 @@ export const CATEGORY_NAMES: Record<string, string> = {
   'myagkie-okna': 'Мягкие окна',
 }
 
+export const CATEGORY_IMAGES: Record<string, string> = {
+  'prozrachnye-rolstavni': '/categories/prozrachnye.jpg',
+  'zashitnye-rolstavni': '/categories/zashchitnye.jpg',
+  'rolletnye-shkafy': '/categories/rolletnye.jpg',
+  'bezramnoe-osteklenie': '/categories/bezramnoe.jpg',
+  'ofisnye-peregorodki': '/categories/ofisnye.jpg',
+  'vorota': '/categories/vorota.png',
+  'myagkie-okna': '/categories/myagkie.jpg',
+}
+
 export const REGION_NAMES: Record<string, string> = {
   'moskva-i-mo': 'Москва и МО',
   'spb-lo': 'СПб и ЛО',
@@ -17,6 +27,10 @@ export const REGION_NAMES: Record<string, string> = {
 
 export function getCategoryName(slug: string): string {
   return CATEGORY_NAMES[slug] || slug
+}
+
+export function getCategoryImage(slug: string): string | null {
+  return CATEGORY_IMAGES[slug] || null
 }
 
 export function getRegionName(slug: string): string {
