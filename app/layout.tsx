@@ -29,6 +29,9 @@ export default function RootLayout({
               </span>
             </Link>
             <span className="text-sm text-gray-500 hidden sm:block">Каталог поставщиков</span>
+            <Link href="/postavshchiki/" className="text-sm text-blue-600 hover:text-blue-800 hidden sm:block">
+              Все поставщики
+            </Link>
           </div>
         </header>
 

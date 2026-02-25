@@ -8,7 +8,7 @@ import fs from 'fs'
 import path from 'path'
 
 // TEMP build log flag (set to true for debugging)
-const DEBUG_BUILD = process.env.DEBUG_BUILD === 'true'
+const DEBUG_BUILD = true // Always log for visibility
 
 function logBuild(category: string, region: string, mode: string, source: string, count: number) {
   if (DEBUG_BUILD) {
