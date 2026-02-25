@@ -1,0 +1,3397 @@
+[
+  {
+    "id": 6,
+    "slug": "zavod-rollet-ru",
+    "name": "User verification...",
+    "domain": "zavod-rollet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 25,
+    "slug": "otkatnye-vorota-tut-ru",
+    "name": "Купить откатные ворота в Москве: на дачу, для частного дома, склада. Установка под ключ. Цена от про",
+    "domain": "otkatnye-vorota-tut.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 31,
+    "slug": "grandline-ru",
+    "name": "Grand Line ⌂",
+    "domain": "grandline.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 35,
+    "slug": "mjagkieokna-ru",
+    "name": "Мягкие окна для веранды, беседок и террас в Москве",
+    "domain": "mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 24,
+    "slug": "vorota-mp-ru",
+    "name": "Производство и продажа металлических ворот: откатные, распашные ворота",
+    "domain": "vorota-mp.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 10,
+    "slug": "allo-rolstavni-ru",
+    "name": "Рольставни по цене от 2500 руб. За 3 дня",
+    "domain": "allo-rolstavni.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 14,
+    "slug": "stranavorot-ru",
+    "name": "47.237.82.141 21.02.2026 23:02:51",
+    "domain": "stranavorot.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 32,
+    "slug": "kinopoisk-ru",
+    "name": "Вы не робот?",
+    "domain": "kinopoisk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 36,
+    "slug": "miagkieokna-ru",
+    "name": "Мягкие окна в Москве для веранды, беседок и террас",
+    "domain": "miagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 50,
+    "slug": "wallbest-ru",
+    "name": "Офисные перегородки в Москве недорого",
+    "domain": "wallbest.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 54,
+    "slug": "express-office-ru",
+    "name": "Подтверждение кода безопасности \"Экспресс Офис\"",
+    "domain": "express-office.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 73,
+    "slug": "evro-rolstavni-ru",
+    "name": "Рольставни, ворота и жалюзи АЛЮТЕХ в Москве и МО – ПрофЛидер",
+    "domain": "evro-rolstavni.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 88,
+    "slug": "xn--80aestcfhjjs-xn--p1ai",
+    "name": "Профставни",
+    "domain": "xn--80aestcfhjjs.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 164,
+    "slug": "xn--80aaprl0afio1b-xn--p1ai",
+    "name": "Шкафмастер",
+    "domain": "xn--80aaprl0afio1b.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 188,
+    "slug": "shop-ctepx-ru",
+    "name": "Shop.Ctepx",
+    "domain": "shop.ctepx.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 256,
+    "slug": "gatemart-ru",
+    "name": "Gatemart",
+    "domain": "gatemart.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 38,
+    "slug": "oknafactoria-ru",
+    "name": "ERROR",
+    "domain": "oknafactoria.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 47,
+    "slug": "oki-doki-ru",
+    "name": "Are you not a robot?",
+    "domain": "oki-doki.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 52,
+    "slug": "gstrong-ru",
+    "name": "Офисные перегородки в Москве",
+    "domain": "gstrong.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 75,
+    "slug": "rolmaster-ru",
+    "name": "RolMaster в Москве",
+    "domain": "rolmaster.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 2,
+    "slug": "vorota-group-ru",
+    "name": "Автоматические ворота и рольставни: купить в Москве с установкой по низким ценам под ключ",
+    "domain": "vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 58,
+    "slug": "mebela-ru",
+    "name": "Офисная мебель",
+    "domain": "mebela.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 72,
+    "slug": "интбест-рф",
+    "name": "Интернет",
+    "domain": "интбест.рф",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 444,
+    "slug": "сдмк-spb",
+    "name": "СДМК",
+    "domain": "sdmk.spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 449,
+    "slug": "alutech-спб-spb",
+    "name": "Alutech СПб",
+    "domain": "spb.alutech.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 451,
+    "slug": "landal-spb",
+    "name": "Landal",
+    "domain": "spb.landal.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 100,
+    "slug": "grandelux-ru",
+    "name": "Grandelux",
+    "domain": "grandelux.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 108,
+    "slug": "xn--80aesjmcnkj2h-xn--p1ai",
+    "name": "Рольставни",
+    "domain": "xn--80aesjmcnkj2h.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 144,
+    "slug": "getangel-ru",
+    "name": "Getangel",
+    "domain": "getangel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 93,
+    "slug": "vorota-24-ru",
+    "name": "Vorota 24",
+    "domain": "vorota-24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 95,
+    "slug": "jaluzi-style-ru",
+    "name": "Jaluzi Style",
+    "domain": "jaluzi-style.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 96,
+    "slug": "otkatnye-vorotaa-ru",
+    "name": "Otkatnye Vorotaa",
+    "domain": "otkatnye-vorotaa.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 102,
+    "slug": "rol-servis-ru",
+    "name": "Rol Servis",
+    "domain": "rol-servis.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 105,
+    "slug": "podolskie-okna-ru",
+    "name": "Podolskie Okna",
+    "domain": "podolskie-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 109,
+    "slug": "sun-rolls-ru",
+    "name": "Sun Rolls",
+    "domain": "sun-rolls.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 112,
+    "slug": "chehov-vorota-group-ru",
+    "name": "Chehov.Vorota Group",
+    "domain": "chehov.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 113,
+    "slug": "dmitrov-stylishblinds-ru",
+    "name": "Dmitrov.Stylishblinds",
+    "domain": "dmitrov.stylishblinds.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 114,
+    "slug": "dmitrov-vorota-group-ru",
+    "name": "Dmitrov.Vorota Group",
+    "domain": "dmitrov.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 116,
+    "slug": "dubna-vorota-group-ru",
+    "name": "Dubna.Vorota Group",
+    "domain": "dubna.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 117,
+    "slug": "egorevsk-vorota-group-ru",
+    "name": "Egorevsk.Vorota Group",
+    "domain": "egorevsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 118,
+    "slug": "glass-rolletvdom-ru",
+    "name": "Glass.Rolletvdom",
+    "domain": "glass.rolletvdom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 119,
+    "slug": "himki-vorota-group-ru",
+    "name": "Himki.Vorota Group",
+    "domain": "himki.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 120,
+    "slug": "istra-vorota-group-ru",
+    "name": "Istra.Vorota Group",
+    "domain": "istra.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 121,
+    "slug": "kashira-vorota-group-ru",
+    "name": "Kashira.Vorota Group",
+    "domain": "kashira.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 122,
+    "slug": "klin-vorota-group-ru",
+    "name": "Klin.Vorota Group",
+    "domain": "klin.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 123,
+    "slug": "kolomna-vorota-group-ru",
+    "name": "Kolomna.Vorota Group",
+    "domain": "kolomna.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 124,
+    "slug": "korolev-vorota-group-ru",
+    "name": "Korolev.Vorota Group",
+    "domain": "korolev.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 125,
+    "slug": "mozhaysk-vorota-group-ru",
+    "name": "Mozhaysk.Vorota Group",
+    "domain": "mozhaysk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 126,
+    "slug": "mytischi-vorota-group-ru",
+    "name": "Mytischi.Vorota Group",
+    "domain": "mytischi.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 127,
+    "slug": "mytishchi-moskva-jaluzi-ru",
+    "name": "Mytishchi.Moskva Jaluzi",
+    "domain": "mytishchi.moskva-jaluzi.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 128,
+    "slug": "naro-fominsk-vorota-group-ru",
+    "name": "Naro Fominsk.Vorota Group",
+    "domain": "naro-fominsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 111,
+    "slug": "myagkiydom-ru",
+    "name": "Myagkiydom",
+    "domain": "myagkiydom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 89,
+    "slug": "alutech-ru",
+    "name": "Alutech",
+    "domain": "alutech.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 90,
+    "slug": "glasrol-ru",
+    "name": "Glasrol",
+    "domain": "glasrol.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 92,
+    "slug": "tancom-ru",
+    "name": "Tancom",
+    "domain": "tancom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 98,
+    "slug": "rolletvdom-ru",
+    "name": "Rolletvdom",
+    "domain": "rolletvdom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 101,
+    "slug": "vorotaforum-ru",
+    "name": "Vorotaforum",
+    "domain": "vorotaforum.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 107,
+    "slug": "xn--80aleen8i-xn--p1ai",
+    "name": "Жалюзи",
+    "domain": "xn--80aleen8i.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 104,
+    "slug": "forumhouse-ru",
+    "name": "Forumhouse",
+    "domain": "forumhouse.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 106,
+    "slug": "sports-ru",
+    "name": "Sports",
+    "domain": "sports.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 110,
+    "slug": "lemanapro-ru",
+    "name": "Lemanapro",
+    "domain": "lemanapro.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 115,
+    "slug": "domodedovo-vorota-group-ru",
+    "name": "Domodedovo.Vorota Group",
+    "domain": "domodedovo.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 91,
+    "slug": "rol-stroy-ru",
+    "name": "Rol Stroy",
+    "domain": "rol-stroy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 94,
+    "slug": "abc-safety-ru",
+    "name": "Abc Safety",
+    "domain": "abc-safety.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 99,
+    "slug": "rolstavni-prom-ru",
+    "name": "Rolstavni Prom",
+    "domain": "rolstavni-prom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 103,
+    "slug": "stylishblinds-ru",
+    "name": "Stylishblinds",
+    "domain": "stylishblinds.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 445,
+    "slug": "roll-box-spb",
+    "name": "Roll Box",
+    "domain": "roll-box.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 129,
+    "slug": "noginsk-vorota-group-ru",
+    "name": "Noginsk.Vorota Group",
+    "domain": "noginsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 130,
+    "slug": "orekhovo-zuevo-vorota-group-ru",
+    "name": "Orekhovo Zuevo.Vorota Group",
+    "domain": "orekhovo-zuevo.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 131,
+    "slug": "pavlovsky-posad-vorota-group-ru",
+    "name": "Pavlovsky Posad.Vorota Group",
+    "domain": "pavlovsky-posad.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 132,
+    "slug": "podolsk-vorota-group-ru",
+    "name": "Podolsk.Vorota Group",
+    "domain": "podolsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 133,
+    "slug": "ramenskoe-vorota-group-ru",
+    "name": "Ramenskoe.Vorota Group",
+    "domain": "ramenskoe.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 134,
+    "slug": "ruza-vorota-group-ru",
+    "name": "Ruza.Vorota Group",
+    "domain": "ruza.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 135,
+    "slug": "sergiev-posad-vorota-group-ru",
+    "name": "Sergiev Posad.Vorota Group",
+    "domain": "sergiev-posad.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 136,
+    "slug": "serpuhov-vorota-group-ru",
+    "name": "Serpuhov.Vorota Group",
+    "domain": "serpuhov.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 137,
+    "slug": "shchyolkovo-vorota-group-ru",
+    "name": "Shchyolkovo.Vorota Group",
+    "domain": "shchyolkovo.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 138,
+    "slug": "solnechnogorsk-vorota-group-ru",
+    "name": "Solnechnogorsk.Vorota Group",
+    "domain": "solnechnogorsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 145,
+    "slug": "good-docom",
+    "name": "Good Docom",
+    "domain": "good-docom",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 150,
+    "slug": "parus-msk-ru",
+    "name": "Parus Msk",
+    "domain": "parus-msk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 151,
+    "slug": "roll-box-ru",
+    "name": "Roll Box",
+    "domain": "roll-box.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 154,
+    "slug": "rolstavni-proru",
+    "name": "Rolstavni Proru",
+    "domain": "rolstavni-proru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 176,
+    "slug": "orehovo-zuevo-automaticheskie-vorota-ru",
+    "name": "Orehovo Zuevo.Automaticheskie Vorota",
+    "domain": "orehovo-zuevo.automaticheskie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 180,
+    "slug": "rolety24-ru",
+    "name": "Rolety24",
+    "domain": "rolety24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 167,
+    "slug": "zavod-tsk-ru",
+    "name": "Zavod Tsk",
+    "domain": "zavod-tsk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 168,
+    "slug": "balashiha-vorota-group-ru",
+    "name": "Balashiha.Vorota Group",
+    "domain": "balashiha.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 169,
+    "slug": "domodedovo-stylishblinds-ru",
+    "name": "Domodedovo.Stylishblinds",
+    "domain": "domodedovo.stylishblinds.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 170,
+    "slug": "ivanteevka-vorota-group-ru",
+    "name": "Ivanteevka.Vorota Group",
+    "domain": "ivanteevka.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 171,
+    "slug": "krasnogorsk-vorota-group-ru",
+    "name": "Krasnogorsk.Vorota Group",
+    "domain": "krasnogorsk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 172,
+    "slug": "krasnoznamensk-vorota-group-ru",
+    "name": "Krasnoznamensk.Vorota Group",
+    "domain": "krasnoznamensk.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 173,
+    "slug": "losino-petrovsky-vorota-group-ru",
+    "name": "Losino Petrovsky.Vorota Group",
+    "domain": "losino-petrovsky.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 174,
+    "slug": "luhovitsy-vorota-group-ru",
+    "name": "Luhovitsy.Vorota Group",
+    "domain": "luhovitsy.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 175,
+    "slug": "odintsovo-vorota-group-ru",
+    "name": "Odintsovo.Vorota Group",
+    "domain": "odintsovo.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 178,
+    "slug": "podolsk-moskva-jaluzi-ru",
+    "name": "Podolsk.Moskva Jaluzi",
+    "domain": "podolsk.moskva-jaluzi.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 179,
+    "slug": "pushkino-vorota-group-ru",
+    "name": "Pushkino.Vorota Group",
+    "domain": "pushkino.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 183,
+    "slug": "rolstavni-24-ru",
+    "name": "Rolstavni 24",
+    "domain": "rolstavni-24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 186,
+    "slug": "sergiev-posad-automaticheskie-vorota-ru",
+    "name": "Sergiev Posad.Automaticheskie Vorota",
+    "domain": "sergiev-posad.automaticheskie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 187,
+    "slug": "shatura-vorota-group-ru",
+    "name": "Shatura.Vorota Group",
+    "domain": "shatura.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 163,
+    "slug": "xn--80aaffyidzol4b7b-xn--p1ai",
+    "name": "Шкафвпаркинг",
+    "domain": "xn--80aaffyidzol4b7b.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 184,
+    "slug": "rolstavni-shop",
+    "name": "Rolstavni.Shop",
+    "domain": "rolstavni.shop",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 156,
+    "slug": "shkaf-parking-msk-ru",
+    "name": "Shkaf Parking Msk",
+    "domain": "shkaf-parking-msk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 166,
+    "slug": "xn--80aczcttr3a-xn--p1ai",
+    "name": "Шкафбокс",
+    "domain": "xn--80aczcttr3a.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 141,
+    "slug": "city-jaluzi-ru",
+    "name": "City Jaluzi",
+    "domain": "city-jaluzi.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 177,
+    "slug": "podolsk-automaticheskie-vorota-ru",
+    "name": "Podolsk.Automaticheskie Vorota",
+    "domain": "podolsk.automaticheskie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 142,
+    "slug": "domebox-ru",
+    "name": "Domebox",
+    "domain": "domebox.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 158,
+    "slug": "st-box-ru",
+    "name": "St Box",
+    "domain": "st-box.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 185,
+    "slug": "rolstavnimsk-ru",
+    "name": "Rolstavnimsk",
+    "domain": "rolstavnimsk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 146,
+    "slug": "korsarbox-ru",
+    "name": "Korsarbox",
+    "domain": "korsarbox.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 147,
+    "slug": "mebstal-ru",
+    "name": "Mebstal",
+    "domain": "mebstal.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 148,
+    "slug": "metallfurniture-ru",
+    "name": "Metallfurniture",
+    "domain": "metallfurniture.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 139,
+    "slug": "vidnoe-vorota-group-ru",
+    "name": "Vidnoe.Vorota Group",
+    "domain": "vidnoe.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 152,
+    "slug": "rollstaff-ru",
+    "name": "Rollstaff",
+    "domain": "rollstaff.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 153,
+    "slug": "rolmebel-ru",
+    "name": "Rolmebel",
+    "domain": "rolmebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 155,
+    "slug": "safes-ru",
+    "name": "Safes",
+    "domain": "safes.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 157,
+    "slug": "skoggy-ru",
+    "name": "Skoggy",
+    "domain": "skoggy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 159,
+    "slug": "stavni777-ru",
+    "name": "Stavni777",
+    "domain": "stavni777.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 140,
+    "slug": "alutech-moscow",
+    "name": "Alutech",
+    "domain": "alutech.moscow",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 181,
+    "slug": "rollerdoor-ru",
+    "name": "Rollerdoor",
+    "domain": "rollerdoor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 446,
+    "slug": "alumdevelop-spb",
+    "name": "Alumdevelop",
+    "domain": "alumdevelop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 143,
+    "slug": "doorhan-moscow",
+    "name": "Doorhan",
+    "domain": "doorhan.moscow",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 182,
+    "slug": "rolltop-ru",
+    "name": "Rolltop",
+    "domain": "rolltop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 189,
+    "slug": "stupino-vorota-group-ru",
+    "name": "Stupino.Vorota Group",
+    "domain": "stupino.vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 191,
+    "slug": "55ru",
+    "name": "55Ru",
+    "domain": "55ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 192,
+    "slug": "chehov-miagkieokna-ru",
+    "name": "Chehov.Miagkieokna",
+    "domain": "chehov.miagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 193,
+    "slug": "dmitrov-mjagkieokna-ru",
+    "name": "Dmitrov.Mjagkieokna",
+    "domain": "dmitrov.mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 194,
+    "slug": "egorevsk-myagkieokna-mo-ru",
+    "name": "Egorevsk.Myagkieokna Mo",
+    "domain": "egorevsk.myagkieokna-mo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 195,
+    "slug": "egorevsk-tentoptoru",
+    "name": "Egorevsk.Tentoptoru",
+    "domain": "egorevsk.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 196,
+    "slug": "ekaterinburg-mjagkieokna-ru",
+    "name": "Ekaterinburg.Mjagkieokna",
+    "domain": "ekaterinburg.mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 197,
+    "slug": "fabrika-mjagkie-okna-ru",
+    "name": "Fabrika Mjagkie Okna",
+    "domain": "fabrika-mjagkie-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 198,
+    "slug": "kolomna-tentoptoru",
+    "name": "Kolomna.Tentoptoru",
+    "domain": "kolomna.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 199,
+    "slug": "lider-tent-ru",
+    "name": "Lider Tent",
+    "domain": "lider-tent.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 201,
+    "slug": "myagkie-okna-klin-ru",
+    "name": "Myagkie Okna Klin",
+    "domain": "myagkie-okna-klin.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 202,
+    "slug": "myagkie-okna-msk-ru",
+    "name": "Myagkie Okna.Msk",
+    "domain": "myagkie-okna.msk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 204,
+    "slug": "mytishchi-mjagkieokna-ru",
+    "name": "Mytishchi.Mjagkieokna",
+    "domain": "mytishchi.mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 205,
+    "slug": "naro-fominsk-tentoptoru",
+    "name": "Naro Fominsk.Tentoptoru",
+    "domain": "naro-fominsk.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 206,
+    "slug": "odincovo-tent-opt-ru",
+    "name": "Odincovo.Tent Opt",
+    "domain": "odincovo.tent-opt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 207,
+    "slug": "okna-sofia-ru",
+    "name": "Okna Sofia",
+    "domain": "okna-sofia.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 208,
+    "slug": "okna-vit-ru",
+    "name": "Okna Vit",
+    "domain": "okna-vit.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 211,
+    "slug": "proline-okna-ru",
+    "name": "Proline Okna",
+    "domain": "proline-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 212,
+    "slug": "ramenskoe-tentoptoru",
+    "name": "Ramenskoe.Tentoptoru",
+    "domain": "ramenskoe.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 213,
+    "slug": "serpuhov-tentoptoru",
+    "name": "Serpuhov.Tentoptoru",
+    "domain": "serpuhov.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 214,
+    "slug": "shatura-tentoptoru",
+    "name": "Shatura.Tentoptoru",
+    "domain": "shatura.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 216,
+    "slug": "solnechnogorsk-oknafactoria-ru",
+    "name": "Solnechnogorsk.Oknafactoria",
+    "domain": "solnechnogorsk.oknafactoria.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 217,
+    "slug": "solnechnogorsk-tentoptoru",
+    "name": "Solnechnogorsk.Tentoptoru",
+    "domain": "solnechnogorsk.tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 218,
+    "slug": "stupino-mjagkieokna-ru",
+    "name": "Stupino.Mjagkieokna",
+    "domain": "stupino.mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 219,
+    "slug": "tent-chehol-com",
+    "name": "Tent Chehol.Com",
+    "domain": "tent-chehol.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 221,
+    "slug": "tentoptoru",
+    "name": "Tentoptoru",
+    "domain": "tentoptoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 222,
+    "slug": "voskresensk-myagkieokna-mo-ru",
+    "name": "Voskresensk.Myagkieokna Mo",
+    "domain": "voskresensk.myagkieokna-mo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 236,
+    "slug": "automat-vorota-ru",
+    "name": "Automat Vorota",
+    "domain": "automat-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 226,
+    "slug": "1-zabor-ru",
+    "name": "1 Zabor",
+    "domain": "1-zabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 230,
+    "slug": "alutech-group-com",
+    "name": "Alutech Group",
+    "domain": "alutech-group.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 231,
+    "slug": "alutech-proect-ru",
+    "name": "Alutech Proect",
+    "domain": "alutech-proect.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 232,
+    "slug": "aprelevka-77vorota-ru",
+    "name": "Aprelevka.77Vorota",
+    "domain": "aprelevka.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 235,
+    "slug": "atlant-stal-ru",
+    "name": "Atlant Stal",
+    "domain": "atlant-stal.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 238,
+    "slug": "av-door-ru",
+    "name": "Av Door",
+    "domain": "av-door.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 243,
+    "slug": "dock-lift-ru",
+    "name": "Dock Lift",
+    "domain": "dock-lift.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 244,
+    "slug": "domodedovo-77vorota-ru",
+    "name": "Domodedovo.77Vorota",
+    "domain": "domodedovo.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 245,
+    "slug": "domodedovo-oblzabor-ru",
+    "name": "Domodedovo.Oblzabor",
+    "domain": "domodedovo.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 229,
+    "slug": "all-zabor-ru",
+    "name": "All Zabor",
+    "domain": "all-zabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 247,
+    "slug": "doorhan-nw-ru",
+    "name": "Doorhan Nw",
+    "domain": "doorhan-nw.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 249,
+    "slug": "dor-ru",
+    "name": "Dor Ru",
+    "domain": "dor-ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 250,
+    "slug": "dostup-zabor-ru",
+    "name": "Dostup Zabor",
+    "domain": "dostup-zabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 251,
+    "slug": "dveri-puls-ru",
+    "name": "Dveri Puls",
+    "domain": "dveri-puls.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 252,
+    "slug": "evro-tent-ru",
+    "name": "Evro Tent",
+    "domain": "evro-tent.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 224,
+    "slug": "xn--80aqekd4a-xn--p1ai",
+    "name": "Кантим",
+    "domain": "xn--80aqekd4a.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 225,
+    "slug": "xn--b1afyerc2d-xn--p1ai",
+    "name": "Тентовъ",
+    "domain": "xn--b1afyerc2d.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 190,
+    "slug": "tstn-ru",
+    "name": "Tstn",
+    "domain": "tstn.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 203,
+    "slug": "myagkieokna24-ru",
+    "name": "Myagkieokna24",
+    "domain": "myagkieokna24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 209,
+    "slug": "oknadlyadachi-ru",
+    "name": "Oknadlyadachi",
+    "domain": "oknadlyadachi.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 210,
+    "slug": "oknatent-ru",
+    "name": "Oknatent",
+    "domain": "oknatent.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 215,
+    "slug": "softglass-org",
+    "name": "Softglass.Org",
+    "domain": "softglass.org",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 227,
+    "slug": "3list-ru",
+    "name": "3List",
+    "domain": "3list.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 237,
+    "slug": "automaticgates-ru",
+    "name": "Automaticgates",
+    "domain": "automaticgates.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 234,
+    "slug": "astorural-ru",
+    "name": "Astorural",
+    "domain": "astorural.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 239,
+    "slug": "avtoproezd-ru",
+    "name": "Avtoproezd",
+    "domain": "avtoproezd.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 240,
+    "slug": "bramy-ru",
+    "name": "Bramy",
+    "domain": "bramy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 242,
+    "slug": "divamsk-ru",
+    "name": "Divamsk",
+    "domain": "divamsk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 248,
+    "slug": "doorhan-ru",
+    "name": "Doorhan",
+    "domain": "doorhan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 220,
+    "slug": "tent-opt-ru",
+    "name": "Tent Opt",
+    "domain": "tent-opt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 241,
+    "slug": "constructor-rf-ru",
+    "name": "Constructor Rf",
+    "domain": "constructor-rf.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 253,
+    "slug": "expert-vorota-ru",
+    "name": "Expert Vorota",
+    "domain": "expert-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 268,
+    "slug": "lider-doors-ru",
+    "name": "Lider Doors",
+    "domain": "lider-doors.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 255,
+    "slug": "fireproof-doors-ru",
+    "name": "Fireproof Doors",
+    "domain": "fireproof-doors.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 258,
+    "slug": "good-zabor-ru",
+    "name": "Good Zabor",
+    "domain": "good-zabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 259,
+    "slug": "hormann-sales-ru",
+    "name": "Hormann Sales",
+    "domain": "hormann-sales.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 261,
+    "slug": "istra-77vorota-ru",
+    "name": "Istra.77Vorota",
+    "domain": "istra.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 262,
+    "slug": "istra-oblzabor-ru",
+    "name": "Istra.Oblzabor",
+    "domain": "istra.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 264,
+    "slug": "kolesa-opori-ru",
+    "name": "Kolesa Opori",
+    "domain": "kolesa-opori.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 292,
+    "slug": "ozinkovka-ru",
+    "name": "Ozinkovka",
+    "domain": "ozinkovka.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 266,
+    "slug": "krasnogorsk-77vorota-ru",
+    "name": "Krasnogorsk.77Vorota",
+    "domain": "krasnogorsk.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 267,
+    "slug": "kupi-vorota-ru",
+    "name": "Kupi Vorota",
+    "domain": "kupi-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 273,
+    "slug": "metal-tehdoor-ru",
+    "name": "Metal Tehdoor",
+    "domain": "metal-tehdoor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 276,
+    "slug": "mki-kovka-ru",
+    "name": "Mki Kovka",
+    "domain": "mki-kovka.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 277,
+    "slug": "moscow-zabor-ru",
+    "name": "Moscow Zabor",
+    "domain": "moscow-zabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 278,
+    "slug": "moscow-doorhan-ru",
+    "name": "Moscow.Doorhan",
+    "domain": "moscow.doorhan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 279,
+    "slug": "moscow-promportal-su",
+    "name": "Moscow.Promportal.Su",
+    "domain": "moscow.promportal.su",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 280,
+    "slug": "moskva-korn-ru",
+    "name": "Moskva.Korn",
+    "domain": "moskva.korn.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 281,
+    "slug": "moskva-vorotnet-ru",
+    "name": "Moskva.Vorotnet",
+    "domain": "moskva.vorotnet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 282,
+    "slug": "msk-doorhantd-ru",
+    "name": "Msk.Doorhantd",
+    "domain": "msk.doorhantd.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 283,
+    "slug": "msk-dyntek-ru",
+    "name": "Msk.Dyntek",
+    "domain": "msk.dyntek.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 284,
+    "slug": "msk-kp-ru",
+    "name": "Msk.Kp",
+    "domain": "msk.kp.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 285,
+    "slug": "mva-rolltor-ru",
+    "name": "Mva Rolltor",
+    "domain": "mva-rolltor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 286,
+    "slug": "naro-fominsk-77vorota-ru",
+    "name": "Naro Fominsk.77Vorota",
+    "domain": "naro-fominsk.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 287,
+    "slug": "naro-fominsk-oblzabor-ru",
+    "name": "Naro Fominsk.Oblzabor",
+    "domain": "naro-fominsk.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 288,
+    "slug": "nicedoby",
+    "name": "Nicedoby",
+    "domain": "nicedoby",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 289,
+    "slug": "odintsovo-77vorota-ru",
+    "name": "Odintsovo.77Vorota",
+    "domain": "odintsovo.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 290,
+    "slug": "odintsovo-automaticheskie-vorota-ru",
+    "name": "Odintsovo.Automaticheskie Vorota",
+    "domain": "odintsovo.automaticheskie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 291,
+    "slug": "otkrytie-vorota-ru",
+    "name": "Otkrytie Vorota",
+    "domain": "otkrytie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 293,
+    "slug": "podolsk-77vorota-ru",
+    "name": "Podolsk.77Vorota",
+    "domain": "podolsk.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 294,
+    "slug": "prof-zabory-ru",
+    "name": "Prof Zabory",
+    "domain": "prof-zabory.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 454,
+    "slug": "нестекла-spb",
+    "name": "Нестекла",
+    "domain": "nestekla.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 300,
+    "slug": "proshlagbauru",
+    "name": "Proshlagbauru",
+    "domain": "proshlagbauru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 302,
+    "slug": "raduga-zaborov-ru",
+    "name": "Raduga Zaborov",
+    "domain": "raduga-zaborov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 303,
+    "slug": "ramenskoe-automaticheskie-vorota-ru",
+    "name": "Ramenskoe.Automaticheskie Vorota",
+    "domain": "ramenskoe.automaticheskie-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 304,
+    "slug": "ramenskoe-oblzabor-ru",
+    "name": "Ramenskoe.Oblzabor",
+    "domain": "ramenskoe.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 305,
+    "slug": "remont-vorot24-ru",
+    "name": "Remont Vorot24",
+    "domain": "remont-vorot24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 308,
+    "slug": "ruza-77vorota-ru",
+    "name": "Ruza.77Vorota",
+    "domain": "ruza.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 309,
+    "slug": "sart-vorota-ru",
+    "name": "Sart Vorota",
+    "domain": "sart-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 310,
+    "slug": "satro-paladin-com",
+    "name": "Satro Paladin",
+    "domain": "satro-paladin.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 311,
+    "slug": "sec-group-ru",
+    "name": "Sec Group",
+    "domain": "sec-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 312,
+    "slug": "sergiev-posad-oblzabor-ru",
+    "name": "Sergiev Posad.Oblzabor",
+    "domain": "sergiev-posad.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 313,
+    "slug": "shazacom",
+    "name": "Shazacom",
+    "domain": "shazacom",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 314,
+    "slug": "shelkovo-region-vorota-ru",
+    "name": "Shelkovo.Region Vorota",
+    "domain": "shelkovo.region-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 315,
+    "slug": "shlagbaum-grad-ru",
+    "name": "Shlagbaum Grad",
+    "domain": "shlagbaum-grad.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 316,
+    "slug": "shop-doorhan-ru",
+    "name": "Shop Doorhan",
+    "domain": "shop-doorhan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 317,
+    "slug": "solnechnogorsk-oblzabor-ru",
+    "name": "Solnechnogorsk.Oblzabor",
+    "domain": "solnechnogorsk.oblzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 318,
+    "slug": "sovet-ingenera-com",
+    "name": "Sovet Ingenera",
+    "domain": "sovet-ingenera.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 260,
+    "slug": "horoshie-zabory-ru",
+    "name": "Horoshie Zabory",
+    "domain": "horoshie-zabory.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 257,
+    "slug": "getgate-ru",
+    "name": "Getgate",
+    "domain": "getgate.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 263,
+    "slug": "ivd-ru",
+    "name": "Ivd",
+    "domain": "ivd.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 269,
+    "slug": "ligazaborov-ru",
+    "name": "Ligazaborov",
+    "domain": "ligazaborov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 270,
+    "slug": "logoslab-ru",
+    "name": "Logoslab",
+    "domain": "logoslab.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 271,
+    "slug": "masterovit-ru",
+    "name": "Masterovit",
+    "domain": "masterovit.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 274,
+    "slug": "metallproekt-ru",
+    "name": "Metallproekt",
+    "domain": "metallproekt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 275,
+    "slug": "metzabor-ru",
+    "name": "Metzabor",
+    "domain": "metzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 295,
+    "slug": "profi-ru",
+    "name": "Profi",
+    "domain": "profi.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 297,
+    "slug": "profzaborstroy-ru",
+    "name": "Profzaborstroy",
+    "domain": "profzaborstroy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 298,
+    "slug": "promgates-ru",
+    "name": "Promgates",
+    "domain": "promgates.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 299,
+    "slug": "properimetr-ru",
+    "name": "Properimetr",
+    "domain": "properimetr.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 301,
+    "slug": "pskzabor-ru",
+    "name": "Pskzabor",
+    "domain": "pskzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 306,
+    "slug": "rulonvorota-ru",
+    "name": "Rulonvorota",
+    "domain": "rulonvorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 307,
+    "slug": "russkiyzabor-ru",
+    "name": "Russkiyzabor",
+    "domain": "russkiyzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 320,
+    "slug": "staraya-kupavna-metaldveri-ru",
+    "name": "Staraya Kupavna.Metaldveri",
+    "domain": "staraya-kupavna.metaldveri.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 321,
+    "slug": "stat-parts-ru",
+    "name": "Stat Parts",
+    "domain": "stat-parts.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 326,
+    "slug": "t-j-ru",
+    "name": "T J",
+    "domain": "t-j.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 328,
+    "slug": "tancoru",
+    "name": "Tancoru",
+    "domain": "tancoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 329,
+    "slug": "technograd-group-ru",
+    "name": "Technograd Group",
+    "domain": "technograd-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 332,
+    "slug": "vektor-ts-com",
+    "name": "Vektor Ts",
+    "domain": "vektor-ts.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 333,
+    "slug": "volokolamsk-77vorota-ru",
+    "name": "Volokolamsk.77Vorota",
+    "domain": "volokolamsk.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 334,
+    "slug": "volokolamsk-zabor-dlya-doma-ru",
+    "name": "Volokolamsk.Zabor Dlya Doma",
+    "domain": "volokolamsk.zabor-dlya-doma.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 335,
+    "slug": "vorota-auto-ru",
+    "name": "Vorota Auto",
+    "domain": "vorota-auto.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 336,
+    "slug": "vorota-doma-ru",
+    "name": "Vorota Doma",
+    "domain": "vorota-doma.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 337,
+    "slug": "vorota-doorhan-ru",
+    "name": "Vorota Doorhan",
+    "domain": "vorota-doorhan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 338,
+    "slug": "vorota-goroda-ru",
+    "name": "Vorota Goroda",
+    "domain": "vorota-goroda.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 339,
+    "slug": "vorota-ilan-ru",
+    "name": "Vorota Ilan",
+    "domain": "vorota-ilan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 340,
+    "slug": "vorota-one-ru",
+    "name": "Vorota One",
+    "domain": "vorota-one.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 341,
+    "slug": "vorota-prestige-ru",
+    "name": "Vorota Prestige",
+    "domain": "vorota-prestige.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 342,
+    "slug": "vorota-stilstroy-ru",
+    "name": "Vorota Stilstroy",
+    "domain": "vorota-stilstroy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 343,
+    "slug": "vorota-varu",
+    "name": "Vorota Varu",
+    "domain": "vorota-varu",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 344,
+    "slug": "vorota-vseru",
+    "name": "Vorota Vseru",
+    "domain": "vorota-vseru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 345,
+    "slug": "vorota-zmk-ru",
+    "name": "Vorota Zmk",
+    "domain": "vorota-zmk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 447,
+    "slug": "ворота-групп-spb",
+    "name": "Ворота-Групп",
+    "domain": "vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 359,
+    "slug": "zabor-varu",
+    "name": "Zabor Varu",
+    "domain": "zabor-varu",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 364,
+    "slug": "zabory-deshevo-ru",
+    "name": "Zabory Deshevo",
+    "domain": "zabory-deshevo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 365,
+    "slug": "zavod-aviskoru",
+    "name": "Zavod Aviskoru",
+    "domain": "zavod-aviskoru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 369,
+    "slug": "zvenigorod-77vorota-ru",
+    "name": "Zvenigorod.77Vorota",
+    "domain": "zvenigorod.77vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 372,
+    "slug": "i-okna-ru",
+    "name": "Ай-Окна",
+    "domain": "i-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 374,
+    "slug": "okna-vinchelli-ru",
+    "name": "Окна Винчелли",
+    "domain": "okna-vinchelli.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 375,
+    "slug": "okna-v-pol-panoramnoe-osteklenie-balkonov-ru",
+    "name": "Окна в пол",
+    "domain": "okna-v-pol-panoramnoe-osteklenie-balkonov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 376,
+    "slug": "msk-okna-servise-com",
+    "name": "Окна-Сервис МСК",
+    "domain": "msk.okna-servise.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 378,
+    "slug": "al-solution-ru",
+    "name": "Ал-Солюшн",
+    "domain": "al-solution.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 379,
+    "slug": "balkoni-nedorogo-ru",
+    "name": "Балконы Недорого",
+    "domain": "balkoni-nedorogo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 380,
+    "slug": "balkony-pod-kluch-ru",
+    "name": "Балконы Под Ключ",
+    "domain": "balkony-pod-kluch.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 356,
+    "slug": "xn----7sbbefui0bjjhazu-xn--p1ai",
+    "name": "Монтаж Заборов",
+    "domain": "xn----7sbbefui0bjjhazu.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 357,
+    "slug": "xn--b1advnalp3h-xn--p1ai",
+    "name": "Дляворот",
+    "domain": "xn--b1advnalp3h.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 354,
+    "slug": "xn-----6kcbidkv5a5agcfa3azcg5c9g-xn--p1ai",
+    "name": "Завод Откатных Ворот",
+    "domain": "xn-----6kcbidkv5a5agcfa3azcg5c9g.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 355,
+    "slug": "xn-----6kccfvpfatujekbkuok9c0j-xn--p1ai",
+    "name": "Наро Фоминские Заборы",
+    "domain": "xn-----6kccfvpfatujekbkuok9c0j.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 319,
+    "slug": "stalivan-ru",
+    "name": "Stalivan",
+    "domain": "stalivan.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 322,
+    "slug": "stroyteks-net",
+    "name": "Stroyteks.Net",
+    "domain": "stroyteks.net",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 323,
+    "slug": "stroyzabor-ru",
+    "name": "Stroyzabor",
+    "domain": "stroyzabor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 325,
+    "slug": "svarnik-ru",
+    "name": "Svarnik",
+    "domain": "svarnik.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 327,
+    "slug": "t-me",
+    "name": "T.Me",
+    "domain": "t.me",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 330,
+    "slug": "unitiki-com",
+    "name": "Unitiki",
+    "domain": "unitiki.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 331,
+    "slug": "valles-ru",
+    "name": "Valles",
+    "domain": "valles.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 347,
+    "slug": "vorota-net",
+    "name": "Vorota.Net",
+    "domain": "vorota.net",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 348,
+    "slug": "vorotaas-ru",
+    "name": "Vorotaas",
+    "domain": "vorotaas.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 349,
+    "slug": "vorotamagnat-ru",
+    "name": "Vorotamagnat",
+    "domain": "vorotamagnat.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 350,
+    "slug": "vorotasvai-ru",
+    "name": "Vorotasvai",
+    "domain": "vorotasvai.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 351,
+    "slug": "vorotnet-ru",
+    "name": "Vorotnet",
+    "domain": "vorotnet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 352,
+    "slug": "weeco-ru",
+    "name": "Weeco",
+    "domain": "weeco.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 358,
+    "slug": "yell-ru",
+    "name": "Yell",
+    "domain": "yell.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 360,
+    "slug": "zaborkin-ru",
+    "name": "Zaborkin",
+    "domain": "zaborkin.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 361,
+    "slug": "zaborking-ru",
+    "name": "Zaborking",
+    "domain": "zaborking.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 362,
+    "slug": "zaboroff-ru",
+    "name": "Zaboroff",
+    "domain": "zaboroff.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 366,
+    "slug": "zavodzaborov-ru",
+    "name": "Zavodzaborov",
+    "domain": "zavodzaborov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 367,
+    "slug": "zipvorota-ru",
+    "name": "Zipvorota",
+    "domain": "zipvorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 368,
+    "slug": "zoon-ru",
+    "name": "Zoon",
+    "domain": "zoon.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 371,
+    "slug": "mosbalkon-ru",
+    "name": "Мосбалкон",
+    "domain": "mosbalkon.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 373,
+    "slug": "svetokna-ru",
+    "name": "Светокна",
+    "domain": "svetokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 377,
+    "slug": "sbalkonom-ru",
+    "name": "С Балконом",
+    "domain": "sbalkonom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 381,
+    "slug": "panokna-ru",
+    "name": "Панокна",
+    "domain": "panokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 383,
+    "slug": "okonti-ru",
+    "name": "Оконти",
+    "domain": "okonti.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 384,
+    "slug": "oknaprosvet-ru",
+    "name": "Окна Просвет",
+    "domain": "oknaprosvet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 370,
+    "slug": "ramokna-ru",
+    "name": "Рамокна",
+    "domain": "ramokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 385,
+    "slug": "str-mos-ru",
+    "name": "Строй-Мос",
+    "domain": "str-mos.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 390,
+    "slug": "francuzskoe-osteklenie-okon-balkona-ru",
+    "name": "Французское Остекление",
+    "domain": "francuzskoe-osteklenie-okon-balkona.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 393,
+    "slug": "okna-moscow-ru",
+    "name": "Окна-Москва",
+    "domain": "okna-moscow.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 394,
+    "slug": "okna-moskva-ru",
+    "name": "Окна-Москва 2",
+    "domain": "okna-moskva.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 395,
+    "slug": "balcon-msk-ru",
+    "name": "Балкон-МСК",
+    "domain": "balcon-msk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 396,
+    "slug": "okon-centr-ru",
+    "name": "Окон-Центр",
+    "domain": "okon-centr.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 397,
+    "slug": "okno-msk-ru",
+    "name": "Окно-МСК",
+    "domain": "okno-msk.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 398,
+    "slug": "fokus-komforta-ru",
+    "name": "Фокус Комфорта",
+    "domain": "fokus-komforta.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 400,
+    "slug": "ok-no-ru",
+    "name": "Ок-Но",
+    "domain": "ok-no.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 402,
+    "slug": "alum-paritet-ru",
+    "name": "Алюм-Паритет",
+    "domain": "alum-paritet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 403,
+    "slug": "alum-ramokna-ru",
+    "name": "Алюм Рамокна",
+    "domain": "alum.ramokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 412,
+    "slug": "climb-group-ru",
+    "name": "Клайм Групп",
+    "domain": "climb-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 416,
+    "slug": "h-wd-ru",
+    "name": "H-WD",
+    "domain": "h-wd.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 419,
+    "slug": "m-strana-ru",
+    "name": "М-Страна",
+    "domain": "m-strana.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 420,
+    "slug": "miro-miro-ru",
+    "name": "Миро-Миро",
+    "domain": "miro-miro.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 423,
+    "slug": "okna-21-veka-ru",
+    "name": "Окна 21 Века",
+    "domain": "okna-21-veka.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 424,
+    "slug": "okna-proizvodstvo-ru",
+    "name": "Окна Производство",
+    "domain": "okna-proizvodstvo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 425,
+    "slug": "okna-remont-24-ru",
+    "name": "Окна Ремонт 24",
+    "domain": "okna-remont-24.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 426,
+    "slug": "okna2-0-ru",
+    "name": "Окна 2.0",
+    "domain": "okna2-0.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 430,
+    "slug": "osteklenie-balkonov-tut-ru",
+    "name": "Остекление Балконов Тут",
+    "domain": "osteklenie-balkonov-tut.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 431,
+    "slug": "osteklenie-geluas-ru",
+    "name": "Остекление Гелуас",
+    "domain": "osteklenie-geluas.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 432,
+    "slug": "ostekleniye-verandy-ru",
+    "name": "Остекление Веранды",
+    "domain": "ostekleniye-verandy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 434,
+    "slug": "sks-stakusit-ru",
+    "name": "СКС Стакусит",
+    "domain": "sks-stakusit.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 436,
+    "slug": "sofos-okna-ru",
+    "name": "Софос Окна",
+    "domain": "sofos-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 438,
+    "slug": "trinity-okna-ru",
+    "name": "Тринити Окна",
+    "domain": "trinity-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 442,
+    "slug": "znaet-petrovich-ru",
+    "name": "Знает Петрович",
+    "domain": "znaet.petrovich.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 162,
+    "slug": "xn----8sbnqgcarft0a3a3czb-xn--p1ai",
+    "name": "Роллетный Шкаф",
+    "domain": "xn----8sbnqgcarft0a3a3czb.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 160,
+    "slug": "xn----7sbahg3akddtiuou8a2d-xn--p1ai",
+    "name": "Шкафвпаркинг Мск",
+    "domain": "xn----7sbahg3akddtiuou8a2d.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 223,
+    "slug": "xn----8sb3amdwg2g-xn--p1ai",
+    "name": "Уют Окна",
+    "domain": "xn----8sb3amdwg2g.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 353,
+    "slug": "xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka-xn--p1ai",
+    "name": "Ам Дврпрёайрчаеслбйё Лснх",
+    "domain": "xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 440,
+    "slug": "xn----7sbb2alsf9bq-xn--p1ai",
+    "name": "Окна Хауз",
+    "domain": "xn----7sbb2alsf9bq.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 386,
+    "slug": "fabrikaokna-ru",
+    "name": "Фабрика Окна",
+    "domain": "fabrikaokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 387,
+    "slug": "mosokna-ru",
+    "name": "Мосокна",
+    "domain": "mosokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 388,
+    "slug": "glassproekt-ru",
+    "name": "Гласс Проект",
+    "domain": "glassproekt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 389,
+    "slug": "melke-ru",
+    "name": "Мелке",
+    "domain": "melke.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 391,
+    "slug": "corpsun-ru",
+    "name": "Корпсан",
+    "domain": "corpsun.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 392,
+    "slug": "zavodbalkonov-ru",
+    "name": "Завод Балконов",
+    "domain": "zavodbalkonov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 399,
+    "slug": "aluminarium-ru",
+    "name": "Алюминариум",
+    "domain": "aluminarium.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 401,
+    "slug": "horizonov-ru",
+    "name": "Горизонтов",
+    "domain": "horizonov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 404,
+    "slug": "alumburg-ru",
+    "name": "Алюмбург",
+    "domain": "alumburg.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 405,
+    "slug": "alumial-ru",
+    "name": "Алюмиал",
+    "domain": "alumial.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 406,
+    "slug": "alumoknamoskow-ru",
+    "name": "Алюмокна Москва",
+    "domain": "alumoknamoskow.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 407,
+    "slug": "alumpremium-ru",
+    "name": "Алюм Премиум",
+    "domain": "alumpremium.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 408,
+    "slug": "alustroy-pro",
+    "name": "Алюстрой",
+    "domain": "alustroy.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 410,
+    "slug": "bezramnoesteklo77-ru",
+    "name": "Безрамное Стекло 77",
+    "domain": "bezramnoesteklo77.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 411,
+    "slug": "bitango-ru",
+    "name": "Битанго",
+    "domain": "bitango.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 413,
+    "slug": "decolife-pro",
+    "name": "Деколайф",
+    "domain": "decolife.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 414,
+    "slug": "ecookna-ru",
+    "name": "Экоокна",
+    "domain": "ecookna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 415,
+    "slug": "forec-ru",
+    "name": "Форек",
+    "domain": "forec.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 417,
+    "slug": "holzen-ru",
+    "name": "Хольцен",
+    "domain": "holzen.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 418,
+    "slug": "luxsist-ru",
+    "name": "Люкссист",
+    "domain": "luxsist.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 421,
+    "slug": "netrama-ru",
+    "name": "Нетрама",
+    "domain": "netrama.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 422,
+    "slug": "oklandia-ru",
+    "name": "Окландия",
+    "domain": "oklandia.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 427,
+    "slug": "oknafortaly-ru",
+    "name": "Окна Фортали",
+    "domain": "oknafortaly.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 428,
+    "slug": "oknastreet-ru",
+    "name": "Окна Стрит",
+    "domain": "oknastreet.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 429,
+    "slug": "oknaville-ru",
+    "name": "Окнавилль",
+    "domain": "oknaville.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 433,
+    "slug": "raluma-ru",
+    "name": "Ралума",
+    "domain": "raluma.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 435,
+    "slug": "smaltagroup-ru",
+    "name": "Смалта Групп",
+    "domain": "smaltagroup.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 437,
+    "slug": "sunarts-ru",
+    "name": "Санартс",
+    "domain": "sunarts.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 439,
+    "slug": "winfin-ru",
+    "name": "Винфин",
+    "domain": "winfin.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 441,
+    "slug": "xn----7sbgbipzyfcbn3f-xn--p1ai",
+    "name": "Завод Оконпвх",
+    "domain": "xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 246,
+    "slug": "domsvai-ru",
+    "name": "Domsvai",
+    "domain": "domsvai.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 254,
+    "slug": "extradoor-ru",
+    "name": "Extradoor",
+    "domain": "extradoor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 265,
+    "slug": "kovkadvor-ru",
+    "name": "Kovkadvor",
+    "domain": "kovkadvor.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 296,
+    "slug": "profivorota-ru",
+    "name": "Profivorota",
+    "domain": "profivorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 346,
+    "slug": "vorota-moscow",
+    "name": "Vorota.Moscow",
+    "domain": "vorota.moscow",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 363,
+    "slug": "zaborovo-ru",
+    "name": "Zaborovo",
+    "domain": "zaborovo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 382,
+    "slug": "fabrikaokon-ru",
+    "name": "Фабрика Окон",
+    "domain": "fabrikaokon.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 409,
+    "slug": "bezramnoeosteklenie-ru",
+    "name": "Безрамное Остекление",
+    "domain": "bezramnoeosteklenie.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 443,
+    "slug": "region99-ru",
+    "name": "region99.ru",
+    "domain": "region99.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 149,
+    "slug": "metprommebel-ru",
+    "name": "Metprommebel",
+    "domain": "metprommebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 161,
+    "slug": "xn----7sbenacbbl2bhik1tlb-xn--p1ai",
+    "name": "Железная Мебель",
+    "domain": "xn----7sbenacbbl2bhik1tlb.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 165,
+    "slug": "xn--80ackwdadv2ad-xn--p1ai",
+    "name": "Металлбокс",
+    "domain": "xn--80ackwdadv2ad.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 37,
+    "slug": "tentoptom-ru",
+    "name": "Тент купить в Москве",
+    "domain": "tentoptom.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 450,
+    "slug": "ролставни-двери-ворота-spb",
+    "name": "Ролставни-Двери-Ворота",
+    "domain": "rolstavni-dveri-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 453,
+    "slug": "55м-spb",
+    "name": "55м",
+    "domain": "spb.55m.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 200,
+    "slug": "magic-okna-ru",
+    "name": "Magic Okna",
+    "domain": "magic-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 228,
+    "slug": "albanydoorsystems-ru",
+    "name": "Albanydoorsystems",
+    "domain": "albanydoorsystems.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 272,
+    "slug": "masterskay-zaborov-ru",
+    "name": "Masterskay Zaborov",
+    "domain": "masterskay-zaborov.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 324,
+    "slug": "stynergy-ru",
+    "name": "Stynergy",
+    "domain": "stynergy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 233,
+    "slug": "aprelevka-marditop-ru",
+    "name": "Aprelevka.Marditop",
+    "domain": "aprelevka.marditop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 448,
+    "slug": "gateprof-spb",
+    "name": "GateProf",
+    "domain": "gateprof.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 455,
+    "slug": "мягкие-окна-спб-spb",
+    "name": "Мягкие Окна СПб",
+    "domain": "xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 456,
+    "slug": "мокнаспб-spb",
+    "name": "МОкнаСПб",
+    "domain": "moknaspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 458,
+    "slug": "тент-опт-spb",
+    "name": "Тент-Опт",
+    "domain": "sankt-peterburg.tent-opt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 459,
+    "slug": "сдмк-sankt-peterburg",
+    "name": "СДМК",
+    "domain": "sdmk.spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 460,
+    "slug": "roll-box-sankt-peterburg",
+    "name": "Roll Box",
+    "domain": "roll-box.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 461,
+    "slug": "alumdevelop-sankt-peterburg",
+    "name": "Alumdevelop",
+    "domain": "alumdevelop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 462,
+    "slug": "ворота-групп-sankt-peterburg",
+    "name": "Ворота-Групп",
+    "domain": "vorota-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 463,
+    "slug": "gateprof-sankt-peterburg",
+    "name": "GateProf",
+    "domain": "gateprof.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 464,
+    "slug": "alutech-спб-sankt-peterburg",
+    "name": "Alutech СПб",
+    "domain": "spb.alutech.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 465,
+    "slug": "ролставни-двери-ворота-sankt-peterburg",
+    "name": "Ролставни-Двери-Ворота",
+    "domain": "rolstavni-dveri-vorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 466,
+    "slug": "landal-sankt-peterburg",
+    "name": "Landal",
+    "domain": "spb.landal.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 468,
+    "slug": "55м-sankt-peterburg",
+    "name": "55м",
+    "domain": "spb.55m.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 469,
+    "slug": "нестекла-sankt-peterburg",
+    "name": "Нестекла",
+    "domain": "nestekla.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 470,
+    "slug": "мягкие-окна-спб-sankt-peterburg",
+    "name": "Мягкие Окна СПб",
+    "domain": "xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 471,
+    "slug": "мокнаспб-sankt-peterburg",
+    "name": "МОкнаСПб",
+    "domain": "moknaspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 473,
+    "slug": "тент-опт-sankt-peterburg",
+    "name": "Тент-Опт",
+    "domain": "sankt-peterburg.tent-opt.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 475,
+    "slug": "окна-синди-sankt-peterburg",
+    "name": "Окна Синди",
+    "domain": "oknasindy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 476,
+    "slug": "роллмакс-sankt-peterburg",
+    "name": "Роллмакс",
+    "domain": "rollmaks.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 477,
+    "slug": "модерн-нева-sankt-peterburg",
+    "name": "Модерн-Нева",
+    "domain": "modern-neva.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 479,
+    "slug": "doorhan-сз-sankt-peterburg",
+    "name": "DoorHan СЗ",
+    "domain": "doorhan-nw.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 480,
+    "slug": "роллстандарт-sankt-peterburg",
+    "name": "РоллСтандарт",
+    "domain": "rollstandart.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 481,
+    "slug": "rewin-sankt-peterburg",
+    "name": "ReWin",
+    "domain": "re-win.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 482,
+    "slug": "мир-ворот-спб-sankt-peterburg",
+    "name": "Мир Ворот СПб",
+    "domain": "mirvorotspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 483,
+    "slug": "заборкин-спб-sankt-peterburg",
+    "name": "Заборкин СПб",
+    "domain": "spb.zaborkin.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 484,
+    "slug": "alutech-спб-ворота-sankt-peterburg",
+    "name": "Alutech СПб (ворота)",
+    "domain": "spb.alutech.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 485,
+    "slug": "питер-ворота-sankt-peterburg",
+    "name": "Питер Ворота",
+    "domain": "pitervorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 487,
+    "slug": "строй-двор-sankt-peterburg",
+    "name": "Строй-Двор",
+    "domain": "spb.stroy-dvor.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 488,
+    "slug": "ворота-пакс-sankt-peterburg",
+    "name": "Ворота-Пакс",
+    "domain": "vorota-pax.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 489,
+    "slug": "hi-tech-glazing-sankt-peterburg",
+    "name": "Hi-Tech Glazing",
+    "domain": "hi-tech-glazing.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 490,
+    "slug": "балтпанорама-sankt-peterburg",
+    "name": "БалтПанорама",
+    "domain": "baltpanorama.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 491,
+    "slug": "symmetry-sankt-peterburg",
+    "name": "Symmetry",
+    "domain": "symmetry.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 492,
+    "slug": "битанго-спб-sankt-peterburg",
+    "name": "Битанго СПб",
+    "domain": "spb.bitango.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 493,
+    "slug": "стеклодел-sankt-peterburg",
+    "name": "Стеклодел",
+    "domain": "steklodel-spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 494,
+    "slug": "анкорокна-sankt-peterburg",
+    "name": "Анкорокна",
+    "domain": "ankorokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 495,
+    "slug": "фабрика-маркиз-sankt-peterburg",
+    "name": "Фабрика Маркиз",
+    "domain": "fabrikamarkiz.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 496,
+    "slug": "decolife-sankt-peterburg",
+    "name": "Decolife",
+    "domain": "spb.decolife.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 497,
+    "slug": "ваши-террасы-sankt-peterburg",
+    "name": "Ваши Террасы",
+    "domain": "vashiterrasy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 498,
+    "slug": "северстекло-sankt-peterburg",
+    "name": "Северстекло",
+    "domain": "seversteklo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 499,
+    "slug": "шкаф-в-паркинг-sankt-peterburg",
+    "name": "Шкаф в Паркинг",
+    "domain": "shkaf-v-parking.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 500,
+    "slug": "шкаф-мастер-sankt-peterburg",
+    "name": "Шкаф-Мастер",
+    "domain": "spb.xn--80aaprl0afio1b.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 501,
+    "slug": "divals-sankt-peterburg",
+    "name": "Divals",
+    "domain": "divals.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 502,
+    "slug": "роллеты-спб-sankt-peterburg",
+    "name": "Роллеты СПб",
+    "domain": "rolletyspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 504,
+    "slug": "двк-шоп-sankt-peterburg",
+    "name": "ДВК-Шоп",
+    "domain": "dvk-shop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 505,
+    "slug": "метпроммебель-sankt-peterburg",
+    "name": "МетПромМебель",
+    "domain": "spb.metprommebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 506,
+    "slug": "профметмебель-спб-sankt-peterburg",
+    "name": "ПрофМетМебель СПб",
+    "domain": "spb.profmetmebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 507,
+    "slug": "верстакофф-нева-sankt-peterburg",
+    "name": "Верстакофф-Нева",
+    "domain": "werstakoff-neva.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 508,
+    "slug": "stekloff-спб-sankt-peterburg",
+    "name": "Stekloff СПб",
+    "domain": "stekloff.spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 509,
+    "slug": "азимут-гласс-sankt-peterburg",
+    "name": "Азимут Гласс",
+    "domain": "azimut-glass.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 510,
+    "slug": "вермонд-sankt-peterburg",
+    "name": "Вермонд",
+    "domain": "vermond812.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 511,
+    "slug": "ск-бекас-sankt-peterburg",
+    "name": "СК Бекас",
+    "domain": "skbekas.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 512,
+    "slug": "перегородка-лаб-sankt-peterburg",
+    "name": "Перегородка Лаб",
+    "domain": "peregorodkalab.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 513,
+    "slug": "glassall-sankt-peterburg",
+    "name": "GlassAll",
+    "domain": "glassall.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 514,
+    "slug": "алианс-окна-sankt-peterburg",
+    "name": "Алианс-Окна",
+    "domain": "alians-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 515,
+    "slug": "остекление-812-sankt-peterburg",
+    "name": "Остекление 812",
+    "domain": "osteklenie812.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 530,
+    "slug": "окна-синди-spb",
+    "name": "Окна Синди",
+    "domain": "oknasindy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 531,
+    "slug": "роллмакс-spb",
+    "name": "Роллмакс",
+    "domain": "rollmaks.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 532,
+    "slug": "модерн-нева-spb",
+    "name": "Модерн-Нева",
+    "domain": "modern-neva.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 533,
+    "slug": "doorhan-сз-spb",
+    "name": "DoorHan СЗ",
+    "domain": "doorhan-nw.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 534,
+    "slug": "роллстандарт-spb",
+    "name": "РоллСтандарт",
+    "domain": "rollstandart.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 535,
+    "slug": "rewin-spb",
+    "name": "ReWin",
+    "domain": "re-win.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 536,
+    "slug": "мир-ворот-спб-spb",
+    "name": "Мир Ворот СПб",
+    "domain": "mirvorotspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 537,
+    "slug": "заборкин-спб-spb",
+    "name": "Заборкин СПб",
+    "domain": "spb.zaborkin.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 538,
+    "slug": "питер-ворота-spb",
+    "name": "Питер Ворота",
+    "domain": "pitervorota.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 539,
+    "slug": "строй-двор-spb",
+    "name": "Строй-Двор",
+    "domain": "spb.stroy-dvor.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 540,
+    "slug": "ворота-пакс-spb",
+    "name": "Ворота-Пакс",
+    "domain": "vorota-pax.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 541,
+    "slug": "hi-tech-glazing-spb",
+    "name": "Hi-Tech Glazing",
+    "domain": "hi-tech-glazing.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 542,
+    "slug": "балтпанорама-spb",
+    "name": "БалтПанорама",
+    "domain": "baltpanorama.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 543,
+    "slug": "symmetry-spb",
+    "name": "Symmetry",
+    "domain": "symmetry.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 544,
+    "slug": "битанго-спб-spb",
+    "name": "Битанго СПб",
+    "domain": "spb.bitango.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 545,
+    "slug": "стеклодел-spb",
+    "name": "Стеклодел",
+    "domain": "steklodel-spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 546,
+    "slug": "анкорокна-spb",
+    "name": "Анкорокна",
+    "domain": "ankorokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 547,
+    "slug": "фабрика-маркиз-spb",
+    "name": "Фабрика Маркиз",
+    "domain": "fabrikamarkiz.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 548,
+    "slug": "decolife-spb",
+    "name": "Decolife",
+    "domain": "spb.decolife.pro",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 549,
+    "slug": "ваши-террасы-spb",
+    "name": "Ваши Террасы",
+    "domain": "vashiterrasy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 550,
+    "slug": "северстекло-spb",
+    "name": "Северстекло",
+    "domain": "seversteklo.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 551,
+    "slug": "шкаф-в-паркинг-spb",
+    "name": "Шкаф в Паркинг",
+    "domain": "shkaf-v-parking.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 552,
+    "slug": "шкаф-мастер-spb",
+    "name": "Шкаф-Мастер",
+    "domain": "spb.xn--80aaprl0afio1b.xn--p1ai",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 553,
+    "slug": "divals-spb",
+    "name": "Divals",
+    "domain": "divals.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 554,
+    "slug": "роллеты-спб-spb",
+    "name": "Роллеты СПб",
+    "domain": "rolletyspb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 555,
+    "slug": "двк-шоп-spb",
+    "name": "ДВК-Шоп",
+    "domain": "dvk-shop.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 556,
+    "slug": "метпроммебель-spb",
+    "name": "МетПромМебель",
+    "domain": "spb.metprommebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 557,
+    "slug": "профметмебель-спб-spb",
+    "name": "ПрофМетМебель СПб",
+    "domain": "spb.profmetmebel.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 558,
+    "slug": "верстакофф-нева-spb",
+    "name": "Верстакофф-Нева",
+    "domain": "werstakoff-neva.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 559,
+    "slug": "stekloff-спб-spb",
+    "name": "Stekloff СПб",
+    "domain": "stekloff.spb.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 560,
+    "slug": "азимут-гласс-spb",
+    "name": "Азимут Гласс",
+    "domain": "azimut-glass.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 561,
+    "slug": "вермонд-spb",
+    "name": "Вермонд",
+    "domain": "vermond812.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 562,
+    "slug": "ск-бекас-spb",
+    "name": "СК Бекас",
+    "domain": "skbekas.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 563,
+    "slug": "перегородка-лаб-spb",
+    "name": "Перегородка Лаб",
+    "domain": "peregorodkalab.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 564,
+    "slug": "glassall-spb",
+    "name": "GlassAll",
+    "domain": "glassall.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 565,
+    "slug": "алианс-окна-spb",
+    "name": "Алианс-Окна",
+    "domain": "alians-okna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 566,
+    "slug": "остекление-812-spb",
+    "name": "Остекление 812",
+    "domain": "osteklenie812.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 567,
+    "slug": "софт-окна-кириши-spb",
+    "name": "Софт Окна (Кириши)",
+    "domain": "kirishi.miagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 568,
+    "slug": "техноград-кириши-spb",
+    "name": "Техноград Кириши",
+    "domain": "kirishi.technograd-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 569,
+    "slug": "окна-тент-spb",
+    "name": "Окна-Тент",
+    "domain": "vsevologsk.mjagkieokna.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 570,
+    "slug": "техноград-волхов-spb",
+    "name": "Техноград Волхов",
+    "domain": "volkhov.technograd-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 571,
+    "slug": "строй-двор-сосновый-бор-spb",
+    "name": "Строй-Двор Сосновый Бор",
+    "domain": "sosnovyy-bor.stroy-dvor.com",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 572,
+    "slug": "техноград-сосновый-бор-spb",
+    "name": "Техноград Сосновый Бор",
+    "domain": "sosnovyy-bor.technograd-group.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 573,
+    "slug": "забор-сервис-строй-spb",
+    "name": "Забор-Сервис-Строй",
+    "domain": "zabor-servis-stroy.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 574,
+    "slug": "топ-хаус-spb",
+    "name": "ТОП ХАУС",
+    "domain": "tophouse.ru",
+    "reason": "missing_phone"
+  },
+  {
+    "id": 575,
+    "slug": "заборстрой-spb",
+    "name": "ЗаборСтрой",
+    "domain": "zaborstroi.com",
+    "reason": "missing_phone"
+  }
+]

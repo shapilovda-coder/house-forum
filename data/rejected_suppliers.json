@@ -1,0 +1,16 @@
+[
+  {
+    "id": 46,
+    "slug": "dzen-ru",
+    "domain": "dzen.ru",
+    "reason": "blacklist",
+    "name": "Дзен"
+  },
+  {
+    "id": 97,
+    "slug": "uslugi-yandex-ru",
+    "domain": "uslugi.yandex.ru",
+    "reason": "blacklist",
+    "name": "Uslugi.Yandex"
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "source_url": "https://stekloroll.ru",
+    "url": "https://stekloroll.ru",
+    "domain": "stekloroll.ru",
+    "display_domain": "stekloroll.ru",
+    "company_name": "StekloRoll",
+    "phones": ["+74951510979"],
+    "address": "Москва, Киевское шоссе, д.1, к.Б, БЦ Румянцево",
+    "parse_status": "ok",
+    "priority": 100,
+    "is_pinned": true
+  },
+  {
+    "source_url": "https://vorota-group.ru",
+    "url": "https://vorota-group.ru",
+    "domain": "vorota-group.ru",
+    "display_domain": "vorota-group.ru",
+    "company_name": "Vorota Group",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota-vam.ru",
+    "url": "https://vorota-vam.ru",
+    "domain": "vorota-vam.ru",
+    "display_domain": "vorota-vam.ru",
+    "company_name": "Ворота Вам",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://automaticheskie-vorota.ru",
+    "url": "https://automaticheskie-vorota.ru",
+    "domain": "automaticheskie-vorota.ru",
+    "display_domain": "automaticheskie-vorota.ru",
+    "company_name": "Автоматические ворота",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota750.ru",
+    "url": "https://vorota750.ru",
+    "domain": "vorota750.ru",
+    "display_domain": "vorota750.ru",
+    "company_name": "Ворота 750",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://gruppa-masterov.ru",
+    "url": "https://gruppa-masterov.ru",
+    "domain": "gruppa-masterov.ru",
+    "display_domain": "gruppa-masterov.ru",
+    "company_name": "Группа Мастеров",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota-dlya-doma.ru",
+    "url": "https://vorota-dlya-doma.ru",
+    "domain": "vorota-dlya-doma.ru",
+    "display_domain": "vorota-dlya-doma.ru",
+    "company_name": "Ворота для дома",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://region-vorota.ru",
+    "url": "https://region-vorota.ru",
+    "domain": "region-vorota.ru",
+    "display_domain": "region-vorota.ru",
+    "company_name": "Регион Ворота",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota-mp.ru",
+    "url": "https://vorota-mp.ru",
+    "domain": "vorota-mp.ru",
+    "display_domain": "vorota-mp.ru",
+    "company_name": "Ворота МП",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://otkatnye-vorota-tut.ru",
+    "url": "https://otkatnye-vorota-tut.ru",
+    "domain": "otkatnye-vorota-tut.ru",
+    "display_domain": "otkatnye-vorota-tut.ru",
+    "company_name": "Откатные ворота тут",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://oblzabor.ru",
+    "url": "https://oblzabor.ru",
+    "domain": "oblzabor.ru",
+    "display_domain": "oblzabor.ru",
+    "company_name": "Облзабор",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota-top.ru",
+    "url": "https://vorota-top.ru",
+    "domain": "vorota-top.ru",
+    "display_domain": "vorota-top.ru",
+    "company_name": "Ворота Топ",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://tancom.ru",
+    "url": "https://tancom.ru",
+    "domain": "tancom.ru",
+    "display_domain": "tancom.ru",
+    "company_name": "Tancom",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://levin-group.ru",
+    "url": "https://levin-group.ru",
+    "domain": "levin-group.ru",
+    "display_domain": "levin-group.ru",
+    "company_name": "Levin Group",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://77vorota.ru",
+    "url": "https://77vorota.ru",
+    "domain": "77vorota.ru",
+    "display_domain": "77vorota.ru",
+    "company_name": "77 Ворота",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://vorota-vsem.ru",
+    "url": "https://vorota-vsem.ru",
+    "domain": "vorota-vsem.ru",
+    "display_domain": "vorota-vsem.ru",
+    "company_name": "Ворота Всем",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://grandline.ru",
+    "url": "https://grandline.ru",
+    "domain": "grandline.ru",
+    "display_domain": "grandline.ru",
+    "company_name": "Grand Line",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://zaborkin.ru",
+    "url": "https://zaborkin.ru",
+    "domain": "zaborkin.ru",
+    "display_domain": "zaborkin.ru",
+    "company_name": "Заборкин",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  }
+]
