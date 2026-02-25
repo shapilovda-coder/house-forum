@@ -1,5 +1,19 @@
 [
   {
+    "source_url": "https://stekloroll.ru",
+    "url": "https://stekloroll.ru",
+    "domain": "stekloroll.ru",
+    "display_domain": "stekloroll.ru",
+    "company_name": "StekloRoll",
+    "phones": [
+      "+74951510979"
+    ],
+    "address": "Москва, Киевское шоссе, д.1, к.Б, БЦ Румянцево",
+    "parse_status": "ok",
+    "priority": 100,
+    "is_pinned": true
+  },
+  {
     "source_url": "https://levin-group.ru/katalog/rolstavni/prozrachnyie/",
     "display_domain": "levin-group.ru",
     "company_name": "Прозрачные рольставни для веранды, беседки или террасы купить в Москве по цене от 27000 руб с гарантией качества",
