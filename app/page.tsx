@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import HeroBanner from './components/HeroBanner'
 import CategoryTiles from './components/CategoryTiles'
 import SearchBar from './components/SearchBar'
 import CompanyCard from './components/CompanyCard'
@@ -71,8 +70,17 @@ export default function HomePage() {
   
   return (
     <>
-      {/* Hero */}
-      <HeroBanner />
+      {/* Compact Hero - No SVG */}
+      <div className="bg-gradient-to-r from-blue-600 to-blue-700 py-6 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <h1 className="text-xl md:text-3xl font-bold text-white mb-2">
+            Каталог проверенных поставщиков рольставней, ворот и остекления
+          </h1>
+          <p className="text-base text-blue-100">
+            400+ компаний в Москве, Санкт-Петербурге и других регионах
+          </p>
+        </div>
+      </div>
 
       {/* Category Tiles */}
       <CategoryTiles />
