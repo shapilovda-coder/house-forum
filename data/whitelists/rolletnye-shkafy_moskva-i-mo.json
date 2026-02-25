@@ -7,7 +7,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:40:45.078Z",
+    "updated_at": "2026-02-25T05:09:45.072Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -22,12 +22,12 @@
       "+79808004953",
       "+79999999999"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:40:49.998Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:50.723Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://xn--80aaprl0afio1b.xn--p1ai/catalog/shkaf_dly_parkinga/",
@@ -38,12 +38,12 @@
       "+70023008004",
       "+79999999999"
     ],
-    "address": "г.  Задайте все вопросы",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:40:52.940Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:53.708Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.werstakoff.ru/catalog/cat128/",
@@ -60,12 +60,12 @@
       "+70611899240",
       "+75974117580"
     ],
-    "address": "г.Москва. Собственное производство! Гарантия 12 мес. Опт и розница. Доставка по всей России. \r\n\r\n\" />",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:40:54.185Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:54.941Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.werstakoff.ru/catalog/cat128/v-parking/",
@@ -82,12 +82,12 @@
       "+70611899240",
       "+75974117580"
     ],
-    "address": "г.Москва.\" />",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:40:57.864Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:58.561Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://xn----7sbahg3akddtiuou8a2d.xn--p1ai/",
@@ -98,12 +98,12 @@
       "+74169834898",
       "+75225916881"
     ],
-    "address": "г. Имеется возможность переставлять полки.",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:00.505Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:01.144Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://st-box.ru/",
@@ -117,12 +117,12 @@
       "+70138760449",
       "+79999999999"
     ],
-    "address": "г.Москва",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:04.005Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:04.366Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://domebox.ru/",
@@ -133,12 +133,12 @@
       "+79154685919",
       "+79999999999"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:07.975Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:07.541Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://roll-box.ru/shkafy-rolletnye-boksy/",
@@ -148,7 +148,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:10.729Z",
+    "updated_at": "2026-02-25T05:10:10.392Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -161,12 +161,12 @@
       "+79857607967",
       "+72170849498"
     ],
-    "address": "г. РУСРОЛЛ",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:15.555Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:15.137Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://tsar-skaf.ru/",
@@ -178,9 +178,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:18.545Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:18.161Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.werstakoff.ru/catalog/cat128/na-balkon/",
@@ -197,11 +197,11 @@
       "+70611899240",
       "+75974117580"
     ],
-    "address": "г.Москва.\" />",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "rolletnye-shkafy",
-    "updated_at": "2026-02-25T04:41:24.636Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:28.252Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   }
 ]

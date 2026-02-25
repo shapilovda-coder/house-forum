@@ -8,12 +8,12 @@
       "+79999999999",
       "+78754972812"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:34:37.493Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:26.128Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://vorota-group.ru/rolstavni/prozrachnye/",
@@ -50,12 +50,12 @@
       "+73806275591",
       "+79153344837"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:34:44.526Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:32.621Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://moskva-jaluzi.ru/rolstavni/prozrachnye/",
@@ -64,12 +64,12 @@
     "phones": [
       "+74951525251"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:34:52.581Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:41.338Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://alfa24.ru/stock/prozrachnye-rolstavni-idealny-dlya-besed/",
@@ -84,12 +84,12 @@
       "+70776612924",
       "+79163519722"
     ],
-    "address": "address=no\"/>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:34:55.867Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:47.140Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://mskroll.ru/rolstavni/prozrachnye-rolstavni/",
@@ -103,12 +103,12 @@
       "+71030288000",
       "+71020000000"
     ],
-    "address": "address\">111675, г. Москва, Лухмановская, 34",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:01.269Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:51.502Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://zavod-rollet.ru/rolletnye-sistemy/prozrachnye-rolstavni/dlja-terras-i-verand/",
@@ -120,21 +120,34 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:05.317Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:55.041Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://divals.ru/catalog/rollety_zaluzi/prozrachnye_rolstavni_iz_polikarbonata/1707/",
     "display_domain": "divals.ru",
-    "company_name": null,
-    "phones": [],
+    "company_name": "Прозрачные рольставни на веранду Divals - Прозрачные рольставни из поликарбоната для стильной защиты",
+    "phones": [
+      "+78123670000",
+      "+78422213498",
+      "+78242758653",
+      "+72498116743",
+      "+76897329583",
+      "+79905319232",
+      "+78242733593",
+      "+78244735344",
+      "+78242711900",
+      "+71006412478",
+      "+79217892619",
+      "+72526189583"
+    ],
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:07.855Z",
-    "parse_status": "failed",
-    "notes": ""
+    "updated_at": "2026-02-25T05:07:57.422Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://xn--80aestcfhjjs.xn--p1ai/prozrachnie-rolstavni.html",
@@ -143,12 +156,12 @@
     "phones": [
       "+74952550956"
     ],
-    "address": "г.Павловский Посад)",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:13.428Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:08:00.438Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://alfa24.ru/rolstavni/prozracnie-rolstavni/",
@@ -168,12 +181,12 @@
       "+75336690751",
       "+71794734809"
     ],
-    "address": "address=no\"/>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:16.173Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:08:03.242Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.eurobriz.ru/prozrachnye-rolstavni-iz-polikarbonata/",
@@ -185,9 +198,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:20.977Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:08:06.890Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://allo-rolstavni.ru/prozrachnye-rolstavni/",
@@ -197,7 +210,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:24.494Z",
+    "updated_at": "2026-02-25T05:08:10.310Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -209,12 +222,12 @@
       "+74951254114",
       "+70139166948"
     ],
-    "address": "г. Москва",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:35:29.404Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:08:15.057Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.rollets.ru/rolstavni/iz-polikarbonata/",
@@ -224,12 +237,12 @@
       "+74959755077",
       "+74959919154"
     ],
-    "address": "address-wrapper\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:05.281Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:02.544Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://richrol.ru/",
@@ -341,12 +354,12 @@
       "+73938613966",
       "+76466343135"
     ],
-    "address": "г. Сочи",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:08.475Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:05.880Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://glasrol.ru/",
@@ -357,12 +370,12 @@
       "+78005502335",
       "+79253716211"
     ],
-    "address": "г. Долгопрудный",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:12.248Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:09.606Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://rusroll.ru/rolstavni/prozrachnye/dlya_verandy_i_terrasy/",
@@ -373,24 +386,24 @@
       "+79857607967",
       "+72170849498"
     ],
-    "address": "г. РУСРОЛЛ",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:14.115Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:09:11.534Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://stranavorot.ru/prozrachnye-rolstavni",
     "display_domain": "stranavorot.ru",
-    "company_name": "47.237.82.141 25.02.2026 07:36:18",
+    "company_name": "47.237.82.141 25.02.2026 08:09:15",
     "phones": [],
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:17.287Z",
+    "updated_at": "2026-02-25T05:09:14.594Z",
     "parse_status": "partial",
-    "notes": ""
+    "notes": "No phone or valid address"
   },
   {
     "source_url": "https://rolstavni-prom.ru/rolstavni/rolstavni-dlya-dachi/prozrachnyie-rolstavni.html",
@@ -403,7 +416,7 @@
     "address": "address.png\">г.Москва, Дмитровское шоссе, д. 100 стр. 2, БЦ \"Норд Хаус\"",
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:19.479Z",
+    "updated_at": "2026-02-25T05:09:16.782Z",
     "parse_status": "ok",
     "notes": ""
   },
@@ -415,9 +428,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:22.923Z",
+    "updated_at": "2026-02-25T05:09:20.554Z",
     "parse_status": "partial",
-    "notes": ""
+    "notes": "No phone or valid address"
   },
   {
     "source_url": "https://arshinpro.ru/catalog/prozrachnye-rolstavni/",
@@ -427,7 +440,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "prozrachnye-rolstavni",
-    "updated_at": "2026-02-25T04:36:25.874Z",
+    "updated_at": "2026-02-25T05:09:23.550Z",
     "parse_status": "failed",
     "notes": ""
   }

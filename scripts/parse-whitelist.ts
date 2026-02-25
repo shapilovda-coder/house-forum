@@ -139,7 +139,7 @@ function extractTitle(html) {
 }
 
 // Extract address from HTML (basic patterns)
-function extractAddress(html) {
+function extractAddress(html: string): string | null {
   // Look for common address patterns
   const patterns = [
     /address[^>]*>([^<]+)/i,
@@ -152,10 +152,53 @@ function extractAddress(html) {
     const match = html.match(pattern);
     if (match) {
       let addr = match[0].replace(/<[^>]+>/g, '').trim();
-      if (addr.length > 5 && addr.length < 200) return addr;
+      if (isValidAddress(addr)) return addr;
     }
   }
   return null;
+}
+
+// Strict address validation
+function isValidAddress(address: string): boolean {
+  if (!address || typeof address !== 'string') return false;
+  
+  // Max length check
+  if (address.length > 200) return false;
+  
+  // Min length check
+  if (address.length < 10) return false;
+  
+  // Reject garbage patterns
+  const garbagePatterns = [
+    /в других регионах/i,
+    /социальных сетях/i,
+    /мессенджерах/i,
+    /телефон/i,
+    /email/i,
+    /e-mail/i,
+    /почта/i,
+    /связаться/i,
+    /написать/i,
+    /звоните/i,
+  ];
+  
+  for (const pattern of garbagePatterns) {
+    if (pattern.test(address)) return false;
+  }
+  
+  // Must contain city (Moscow or Moscow region)
+  const cityPattern = /(москва|московская\s*область|мо)/i;
+  if (!cityPattern.test(address)) return false;
+  
+  // Must contain street indicator
+  const streetPattern = /(ул\.?|улица|проспект|пр\.?|шоссе|ш\.?|проезд|переулок|пер\.?|бульвар|бул\.?|площадь|пл\.?|набережная|наб\.?)/i;
+  if (!streetPattern.test(address)) return false;
+  
+  // Must contain house number (д. N, дом N, or just number at end)
+  const housePattern = /(д\.?\s*\d+|дом\s*\d+|,\s*\d+\s*$|,\s*\d+[^,]*$)/i;
+  if (!housePattern.test(address)) return false;
+  
+  return true;
 }
 
 // Main parsing loop
@@ -192,12 +235,25 @@ async function parseAll() {
         result.company_name = extractTitle(html);
         result.address = extractAddress(html);
         
-        if (result.phones.length > 0) {
+        // Determine parse status
+        const hasPhones = result.phones.length > 0;
+        const hasAddress = result.address !== null;
+        
+        if (hasPhones && hasAddress) {
           result.parse_status = 'ok';
-          console.log(`  ✓ Phones: ${result.phones.join(', ')}`);
+          console.log(`  ✓ Phones: ${result.phones[0]}, Address: ${result.address.substring(0, 50)}...`);
+        } else if (hasPhones) {
+          result.parse_status = 'partial';
+          result.notes = 'Phone found, no valid address';
+          console.log(`  ⚠ Phone: ${result.phones[0]}, No valid address`);
+        } else if (hasAddress) {
+          result.parse_status = 'partial';
+          result.notes = 'Address found, no phone';
+          console.log(`  ⚠ Address: ${result.address.substring(0, 50)}..., No phone`);
         } else {
           result.parse_status = 'partial';
-          console.log(`  ⚠ No phones found`);
+          result.notes = 'No phone or valid address';
+          console.log(`  ⚠ No phone or valid address`);
         }
       }
     } catch (err) {

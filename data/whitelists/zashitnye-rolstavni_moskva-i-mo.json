@@ -12,12 +12,12 @@
       "+70776612924",
       "+79163519722"
     ],
-    "address": "address=no\"/>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:46:50.597Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:39.470Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://alfa24.ru/rolstavni/stalnye-rolstavni/",
@@ -37,12 +37,12 @@
       "+75336690751",
       "+71794734809"
     ],
-    "address": "address=no\"/>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:46:55.502Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:45.761Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://alfa24.ru/rolstavni/stalnye-rolstavni/antivandalnye-rolstavni/",
@@ -63,12 +63,12 @@
       "+75336690751",
       "+71794734809"
     ],
-    "address": "address=no\"/>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:46:58.362Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:49.279Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://alutech.ru/rolletnye-sistemy/rolstavni/antivandalnye/",
@@ -78,7 +78,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:01.337Z",
+    "updated_at": "2026-02-25T05:10:53.358Z",
     "parse_status": "failed",
     "notes": "socket hang up"
   },
@@ -89,12 +89,12 @@
     "phones": [
       "+74957224745"
     ],
-    "address": "г. Профили изготовлены из высококачественного металла. Пена",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:08.030Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:10:59.779Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://evro-rolstavni.ru/products/rolstavni/stalnye/",
@@ -105,12 +105,12 @@
       "+79303061520",
       "+79000000000"
     ],
-    "address": "address>",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:11.165Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:02.811Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://gild24.ru/catalog/rolstavni/iz_stalnogo_profilya/",
@@ -122,12 +122,12 @@
       "+78523507735",
       "+79999999999"
     ],
-    "address": "address twosmallfont inline-block\n\t\t\t\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:14.964Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:07.261Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://levin-group.ru/katalog/rolstavni/na-okna/",
@@ -138,12 +138,12 @@
       "+79999999999",
       "+78754972812"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:19.507Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:11.783Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://levin-group.ru/katalog/rolstavni/stalnye/",
@@ -154,12 +154,12 @@
       "+79999999999",
       "+78754972812"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:25.737Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:19.856Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://moskva-jaluzi.ru/rolstavni/",
@@ -168,12 +168,12 @@
     "phones": [
       "+74951525251"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:30.327Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:24.345Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://moskva-jaluzi.ru/rolstavni/stalnie/",
@@ -182,12 +182,12 @@
     "phones": [
       "+74951525251"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:35.270Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:31.011Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://moskva-jaluzi.ru/rolstavni/zashitnie/",
@@ -196,12 +196,12 @@
     "phones": [
       "+74951525251"
     ],
-    "address": "address\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:39.962Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:36.636Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://mskroll.ru/rolstavni/rolstavni-stalnye/",
@@ -215,12 +215,12 @@
       "+71030288000",
       "+71020000000"
     ],
-    "address": "address\">111675, г. Москва, Лухмановская, 34",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:45.525Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:46.104Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://okna-everest.ru/rolstavni/protivovzlomnye",
@@ -229,12 +229,12 @@
     "phones": [
       "+74958683003"
     ],
-    "address": "ул. Героев Панфиловцев",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:48.733Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:48.196Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://rolgroup.ru/rolstavni-zaschitnye/",
@@ -247,9 +247,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:47:53.891Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:52.612Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.rollets.ru/rolstavni/stalnye/",
@@ -258,12 +258,12 @@
     "phones": [
       "+74959755077"
     ],
-    "address": "address-wrapper\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:00.041Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:11:58.920Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://rollmarket.ru/antivandal/",
@@ -276,9 +276,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:05.665Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:12:03.172Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.rolmaster.ru/",
@@ -288,7 +288,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:08.365Z",
+    "updated_at": "2026-02-25T05:12:05.898Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -300,7 +300,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:13.355Z",
+    "updated_at": "2026-02-25T05:12:10.992Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -312,7 +312,7 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:17.915Z",
+    "updated_at": "2026-02-25T05:12:15.552Z",
     "parse_status": "failed",
     "notes": ""
   },
@@ -324,21 +324,25 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:22.906Z",
+    "updated_at": "2026-02-25T05:12:20.455Z",
     "parse_status": "failed",
     "notes": ""
   },
   {
     "source_url": "https://rusroll.ru/rolstavni/na_okna/",
     "display_domain": "rusroll.ru",
-    "company_name": null,
-    "phones": [],
+    "company_name": "Рольставни на окна наружные, цена, заказать в Русролл",
+    "phones": [
+      "+74951815353",
+      "+79857607967",
+      "+72170849498"
+    ],
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:27.744Z",
-    "parse_status": "failed",
-    "notes": "Blocked by robots/server (403)"
+    "updated_at": "2026-02-25T05:12:25.561Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://www.sart-vorota.ru/zashhitnye-rolstavni/",
@@ -351,9 +355,9 @@
     "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:29.429Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:12:28.881Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://sunsystems-rdo.ru/catalog/rolstavni-antivandalnie",
@@ -367,7 +371,7 @@
     "address": "address\">г. Москва 1-й Люберецкий проезд д. 2",
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:32.609Z",
+    "updated_at": "2026-02-25T05:12:32.591Z",
     "parse_status": "ok",
     "notes": ""
   },
@@ -383,7 +387,7 @@
     "address": "address\">г. Москва 1-й Люберецкий проезд д. 2",
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:37.146Z",
+    "updated_at": "2026-02-25T05:12:37.203Z",
     "parse_status": "ok",
     "notes": ""
   },
@@ -421,12 +425,12 @@
       "+73806275591",
       "+79153344837"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:39.398Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:12:39.908Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://vorota-group.ru/rolstavni/na-okna/",
@@ -463,12 +467,12 @@
       "+73806275591",
       "+79153344837"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:49.802Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:12:49.402Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://vorota-one.ru/catalog/rolstavni_i_rollety/dlya_okon/nakladnye/",
@@ -477,16 +481,17 @@
     "phones": [
       "+79267763660",
       "+71398408013",
+      "+76962126062",
       "+72823791480",
       "+70946589175",
       "+79999999999"
     ],
-    "address": "address\" itemscope itemtype=\"http://schema.org/PostalAddress\">",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:48:56.668Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:12:57.209Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://vorota-top.ru/shop/rolstavni/antivandalnye-rolstavni/rolstavni-na-okna-metallicheskie-doorhan",
@@ -498,12 +503,12 @@
       "+76231382563",
       "+76919152736"
     ],
-    "address": "г.Москва",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:49:01.380Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:13:02.023Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://vorota-vsem.ru/catalog/rolstavni/naruzhnye/",
@@ -521,12 +526,12 @@
       "+79852622962",
       "+79852622522"
     ],
-    "address": "address-block1'-->",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:49:08.416Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:13:09.845Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://xn--90aihuwdd.xn--p1ai/rolstavni/stalnye/",
@@ -536,12 +541,12 @@
       "+78003011145",
       "+74951286112"
     ],
-    "address": "ул. Угрешская",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:49:49.160Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:13:44.515Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   },
   {
     "source_url": "https://zavodzaborov.ru/rolleta-zashchitnaya/",
@@ -557,11 +562,11 @@
       "+74951044334",
       "+79999999999"
     ],
-    "address": "address\"> г.Люберцы, Красная д.1, Отдельный вход",
+    "address": null,
     "region": "moskva-i-mo",
     "category": "zashitnye-rolstavni",
-    "updated_at": "2026-02-25T04:49:51.968Z",
-    "parse_status": "ok",
-    "notes": ""
+    "updated_at": "2026-02-25T05:13:47.196Z",
+    "parse_status": "partial",
+    "notes": "Phone found, no valid address"
   }
 ]
