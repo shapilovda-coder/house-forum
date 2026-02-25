@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
 import CategoryRegionPage from '../../components/CategoryRegionPage'
 import { isWhitelistMode, getCatalogMode } from '@/lib/catalogMode'
+import { applyPins } from '@/lib/pins'
 import fs from 'fs'
 import path from 'path'
 
@@ -169,7 +170,7 @@ export default async function Page({
       })
     }
     
-    const whitelistSuppliers = allowedEntries.map((w: any) => ({
+    const whitelistSuppliers = applyPins(allowedEntries.map((w: any) => ({
         id: w.url || w.source_url,
         slug: w.display_domain || w.domain,
         name: w.company_name || w.display_domain || w.domain,
@@ -184,7 +185,7 @@ export default async function Page({
         status: 'active',
         clicks: w.priority || 0,
         is_verified: true
-      }))
+      })))
     
     logBuild(category, region, 'whitelist', 'published/whitelists', whitelistSuppliers.length)
     
