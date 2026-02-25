@@ -10,10 +10,12 @@ interface CategoryRegionPageProps {
   category: {
     slug: string
     name: string
+    nameShort: string
   }
   region: {
     slug: string
     name: string
+    nameShort: string
     namePrepositional?: string
   }
   suppliers: any[]
@@ -42,9 +44,6 @@ function CategoryRegionContent({
     ? suppliers.filter(s => s.cities.some((c: any) => c.name === validCity))
     : suppliers
   
-  // Use prepositional case for region name
-  const regionNamePrepositional = region.namePrepositional || region.name
-  
   return (
     <>
       {/* Breadcrumbs */}
@@ -53,27 +52,38 @@ function CategoryRegionContent({
         <span className="mx-2">/</span>
         <Link href={`/${category.slug}`} className="hover:text-orange-500">{category.name}</Link>
         <span className="mx-2">/</span>
-        <span className="text-gray-900">{region.name}</span>
+        <span className="text-gray-900">{region.nameShort}</span>
       </nav>
 
-      {/* H1 with prepositional case */}
+      {/* H1 - Категория — Регион коротко */}
       <h1 className="text-3xl font-bold text-gray-900 mb-2">
-        {category.name} в {regionNamePrepositional}
+        {category.nameShort} — {region.nameShort}
       </h1>
       
-      <p className="text-gray-600 mb-6">
+      {/* Subtitle */}
+      <p className="text-gray-600 mb-2">Каталог поставщиков, цены и контакты.</p>
+      
+      {/* Count */}
+      <p className="text-gray-500 text-sm mb-6">
         Найдено {filteredSuppliers.length} поставщиков
         {validCity && ` в городе ${validCity}`}
       </p>
       
-      {/* City Filter - only show cities from this region */}
-      <CityFilter cities={cities} selectedCity={validCity} />
+      {/* City Filter */}
+      <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">Фильтр по городу</h2>
+        <CityFilter cities={cities} selectedCity={validCity} />
+      </div>
       
-      {/* Suppliers List */}
-      <div className="space-y-3">
-        {filteredSuppliers.map(company => (
-          <CompanyCard key={company.id} company={company} />
-        ))}
+      {/* Companies Section */}
+      <div className="mb-6">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">Компании и контакты</h2>
+        
+        <div className="space-y-3">
+          {filteredSuppliers.map(company => (
+            <CompanyCard key={company.id} company={company} />
+          ))}
+        </div>
       </div>
       
       {filteredSuppliers.length === 0 && (
@@ -88,13 +98,30 @@ function CategoryRegionContent({
         </div>
       )}
       
-      {/* SEO Text */}
-      <div className="mt-12 prose max-w-none">
-        <h2>О {category.name.toLowerCase()} в {regionNamePrepositional}</h2>
-        <p>
-          На этой странице представлены проверенные поставщики {category.name.toLowerCase()} 
-          в {regionNamePrepositional}. Все компании проверены на наличие реальных отзывов и контактов.
-        </p>
+      {/* How to choose */}
+      <div className="bg-gray-50 rounded-lg p-4 mb-6">
+        <h2 className="text-lg font-semibold text-gray-900 mb-2">Как выбрать подрядчика</h2>
+        <ul className="text-sm text-gray-600 space-y-1 list-disc list-inside">
+          <li>Проверьте наличие реальных отзывов</li>
+          <li>Запросите примеры выполненных работ</li>
+          <li>Сравните цены у 3–5 поставщиков</li>
+          <li>Уточните сроки изготовления и монтажа</li>
+        </ul>
+      </div>
+      
+      {/* FAQ */}
+      <div className="mb-6">
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">Вопросы и ответы</h2>
+        <div className="space-y-3 text-sm">
+          <details className="bg-white rounded-lg p-3 border border-gray-200">
+            <summary className="font-medium text-gray-900 cursor-pointer">Сколько стоят {category.name.toLowerCase()} в {region.nameShort}?</summary>
+            <p className="text-gray-600 mt-2">Цены зависят от размеров, материалов и сложности монтажа. Запросите расчёт у нескольких поставщиков для сравнения.</p>
+          </details>
+          <details className="bg-white rounded-lg p-3 border border-gray-200">
+            <summary className="font-medium text-gray-900 cursor-pointer">Какие сроки изготовления в {region.nameShort}?</summary>
+            <p className="text-gray-600 mt-2">Стандартные сроки — 3–10 рабочих дней. Сложные проекты могут занять до 2–3 недель.</p>
+          </details>
+        </div>
       </div>
     </>
   )
