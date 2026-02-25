@@ -8,7 +8,7 @@ export type CatalogMode = "whitelist" | "catalog";
 // NO fallback to suppliers_clean.json EVER
 export const WHITELIST_CATEGORIES = new Set([
   "prozrachnye-rolstavni",
-  "zashchitnye-rolstavni",
+  "zashitnye-rolstavni",
   "rolletnye-shkafy",
   "myagkie-okna",
   "vorota",

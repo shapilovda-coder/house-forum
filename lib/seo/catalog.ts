@@ -13,7 +13,7 @@ export const CATEGORIES = [
     seoIntro: 'Прозрачные рольставни из поликарбоната для бизнеса и дома'
   },
   { 
-    slug: 'zashchitnye-rolstavni', 
+    slug: 'zashitnye-rolstavni', 
     name: 'Защитные рольставни',
     nameShort: 'Защитные рольставни',
     subtitle: 'Каталог поставщиков, цены и контакты.',
