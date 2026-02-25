@@ -125,6 +125,9 @@ export default async function Page({
   const showOnlyStekloRoll = (category === 'rolletnye-shkafy' || category === 'zashitnye-rolstavni' || category === 'prozrachnye-rolstavni') 
     && region === 'moskva-i-mo'
   
+  // Auxiliary categories: no recommended section at all
+  const hideRecommended = category === 'myagkie-okna' && region === 'moskva-i-mo'
+  
   if (whitelist) {
     // Use whitelist data ONLY — no fallback to suppliers_clean.json
     const whitelistSuppliers = whitelist
@@ -154,6 +157,7 @@ export default async function Page({
         cities={['Москва']}
         totalCount={whitelistSuppliers.length}
         showOnlyStekloRoll={showOnlyStekloRoll}
+        hideRecommended={hideRecommended}
       />
     )
   }

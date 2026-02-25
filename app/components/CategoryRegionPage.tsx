@@ -22,6 +22,7 @@ interface CategoryRegionPageProps {
   cities: string[]
   totalCount: number
   showOnlyStekloRoll?: boolean
+  hideRecommended?: boolean
 }
 
 // Inner component that uses useSearchParams
@@ -31,7 +32,8 @@ function CategoryRegionContent({
   suppliers,
   cities,
   totalCount,
-  showOnlyStekloRoll
+  showOnlyStekloRoll,
+  hideRecommended
 }: CategoryRegionPageProps) {
   const searchParams = useSearchParams()
   const selectedCity = searchParams.get('city')
@@ -96,7 +98,7 @@ function CategoryRegionContent({
       </div>
       
       {/* Recommended Section - только StekloRoll для rolletnye-shkafy */}
-      {recommendedSuppliers.length > 0 && (
+      {!hideRecommended && recommendedSuppliers.length > 0 && (
         <div className="mb-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-3">Рекомендуемые</h2>
           <div className="space-y-3">
