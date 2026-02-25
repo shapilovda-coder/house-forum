@@ -20,7 +20,106 @@
     "phones": ["+74951510979"],
     "address": null,
     "parse_status": "ok",
-    "priority": 90,
+    "priority": 99,
     "is_pinned": true
+  },
+  {
+    "source_url": "https://ramokna.ru",
+    "url": "https://ramokna.ru",
+    "domain": "ramokna.ru",
+    "display_domain": "ramokna.ru",
+    "company_name": "Ramokna",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://glassproekt.ru",
+    "url": "https://glassproekt.ru",
+    "domain": "glassproekt.ru",
+    "display_domain": "glassproekt.ru",
+    "company_name": "Glass Proekt",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://alum-paritet.ru",
+    "url": "https://alum-paritet.ru",
+    "domain": "alum-paritet.ru",
+    "display_domain": "alum-paritet.ru",
+    "company_name": "Алюм-Паритет",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://podolskie-okna.ru",
+    "url": "https://podolskie-okna.ru",
+    "domain": "podolskie-okna.ru",
+    "display_domain": "podolskie-okna.ru",
+    "company_name": "Подольские окна",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "url": "https://xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "domain": "xn----7sbgbipzyfcbn3f.xn--p1ai",
+    "display_domain": "стеклопрофи.рф",
+    "company_name": "Стеклопрофи",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://terraglass.ru/bezramnoe-razdvizhnoe-osteklenie.html",
+    "url": "https://terraglass.ru/bezramnoe-razdvizhnoe-osteklenie.html",
+    "domain": "terraglass.ru",
+    "display_domain": "terraglass.ru",
+    "company_name": "Terra Glass",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://netrama.ru/",
+    "url": "https://netrama.ru/",
+    "domain": "netrama.ru",
+    "display_domain": "netrama.ru",
+    "company_name": "Netrama",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://www.glasstroy.ru/fasadnoe-osteklenie/bezramnoe-osteklenie-terrasy-luchshie-varianty",
+    "url": "https://www.glasstroy.ru/fasadnoe-osteklenie/bezramnoe-osteklenie-terrasy-luchshie-varianty",
+    "domain": "glasstroy.ru",
+    "display_domain": "glasstroy.ru",
+    "company_name": "Гласстрой",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
+  },
+  {
+    "source_url": "https://miro-miro.ru",
+    "url": "https://miro-miro.ru",
+    "domain": "miro-miro.ru",
+    "display_domain": "miro-miro.ru",
+    "company_name": "Miro-Miro",
+    "phones": [],
+    "address": null,
+    "parse_status": "partial",
+    "priority": 0
   }
 ]
