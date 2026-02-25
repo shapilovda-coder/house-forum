@@ -10,27 +10,43 @@ function loadSuppliers() {
   return JSON.parse(fs.readFileSync(dataPath, 'utf8'))
 }
 
+import fs from 'fs';
+import path from 'path';
+
+function whitelistPath(category: string, region: string) {
+  return path.join(process.cwd(), 'data', 'whitelists', `${category}_${region}.json`);
+}
+
+function loadWhitelist(category: string, region: string) {
+  const file = whitelistPath(category, region);
+
+  if (!fs.existsSync(file)) return null; // файла нет → null (решение выше по коду)
+  
+  const raw = fs.readFileSync(file, 'utf-8');
+  const data = JSON.parse(raw);
+
+  // Если файл есть, но пустой — это осознанное "нет поставщиков", НЕ fallback
+  return Array.isArray(data) ? data : [];
+}
+
 function loadWhitelistCombinations() {
   try {
-    const fs = require('fs')
-    const path = require('path')
-    const projectRoot = '/root/projects/house-forum'
-    const whitelistsDir = path.join(projectRoot, 'data', 'whitelists')
-    if (!fs.existsSync(whitelistsDir)) return []
+    const whitelistsDir = path.join(process.cwd(), 'data', 'whitelists');
+    if (!fs.existsSync(whitelistsDir)) return [];
     
-    const files = fs.readdirSync(whitelistsDir)
-    const combos: { category: string; region: string }[] = []
+    const files = fs.readdirSync(whitelistsDir);
+    const combos: { category: string; region: string }[] = [];
     
     files.forEach((file: string) => {
-      const match = file.match(/^(.+)_(.+)_urls\.json$/)
+      const match = file.match(/^(.+)_(.+)_urls\.json$/);
       if (match) {
-        combos.push({ category: match[1], region: match[2] })
+        combos.push({ category: match[1], region: match[2] });
       }
-    })
+    });
     
-    return combos
+    return combos;
   } catch (e) {
-    return []
+    return [];
   }
 }
 
@@ -84,22 +100,6 @@ export async function generateMetadata({
     alternates: {
       canonical: `/${category}/${region}`
     }
-  }
-}
-
-function loadWhitelist(category: string, region: string) {
-  try {
-    const fs = require('fs')
-    const path = require('path')
-    // Use absolute path to project root
-    const projectRoot = '/root/projects/house-forum'
-    const whitelistPath = path.join(projectRoot, 'data', 'whitelists', `${category}_${region}.json`)
-    if (fs.existsSync(whitelistPath)) {
-      return JSON.parse(fs.readFileSync(whitelistPath, 'utf8'))
-    }
-    return null
-  } catch (e) {
-    return null
   }
 }
 
