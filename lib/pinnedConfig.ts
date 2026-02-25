@@ -95,10 +95,43 @@ export function isPinnedDomain(domain: string, category: string, region: string)
 }
 
 /**
- * Apply pinned suppliers to list
- * - Adds pinned suppliers not present in list
- * - Reorders: pinned first (in config order), then rest
- * - No duplicates
+ * Normalize domain for deduplication
+ * - lower-case
+ * - remove protocol, path, params
+ * - remove "www."
+ * - returns root domain
+ */
+function normalizeDomain(input: string): string {
+  if (!input) return ''
+  
+  let domain = input.toLowerCase().trim()
+  
+  // Remove protocol
+  domain = domain.replace(/^https?:\/\//, '')
+  // Remove path and params
+  domain = domain.split('/')[0]
+  domain = domain.split('?')[0]
+  domain = domain.split('#')[0]
+  // Remove www.
+  domain = domain.replace(/^www\./, '')
+  
+  return domain
+}
+
+/**
+ * Get dedupe key for supplier
+ */
+function getDedupeKey(supplier: any): string {
+  // Try domain fields first
+  const domain = supplier.domain || supplier.display_domain || supplier.slug || supplier.website || ''
+  return normalizeDomain(domain)
+}
+
+/**
+ * Apply pinned suppliers to list with strict deduplication
+ * - Pinned suppliers always first (in config order)
+ * - Main list filtered to remove any pinned domains
+ * - No duplicates guaranteed
  */
 export function applyPinnedSuppliers(
   suppliers: any[],
@@ -110,71 +143,55 @@ export function applyPinnedSuppliers(
   
   // Build pinned supplier objects
   const pinnedSuppliers: any[] = []
-  const existingDomains = new Set(suppliers.map(s => 
-    (s.domain || s.display_domain || s.slug || '').toLowerCase()
-  ))
+  const pinnedDedupeKeys = new Set<string>()
   
   for (const key of pinnedKeys) {
     const data = getPinnedSupplierData(key)
     if (!data) continue
     
-    const domainLower = data.domain.toLowerCase()
+    const dedupeKey = normalizeDomain(data.domain)
+    pinnedDedupeKeys.add(dedupeKey)
     
-    // Check if already in list
-    if (existingDomains.has(domainLower)) {
-      // Will be reordered, don't add duplicate
-      continue
-    }
-    
-    // Add pinned supplier
-    pinnedSuppliers.push({
-      id: data.website,
-      slug: data.domain,
-      name: data.displayName,
-      website: data.website,
-      domain_display: data.domain,
-      phone: data.phones[0] || '',
-      phones: data.phones,
-      address: data.address,
-      cities: [{ name: 'Москва', slug: null }],
-      regions: [{ slug: region, name: 'Москва и Московская область' }],
-      categories: [{ category: { slug: category, name: category } }],
-      status: 'active',
-      clicks: 100, // High priority
-      is_verified: true,
-      is_pinned: true,
-    })
-  }
-  
-  // Filter out existing pinned from suppliers (will re-add in correct order)
-  const nonPinned = suppliers.filter(s => {
-    const domain = (s.domain || s.display_domain || s.slug || '').toLowerCase()
-    return !pinnedKeys.some(key => {
-      const pinnedData = getPinnedSupplierData(key)
-      return pinnedData?.domain.toLowerCase() === domain
-    })
-  })
-  
-  // Re-add existing pinned in correct order
-  const existingPinned: any[] = []
-  for (const key of pinnedKeys) {
-    const data = getPinnedSupplierData(key)
-    if (!data) continue
-    
+    // Check if this pinned supplier exists in main list
     const existing = suppliers.find(s => {
-      const domain = (s.domain || s.display_domain || s.slug || '').toLowerCase()
-      return domain === data.domain.toLowerCase()
+      return getDedupeKey(s) === dedupeKey
     })
     
     if (existing) {
-      existingPinned.push({
+      // Use existing data but mark as pinned and prioritize
+      pinnedSuppliers.push({
         ...existing,
         is_pinned: true,
         clicks: 100,
       })
+    } else {
+      // Create new pinned supplier
+      pinnedSuppliers.push({
+        id: data.website,
+        slug: data.domain,
+        name: data.displayName,
+        website: data.website,
+        domain_display: data.domain,
+        phone: data.phones[0] || '',
+        phones: data.phones,
+        address: data.address,
+        cities: [{ name: 'Москва', slug: null }],
+        regions: [{ slug: region, name: 'Москва и Московская область' }],
+        categories: [{ category: { slug: category, name: category } }],
+        status: 'active',
+        clicks: 100,
+        is_verified: true,
+        is_pinned: true,
+      })
     }
   }
   
-  // Combine: existing pinned (in order) + new pinned + rest
-  return [...existingPinned, ...pinnedSuppliers, ...nonPinned]
+  // STRICT DEDUP: Filter main list to remove ALL pinned domains
+  const filteredSuppliers = suppliers.filter(s => {
+    const dedupeKey = getDedupeKey(s)
+    return !pinnedDedupeKeys.has(dedupeKey)
+  })
+  
+  // Combine: pinned (in order) + filtered main list
+  return [...pinnedSuppliers, ...filteredSuppliers]
 }
