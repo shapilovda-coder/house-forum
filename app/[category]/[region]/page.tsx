@@ -14,7 +14,8 @@ function loadWhitelistCombinations() {
   try {
     const fs = require('fs')
     const path = require('path')
-    const whitelistsDir = path.join(process.cwd(), 'data', 'whitelists')
+    const projectRoot = '/root/projects/house-forum'
+    const whitelistsDir = path.join(projectRoot, 'data', 'whitelists')
     if (!fs.existsSync(whitelistsDir)) return []
     
     const files = fs.readdirSync(whitelistsDir)
@@ -90,7 +91,9 @@ function loadWhitelist(category: string, region: string) {
   try {
     const fs = require('fs')
     const path = require('path')
-    const whitelistPath = path.join(process.cwd(), 'data', 'whitelists', `${category}_${region}.json`)
+    // Use absolute path to project root
+    const projectRoot = '/root/projects/house-forum'
+    const whitelistPath = path.join(projectRoot, 'data', 'whitelists', `${category}_${region}.json`)
     if (fs.existsSync(whitelistPath)) {
       return JSON.parse(fs.readFileSync(whitelistPath, 'utf8'))
     }
@@ -119,11 +122,11 @@ export default async function Page({
   const whitelist = loadWhitelist(category, region)
   
   // Special cases: whitelist categories — only StekloRoll in recommended, no Artalico
-  const showOnlyStekloRoll = (category === 'rolletnye-shkafy' || category === 'zashitnye-rolstavni') 
+  const showOnlyStekloRoll = (category === 'rolletnye-shkafy' || category === 'zashitnye-rolstavni' || category === 'prozrachnye-rolstavni') 
     && region === 'moskva-i-mo'
   
   if (whitelist) {
-    // Use whitelist data
+    // Use whitelist data ONLY — no fallback to suppliers_clean.json
     const whitelistSuppliers = whitelist
       .filter((w: any) => w.parse_status === 'ok' || w.parse_status === 'partial')
       .map((w: any) => ({
@@ -155,7 +158,7 @@ export default async function Page({
     )
   }
   
-  // Fallback to suppliers_clean.json
+  // Fallback to suppliers_clean.json ONLY if no whitelist
   const suppliers = loadSuppliers()
   const filteredSuppliers = suppliers.filter((s: any) => 
     s.categories.some((c: any) => (c.category?.slug || c.slug || c) === category) &&
