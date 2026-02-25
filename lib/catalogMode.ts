@@ -13,6 +13,7 @@ export const WHITELIST_CATEGORIES = new Set([
   "myagkie-okna",
   "vorota",
   "bezramnoe-osteklenie",
+  "ofisnye-peregorodki",
 ]);
 
 /**
