@@ -5,6 +5,7 @@ import { CATEGORIES, getCategoryMetadata } from '@/lib/seo/catalog'
 import { CANONICAL_REGIONS } from '@/lib/seo/regions'
 import CategoryPage from '../components/CategoryPage'
 import CategoryCover from '../components/CategoryCover'
+import CategoryIntro from '../components/CategoryIntro'
 import { getCatalogMode, isWhitelistMode } from '@/lib/catalogMode'
 import { getCategoryName, getCategoryImage } from '@/lib/categories'
 import fs from 'fs'
@@ -89,6 +90,9 @@ export default async function Page({
           {/* H1 from SEO dictionary */}
           <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || catData.name}</h1>
           
+          {/* SEO Intro Block */}
+          <CategoryIntro category={category} />
+          
           {/* H2 sections */}
           <div className="mb-8">
             <h2 className="text-xl font-semibold text-gray-800 mb-4">{meta?.h2[0] || 'Выберите регион'}</h2>
@@ -138,12 +142,17 @@ export default async function Page({
   ))
   
   return (
-    <CategoryPage 
+    <>
+      <div className="max-w-5xl mx-auto px-4 pt-8">
+        <CategoryIntro category={category} />
+      </div>
+      <CategoryPage 
       category={catData}
       suppliers={sortedSuppliers}
       availableRegions={availableRegions}
       totalCount={sortedSuppliers.length}
       seoMeta={meta}
     />
+    </>
   )
 }
