@@ -69,18 +69,12 @@ function CategoryRegionContent({
         <span className="text-gray-900">{region.nameShort}</span>
       </nav>
 
-      {/* Count + City Filter - компактный inline */}
-      <div className="mb-6">
-        <p className="text-gray-500 text-sm mb-3">
-          Найдено {filteredSuppliers.length} поставщиков
-          {validCity && ` в городе ${validCity}`}
-        </p>
-        
-        {/* City pills */}
-        <div className="flex flex-wrap gap-2">
+      {/* City Filter - компактные чипсы, без заголовка */}
+      {cities.length > 1 && (
+        <div className="flex flex-wrap gap-2 mb-6">
           <Link
             href={`/${category.slug}/${region.slug}/`}
-            className={`text-sm px-3 py-1 rounded-full transition ${
+            className={`text-sm px-3 py-1.5 rounded-full transition ${
               !validCity 
                 ? 'bg-orange-500 text-white' 
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -92,7 +86,7 @@ function CategoryRegionContent({
             <Link
               key={city}
               href={`/${category.slug}/${region.slug}/?city=${encodeURIComponent(city)}`}
-              className={`text-sm px-3 py-1 rounded-full transition ${
+              className={`text-sm px-3 py-1.5 rounded-full transition ${
                 validCity === city 
                   ? 'bg-orange-500 text-white' 
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
@@ -102,7 +96,7 @@ function CategoryRegionContent({
             </Link>
           ))}
         </div>
-      </div>
+      )}
       
       {/* Recommended Section - ONLY pinned suppliers */}
       {!hideRecommended && recommendedSuppliers.length > 0 && (
