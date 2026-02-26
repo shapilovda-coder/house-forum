@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
+import Footer from './components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -73,36 +74,7 @@ export default function RootLayout({
         {/* Main content */}
         {children}
 
-        {/* Footer — глобальный */}
-        <footer className="bg-gray-800 text-white py-8 mt-12">
-          <div className="max-w-5xl mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-              <div>
-                <h3 className="font-semibold mb-2">Категории</h3>
-                <ul className="text-sm text-gray-400 space-y-1">
-                  <li><Link href="/prozrachnye-rolstavni/" className="hover:text-white">Прозрачные рольставни</Link></li>
-                  <li><Link href="/zashchitnye-rolstavni/" className="hover:text-white">Защитные рольставни</Link></li>
-                  <li><Link href="/vorota/" className="hover:text-white">Ворота</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Регионы</h3>
-                <ul className="text-sm text-gray-400 space-y-1">
-                  <li><Link href="/prozrachnye-rolstavni/moskva-i-mo/" className="hover:text-white">Москва и МО</Link></li>
-                  <li><Link href="/prozrachnye-rolstavni/spb-lo/" className="hover:text-white">СПб и ЛО</Link></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold mb-2">Компания</h3>
-                <ul className="text-sm text-gray-400 space-y-1">
-                  <li><Link href="/blog/" className="hover:text-white">Блог</Link></li>
-                  <li><Link href="/kontakty/" className="hover:text-white">Контакты</Link></li>
-                </ul>
-              </div>
-            </div>
-            <p className="text-center text-gray-400 text-sm">© 2026 СтройСейлс. Все права защищены.</p>
-          </div>
-        </footer>
+        <Footer />
       </body>
     </html>
   )
