@@ -4,8 +4,10 @@ import SearchBar from './components/SearchBar'
 import CompanyCard from './components/CompanyCard'
 import { CANONICAL_REGIONS } from '@/lib/seo/catalog'
 import { applyPinnedSuppliers } from '@/lib/pinnedConfig'
+import { getHomeMetadata } from '@/lib/seo/catalog'
 import fs from 'fs'
 import path from 'path'
+import type { Metadata } from 'next'
 
 // Load all Moscow whitelist suppliers for homepage
 function loadMoscowWhitelists() {
@@ -62,8 +64,18 @@ function loadMoscowWhitelists() {
   return allSuppliers
 }
 
+// Generate metadata for home page
+export async function generateMetadata(): Promise<Metadata> {
+  const seo = getHomeMetadata();
+  return {
+    title: seo.title,
+    description: seo.description,
+  };
+}
+
 export default function HomePage() {
   const suppliers = loadMoscowWhitelists()
+  const seo = getHomeMetadata();
   
   // Apply pinned: Stekloroll #1, Artalico #2 for homepage
   const finalSuppliers = applyPinnedSuppliers(suppliers, 'prozrachnye-rolstavni', 'moskva-i-mo')
@@ -74,7 +86,7 @@ export default function HomePage() {
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 py-6 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-xl md:text-3xl font-bold text-white mb-2">
-            Каталог проверенных поставщиков рольставней, ворот и остекления
+            {seo.h1}
           </h1>
           <p className="text-base text-blue-100">
             400+ компаний в Москве, Санкт-Петербурге и других регионах
@@ -83,7 +95,10 @@ export default function HomePage() {
       </div>
 
       {/* Category Tiles */}
-      <CategoryTiles />
+      <div className="max-w-5xl mx-auto px-4 py-6">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">{seo.h2[0]}</h2>
+        <CategoryTiles />
+      </div>
 
       {/* Search Bar - sticky */}
       <SearchBar />
@@ -99,6 +114,36 @@ export default function HomePage() {
           {finalSuppliers.map((company: any) => (
             <CompanyCard key={company.id} company={company} />
           ))}
+        </div>
+      </div>
+
+      {/* How it works */}
+      <div className="max-w-5xl mx-auto px-4 pb-8">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">{seo.h2[1]}</h2>
+        <div className="bg-gray-50 rounded-lg p-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-blue-600 font-bold">1</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1">Выберите категорию</h3>
+              <p className="text-sm text-gray-600">Найдите нужный тип остекления или рольставней</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-blue-600 font-bold">2</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1">Сравните поставщиков</h3>
+              <p className="text-sm text-gray-600">Изучите контакты, сайты и предложения компаний</p>
+            </div>
+            <div className="text-center">
+              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                <span className="text-blue-600 font-bold">3</span>
+              </div>
+              <h3 className="font-semibold text-gray-900 mb-1">Свяжитесь напрямую</h3>
+              <p className="text-sm text-gray-600">Получите расчёт стоимости от выбранного подрядчика</p>
+            </div>
+          </div>
         </div>
       </div>
 

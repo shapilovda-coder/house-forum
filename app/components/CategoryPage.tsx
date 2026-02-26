@@ -13,19 +13,26 @@ interface CategoryPageProps {
   suppliers: any[]
   availableRegions: string[]
   totalCount: number
+  seoMeta?: {
+    title: string
+    description: string
+    h1: string
+    h2: string[]
+  } | null
 }
 
 export default function CategoryPage({ 
   category, 
   suppliers, 
   availableRegions,
-  totalCount 
+  totalCount,
+  seoMeta
 }: CategoryPageProps) {
   // All suppliers for full list
   const allSuppliers = suppliers
   
   return (
-    <>
+    <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Breadcrumbs */}
       <nav className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:text-orange-500">Главная</Link>
@@ -33,8 +40,8 @@ export default function CategoryPage({
         <span className="text-gray-900">{category.name}</span>
       </nav>
 
-      {/* H1 - только название категории */}
-      <h1 className="text-2xl font-bold text-gray-900 mb-2">{category.name}</h1>
+      {/* H1 - из SEO словаря */}
+      <h1 className="text-2xl font-bold text-gray-900 mb-2">{seoMeta?.h1 || category.name}</h1>
       
       {/* Subtitle - не H2 */}
       <p className="text-gray-600 mb-2">{category.subtitle}</p>
@@ -44,7 +51,7 @@ export default function CategoryPage({
       
       {/* Region Selector */}
       <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
-        <h2 className="text-lg font-semibold text-gray-900 mb-3">Выберите регион</h2>
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">{seoMeta?.h2[0] || 'Выберите регион'}</h2>
         <div className="flex flex-wrap items-center gap-2">
           {availableRegions.map(regionSlug => {
             const region = CANONICAL_REGIONS.find(r => r.slug === regionSlug)
@@ -63,7 +70,7 @@ export default function CategoryPage({
       
       {/* Companies Section */}
       <div className="mb-6">
-        <h2 className="text-lg font-semibold text-gray-900 mb-3">Компании и контакты</h2>
+        <h2 className="text-lg font-semibold text-gray-900 mb-3">{seoMeta?.h2[1] || 'Компании и контакты'}</h2>
         <p className="text-sm text-gray-500 mb-3">{totalCount} поставщиков</p>
         <div className="space-y-3">
           {allSuppliers.map(company => (
@@ -97,6 +104,6 @@ export default function CategoryPage({
           </details>
         </div>
       </div>
-    </>
+    </div>
   )
 }

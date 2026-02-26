@@ -119,6 +119,7 @@ export default async function Page({
     notFound()
   }
   
+  const meta = getCategoryRegionMetadata(category as any, region as any);
   const mode = getCatalogMode(category)
   
   // WHITELIST MODE: STRICT — NO FALLBACK EVER
@@ -131,7 +132,7 @@ export default async function Page({
       return (
         <div className="min-h-screen bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 py-12 text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">{catData.name}</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || catData.name}</h1>
             <p className="text-gray-500 text-lg">Раздел скоро появится</p>
           </div>
         </div>
@@ -203,6 +204,11 @@ export default async function Page({
     
     return (
       <>
+        {/* H1 Section */}
+        <div className="max-w-5xl mx-auto px-4 pt-8">
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
+        </div>
+        
         {(() => {
           const imageSrc = getCategoryImage(category)
           return imageSrc ? (
@@ -224,6 +230,7 @@ export default async function Page({
           totalCount={finalSuppliers.length}
           showOnlyStekloRoll={showOnlyStekloRoll}
           hideRecommended={hideRecommended}
+          seoMeta={meta}
         />
       </>
     )
@@ -248,6 +255,11 @@ export default async function Page({
   
   return (
     <>
+      {/* H1 Section */}
+      <div className="max-w-5xl mx-auto px-4 pt-8">
+        <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
+      </div>
+      
       {(() => {
         const imageSrc = getCategoryImage(category)
         return imageSrc ? (
@@ -268,6 +280,7 @@ export default async function Page({
         suppliers={finalSuppliers}
         cities={citiesInRegion}
         totalCount={finalSuppliers.length}
+        seoMeta={meta}
       />
     </>
   )

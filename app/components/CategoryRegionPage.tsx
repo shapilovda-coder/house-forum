@@ -22,6 +22,12 @@ interface CategoryRegionPageProps {
   totalCount: number
   showOnlyStekloRoll?: boolean
   hideRecommended?: boolean
+  seoMeta?: {
+    title: string
+    description: string
+    h1: string
+    h2: string[]
+  } | null
 }
 
 // Inner component that uses useSearchParams
@@ -32,7 +38,8 @@ function CategoryRegionContent({
   cities,
   totalCount,
   showOnlyStekloRoll,
-  hideRecommended
+  hideRecommended,
+  seoMeta
 }: CategoryRegionPageProps) {
   const searchParams = useSearchParams()
   const selectedCity = searchParams.get('city')
@@ -52,7 +59,7 @@ function CategoryRegionContent({
   const mainSuppliers = filteredSuppliers.filter(s => !s.is_pinned)
   
   return (
-    <>
+    <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Breadcrumbs */}
       <nav className="text-sm text-gray-500 mb-4">
         <Link href="/" className="hover:text-orange-500">Главная</Link>
@@ -100,7 +107,7 @@ function CategoryRegionContent({
       {/* Recommended Section - ONLY pinned suppliers */}
       {!hideRecommended && recommendedSuppliers.length > 0 && (
         <div className="mb-6">
-          <h2 className="text-lg font-semibold text-gray-900 mb-3">Рекомендуемые</h2>
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">{seoMeta?.h2[0] || 'Рекомендуемые'}</h2>
           <div className="space-y-3">
             {recommendedSuppliers.map(company => (
               <CompanyCard key={company.id} company={company} categorySlug={category.slug} />
@@ -113,7 +120,7 @@ function CategoryRegionContent({
       {mainSuppliers.length > 0 && (
         <div className="mb-6">
           <h2 className="text-lg font-semibold text-gray-900 mb-3">
-            Все поставщики
+            {seoMeta?.h2[1] || 'Все поставщики'}
           </h2>
           <div className="space-y-3">
             {mainSuppliers.map(company => (
@@ -160,16 +167,14 @@ function CategoryRegionContent({
           </details>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
 export default function CategoryRegionPage(props: CategoryRegionPageProps) {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8">
-      <Suspense fallback={<div className="text-center py-12">Загрузка...</div>}>
-        <CategoryRegionContent {...props} />
-      </Suspense>
-    </div>
+    <Suspense fallback={<div className="text-center py-12">Загрузка...</div>}>
+      <CategoryRegionContent {...props} />
+    </Suspense>
   )
 }

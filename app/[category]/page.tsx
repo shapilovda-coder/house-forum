@@ -67,6 +67,7 @@ export default async function Page({
     notFound()
   }
   
+  const meta = getCategoryMetadata(category as any);
   const mode = getCatalogMode(category)
   
   // WHITELIST MODE: Show region selector or redirect to single region
@@ -85,20 +86,13 @@ export default async function Page({
     return (
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-8">
-          {/* Category Cover with H1 */}
-          {(() => {
-            const imageSrc = getCategoryImage(category)
-            return imageSrc ? (
-              <CategoryCover
-                title={catData.name}
-                description="Поставщики, цены и контакты"
-                imageSrc={imageSrc}
-                imageAlt={catData.name}
-              />
-            ) : (
-              <h1 className="text-3xl font-bold text-gray-900 mb-4">{catData.name}</h1>
-            )
-          })()}
+          {/* H1 from SEO dictionary */}
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || catData.name}</h1>
+          
+          {/* H2 sections */}
+          <div className="mb-8">
+            <h2 className="text-xl font-semibold text-gray-800 mb-4">{meta?.h2[0] || 'Выберите регион'}</h2>
+          </div>
           
           <p className="text-gray-600 mb-8">Выберите регион:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -108,7 +102,7 @@ export default async function Page({
                 href={`/${category}/${region.slug}/`}
                 className="block p-6 bg-white rounded-lg shadow hover:shadow-md transition-shadow"
               >
-                <h2 className="text-xl font-semibold text-blue-600">{region.name}</h2>
+                <h3 className="text-xl font-semibold text-blue-600">{region.name}</h3>
               </Link>
             ))}
           </div>
@@ -149,6 +143,7 @@ export default async function Page({
       suppliers={sortedSuppliers}
       availableRegions={availableRegions}
       totalCount={sortedSuppliers.length}
+      seoMeta={meta}
     />
   )
 }
