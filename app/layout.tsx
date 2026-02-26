@@ -29,14 +29,17 @@ export default function RootLayout({
                   k=e.createElement(t),a=e.getElementsByTagName(t)[0],
                   k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
                 })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107013655','ym');
-                ym(107013655, 'init', {
-                  ssr:true,
-                  webvisor:true,
-                  clickmap:true,
-                  ecommerce:"dataLayer",
-                  accurateTrackBounce:true,
-                  trackLinks:true
-                });
+                const isProdHost = typeof window !== 'undefined' && /(^|\\.)stroysales\\.ru$/.test(window.location.hostname);
+                if (isProdHost) {
+                  ym(107013655, 'init', {
+                    ssr:true,
+                    webvisor:true,
+                    clickmap:true,
+                    ecommerce:"dataLayer",
+                    accurateTrackBounce:true,
+                    trackLinks:true
+                  });
+                }
               `}
             </Script>
             <noscript>
