@@ -4,6 +4,7 @@ interface CategoryCoverProps {
   imageSrc: string
   imageAlt: string
   compact?: boolean
+  isH1?: boolean
 }
 
 export default function CategoryCover({
@@ -11,7 +12,8 @@ export default function CategoryCover({
   description,
   imageSrc,
   imageAlt,
-  compact = true
+  compact = true,
+  isH1 = false
 }: CategoryCoverProps) {
   return (
     <div className={`bg-white rounded-lg shadow-sm overflow-hidden mb-6 ${compact ? '' : 'mb-8'}`}>
@@ -27,13 +29,21 @@ export default function CategoryCover({
           </div>
         </div>
         
-        {/* Text content - visual only, no H1/H2 */}
+        {/* Text content — H1 или div в зависимости от isH1 */}
         {(title || description) && (
           <div className="md:w-2/3 lg:w-3/4 p-4 md:p-6 flex flex-col justify-center">
             {title && (
-              <div className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-                {title}
-              </div>
+              <>
+                {isH1 ? (
+                  <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+                    {title}
+                  </h1>
+                ) : (
+                  <div className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
+                    {title}
+                  </div>
+                )}
+              </>
             )}          
             {description && (
               <p className="text-gray-600 text-sm md:text-base">

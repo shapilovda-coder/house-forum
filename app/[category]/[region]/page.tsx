@@ -204,23 +204,24 @@ export default async function Page({
     
     return (
       <>
-        {/* H1 Section */}
-        <div className="max-w-5xl mx-auto px-4 pt-8">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
-        </div>
-        
+        {/* Cover with H1 — единственный заголовок на странице */}
         {(() => {
           const imageSrc = getCategoryImage(category)
           return imageSrc ? (
-            <div className="max-w-5xl mx-auto px-4 pt-4">
+            <div className="max-w-5xl mx-auto px-4 pt-8">
               <CategoryCover
-                title={`${catData.nameShort} — ${regData.nameShort}`}
+                title={meta?.h1 || `${catData.name} — ${regData.name}`}
                 description={`Каталог поставщиков ${catData.name.toLowerCase()} в ${regData.namePrepositional || regData.name}`}
                 imageSrc={imageSrc}
                 imageAlt={catData.name}
+                isH1={true}
               />
             </div>
-          ) : null
+          ) : (
+            <div className="max-w-5xl mx-auto px-4 pt-8">
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
+            </div>
+          )
         })()}
         <CategoryRegionPage 
           category={catData}
@@ -255,23 +256,24 @@ export default async function Page({
   
   return (
     <>
-      {/* H1 Section */}
-      <div className="max-w-5xl mx-auto px-4 pt-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
-      </div>
-      
+      {/* Cover with H1 — единственный заголовок на странице (catalog mode) */}
       {(() => {
         const imageSrc = getCategoryImage(category)
         return imageSrc ? (
-          <div className="max-w-5xl mx-auto px-4 pt-4">
+          <div className="max-w-5xl mx-auto px-4 pt-8">
             <CategoryCover
-              title={`${catData.nameShort} — ${regData.nameShort}`}
-              description="Поставщики, цены и контакты"
+              title={meta?.h1 || `${catData.name} — ${regData.name}`}
+              description={`Каталог поставщиков ${catData.name.toLowerCase()} в ${regData.namePrepositional || regData.name}`}
               imageSrc={imageSrc}
               imageAlt={catData.name}
+              isH1={true}
             />
           </div>
-        ) : null
+        ) : (
+          <div className="max-w-5xl mx-auto px-4 pt-8">
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || `${catData.name} — ${regData.name}`}</h1>
+          </div>
+        )
       })()}
       
       <CategoryRegionPage 
