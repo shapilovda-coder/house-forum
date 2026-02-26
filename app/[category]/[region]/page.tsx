@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/seo/catalog'
 import CategoryRegionPage from '../../components/CategoryRegionPage'
 import CategoryCover from '../../components/CategoryCover'
+import CategoryIntro from '../../components/CategoryIntro'
 import { isWhitelistMode, getCatalogMode } from '@/lib/catalogMode'
 import { applyPinnedSuppliers, getPinnedForCategory } from '@/lib/pinnedConfig'
 import { getCategoryImage } from '@/lib/categories'
@@ -223,6 +224,9 @@ export default async function Page({
             </div>
           )
         })()}
+        <div className="max-w-5xl mx-auto px-4">
+          <CategoryIntro category={category} />
+        </div>
         <CategoryRegionPage 
           category={catData}
           region={regData}
@@ -275,6 +279,10 @@ export default async function Page({
           </div>
         )
       })()}
+      
+      <div className="max-w-5xl mx-auto px-4">
+        <CategoryIntro category={category} />
+      </div>
       
       <CategoryRegionPage 
         category={catData}
