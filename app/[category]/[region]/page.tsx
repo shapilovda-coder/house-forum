@@ -10,6 +10,47 @@ import { getCategoryImage } from '@/lib/categories'
 import fs from 'fs'
 import path from 'path'
 
+// Normalize domain for deduplication
+function normalizeDomain(domain: string): string {
+  return domain
+    .replace(/^https?:\/\//, '')
+    .replace(/^www\./, '')
+    .replace(/\/$/, '')
+    .toLowerCase()
+}
+
+// Deduplicate suppliers by normalized domain, with pinned priority
+function deduplicateSuppliers(suppliers: any[]): any[] {
+  const usedDomains = new Set<string>()
+  const result: any[] = []
+  
+  // Separate pinned and regular
+  const pinned = suppliers.filter(s => s.is_pinned)
+  const regular = suppliers.filter(s => !s.is_pinned)
+  
+  // Add pinned first
+  for (const s of pinned) {
+    const domain = s.domain_display || s.slug || s.website || ''
+    const key = normalizeDomain(domain)
+    if (key && !usedDomains.has(key)) {
+      usedDomains.add(key)
+      result.push(s)
+    }
+  }
+  
+  // Add regular only if not already used
+  for (const s of regular) {
+    const domain = s.domain_display || s.slug || s.website || ''
+    const key = normalizeDomain(domain)
+    if (key && !usedDomains.has(key)) {
+      usedDomains.add(key)
+      result.push(s)
+    }
+  }
+  
+  return result
+}
+
 // TEMP build log flag (set to true for debugging)
 const DEBUG_BUILD = true // Always log for visibility
 
@@ -194,7 +235,7 @@ export default async function Page({
     }))
     
     // Apply pinned suppliers (adds pinned not in list, reorders)
-    const finalSuppliers = applyPinnedSuppliers(mappedSuppliers, category, region)
+    const finalSuppliers = deduplicateSuppliers(applyPinnedSuppliers(mappedSuppliers, category, region))
     
     logBuild(category, region, 'whitelist', 'published/whitelists', finalSuppliers.length)
     
@@ -249,8 +290,8 @@ export default async function Page({
     s.status === 'active'
   )
   
-  // Apply pinned for catalog mode too
-  const finalSuppliers = applyPinnedSuppliers(filteredSuppliers, category, region)
+  // Apply pinned for catalog mode too + deduplicate
+  const finalSuppliers = deduplicateSuppliers(applyPinnedSuppliers(filteredSuppliers, category, region))
   
   const citiesInRegion: string[] = Array.from(new Set(
     filteredSuppliers.flatMap((s: any) => s.cities.map((c: any) => c.name as string))
