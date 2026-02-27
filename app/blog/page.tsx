@@ -30,18 +30,6 @@ const articles = [
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-100">
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
-            <div className="w-7 h-7 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold text-sm">S</div>
-            <span className="text-lg font-bold text-gray-900">
-              Строй<span className="text-blue-600">Сейлс</span>
-            </span>
-          </a>
-        </div>
-      </header>
-
       {/* Content */}
       <div className="max-w-5xl mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-8">Блог</h1>
