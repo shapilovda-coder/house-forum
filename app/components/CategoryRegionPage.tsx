@@ -55,6 +55,7 @@ function CategoryRegionContent({
     : suppliers
   
   // STRICT SEPARATION: recommended (is_pinned) vs main list
+  // Note: suppliers are already deduplicated by server
   const recommendedSuppliers = filteredSuppliers.filter(s => s.is_pinned)
   const mainSuppliers = filteredSuppliers.filter(s => !s.is_pinned)
   

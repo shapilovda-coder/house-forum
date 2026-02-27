@@ -10,45 +10,60 @@ import { getCategoryImage } from '@/lib/categories'
 import fs from 'fs'
 import path from 'path'
 
-// Normalize domain for deduplication
+// Normalize domain for deduplication (handles punycode, www, protocols)
 function normalizeDomain(domain: string): string {
-  return domain
-    .replace(/^https?:\/\//, '')
-    .replace(/^www\./, '')
-    .replace(/\/$/, '')
-    .toLowerCase()
+  try {
+    let normalized = domain
+      .replace(/^https?:\/\//, '')
+      .replace(/^www\./, '')
+      .replace(/\/$/, '')
+      .toLowerCase()
+    
+    // Handle punycode - convert xn-- to unicode for comparison
+    if (normalized.includes('xn--')) {
+      try {
+        // Use URL API to decode punycode if available
+        normalized = new URL('http://' + normalized).hostname
+      } catch {
+        // Fallback: keep as-is
+      }
+    }
+    
+    return normalized
+  } catch {
+    return domain.toLowerCase()
+  }
 }
 
-// Deduplicate suppliers by normalized domain, with pinned priority
+// Deduplicate suppliers by normalized domain
+// Priority: is_pinned > priority/click count > first occurrence
 function deduplicateSuppliers(suppliers: any[]): any[] {
-  const usedDomains = new Set<string>()
-  const result: any[] = []
+  const seen = new Map<string, any>()
   
-  // Separate pinned and regular
-  const pinned = suppliers.filter(s => s.is_pinned)
-  const regular = suppliers.filter(s => !s.is_pinned)
-  
-  // Add pinned first
-  for (const s of pinned) {
+  for (const s of suppliers) {
     const domain = s.domain_display || s.slug || s.website || ''
     const key = normalizeDomain(domain)
-    if (key && !usedDomains.has(key)) {
-      usedDomains.add(key)
-      result.push(s)
+    if (!key) continue
+    
+    const existing = seen.get(key)
+    if (!existing) {
+      seen.set(key, s)
+    } else {
+      // Keep the one with higher priority
+      const existingPinned = existing.is_pinned || false
+      const newPinned = s.is_pinned || false
+      const existingPriority = existing.priority || existing.clicks || 0
+      const newPriority = s.priority || s.clicks || 0
+      
+      if (newPinned && !existingPinned) {
+        seen.set(key, s)
+      } else if (newPinned === existingPinned && newPriority > existingPriority) {
+        seen.set(key, s)
+      }
     }
   }
   
-  // Add regular only if not already used
-  for (const s of regular) {
-    const domain = s.domain_display || s.slug || s.website || ''
-    const key = normalizeDomain(domain)
-    if (key && !usedDomains.has(key)) {
-      usedDomains.add(key)
-      result.push(s)
-    }
-  }
-  
-  return result
+  return Array.from(seen.values())
 }
 
 // TEMP build log flag (set to true for debugging)
@@ -234,7 +249,7 @@ export default async function Page({
       is_pinned: w.is_pinned || false
     }))
     
-    // Apply pinned suppliers (adds pinned not in list, reorders)
+    // Apply pinned suppliers + deduplicate
     const finalSuppliers = deduplicateSuppliers(applyPinnedSuppliers(mappedSuppliers, category, region))
     
     logBuild(category, region, 'whitelist', 'published/whitelists', finalSuppliers.length)
