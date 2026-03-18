@@ -1,10 +1,12 @@
 {
-  "trailingSlash": true,
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/blog/:slug/",
-      "destination": "/blog/:slug/index.html"
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "distDir": ".next"
+      }
     }
-  ],
-  "cleanUrls": true
+  ]
 }
