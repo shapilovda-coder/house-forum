@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 350">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA"/>
+      <stop offset="100%" style="stop-color:#DBEAFE"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F8FAFC"/>
+      <stop offset="100%" style="stop-color:#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="350" fill="url(#skyGrad)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="200" cy="80" rx="80" ry="30" fill="white" opacity="0.8"/>
+  <ellipse cx="250" cy="90" rx="60" ry="25" fill="white" opacity="0.8"/>
+  <ellipse cx="1600" cy="60" rx="100" ry="35" fill="white" opacity="0.8"/>
+  <ellipse cx="1680" cy="75" rx="70" ry="28" fill="white" opacity="0.8"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="300" width="1920" height="50" fill="#22C55E"/>
+  <path d="M0 300 Q400 280 960 300 Q1520 320 1920 300 L1920 350 L0 350 Z" fill="#16A34A"/>
+  
+  <!-- Modern House -->
+  <g transform="translate(760, 80)">
+    <!-- Main house body -->
+    <rect x="100" y="80" width="300" height="160" fill="url(#houseGrad)" rx="8"/>
+    
+    <!-- Roof -->
+    <path d="M80 80L250 10L420 80" fill="#1E293B"/>
+    <path d="M80 80L250 10L420 80" fill="none" stroke="#334155" stroke-width="4"/>
+    
+    <!-- Chimney -->
+    <rect x="350" y="30" width="30" height="45" fill="#475569" rx="3"/>
+    <!-- Smoke -->
+    <circle cx="365" cy="20" r="8" fill="#94A3B8" opacity="0.6"/>
+    <circle cx="375" cy="10" r="6" fill="#94A3B8" opacity="0.4"/>
+    
+    <!-- Large window with glass roller shutter -->
+    <rect x="140" y="110" width="100" height="80" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>
+    <rect x="140" y="110" width="100" height="25" fill="#3B82F6" opacity="0.8"/>
+    <line x1="190" y1="110" x2="190" y2="190" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="140" y1="150" x2="240" y2="150" stroke="#3B82F6" stroke-width="2"/>
+    
+    <!-- Second window -->
+    <rect x="280" y="110" width="80" height="70" fill="#DBEAFE" stroke="#3B82F6" stroke-width="3"/>
+    <line x1="320" y1="110" x2="320" y2="180" stroke="#3B82F6" stroke-width="2"/>
+    <line x1="280" y1="145" x2="360" y2="145" stroke="#3B82F6" stroke-width="2"/>
+    
+    <!-- Balcony with glass railing -->
+    <rect x="250" y="190" width="130" height="50" fill="#F1F5F9"/>
+    <rect x="240" y="180" width="150" height="10" fill="#E2E8F0"/>
+    <!-- Glass railing -->
+    <rect x="250" y="200" width="130" height="30" fill="#BFDBFE" opacity="0.4"/>
+    <line x1="250" y1="200" x2="250" y2="230" stroke="#60A5FA" stroke-width="2"/>
+    <line x1="315" y1="200" x2="315" y2="230" stroke="#60A5FA" stroke-width="2"/>
+    <line x1="380" y1="200" x2="380" y2="230" stroke="#60A5FA" stroke-width="2"/>
+    <line x1="250" y1="215" x2="380" y2="215" stroke="#60A5FA" stroke-width="2"/>
+    
+    <!-- Garage with automatic gates -->
+    <rect x="0" y="160" width="90" height="80" fill="#E2E8F0"/>
+    <rect x="8" y="170" width="74" height="70" fill="#CBD5E1"/>
+    <!-- Gate lines -->
+    <line x1="20" y1="170" x2="20" y2="240" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="35" y1="170" x2="35" y2="240" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="50" y1="170" x2="50" y2="240" stroke="#94A3B8" stroke-width="2"/>
+    <line x1="65" y1="170" x2="65" y2="240" stroke="#94A3B8" stroke-width="2"/>
+    
+    <!-- Door -->
+    <rect x="320" y="200" width="40" height="40" fill="#475569" rx="4"/>
+    <circle cx="350" cy="220" r="3" fill="#94A3B8"/>
+    
+    <!-- Soft window on terrace -->
+    <path d="M260 130Q260 115 275 115H305Q320 115 320 130V160H260Z" fill="#BFDBFE" opacity="0.5" stroke="#60A5FA" stroke-width="2"/>
+  </g>
+  
+  <!-- Trees -->
+  <g transform="translate(550, 180)">
+    <circle cx="0" cy="0" r="50" fill="#22C55E" opacity="0.9"/>
+    <circle cx="30" cy="-20" r="40" fill="#16A34A" opacity="0.9"/>
+    <rect x="-5" y="40" width="10" height="30" fill="#475569"/>
+  </g>
+  
+  <g transform="translate(1300, 190)">
+    <circle cx="0" cy="0" r="45" fill="#22C55E" opacity="0.9"/>
+    <circle cx="25" cy="-15" r="35" fill="#16A34A" opacity="0.9"/>
+    <rect x="-4" y="35" width="8" height="25" fill="#475569"/>
+  </g>
+  
+  <!-- Small bushes -->
+  <circle cx="680" cy="310" r="15" fill="#22C55E"/>
+  <circle cx="710" cy="315" r="12" fill="#16A34A"/>
+  <circle cx="1200" cy="310" r="15" fill="#22C55E"/>
+  <circle cx="1230" cy="315" r="12" fill="#16A34A"/>
+</svg>

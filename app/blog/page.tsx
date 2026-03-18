@@ -60,7 +60,7 @@ const articles = [
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gray-100">
-      <!-- Schema.org BreadcrumbList -->
+      {/* Schema.org BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
