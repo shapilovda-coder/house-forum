@@ -19,3 +19,4 @@ get_companies.js
 # Large files
 *.zip
 *.tar.gz
+.vercel
