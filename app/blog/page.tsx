@@ -21,21 +21,21 @@ export const metadata = {
 
 const articles = [
   {
-    slug: 'post/prozrachnye-rolstavni-dlya-verandy',
+    slug: 'prozrachnye-rolstavni-dlya-verandy',
     title: 'Прозрачные рольставни для веранды: как выбрать и не переплатить',
     excerpt: 'Мечтаете остеклить веранду? Разбираем, как работают прозрачные роллеты, чем они выгодно отличаются от классического остекления.',
     date: '17 марта 2026',
     category: 'Прозрачные рольставни',
   },
   {
-    slug: 'post/zashitnye-rolstavni-dlya-dachi',
+    slug: 'zashitnye-rolstavni-dlya-dachi',
     title: 'Защитные рольставни для дачи: защита от взлома и непрошеных гостей',
     excerpt: 'Как выбрать и установить защитные рольставни для загородного дома. Экструдерный и стальной профиль, замки, автоматика.',
     date: '17 марта 2026',
     category: 'Защитные рольставни',
   },
   {
-    slug: 'post/sektsionnye-vorota-garazh',
+    slug: 'sektsionnye-vorota-garazh',
     title: 'Секционные ворота для гаража: полное руководство по выбору',
     excerpt: 'Как выбрать секционные ворота для гаража. Размеры, утепление, автоматика, цены. Сравнение с откатными и рулонными.',
     date: '17 марта 2026',
