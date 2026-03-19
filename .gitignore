@@ -3,6 +3,10 @@ node_modules/
 out/
 .vercel/
 
+# Environment variables
+.env
+backend/.env
+
 # Scripts with sensitive data
 add_address_column.js
 check_schema.js

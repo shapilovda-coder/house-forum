@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import Footer from './components/Footer'
+import { OrganizationSchema } from './components/SchemaOrg'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -50,6 +51,9 @@ export default function RootLayout({
             </noscript>
           </>
         )}
+
+        {/* Schema.org Organization */}
+        <OrganizationSchema />
 
         {/* Header — глобальный */}
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
