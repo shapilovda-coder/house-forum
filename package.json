@@ -7,14 +7,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
     "parse:prozrachnye-moskva": "node scripts/parse-whitelist.ts --category prozrachnye-rolstavni --region moskva-i-mo"
   },
   "dependencies": {
+    "@sentry/nextjs": "^10.44.0",
+    "algoliasearch": "^5.49.2",
     "next": "^15.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.58.2",
     "@types/node": "^22.10.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",

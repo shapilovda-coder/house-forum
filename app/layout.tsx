@@ -3,11 +3,12 @@ import Link from 'next/link'
 import Script from 'next/script'
 import Footer from './components/Footer'
 import { OrganizationSchema } from './components/SchemaOrg'
+import { ClientLayout } from './components/ClientLayout'
 import './globals.css'
 
 export const metadata: Metadata = {
   title: 'СтройСейлс — каталог поставщиков рольставней, ворот и остекления',
-  description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления в Москве, Санкт-Петербурге и других регионах. Build: 2026-03-19-v2',
+  description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления в Москве, Санкт-Петербурге и других регионах.',
 }
 
 export default function RootLayout({
@@ -52,33 +53,56 @@ export default function RootLayout({
           </>
         )}
 
-        {/* Schema.org Organization */}
-        <OrganizationSchema />
+        <ClientLayout>
+          {/* Schema.org Organization */}
+          <OrganizationSchema />
 
-        {/* Header — глобальный */}
-        <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-          <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 3L4 9v12h16V9l-8-6zm0 2.2L18.5 9H5.5L12 5.2zM6 19v-9h12v9H6z"/>
-                </svg>
+          {/* Header — глобальный */}
+          <header className="bg-white border-b border-gray-200 sticky top-0 z-40">
+            <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
+              <Link href="/" className="flex items-center gap-2">
+                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
+                  <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 3L4 9v12h16V9l-8-6zm0 2.2L18.5 9H5.5L12 5.2zM6 19v-9h12v9H6z"/>
+                  </svg>
+                </div>
+                <span className="text-xl font-bold text-gray-900">
+                  Строй<span className="text-orange-500">Сейлс</span>
+                </span>
+              </Link>
+              
+              <div className="flex items-center gap-4">
+                <span className="text-sm text-gray-500 hidden md:block">Каталог поставщиков</span>
+                
+                {/* Search Button */}
+                <button 
+                  className="flex items-center gap-2 text-sm text-gray-600 hover:text-blue-600 transition"
+                  onClick={() => {
+                    // Dispatch custom event to open search
+                    window.dispatchEvent(new CustomEvent('open-search'))
+                  }}
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  <span className="hidden sm:inline">Поиск</span>
+                  <kbd className="hidden md:inline-flex items-center gap-1 px-2 py-0.5 text-xs bg-gray-100 rounded">
+                    <span>⌘</span>K
+                  </kbd>
+                </button>
+                
+                <Link href="/postavshchiki/" className="text-sm text-blue-600 hover:text-blue-800">
+                  Все поставщики
+                </Link>
               </div>
-              <span className="text-xl font-bold text-gray-900">
-                Строй<span className="text-orange-500">Сейлс</span>
-              </span>
-            </Link>
-            <span className="text-sm text-gray-500 hidden sm:block">Каталог поставщиков</span>
-            <Link href="/postavshchiki/" className="text-sm text-blue-600 hover:text-blue-800 hidden sm:block">
-              Все поставщики
-            </Link>
-          </div>
-        </header>
+            </div>
+          </header>
 
-        {/* Main content */}
-        {children}
+          {/* Main content */}
+          {children}
 
-        <Footer />
+          <Footer />
+        </ClientLayout>
       </body>
     </html>
   )
