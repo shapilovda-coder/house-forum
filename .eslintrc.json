@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-html-link-for-pages": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["app/**/*.tsx", "app/**/*.ts"],
+      "excludedFiles": ["**/*.client.tsx", "app/components/**/*.tsx"],
+      "rules": {
+        "no-restricted-syntax": [
+          "error",
+          {
+            "selector": "JSXAttribute[name.name=/^on[A-Z]/]",
+            "message": "🚨 Event handlers (onClick, onChange, etc.) require 'use client' directive. Create a separate client component or add 'use client' at the top of the file."
+          },
+          {
+            "selector": "CallExpression[callee.name=/^use[A-Z]/]",
+            "message": "🚨 React hooks (useState, useEffect, etc.) require 'use client' directive. Create a separate client component or add 'use client' at the top of the file."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -7,9 +7,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "pre-deploy": "npm run type-check && npm run lint && npm run build",
     "test": "playwright test",
     "test:ui": "playwright test --ui",
-    "parse:prozrachnye-moskva": "node scripts/parse-whitelist.ts --category prozrachnye-rolstavni --region moskva-i-mo"
+    "parse:prozrachnye-moskva": "node scripts/parse-whitelist.ts --category prozrachnye-rolstavni --region moskva-i-mo",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "bash -c 'npm run type-check'"
+    ]
   },
   "dependencies": {
     "@sentry/nextjs": "^10.44.0",
@@ -23,8 +33,13 @@
     "@types/node": "^22.10.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
     "autoprefixer": "^10.4.20",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "postcss": "^8.4.49",
+    "prettier": "^3.8.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.0"
   }
