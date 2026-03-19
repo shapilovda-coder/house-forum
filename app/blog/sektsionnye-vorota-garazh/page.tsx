@@ -1,78 +1,65 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Секционные ворота для гаража | СтройСейлс',
-  description: 'Как выбрать секционные ворота для гаража. Размеры, утепление, автоматика, цены.',
+  description: 'Как выбрать секционные ворота для гаража. Размеры, утепление, автоматика, цены. Сравнение с откатными и рулонными.',
 }
 
 export default function Article() {
   return (
-    <>
-      <style>{`
-        .article-container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-        .article { background: white; border-radius: 12px; padding: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .article h1 { font-size: 32px; color: #1e3a5f; margin-bottom: 20px; }
-        .article h2 { font-size: 24px; color: #1e3a5f; margin: 30px 0 15px; padding-bottom: 10px; border-bottom: 2px solid #2563eb; }
-        .meta { color: #666; font-size: 14px; margin-bottom: 20px; }
-        .tag { background: #2563eb; color: white; padding: 3px 10px; border-radius: 15px; font-size: 12px; margin-right: 10px; }
-        .intro { background: #eff6ff; padding: 20px; border-radius: 8px; border-left: 4px solid #2563eb; margin-bottom: 25px; }
-      `}</style>
-      
-      <div className="bg-gray-100 min-h-screen pb-10">
-        <header className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white">
-          <div className="bg-black/20 py-2">
-            <div className="max-w-[1200px] mx-auto px-5 flex justify-between items-center text-sm">
-              <span>📍 Каталог поставщиков рольставней, ворот и остекления</span>
-              <div>
-                <a href="tel:+74951510979" className="text-yellow-400 ml-4">📞 +7 (495) 151-09-79</a>
-                <a href="mailto:info@stroysales.ru" className="text-yellow-400 ml-4">✉️ info@stroysales.ru</a>
-              </div>
-            </div>
-          </div>
-          <div className="max-w-[1200px] mx-auto px-5 py-4 flex justify-between items-center">
-            <div className="flex items-center gap-2 text-2xl font-bold">
-              <span>🏗️ Строй</span>
-              <span className="text-yellow-400">Сейлс</span>
-            </div>
-            <nav className="flex gap-6">
-              <a href="/" className="font-medium">Главная</a>
-              <a href="/postavshchiki/" className="font-medium">Поставщики</a>
-              <a href="/blog/" className="font-medium">Блог</a>
-              <a href="/calculator/" className="font-medium">Калькулятор</a>
-              <a href="/contacts/" className="font-medium">Контакты</a>
-            </nav>
-          </div>
-        </header>
-
-        <div className="bg-white py-4">
-          <div className="max-w-[1200px] mx-auto px-5 text-sm text-gray-600">
-            <a href="/" className="text-[#2d5a87]">Главная</a> → <a href="/blog/" className="text-[#2d5a87]">Блог</a> → Секционные ворота для гаража
-          </div>
+    <div className="min-h-screen bg-gray-100 pb-10">
+      {/* Breadcrumbs */}
+      <div className="bg-white py-4 border-b border-gray-200">
+        <div className="max-w-5xl mx-auto px-4 text-sm text-gray-600">
+          <Link href="/" className="text-blue-600 hover:underline">Главная</Link>
+          <span className="mx-2">→</span>
+          <Link href="/blog/" className="text-blue-600 hover:underline">Блог</Link>
+          <span className="mx-2">→</span>
+          <span className="text-gray-900">Секционные ворота для гаража</span>
         </div>
+      </div>
 
-        <div className="article-container">
-          <article className="article">
-            <div className="meta">
-              <span className="tag">Ворота</span>
-              <span>📅 17 марта 2026</span>
-            </div>
-            <h1>Секционные ворота для гаража: полное руководство</h1>
-            <div className="intro">
-              <p>На рынке десятки вариантов, но если нужен <strong>оптимальный баланс цены, теплоизоляции и удобства</strong> — выбор очевиден. Секционные ворота занимают 60% рынка.</p>
-            </div>
-            <h2>Принцип работы</h2>
-            <p>Секционные ворота состоят из 4-6 панелей. При открывании полотно поднимается вверх и уходит под потолок, складываясь параллельно полу.</p>
-            <h2>Сколько стоят</h2>
-            <ul className="list-disc pl-6 mb-4">
+      {/* Article */}
+      <div className="max-w-5xl mx-auto px-4 py-8">
+        <article className="bg-white rounded-lg shadow-sm p-6 md:p-10">
+          {/* Meta */}
+          <div className="flex items-center gap-3 text-sm text-gray-500 mb-4">
+            <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full font-medium">Ворота</span>
+            <span>📅 17 марта 2026</span>
+          </div>
+
+          <h1 className="text-3xl font-bold text-gray-900 mb-6">Секционные ворота для гаража: полное руководство</h1>
+
+          <div className="prose prose-lg max-w-none">
+            <p className="lead text-gray-600 text-lg mb-6">
+              На рынке десятки вариантов, но если нужен <strong>оптимальный баланс цены, теплоизоляции и удобства</strong> — выбор очевиден. Секционные ворота занимают 60% рынка.
+            </p>
+
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Принцип работы</h2>
+            <p className="text-gray-700 mb-4">
+              Секционные ворота состоят из 4-6 панелей. При открывании полотно поднимается вверх и уходит под потолок, складываясь параллельно полу.
+            </p>
+
+            <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Сколько стоят</h2>
+            <ul className="list-disc pl-6 space-y-2 text-gray-700 mb-6">
               <li>Полотно (2.5×2.1 м): <strong>35 000 — 55 000 ₽</strong></li>
               <li>Направляющие: <strong>8 000 — 12 000 ₽</strong></li>
               <li>Электропривод: <strong>18 000 — 35 000 ₽</strong></li>
               <li>Монтаж: <strong>10 000 — 15 000 ₽</strong></li>
             </ul>
-            <p><strong>Где заказать:</strong> <a href="https://stekloroll.ru/" target="_blank" className="text-blue-600">StekloRoll</a> — подбор и установка под ключ.</p>
-          </article>
-        </div>
+
+            <div className="bg-orange-50 border-l-4 border-orange-500 p-6 my-8">
+              <p className="text-gray-800 mb-2"><strong>Где заказать:</strong></p>
+              <p className="text-gray-700">
+                <Link href="https://stekloroll.ru/" target="_blank" className="text-blue-600 hover:underline font-medium">
+                  StekloRoll
+                </Link> — подбор и установка под ключ.
+              </p>
+            </div>
+          </div>
+        </article>
       </div>
-    </>
+    </div>
   )
 }
