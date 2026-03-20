@@ -5,10 +5,9 @@
 
 import requests
 import re
-import os
 
-SUPABASE_URL = os.getenv("SUPABASE_URL", "https://zzellrqkamskeftyprkv.supabase.co")
-SUPABASE_KEY = os.getenv("SUPABASE_ANON_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6ZWxscnFrYW1za2VmdHlwcmt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3MDMyOTIsImV4cCI6MjA4NzI3OTI5Mn0.vNrzaaOWG2cDBCDcrQISN_R2PgKb0XekNTQAndLhNy8")
+SUPABASE_URL = "https://zzellrqkamskeftyprkv.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6ZWxscnFrYW1za2VmdHlwcmt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3MDMyOTIsImV4cCI6MjA4NzI3OTI5Mn0.vNrzaaOWG2cDBCDcrQISN_R2PgKb0XekNTQAndLhNy8"
 
 def get_city_id(city_slug):
     """Получить ID города по slug"""

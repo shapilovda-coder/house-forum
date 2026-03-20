@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HomePage from './HomePage'
 import CategoryPage from './CategoryPage'
-import { supabase } from '../../lib/supabase'
+import { createClient } from '@supabase/supabase-js'
 
 // Конфигурация
 const CATEGORIES = [
@@ -35,6 +35,12 @@ const CITIES = [
 ]
 
 const STATIC_PAGES = ['blog', 'kontakty', 'calculator', 'o-proekte']
+
+// Supabase client
+const supabase = createClient(
+  'https://zzellrqkamskeftyprkv.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp6ZWxscnFrYW1za2VmdHlwcmt2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE3MDMyOTIsImV4cCI6MjA4NzI3OTI5Mn0.vNrzaaOWG2cDBCDcrQISN_R2PgKb0XekNTQAndLhNy8'
+)
 
 export async function generateStaticParams() {
   const paths: { slug: string[] }[] = []

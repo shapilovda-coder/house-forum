@@ -6,11 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:e2e": "playwright test",
-    "playwright:install": "playwright install"
+    "lint": "next lint"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.97.0",
