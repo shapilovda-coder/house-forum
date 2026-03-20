@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:analyze": "cross-env ANALYZE=true next build",
     "start": "next start",
-    "lint": "eslint --config .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
-    "presubmit": "npm run lint && npm run test"
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --config eslint.config.cjs . --ext .js,.jsx,.ts,.tsx",
+    "test": "npx playwright test",
+    "presubmit": "npm run type-check && npm run lint && npm run test"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.45.0",
@@ -16,14 +19,19 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^16.2.0",
+    "@playwright/test": "^1.58.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
     "@types/node": "^22.10.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
     "autoprefixer": "^10.4.20",
-    "eslint": "9.39.4",
+    "cross-env": "^10.1.0",
+    "eslint": "10.1.0",
     "eslint-config-next": "16.2.0",
     "jsdom": "^29.0.1",
     "playwright": "^1.58.2",

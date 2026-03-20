@@ -1,15 +1,69 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import Footer from './components/Footer'
 import SearchButton from './components/SearchButton'
-import { OrganizationSchema } from './components/SchemaOrg'
+import { OrganizationSchema, WebSiteSchema } from './components/SchemaOrg'
 import { ClientLayout } from './components/ClientLayout'
 import './globals.css'
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#2563eb',
+}
 
 export const metadata: Metadata = {
   title: 'СтройСейлс — каталог поставщиков рольставней, ворот и остекления',
   description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления в Москве, Санкт-Петербурге и других регионах.',
+  keywords: ['рольставни', 'ворота', 'остекление', 'поставщики', 'каталог', 'Москва', 'Санкт-Петербург'],
+  authors: [{ name: 'СтройСейлс' }],
+  creator: 'СтройСейлс',
+  publisher: 'СтройСейлс',
+  metadataBase: new URL('https://stroysales.ru'),
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ru_RU',
+    url: 'https://stroysales.ru/',
+    siteName: 'СтройСейлс',
+    title: 'СтройСейлс — каталог поставщиков рольставней, ворот и остекления',
+    description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления в Москве, Санкт-Петербурге и других регионах.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'СтройСейлс — каталог поставщиков',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'СтройСейлс — каталог поставщиков рольставней, ворот и остекления',
+    description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления.',
+    images: ['/og-image.jpg'],
+  },
+  verification: {
+    yandex: '0b44c9af9afed784',
+  },
+  other: {
+    'format-detection': 'telephone=no',
+  },
 }
 
 export default function RootLayout({
