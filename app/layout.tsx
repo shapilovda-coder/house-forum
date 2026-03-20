@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления в Москве, Санкт-Петербурге и других регионах.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/hero-banner.webp',
         width: 1200,
         height: 630,
         alt: 'СтройСейлс — каталог поставщиков',
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'СтройСейлс — каталог поставщиков рольставней, ворот и остекления',
     description: 'Проверенные поставщики рольставней, ворот, мягких окон и безрамного остекления.',
-    images: ['/og-image.jpg'],
+    images: ['/hero-banner.webp'],
   },
   verification: {
     yandex: '0b44c9af9afed784',
@@ -73,6 +73,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
+      <head>
+        {/* Preconnect for external resources */}
+        <link rel="preconnect" href="https://mc.yandex.ru" />
+        <link rel="dns-prefetch" href="https://mc.yandex.ru" />
+      </head>
       <body className="min-h-screen bg-gray-50">
         {process.env.NODE_ENV === "production" && (
           <>
@@ -109,8 +114,9 @@ export default function RootLayout({
         )}
 
         <ClientLayout>
-          {/* Schema.org Organization */}
+          {/* Schema.org Structured Data */}
           <OrganizationSchema />
+          <WebSiteSchema />
 
           {/* Header — глобальный */}
           <header className="bg-white border-b border-gray-200 sticky top-0 z-40">

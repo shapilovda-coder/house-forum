@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import CompanyCard from './CompanyCard'
 import { CATEGORIES, CANONICAL_REGIONS } from '@/lib/seo/catalog'
+import { BreadcrumbSchema } from './SchemaOrg'
 
 interface CategoryPageProps {
   category: {
@@ -33,11 +34,23 @@ export default function CategoryPage({
   
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
+      {/* Breadcrumb Schema */}
+      <BreadcrumbSchema 
+        items={[
+          { name: 'Главная', url: 'https://stroysales.ru/' },
+          { name: category.name },
+        ]} 
+      />
+      
       {/* Breadcrumbs */}
-      <nav className="text-sm text-gray-500 mb-4">
-        <Link href="/" className="hover:text-orange-500">Главная</Link>
-        <span className="mx-2">/</span>
-        <span className="text-gray-900">{category.name}</span>
+      <nav className="text-sm text-gray-500 mb-4" aria-label="Breadcrumb">
+        <ol className="flex items-center">
+          <li>
+            <Link href="/" className="hover:text-orange-500">Главная</Link>
+          </li>
+          <li className="mx-2" aria-hidden="true">/</li>
+          <li className="text-gray-900" aria-current="page">{category.name}</li>
+        </ol>
       </nav>
 
       {/* H1 - из SEO словаря */}
