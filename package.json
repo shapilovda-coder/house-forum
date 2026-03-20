@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --config .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
+    "presubmit": "npm run lint && npm run test"
   },
   "dependencies": {
     "@sentry/nextjs": "^10.45.0",
