@@ -1,0 +1,3220 @@
+{
+  "prozrachnye-rolstavni|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "mskroll.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "moskva-jaluzi.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "verend.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "rollets.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "sunsystems-rdo.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "etalonmsk.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "alfa24.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "levin-group.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "zhaluzi-rolstavni.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-top.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "divals.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "eurobriz.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "richrol.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "rusroll.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "allo-rolstavni.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "grandelux.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "myagkiydom.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "domodedovo.vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rol-stroy.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "abc-safety.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolstavni-prom.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "stylishblinds.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vidnoe.vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "zavod-rollet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stranavorot.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "jaluzi-style.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "otkatnye-vorotaa.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rol-servis.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolskie-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sun-rolls.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "chehov.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dmitrov.stylishblinds.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dmitrov.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dubna.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "egorevsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "glass.rolletvdom.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "himki.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "istra.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kashira.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "klin.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kolomna.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "korolev.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mozhaysk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mytischi.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mytishchi.moskva-jaluzi.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "glasrol.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tancom.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolletvdom.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "lemanapro.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "noginsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "orekhovo-zuevo.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pavlovsky-posad.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramenskoe.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ruza.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sergiev-posad.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "serpuhov.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shchyolkovo.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "solnechnogorsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "vorota|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "gruppa-masterov.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "77vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "mskroll.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "automaticheskie-vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "moskva-jaluzi.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-vam.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-dlya-doma.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "rollets.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota750.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-vsem.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "gild24.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "alfa24.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "region-vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "levin-group.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "oblzabor.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-top.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "grandline.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vorota-mp.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "gatemart.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "abc-safety.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "podolsk.automaticheskie-vorota.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vidnoe.vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "alutech.moscow",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "doorhan.moscow",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "automat-vorota.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "all-zabor.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "automaticgates.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "constructor-rf.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "lider-doors.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "ozinkovka.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "horoshie-zabory.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "albanydoorsystems.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "masterskay-zaborov.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "stynergy.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "aprelevka.marditop.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "otkatnye-vorota-tut.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "istra.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "lemanapro.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sergiev-posad.automaticheskie-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "1-zabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alutech-group.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alutech-proect.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "aprelevka.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "atlant-stal.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "av-door.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dock-lift.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "domodedovo.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "domodedovo.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "doorhan-nw.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dor-ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dostup-zabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dveri-puls.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "evro-tent.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "3list.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "astorural.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "avtoproezd.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "bramy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "divamsk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "doorhan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "expert-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fireproof-doors.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "good-zabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "hormann-sales.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "istra.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "istra.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kolesa-opori.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "krasnogorsk.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kupi-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "metal-tehdoor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mki-kovka.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moscow-zabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moscow.doorhan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moscow.promportal.su",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moskva.korn.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moskva.vorotnet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "msk.doorhantd.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "msk.dyntek.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "msk.kp.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mva-rolltor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "nicedoby",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "odintsovo.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "odintsovo.automaticheskie-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "otkrytie-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolsk.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "prof-zabory.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "proshlagbauru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "raduga-zaborov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramenskoe.automaticheskie-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramenskoe.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "remont-vorot24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ruza.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sart-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "satro-paladin.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sec-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sergiev-posad.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shazacom",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shelkovo.region-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shlagbaum-grad.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shop-doorhan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "solnechnogorsk.oblzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sovet-ingenera.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "getgate.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ivd.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ligazaborov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "logoslab.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "masterovit.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "metallproekt.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "metzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "profi.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "profzaborstroy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "promgates.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "properimetr.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pskzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rulonvorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "russkiyzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "staraya-kupavna.metaldveri.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stat-parts.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "t-j.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tancoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "technograd-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vektor-ts.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "volokolamsk.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "volokolamsk.zabor-dlya-doma.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-auto.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-doma.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-doorhan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-goroda.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-ilan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-one.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-prestige.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-stilstroy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-varu",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-vseru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-zmk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zabor-varu",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zabory-deshevo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zavod-aviskoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zvenigorod.77vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----7sbbefui0bjjhazu.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--b1advnalp3h.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn-----6kcbidkv5a5agcfa3azcg5c9g.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn-----6kccfvpfatujekbkuok9c0j.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stalivan.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stroyteks.net",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stroyzabor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "svarnik.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "t.me",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "unitiki.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "valles.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota.net",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorotaas.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorotamagnat.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorotasvai.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorotnet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "weeco.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "yell.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zaborkin.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zaborking.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zaboroff.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zavodzaborov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zipvorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zoon.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn-----6kcbagepm2bdwdc1awqbcwf3g9a1tka.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "domsvai.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "extradoor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kovkadvor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "profivorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota.moscow",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zaborovo.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "myagkie-okna|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "myagkie.com",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "ctepan.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "g-okna.pro",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "oknakant.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "oknofabrika.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "tentisib.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "fabrikalive.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "mjagkieokna.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "miagkieokna.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "tent-opt.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "magic-okna.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "oknafactoria.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "lemanapro.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "55ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "chehov.miagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dmitrov.mjagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "egorevsk.myagkieokna-mo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "egorevsk.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ekaterinburg.mjagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fabrika-mjagkie-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kolomna.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "lider-tent.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "myagkie-okna-klin.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "myagkie-okna.msk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mytishchi.mjagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "odincovo.tent-opt.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-sofia.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-vit.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "proline-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramenskoe.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "serpuhov.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shatura.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "solnechnogorsk.oknafactoria.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "solnechnogorsk.tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stupino.mjagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tent-chehol.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tentoptoru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "voskresensk.myagkieokna-mo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--80aqekd4a.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--b1afyerc2d.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "myagkieokna24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknadlyadachi.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknatent.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "softglass.org",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----8sb3amdwg2g.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "ofisnye-peregorodki|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    }
+  ],
+  "zashchitnye-rolstavni|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "gruppa-masterov.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "77vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "mskroll.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "automaticheskie-vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "moskva-jaluzi.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-vam.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "профставни.рф",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-dlya-doma.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "verend.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "myagkie.com",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "rollets.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota750.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-vsem.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "ctepan.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "sunsystems-rdo.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "gild24.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "indigo-peregorodki.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "etalonmsk.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "alfa24.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "region-vorota.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "levin-group.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "oblzabor.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "vorota-top.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "divals.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "eurobriz.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "richrol.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "g-okna.pro",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "кантим.рф",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "уют-окна.рф",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "glass-core.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "oknakant.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "oknofabrika.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "tentisib.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "fabrikalive.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "rusroll.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "grandline.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "mjagkieokna.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vorota-mp.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "allo-rolstavni.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "miagkieokna.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "evro-rolstavni.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "shop.ctepx.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "oki-doki.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolmaster.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "abc-safety.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "orehovo-zuevo.automaticheskie-vorota.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolety24.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolstavni.shop",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "city-jaluzi.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "podolsk.automaticheskie-vorota.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolstavnimsk.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "rolltop.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "tentoptom.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "zavod-rollet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "otkatnye-vorota-tut.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stranavorot.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kinopoisk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "wallbest.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknafactoria.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "chehov.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dubna.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "egorevsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "himki.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "istra.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kashira.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "klin.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "korolev.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mozhaysk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mytischi.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "naro-fominsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "noginsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pavlovsky-posad.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramenskoe.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ruza.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-proru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "balashiha.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "domodedovo.stylishblinds.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ivanteevka.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "krasnogorsk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "krasnoznamensk.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "losino-petrovsky.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "luhovitsy.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "odintsovo.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "podolsk.moskva-jaluzi.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pushkino.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sergiev-posad.automaticheskie-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shatura.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollerdoor.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stupino.vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tstn.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "rolletnye-shkafy|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "moskva-jaluzi.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "rollets.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "sunsystems-rdo.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "shkaf-nabalkon.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "profmetmebel.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "werstakoff.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "levin-group.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "zhaluzi-rolstavni.ru",
+      "score": 15,
+      "source": "phone,address"
+    },
+    {
+      "domain": "stiner.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "xn--80aaprl0afio1b.xn--p1ai",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "getangel.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "shkaf-parking-msk.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "city-jaluzi.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "st-box.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "alutech.moscow",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "doorhan.moscow",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "metprommebel.ru",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "xn----7sbenacbbl2bhik1tlb.xn--p1ai",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "xn--80ackwdadv2ad.xn--p1ai",
+      "score": 5,
+      "source": "address"
+    },
+    {
+      "domain": "good-docom",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "parus-msk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "roll-box.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-proru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zavod-tsk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--80aaffyidzol4b7b.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--80aczcttr3a.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "domebox.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "korsarbox.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mebstal.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "metallfurniture.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollstaff.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolmebel.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "safes.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "skoggy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stavni777.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----8sbnqgcarft0a3a3czb.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----7sbahg3akddtiuou8a2d.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "bezramnoe-osteklenie|moskva-i-mo": [
+    {
+      "domain": "stekloroll.ru",
+      "score": 9999,
+      "source": "pinned:1"
+    },
+    {
+      "domain": "artalico.ru",
+      "score": 9998,
+      "source": "pinned:2"
+    },
+    {
+      "domain": "i-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-vinchelli.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-v-pol-panoramnoe-osteklenie-balkonov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "msk.okna-servise.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "al-solution.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "balkoni-nedorogo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "balkony-pod-kluch.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mosbalkon.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "svetokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sbalkonom.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "panokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okonti.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknaprosvet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ramokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "str-mos.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "francuzskoe-osteklenie-okon-balkona.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-moscow.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-moskva.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "balcon-msk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okon-centr.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okno-msk.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fokus-komforta.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ok-no.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alum-paritet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alum.ramokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "climb-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "h-wd.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "m-strana.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "miro-miro.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-21-veka.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-proizvodstvo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna-remont-24.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "okna2-0.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "osteklenie-balkonov-tut.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "osteklenie-geluas.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ostekleniye-verandy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sks-stakusit.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sofos-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "trinity-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "znaet.petrovich.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----7sbb2alsf9bq.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fabrikaokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mosokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "glassproekt.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "melke.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "corpsun.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zavodbalkonov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "aluminarium.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "horizonov.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumburg.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumial.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumoknamoskow.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumpremium.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alustroy.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "bezramnoesteklo77.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "bitango.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "decolife.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ecookna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "forec.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "holzen.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "luxsist.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "netrama.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oklandia.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknafortaly.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknastreet.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknaville.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "raluma.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "smaltagroup.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sunarts.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "winfin.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn----7sbgbipzyfcbn3f.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fabrikaokon.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "bezramnoeosteklenie.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "prozrachnye-rolstavni|spb-lo": [
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.landal.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "roll-box.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumdevelop.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-dveri-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "gateprof.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "roll-box.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alumdevelop.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "gateprof.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-dveri-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.landal.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolletyspb.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "myagkie-okna|spb-lo": [
+    {
+      "domain": "myagkieokna-spb.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "myagkieokna-spb.ru",
+      "score": 10,
+      "source": "phone"
+    },
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "nestekla.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.55m.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moknaspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sankt-peterburg.tent-opt.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.55m.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "nestekla.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "xn--80aacjxclcbqpkbs1d0a0o.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "moknaspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sankt-peterburg.tent-opt.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknasindy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ankorokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alians-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kirishi.miagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vsevologsk.mjagkieokna.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "zashchitnye-rolstavni|spb-lo": [
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sdmk.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknasindy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollmaks.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "modern-neva.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "doorhan-nw.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollstandart.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "re-win.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "oknasindy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollmaks.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "modern-neva.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "doorhan-nw.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollstandart.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "re-win.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolletyspb.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "vorota|spb-lo": [
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolstavni-dveri-vorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollstandart.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mirvorotspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.zaborkin.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.alutech.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pitervorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.stroy-dvor.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-pax.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rollstandart.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "mirvorotspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.zaborkin.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "pitervorota.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.stroy-dvor.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vorota-pax.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "kirishi.technograd-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "volkhov.technograd-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sosnovyy-bor.stroy-dvor.com",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "sosnovyy-bor.technograd-group.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zabor-servis-stroy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "tophouse.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "zaborstroi.com",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "rolletnye-shkafy|spb-lo": [
+    {
+      "domain": "roll-box.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "roll-box.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shkaf-v-parking.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.xn--80aaprl0afio1b.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "divals.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolletyspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dvk-shop.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.metprommebel.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.profmetmebel.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "werstakoff-neva.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "shkaf-v-parking.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.xn--80aaprl0afio1b.xn--p1ai",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "divals.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "rolletyspb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "dvk-shop.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.metprommebel.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.profmetmebel.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "werstakoff-neva.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "ofisnye-peregorodki|spb-lo": [
+    {
+      "domain": "nestekla.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stekloff.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "azimut-glass.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vermond812.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "skbekas.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "peregorodkalab.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "glassall.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alians-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "osteklenie812.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "steklodel-spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "seversteklo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stekloff.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "azimut-glass.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vermond812.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "skbekas.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "peregorodkalab.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "glassall.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "alians-okna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "osteklenie812.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ],
+  "bezramnoe-osteklenie|spb-lo": [
+    {
+      "domain": "hi-tech-glazing.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "baltpanorama.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "symmetry.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.bitango.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "steklodel-spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ankorokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fabrikamarkiz.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.decolife.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vashiterrasy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "seversteklo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "hi-tech-glazing.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "baltpanorama.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "symmetry.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.bitango.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "steklodel-spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "ankorokna.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "fabrikamarkiz.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "spb.decolife.pro",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "vashiterrasy.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "seversteklo.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "stekloff.spb.ru",
+      "score": 0,
+      "source": "none"
+    },
+    {
+      "domain": "osteklenie812.ru",
+      "score": 0,
+      "source": "none"
+    }
+  ]
+}

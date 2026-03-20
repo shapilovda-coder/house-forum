@@ -1,0 +1,98 @@
+[
+  {
+    "domain": "ag-system.ru",
+    "url": "https://ag-system.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "АГ-Систем",
+    "phones": ["+74951234567"],
+    "address": null,
+    "display_domain": "ag-system.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "loftcase.ru",
+    "url": "https://loftcase.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Loftcase",
+    "phones": [],
+    "address": null,
+    "display_domain": "loftcase.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "glasstroy.ru",
+    "url": "https://glasstroy.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Гласстрой",
+    "phones": [],
+    "address": null,
+    "display_domain": "glasstroy.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "region99.ru",
+    "url": "https://region99.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Регион 99",
+    "phones": [],
+    "address": null,
+    "display_domain": "region99.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "mebela.ru",
+    "url": "https://mebela.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Мебела",
+    "phones": [],
+    "address": null,
+    "display_domain": "mebela.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "zerkala-msk.ru",
+    "url": "https://zerkala-msk.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Зеркала МСК",
+    "phones": [],
+    "address": null,
+    "display_domain": "zerkala-msk.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "ofimall.ru",
+    "url": "https://ofimall.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "Офимолл",
+    "phones": [],
+    "address": null,
+    "display_domain": "ofimall.ru",
+    "parse_status": "partial"
+  },
+  {
+    "domain": "gstrong.ru",
+    "url": "https://gstrong.ru",
+    "category": "ofisnye-peregorodki",
+    "region": "moskva-i-mo",
+    "priority": 10,
+    "company_name": "GStrong",
+    "phones": [],
+    "address": null,
+    "display_domain": "gstrong.ru",
+    "parse_status": "partial"
+  }
+]

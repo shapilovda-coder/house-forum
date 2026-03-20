@@ -1,0 +1,14 @@
+[
+  {
+    "domain": "stekloroll.ru",
+    "priority": 1,
+    "categories": ["*"],
+    "regions": ["moskva-i-mo", "spb-lo"]
+  },
+  {
+    "domain": "artalico.ru",
+    "priority": 2,
+    "categories": ["*"],
+    "regions": ["moskva-i-mo", "spb-lo"]
+  }
+]
