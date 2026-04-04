@@ -20,3 +20,6 @@ get_companies.js
 *.zip
 *.tar.gz
 .vercel
+dist/
+dist2/
+book/

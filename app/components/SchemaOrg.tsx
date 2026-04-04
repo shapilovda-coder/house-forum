@@ -9,21 +9,65 @@ interface OrganizationSchemaProps {
 export function OrganizationSchema({
   name = 'СтройСейлс',
   url = 'https://stroysales.ru',
-  logo = 'https://stroysales.ru/logo.png',
+  logo = 'https://stroysales.ru/logo.webp',
 }: OrganizationSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name,
     url,
-    logo,
+    logo: {
+      '@type': 'ImageObject',
+      url: logo,
+      width: 512,
+      height: 512,
+    },
     description: 'Каталог поставщиков рольставней, ворот и остекления',
+    sameAs: [
+      // Добавьте соцсети при наличии
+      // 'https://vk.com/stroysales',
+      // 'https://t.me/stroysales',
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+7-495-151-09-79',
       contactType: 'sales',
       areaServed: 'RU',
-      availableLanguage: 'Russian',
+      availableLanguage: ['Russian'],
+    },
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
+interface WebSiteSchemaProps {
+  name?: string
+  url?: string
+  searchUrl?: string
+}
+
+export function WebSiteSchema({
+  name = 'СтройСейлс',
+  url = 'https://stroysales.ru',
+  searchUrl = 'https://stroysales.ru/search?q={search_term_string}',
+}: WebSiteSchemaProps) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name,
+    url,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: searchUrl,
+      },
+      'query-input': 'required name=search_term_string',
     },
   }
 
@@ -72,7 +116,7 @@ export function ArticleSchema({
       name: 'СтройСейлс',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://stroysales.ru/logo.png',
+        url: 'https://stroysales.ru/logo.webp',
       },
     },
     mainEntityOfPage: {

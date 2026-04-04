@@ -4,6 +4,7 @@ import { CATEGORIES, CANONICAL_REGIONS, getCategoryRegionMetadata } from '@/lib/
 import CategoryRegionPage from '../../components/CategoryRegionPage'
 import CategoryCover from '../../components/CategoryCover'
 import CategoryIntro from '../../components/CategoryIntro'
+import { BreadcrumbSchema } from '../../components/SchemaOrg'
 import { isWhitelistMode, getCatalogMode } from '@/lib/catalogMode'
 import { applyPinnedSuppliers, getPinnedForCategory } from '@/lib/pinnedConfig'
 import { getCategoryImage } from '@/lib/categories'
@@ -150,14 +151,27 @@ export async function generateMetadata({
   if (!meta) {
     return { 
       title: 'СтройСейлс — каталог поставщиков',
-      alternates: { canonical: `/${category}/${region}` }
+      alternates: { canonical: `/${category}/${region}/` }
     }
   }
   
   return {
     title: meta.title,
     description: meta.description,
-    alternates: { canonical: `/${category}/${region}` }
+    alternates: { canonical: `/${category}/${region}/` },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: 'website',
+      url: `https://stroysales.ru/${category}/${region}/`,
+      siteName: 'СтройСейлс',
+      locale: 'ru_RU',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+    },
   }
 }
 
@@ -187,12 +201,21 @@ export default async function Page({
     if (whitelist === null || whitelist.length === 0) {
       logBuild(category, region, 'whitelist', 'none', 0)
       return (
-        <div className="min-h-screen bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 py-12 text-center">
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || catData.name}</h1>
-            <p className="text-gray-500 text-lg">Раздел скоро появится</p>
+        <>
+          <BreadcrumbSchema 
+            items={[
+              { name: 'Главная', url: 'https://stroysales.ru/' },
+              { name: catData.name, url: `https://stroysales.ru/${category}/` },
+              { name: regData.name },
+            ]} 
+          />
+          <div className="min-h-screen bg-gray-50">
+            <div className="max-w-7xl mx-auto px-4 py-12 text-center">
+              <h1 className="text-3xl font-bold text-gray-900 mb-4">{meta?.h1 || catData.name}</h1>
+              <p className="text-gray-500 text-lg">Раздел скоро появится</p>
+            </div>
           </div>
-        </div>
+        </>
       )
     }
     
@@ -261,6 +284,13 @@ export default async function Page({
     
     return (
       <>
+        <BreadcrumbSchema 
+          items={[
+            { name: 'Главная', url: 'https://stroysales.ru/' },
+            { name: catData.name, url: `https://stroysales.ru/${category}/` },
+            { name: regData.name },
+          ]} 
+        />
         {/* Cover with H1 — единственный заголовок на странице */}
         {(() => {
           const imageSrc = getCategoryImage(category)
@@ -316,6 +346,13 @@ export default async function Page({
   
   return (
     <>
+      <BreadcrumbSchema 
+        items={[
+          { name: 'Главная', url: 'https://stroysales.ru/' },
+          { name: catData.name, url: `https://stroysales.ru/${category}/` },
+          { name: regData.name },
+        ]} 
+      />
       {/* Cover with H1 — единственный заголовок на странице (catalog mode) */}
       {(() => {
         const imageSrc = getCategoryImage(category)

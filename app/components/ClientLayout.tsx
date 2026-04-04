@@ -1,7 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import { SearchModal } from './SearchModal'
+import { useState, useEffect, Suspense, lazy } from 'react'
+
+// Dynamic import for SearchModal to reduce initial bundle size
+const SearchModal = lazy(() => import('./SearchModal').then(mod => ({ default: mod.SearchModal })))
 
 export function ClientLayout({ children }: { children: React.ReactNode }) {
   const [searchOpen, setSearchOpen] = useState(false)
@@ -33,7 +35,9 @@ export function ClientLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       {children}
-      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      <Suspense fallback={null}>
+        <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      </Suspense>
     </>
   )
 }

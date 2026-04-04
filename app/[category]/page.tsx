@@ -46,12 +46,38 @@ export async function generateMetadata({
   const meta = getCategoryMetadata(category as any)
   
   if (!meta) {
-    return { title: 'СтройСейлс — каталог поставщиков' }
+    return { 
+      title: 'СтройСейлс — каталог поставщиков',
+      alternates: { canonical: `/${category}/` },
+    }
   }
   
   return {
     title: meta.title,
     description: meta.description,
+    alternates: { canonical: `/${category}/` },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      type: 'website',
+      url: `https://stroysales.ru/${category}/`,
+      siteName: 'СтройСейлс',
+      locale: 'ru_RU',
+      images: [
+        {
+          url: `/og-${category}.jpg`,
+          width: 1200,
+          height: 630,
+          alt: meta.h1,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`/og-${category}.jpg`],
+    },
   }
 }
 
