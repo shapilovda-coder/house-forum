@@ -34,7 +34,7 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Категории</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="/prozrachnye-rolstavni/" className="hover:text-white transition">Прозрачные рольставни</a></li>
-              <li><a href="/zashchitnye-rolstavni/" className="hover:text-white transition">Защитные рольставни</a></li>
+              <li><a href="/zashitnye-rolstavni/" className="hover:text-white transition">Защитные рольставни</a></li>
               <li><a href="/vorota/" className="hover:text-white transition">Ворота</a></li>
               <li><a href="/bezramnoe-osteklenie/" className="hover:text-white transition">Безрамное остекление</a></li>
               <li><a href="/myagkie-okna/" className="hover:text-white transition">Мягкие окна</a></li>
