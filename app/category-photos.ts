@@ -1,9 +1,9 @@
 // Фото для категорий
 export const categoryPhotos: Record<string, string> = {
   'prozrachnye-rolstavni': '/categories/prozrachnye.jpg',
-  'zashchitnye-rolstavni': '/categories/zashchitnye.jpg',
+  'zashitnye-rolstavni': '/categories/zashchitnye.jpg',
   'bezramnoe-osteklenie': '/categories/bezramnoe.jpg',
-  'avtomaticheskie-vorota': '/categories/vorota.jpg',
+  'vorota': '/categories/vorota.png',
   'myagkie-okna': '/categories/myagkie.jpg',
   'rolletnye-shkafy': '/categories/rolletnye.jpg',
   'ofisnye-peregorodki': '/categories/ofisnye.jpg',

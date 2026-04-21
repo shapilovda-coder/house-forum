@@ -5,7 +5,7 @@ import { CATEGORIES } from '@/lib/seo/catalog'
 
 const CATEGORY_PHOTOS: Record<string, string> = {
   'prozrachnye-rolstavni': '/categories/prozrachnye.webp',
-  'zashchitnye-rolstavni': '/categories/zashchitnye.webp',
+  'zashitnye-rolstavni': '/categories/zashchitnye.webp',
   'bezramnoe-osteklenie': '/categories/bezramnoe.webp',
   'vorota': '/categories/vorota.webp',
   'myagkie-okna': '/categories/myagkie.webp',
