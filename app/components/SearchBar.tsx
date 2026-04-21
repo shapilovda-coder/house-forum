@@ -4,7 +4,11 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { CATEGORIES, CANONICAL_REGIONS } from '@/lib/seo/catalog'
 
-export default function SearchBar() {
+interface SearchBarProps {
+  regions?: typeof CANONICAL_REGIONS
+}
+
+export default function SearchBar({ regions = CANONICAL_REGIONS }: SearchBarProps) {
   const router = useRouter()
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [selectedRegion, setSelectedRegion] = useState('all')
@@ -38,7 +42,7 @@ export default function SearchBar() {
             className="flex-1 p-3 bg-white border border-gray-300 rounded-lg text-sm"
           >
             <option value="all">Все регионы</option>
-            {CANONICAL_REGIONS.map(r => (
+            {regions.map(r => (
               <option key={r.slug} value={r.slug}>{r.name}</option>
             ))}
           </select>

@@ -1,95 +1,22 @@
 import { Metadata } from 'next'
 import AllSuppliersPage from '../components/AllSuppliersPage'
-import fs from 'fs'
-import path from 'path'
 import { getCategoryName, getRegionName } from '@/lib/categories'
-
-interface Supplier {
-  domain: string
-  displayDomain: string
-  name: string
-  phones: string[]
-  address: string | null
-  categories: string[]
-  regions: string[]
-  website: string
-  isPinned: boolean
-}
-
-// Normalize domain for deduplication
-function normalizeDomain(input: string): string {
-  if (!input) return ''
-  let domain = input.toLowerCase().trim()
-  domain = domain.replace(/^https?:\/\//, '')
-  domain = domain.split('/')[0]
-  domain = domain.split('?')[0]
-  domain = domain.replace(/^www\./, '')
-  return domain
-}
+import { loadPublishedSuppliers, SupplierProfile } from '@/lib/suppliers'
 
 // Load ALL suppliers from whitelist files ONLY
 function loadAllSuppliers(): {
-  suppliers: Supplier[]
+  suppliers: ReturnType<typeof loadPublishedSuppliers>
   categories: { slug: string; name: string }[]
   regions: { slug: string; name: string }[]
 } {
-  const suppliersMap = new Map<string, Supplier>()
+  const suppliers = loadPublishedSuppliers()
   const categoriesSet = new Set<string>()
   const regionsSet = new Set<string>()
-  
-  const whitelistsDir = path.join(process.cwd(), 'data', 'published', 'whitelists')
-  
-  if (!fs.existsSync(whitelistsDir)) {
-    return { suppliers: [], categories: [], regions: [] }
-  }
 
-  const files = fs.readdirSync(whitelistsDir)
-  
-  for (const file of files) {
-    if (!file.endsWith('.json') || file.includes('_urls')) continue
-    
-    const match = file.match(/^(.+)_(.+)\.json$/)
-    if (!match) continue
-    
-    const [, category, region] = match
-    categoriesSet.add(category)
-    regionsSet.add(region)
-    
-    const filePath = path.join(whitelistsDir, file)
-    const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
-    
-    if (!Array.isArray(data)) continue
-
-    for (const item of data) {
-      const domain = item.domain || item.display_domain || item.slug || ''
-      const normDomain = normalizeDomain(domain)
-      
-      if (!normDomain) continue
-      
-      if (suppliersMap.has(normDomain)) {
-        // Merge categories
-        const existing = suppliersMap.get(normDomain)!
-        if (!existing.categories.includes(category)) {
-          existing.categories.push(category)
-        }
-        if (!existing.regions.includes(region)) {
-          existing.regions.push(region)
-        }
-      } else {
-        suppliersMap.set(normDomain, {
-          domain: normDomain,
-          displayDomain: item.display_domain || domain,
-          name: item.company_name || item.name || domain,
-          phones: item.phones || [],
-          address: item.address || null,
-          categories: [category],
-          regions: [region],
-          website: item.url || item.source_url || `https://${normDomain}`,
-          isPinned: item.is_pinned || false
-        })
-      }
-    }
-  }
+  suppliers.forEach((supplier) => {
+    supplier.categories.forEach((category) => categoriesSet.add(category))
+    supplier.regions.forEach((region) => regionsSet.add(region))
+  })
   
   // Build categories list from actual data
   const categories = Array.from(categoriesSet)
@@ -101,16 +28,13 @@ function loadAllSuppliers(): {
     .sort()
     .map(slug => ({ slug, name: getRegionName(slug) }))
   
-  // Convert map to array
-  const suppliers = Array.from(suppliersMap.values())
-  
   return { suppliers, categories, regions }
 }
 
 // Get pinned suppliers that should always show
-function getPinnedSuppliers(allSuppliers: Supplier[]): Supplier[] {
+function getPinnedSuppliers(allSuppliers: ReturnType<typeof loadPublishedSuppliers>) {
   const pinnedDomains = ['stekloroll.ru', 'artalico.ru']
-  const pinned: Supplier[] = []
+  const pinned: SupplierProfile[] = []
   
   for (const domain of pinnedDomains) {
     const found = allSuppliers.find(s => s.domain === domain)
@@ -127,7 +51,10 @@ function getPinnedSuppliers(allSuppliers: Supplier[]): Supplier[] {
         categories: ['prozrachnye-rolstavni', 'bezramnoe-osteklenie', 'ofisnye-peregorodki', 'myagkie-okna'],
         regions: ['moskva-i-mo'],
         website: `https://${domain}`,
-        isPinned: true
+        isPinned: true,
+        id: domain,
+        profileSlug: domain.replace(/\./g, '-'),
+        updatedAt: new Date().toISOString(),
       })
     }
   }
@@ -137,7 +64,22 @@ function getPinnedSuppliers(allSuppliers: Supplier[]): Supplier[] {
 
 export const metadata: Metadata = {
   title: 'Все поставщики | СтройСейлс',
-  description: 'Полный каталог поставщиков рольставней, ворот, остекления'
+  description: 'Полный каталог поставщиков рольставней, ворот, остекления и смежных решений с переходом в карточки компаний.',
+  alternates: {
+    canonical: 'https://stroysales.ru/postavshchiki/',
+  },
+  openGraph: {
+    title: 'Все поставщики | СтройСейлс',
+    description: 'Полный каталог поставщиков рольставней, ворот, остекления и смежных решений.',
+    url: 'https://stroysales.ru/postavshchiki/',
+    type: 'website',
+    siteName: 'СтройСейлс',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Все поставщики | СтройСейлс',
+    description: 'Полный каталог поставщиков рольставней, ворот и остекления.',
+  },
 }
 
 export default function Page() {

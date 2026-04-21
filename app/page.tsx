@@ -5,6 +5,8 @@ import CompanyCard from './components/CompanyCard'
 import { CANONICAL_REGIONS } from '@/lib/seo/catalog'
 import { applyPinnedSuppliers } from '@/lib/pinnedConfig'
 import { getHomeMetadata } from '@/lib/seo/catalog'
+import { FaqSchema } from './components/SchemaOrg'
+import { getAllBlogArticles } from '@/lib/blogArticles'
 import fs from 'fs'
 import path from 'path'
 import type { Metadata } from 'next'
@@ -75,13 +77,27 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default function HomePage() {
   const suppliers = loadMoscowWhitelists()
-  const seo = getHomeMetadata();
+  const seo = getHomeMetadata()
+  const latestArticles = getAllBlogArticles().slice(0, 3)
+  const publishedRegions = CANONICAL_REGIONS.filter((region) => region.slug === 'moskva-i-mo')
+  const faqItems = [
+    {
+      question: 'Как пользоваться каталогом СтройСейлс?',
+      answer: 'Выберите категорию, перейдите в региональный раздел, сравните карточки компаний и только затем переходите на сайты поставщиков за расчётом.',
+    },
+    {
+      question: 'Можно ли разместить компанию в каталоге?',
+      answer: 'Да, в разделе контактов можно связаться с командой СтройСейлс по вопросам размещения и рекламы.',
+    },
+  ]
   
   // Apply pinned: Stekloroll #1, Artalico #2 for homepage
   const finalSuppliers = applyPinnedSuppliers(suppliers, 'prozrachnye-rolstavni', 'moskva-i-mo')
   
   return (
     <>
+      <FaqSchema items={faqItems} />
+
       {/* Compact Hero - No SVG */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 py-6 px-4">
         <div className="max-w-5xl mx-auto text-center">
@@ -101,7 +117,7 @@ export default function HomePage() {
       </div>
 
       {/* Search Bar - sticky */}
-      <SearchBar />
+      <SearchBar regions={publishedRegions} />
 
       {/* Full Suppliers List */}
       <div className="max-w-5xl mx-auto px-4 py-6">
@@ -147,12 +163,35 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* Latest articles */}
+      <div className="max-w-5xl mx-auto px-4 pb-8">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-gray-900">Последние статьи</h2>
+          <Link href="/blog/" className="text-sm text-blue-600 hover:text-orange-500 transition">
+            Все статьи
+          </Link>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {latestArticles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/blog/${article.slug}/`}
+              className="rounded-xl border border-gray-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-sm"
+            >
+              <div className="text-sm font-medium text-blue-600 mb-2">{article.categoryLabel}</div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">{article.title}</h3>
+              <p className="text-sm text-gray-600">{article.excerpt}</p>
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {/* Compact Regions */}
       <div className="max-w-5xl mx-auto px-4 pb-8">
         <div className="bg-gray-100 rounded-lg p-4">
           <p className="text-sm text-gray-600 mb-2">Популярные регионы:</p>
           <div className="flex flex-wrap gap-2">
-            {CANONICAL_REGIONS.map(region => (
+            {publishedRegions.map(region => (
               <Link
                 key={region.slug}
                 href={`/prozrachnye-rolstavni/${region.slug}/`}
@@ -162,6 +201,19 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
+        </div>
+      </div>
+
+      {/* FAQ */}
+      <div className="max-w-5xl mx-auto px-4 pb-12">
+        <h2 className="text-xl font-bold text-gray-900 mb-4">Частые вопросы о каталоге</h2>
+        <div className="space-y-3">
+          {faqItems.map((item) => (
+            <details key={item.question} className="rounded-lg border border-gray-200 bg-white p-4">
+              <summary className="cursor-pointer font-medium text-gray-900">{item.question}</summary>
+              <p className="mt-3 text-sm text-gray-600">{item.answer}</p>
+            </details>
+          ))}
         </div>
       </div>
     </>

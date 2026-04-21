@@ -3,11 +3,27 @@ import { getCalculatorMetadata } from '@/lib/seo/catalog'
 import CalculatorClient from './CalculatorClient'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const seo = getCalculatorMetadata();
+  const seo = getCalculatorMetadata()
+
   return {
     title: seo.title,
     description: seo.description,
-  };
+    alternates: {
+      canonical: 'https://stroysales.ru/calculator/',
+    },
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      url: 'https://stroysales.ru/calculator/',
+      type: 'website',
+      siteName: 'СтройСейлс',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seo.title,
+      description: seo.description,
+    },
+  }
 }
 
 export default function CalculatorPage() {

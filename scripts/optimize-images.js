@@ -17,6 +17,13 @@ try {
   const imagesToOptimize = [
     { input: 'hero-banner.png', output: 'hero-banner.webp', quality: 80 },
     { input: 'logo.png', output: 'logo.webp', quality: 85 },
+    { input: 'categories/prozrachnye.jpg', output: 'categories/prozrachnye.webp', quality: 72 },
+    { input: 'categories/zashchitnye.jpg', output: 'categories/zashchitnye.webp', quality: 72 },
+    { input: 'categories/bezramnoe.jpg', output: 'categories/bezramnoe.webp', quality: 72 },
+    { input: 'categories/vorota.png', output: 'categories/vorota.webp', quality: 72 },
+    { input: 'categories/myagkie.jpg', output: 'categories/myagkie.webp', quality: 72 },
+    { input: 'categories/rolletnye.jpg', output: 'categories/rolletnye.webp', quality: 72 },
+    { input: 'categories/ofisnye.jpg', output: 'categories/ofisnye.webp', quality: 72 },
   ];
   
   async function optimizeImages() {

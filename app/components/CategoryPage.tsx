@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import CompanyCard from './CompanyCard'
-import { CATEGORIES, CANONICAL_REGIONS } from '@/lib/seo/catalog'
+import { CANONICAL_REGIONS } from '@/lib/seo/catalog'
 import { BreadcrumbSchema } from './SchemaOrg'
 
 interface CategoryPageProps {
@@ -20,6 +20,11 @@ interface CategoryPageProps {
     h1: string
     h2: string[]
   } | null
+  relatedArticles?: {
+    slug: string
+    title: string
+    excerpt: string
+  }[]
 }
 
 export default function CategoryPage({ 
@@ -27,7 +32,8 @@ export default function CategoryPage({
   suppliers, 
   availableRegions,
   totalCount,
-  seoMeta
+  seoMeta,
+  relatedArticles = [],
 }: CategoryPageProps) {
   // All suppliers for full list
   const allSuppliers = suppliers
@@ -117,6 +123,24 @@ export default function CategoryPage({
           </details>
         </div>
       </div>
+
+      {relatedArticles.length > 0 && (
+        <div className="mb-6">
+          <h2 className="text-lg font-semibold text-gray-900 mb-3">Полезные статьи</h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            {relatedArticles.map((article) => (
+              <Link
+                key={article.slug}
+                href={`/blog/${article.slug}/`}
+                className="rounded-xl border border-gray-200 bg-white p-5 transition hover:border-orange-300 hover:shadow-sm"
+              >
+                <h3 className="text-base font-semibold text-gray-900 mb-2">{article.title}</h3>
+                <p className="text-sm text-gray-600">{article.excerpt}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   )
 }

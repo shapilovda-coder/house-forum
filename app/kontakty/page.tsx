@@ -1,6 +1,21 @@
 export const metadata = {
   title: 'Контакты СтройСейлс',
   description: 'Свяжитесь с нами по вопросам рекламы и размещения в каталоге поставщиков.',
+  alternates: {
+    canonical: 'https://stroysales.ru/kontakty/',
+  },
+  openGraph: {
+    title: 'Контакты СтройСейлс',
+    description: 'Свяжитесь с командой СтройСейлс по вопросам рекламы и размещения в каталоге.',
+    url: 'https://stroysales.ru/kontakty/',
+    type: 'website',
+    siteName: 'СтройСейлс',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Контакты СтройСейлс',
+    description: 'Контакты для рекламы и размещения в каталоге поставщиков.',
+  },
 }
 
 export default function ContactsPage() {

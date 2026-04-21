@@ -8,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/api/', '/_next/', '/*?*'],
+        disallow: ['/api/', '/_next/'],
       },
       {
         userAgent: 'Googlebot-Image',
@@ -16,6 +16,5 @@ export default function robots(): MetadataRoute.Robots {
       },
     ],
     sitemap: 'https://stroysales.ru/sitemap.xml',
-    host: 'https://stroysales.ru',
   }
 }

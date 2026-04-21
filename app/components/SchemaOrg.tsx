@@ -156,3 +156,68 @@ export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
     />
   )
 }
+
+interface FaqSchemaProps {
+  items: { question: string; answer: string }[]
+}
+
+export function FaqSchema({ items }: FaqSchemaProps) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}
+
+interface LocalBusinessSchemaProps {
+  name: string
+  url: string
+  telephone?: string
+  address?: string | null
+  image?: string
+}
+
+export function LocalBusinessSchema({
+  name,
+  url,
+  telephone,
+  address,
+  image = 'https://stroysales.ru/logo.webp',
+}: LocalBusinessSchemaProps) {
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name,
+    url,
+    image,
+    telephone: telephone || undefined,
+    address: address
+      ? {
+          '@type': 'PostalAddress',
+          streetAddress: address,
+          addressCountry: 'RU',
+        }
+      : undefined,
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}

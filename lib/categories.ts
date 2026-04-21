@@ -11,13 +11,13 @@ export const CATEGORY_NAMES: Record<string, string> = {
 }
 
 export const CATEGORY_IMAGES: Record<string, string> = {
-  'prozrachnye-rolstavni': '/categories/prozrachnye.jpg',
-  'zashitnye-rolstavni': '/categories/zashchitnye.jpg',
-  'rolletnye-shkafy': '/categories/rolletnye.jpg',
-  'bezramnoe-osteklenie': '/categories/bezramnoe.jpg',
-  'ofisnye-peregorodki': '/categories/ofisnye.jpg',
-  'vorota': '/categories/vorota.png',
-  'myagkie-okna': '/categories/myagkie.jpg',
+  'prozrachnye-rolstavni': '/categories/prozrachnye.webp',
+  'zashitnye-rolstavni': '/categories/zashchitnye.webp',
+  'rolletnye-shkafy': '/categories/rolletnye.webp',
+  'bezramnoe-osteklenie': '/categories/bezramnoe.webp',
+  'ofisnye-peregorodki': '/categories/ofisnye.webp',
+  'vorota': '/categories/vorota.webp',
+  'myagkie-okna': '/categories/myagkie.webp',
 }
 
 export const REGION_NAMES: Record<string, string> = {
