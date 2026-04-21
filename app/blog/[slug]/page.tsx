@@ -194,13 +194,6 @@ export default async function BlogArticlePage({
             </section>
           )}
 
-          <section className="mt-10 rounded-xl border border-dashed border-gray-300 bg-gray-50 p-5">
-            <div className="text-sm font-medium text-gray-900 mb-1">Рекламный слот</div>
-            <p className="text-sm text-gray-600">
-              Здесь можно безопасно размещать будущий нативный рекламный блок или премиум-поставщика
-              без вмешательства в основную структуру статьи.
-            </p>
-          </section>
         </article>
       </div>
     </div>
