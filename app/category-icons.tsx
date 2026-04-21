@@ -7,7 +7,7 @@ export const categoryIcons: Record<string, string> = {
       <path d="M7.2 6.2l9.6 11.6" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".35"/>
     </svg>
   `,
-  'zashchitnye-rolstavni': `
+  'zashitnye-rolstavni': `
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M12 3.5L19 6.8v6.1c0 4.7-3 7.8-7 9-4-1.2-7-4.3-7-9V6.8L12 3.5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
       <path d="M9.2 13.2v-1.1a2.8 2.8 0 115.6 0v1.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
@@ -21,7 +21,7 @@ export const categoryIcons: Record<string, string> = {
       <path d="M6 19.5h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   `,
-  'avtomaticheskie-vorota': `
+  'vorota': `
     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M5 10.2L12 5l7 5.2V19a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 015 19v-8.8Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
       <path d="M8 12.5h8M8 15h8M8 17.5h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity=".95"/>
