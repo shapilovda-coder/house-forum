@@ -2,7 +2,9 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import { trackCatalogEvent } from '@/lib/analytics'
 import { getCategoryName, getRegionName } from '@/lib/categories'
+import { getSupplierProfileSlug } from '@/lib/supplierProfileSlug'
 
 interface Supplier {
   domain: string
@@ -119,7 +121,13 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
             >
               <div className="flex items-start justify-between mb-2">
                 <h3 className="font-semibold text-gray-900 truncate" title={supplier.displayDomain}>
-                  {supplier.displayDomain}
+                  <Link
+                    href={`/postavshchiki/${getSupplierProfileSlug(supplier)}/`}
+                    onClick={() => trackCatalogEvent('supplier_profile_open', { supplier: supplier.domain, source: 'all_suppliers' })}
+                    className="hover:text-blue-600 transition"
+                  >
+                    {supplier.displayDomain}
+                  </Link>
                 </h3>
                 {supplier.isPinned && (
                   <span className="text-xs bg-orange-500 text-white px-2 py-1 rounded font-semibold">
@@ -159,14 +167,24 @@ export default function AllSuppliersPage({ suppliers, categories, regions }: All
                 </p>
               )}
 
-              <a
-                href={supplier.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center text-sm font-medium py-2 rounded transition"
-              >
-                Перейти на сайт
-              </a>
+              <div className="space-y-2">
+                <Link
+                  href={`/postavshchiki/${getSupplierProfileSlug(supplier)}/`}
+                  onClick={() => trackCatalogEvent('supplier_profile_open', { supplier: supplier.domain, source: 'all_suppliers' })}
+                  className="block w-full border border-gray-300 hover:border-blue-400 text-gray-700 text-center text-sm font-medium py-2 rounded transition"
+                >
+                  Карточка
+                </Link>
+                <a
+                  href={supplier.website}
+                  target="_blank"
+                  rel="nofollow sponsored noopener noreferrer"
+                  onClick={() => trackCatalogEvent('supplier_outbound_click', { supplier: supplier.domain, source: 'all_suppliers' })}
+                  className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center text-sm font-medium py-2 rounded transition"
+                >
+                  Перейти на сайт
+                </a>
+              </div>
             </div>
           ))}
         </div>

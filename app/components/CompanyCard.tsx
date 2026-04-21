@@ -1,6 +1,8 @@
 'use client'
 
 import Link from 'next/link'
+import { trackCatalogEvent } from '@/lib/analytics'
+import { getSupplierProfileSlug } from '@/lib/supplierProfileSlug'
 import { filterAddress } from '@/lib/validators/address'
 
 interface CompanyCardProps {
@@ -64,6 +66,7 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
   
   // Dedupe key for data attribute
   const dedupeKey = getDedupeKey(company)
+  const profileHref = `/postavshchiki/${getSupplierProfileSlug(company)}/`
   
   return (
     <div data-supplier-key={dedupeKey} className={`bg-white rounded-lg shadow-sm p-4 ${isPriority ? 'ring-2 ring-orange-400 ring-offset-2' : ''}`}>
@@ -88,7 +91,11 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
           )}
           
           {/* Domain */}
-          <h3 className="font-semibold text-gray-900 text-lg">{displayDomain}</h3>
+          <h3 className="font-semibold text-gray-900 text-lg">
+            <Link href={profileHref} className="hover:text-blue-600 transition">
+              {displayDomain}
+            </Link>
+          </h3>
           
           {/* Cities badges */}
           {company.cities.length > 0 && (
@@ -118,18 +125,27 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
         
         {/* Buttons */}
         <div className="md:w-44 flex flex-col justify-center border-t md:border-t-0 md:border-l border-gray-200 pt-3 md:pt-0 md:pl-4 space-y-2">
+          <Link
+            href={profileHref}
+            onClick={() => trackCatalogEvent('supplier_profile_open', { supplier: dedupeKey, category: categorySlug || null })}
+            className="block w-full border border-gray-300 hover:border-blue-400 text-gray-700 hover:text-blue-700 text-center font-semibold text-sm py-2 rounded transition"
+          >
+            Карточка
+          </Link>
           {showCalculator ? (
             <>
               <a 
                 href={`${company.website}?${utmParams}`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
+                onClick={() => trackCatalogEvent('supplier_outbound_click', { supplier: dedupeKey, category: categorySlug || null })}
                 className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold text-sm py-2 rounded transition"
               >
                 Перейти на сайт
               </a>
               <Link
                 href="/prozrachnye-rolstavni/kalkulyator/"
+                onClick={() => trackCatalogEvent('catalog_calculator_open', { supplier: dedupeKey, category: categorySlug || null })}
                 className="block w-full bg-orange-500 hover:bg-orange-600 text-white text-center font-semibold text-sm py-2 rounded transition"
               >
                 Рассчитать цену
@@ -139,7 +155,8 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
             <a 
               href={`${company.website}?${utmParams}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
+              onClick={() => trackCatalogEvent('supplier_outbound_click', { supplier: dedupeKey, category: categorySlug || null })}
               className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold text-sm py-2 rounded transition"
             >
               Перейти на сайт
@@ -148,7 +165,8 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
             <a 
               href={`${company.website}?${utmParams}`}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
+              onClick={() => trackCatalogEvent('supplier_outbound_click', { supplier: dedupeKey, category: categorySlug || null })}
               className="block w-full bg-blue-600 hover:bg-blue-700 text-white text-center font-semibold text-sm py-2 rounded transition"
             >
               Перейти на сайт
@@ -158,6 +176,7 @@ export default function CompanyCard({ company, categorySlug }: CompanyCardProps)
           {phone && (
             <a 
               href={`tel:${normalizePhone(phone)}`}
+              onClick={() => trackCatalogEvent('supplier_phone_click', { supplier: dedupeKey, category: categorySlug || null })}
               className="block w-full text-center py-2 text-sm text-gray-600 hover:text-orange-500 border border-gray-300 rounded transition"
             >
               Позвонить

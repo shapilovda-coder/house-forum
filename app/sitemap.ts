@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next'
 import fs from 'fs'
 import path from 'path'
+import { getAllBlogArticles } from '@/lib/blogArticles'
+import { loadPublishedSuppliers } from '@/lib/suppliers'
 
 export const dynamic = 'force-static'
 
@@ -16,13 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: '/kontakty/', changefreq: 'monthly', priority: 0.6 },
   ] as const
 
-  // Blog articles
-  const blogArticles = [
-    { slug: 'prozrachnye-rolstavni-dlya-verandy', priority: 0.8 },
-    { slug: 'zashitnye-rolstavni-dlya-dachi', priority: 0.8 },
-    { slug: 'sektsionnye-vorota-garazh', priority: 0.8 },
-    { slug: 'kak-vybrat-prozrachnye-rolstavni', priority: 0.7 },
-  ]
+  const blogArticles = getAllBlogArticles()
 
   // Categories with regions
   const categories = [
@@ -35,7 +31,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'ofisnye-peregorodki',
   ]
 
-  const regions = ['moskva-i-mo', 'sankt-peterburg-i-lo']
+  const publishedWhitelistsDir = path.join(process.cwd(), 'data', 'published', 'whitelists')
+  const publishedCategoryRegions = fs.existsSync(publishedWhitelistsDir)
+    ? fs
+        .readdirSync(publishedWhitelistsDir)
+        .filter((file) => file.endsWith('.json') && !file.includes('_urls'))
+        .map((file) => file.match(/^(.+)_(.+)\.json$/))
+        .filter(Boolean)
+        .map((match) => ({
+          category: match![1],
+          region: match![2],
+        }))
+    : []
+
+  const publishedSuppliers = loadPublishedSuppliers()
 
   const sitemap: MetadataRoute.Sitemap = [
     // Static pages
@@ -49,9 +58,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog articles
     ...blogArticles.map(article => ({
       url: `${baseUrl}/blog/${article.slug}/`,
-      lastModified: new Date(),
+      lastModified: new Date(article.updatedAt),
       changeFrequency: 'weekly' as const,
-      priority: article.priority,
+      priority: 0.8,
     })),
 
     // Category pages
@@ -63,14 +72,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
 
     // Category + Region pages
-    ...categories.flatMap(cat =>
-      regions.map(region => ({
-        url: `${baseUrl}/${cat}/${region}/`,
-        lastModified: new Date(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.6,
-      }))
-    ),
+    ...publishedCategoryRegions.map(({ category, region }) => ({
+      url: `${baseUrl}/${category}/${region}/`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as const,
+      priority: 0.6,
+    })),
+
+    // Supplier profile pages
+    ...publishedSuppliers.map((supplier) => ({
+      url: `${baseUrl}/postavshchiki/${supplier.profileSlug}/`,
+      lastModified: new Date(supplier.updatedAt),
+      changeFrequency: 'weekly' as const,
+      priority: 0.5,
+    })),
   ]
 
   return sitemap

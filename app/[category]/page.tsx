@@ -1,13 +1,12 @@
 import { Metadata } from 'next'
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { CATEGORIES, getCategoryMetadata } from '@/lib/seo/catalog'
 import { CANONICAL_REGIONS } from '@/lib/seo/regions'
 import CategoryPage from '../components/CategoryPage'
-import CategoryCover from '../components/CategoryCover'
 import CategoryIntro from '../components/CategoryIntro'
-import { getCatalogMode, isWhitelistMode } from '@/lib/catalogMode'
-import { getCategoryName, getCategoryImage } from '@/lib/categories'
+import { isWhitelistMode } from '@/lib/catalogMode'
+import { getAllBlogArticles } from '@/lib/blogArticles'
 import fs from 'fs'
 import path from 'path'
 
@@ -94,8 +93,8 @@ export default async function Page({
     notFound()
   }
   
-  const meta = getCategoryMetadata(category as any);
-  const mode = getCatalogMode(category)
+  const meta = getCategoryMetadata(category as any)
+  const relatedArticles = getAllBlogArticles().filter((article) => article.categorySlug === category)
   
   // WHITELIST MODE: Show region selector or redirect to single region
   if (isWhitelistMode(category)) {
@@ -103,13 +102,7 @@ export default async function Page({
     const regionsWithWhitelist = CANONICAL_REGIONS.filter(r => 
       whitelistExists(category, r.slug)
     )
-    
-    // If only one region, redirect directly
-    if (regionsWithWhitelist.length === 1) {
-      redirect(`/${category}/${regionsWithWhitelist[0].slug}/`)
-    }
-    
-    // Multiple regions: show region selector page
+
     return (
       <div className="min-h-screen bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 py-8">
@@ -136,6 +129,23 @@ export default async function Page({
               </Link>
             ))}
           </div>
+          {relatedArticles.length > 0 && (
+            <div className="mt-10">
+              <h2 className="text-xl font-semibold text-gray-800 mb-4">Полезные статьи по теме</h2>
+              <div className="grid gap-4 md:grid-cols-2">
+                {relatedArticles.map((article) => (
+                  <Link
+                    key={article.slug}
+                    href={`/blog/${article.slug}/`}
+                    className="rounded-xl border border-gray-200 bg-white p-5 transition hover:border-blue-300 hover:shadow-sm"
+                  >
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{article.title}</h3>
+                    <p className="text-sm text-gray-600">{article.excerpt}</p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
           {regionsWithWhitelist.length === 0 && (
             <div className="text-center py-12">
               <p className="text-gray-500 text-lg">Раздел скоро появится</p>
@@ -178,6 +188,7 @@ export default async function Page({
       availableRegions={availableRegions}
       totalCount={sortedSuppliers.length}
       seoMeta={meta}
+      relatedArticles={relatedArticles}
     />
     </>
   )

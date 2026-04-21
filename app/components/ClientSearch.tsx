@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import Link from 'next/link'
 
 interface Company {
   id: number
@@ -109,7 +108,7 @@ export default function ClientSearch({ companies, categories }: ClientSearchProp
               <a
                 href={`${company.website}?utm_source=stroysales&utm_medium=referral`}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="px-4 py-2 bg-blue-500 text-white rounded-lg text-sm"
               >
                 Перейти на сайт

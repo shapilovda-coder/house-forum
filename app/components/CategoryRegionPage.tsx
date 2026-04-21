@@ -51,7 +51,7 @@ function CategoryRegionContent({
   
   // Filter by city if valid
   const filteredSuppliers = validCity 
-    ? suppliers.filter(s => s.cities.some((c: any) => c.name === validCity))
+    ? suppliers.filter((s) => Array.isArray(s.cities) && s.cities.some((c: { name: string }) => c.name === validCity))
     : suppliers
   
   // STRICT SEPARATION: recommended (is_pinned) vs main list
