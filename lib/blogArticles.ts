@@ -21,6 +21,96 @@ export interface BlogArticle {
 
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
+    slug: 'skolko-stoyat-prozrachnye-rolstavni',
+    title: 'Сколько стоят прозрачные рольставни: из чего складывается цена',
+    description:
+      'Разбираем, сколько стоят прозрачные рольставни для веранды, террасы и беседки, какие факторы влияют на цену и где чаще всего переплачивают.',
+    excerpt:
+      'Показываем, из чего на самом деле складывается цена прозрачных рольставней и как сравнивать сметы подрядчиков без ошибки.',
+    categoryLabel: 'Прозрачные рольставни',
+    categorySlug: 'prozrachnye-rolstavni',
+    publishedAt: '2026-04-22',
+    updatedAt: '2026-04-22',
+    readingTime: '9 мин',
+    coverImage: '/hero-banner.webp',
+    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'kak-vybrat-podryadchika-na-prozrachnye-rolstavni'],
+    internalLinks: [
+      { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
+      { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
+      { href: '/postavshchiki/', label: 'Сравнить всех поставщиков' },
+    ],
+    faq: [
+      {
+        question: 'Сколько в среднем стоят прозрачные рольставни?',
+        answer: 'Итоговая стоимость зависит от размеров проёма, материала полотна, типа управления и сложности монтажа. Поэтому корректнее сравнивать несколько смет от подрядчиков, а не ориентироваться на одну рекламную цифру.',
+      },
+      {
+        question: 'Что сильнее всего влияет на цену?',
+        answer: 'Обычно больше всего влияют размеры проёма, тип прозрачного заполнения, автоматика, количество направляющих и сложность монтажа на конкретном объекте.',
+      },
+    ],
+  },
+  {
+    slug: 'kak-vybrat-podryadchika-na-prozrachnye-rolstavni',
+    title: 'Как выбрать подрядчика на прозрачные рольставни и не пожалеть',
+    description:
+      'Пошагово разбираем, как выбрать подрядчика на прозрачные рольставни: что спрашивать, как сравнивать сметы, на что смотреть в договоре и монтаже.',
+    excerpt:
+      'Практичный чек-лист по выбору подрядчика: от первого звонка и замера до договора, монтажа и гарантийных обязательств.',
+    categoryLabel: 'Прозрачные рольставни',
+    categorySlug: 'prozrachnye-rolstavni',
+    publishedAt: '2026-04-22',
+    updatedAt: '2026-04-22',
+    readingTime: '10 мин',
+    coverImage: '/hero-banner.webp',
+    relatedSlugs: ['skolko-stoyat-prozrachnye-rolstavni', 'prozrachnye-rolstavni-ili-myagkie-okna-dlya-verandy'],
+    internalLinks: [
+      { href: '/prozrachnye-rolstavni/', label: 'Поставщики прозрачных рольставней' },
+      { href: '/postavshchiki/', label: 'Все карточки компаний' },
+      { href: '/kontakty/', label: 'Связаться со СтройСейлс' },
+    ],
+    faq: [
+      {
+        question: 'Достаточно ли сравнить только цену?',
+        answer: 'Нет. Если смотреть только на цену, легко получить более слабый материал, неудачную автоматику или монтаж без ответственности за результат. Смету нужно сравнивать вместе с составом системы и условиями договора.',
+      },
+      {
+        question: 'Сколько подрядчиков стоит сравнивать?',
+        answer: 'На практике оптимально брать хотя бы 2–3 предложения по одному и тому же техзаданию. Так проще понять реальный рынок и увидеть, где вас пытаются упростить по комплектующим.',
+      },
+    ],
+  },
+  {
+    slug: 'oshibki-pri-zakaze-bezramnogo-ostekleniya',
+    title: 'Ошибки при заказе безрамного остекления: где теряют деньги и нервы',
+    description:
+      'Собрали главные ошибки при заказе безрамного остекления террасы и веранды: неверные ожидания по теплу, экономия на монтаже, слабый подрядчик и непрозрачная смета.',
+    excerpt:
+      'Разбираем типичные ошибки заказчиков при выборе безрамного остекления и показываем, как проверить подрядчика ещё до подписания договора.',
+    categoryLabel: 'Безрамное остекление',
+    categorySlug: 'bezramnoe-osteklenie',
+    publishedAt: '2026-04-22',
+    updatedAt: '2026-04-22',
+    readingTime: '9 мин',
+    coverImage: '/hero-banner.webp',
+    relatedSlugs: ['bezramnoe-osteklenie-terras', 'bezramnoe-osteklenie-ili-prozrachnye-rolstavni'],
+    internalLinks: [
+      { href: '/bezramnoe-osteklenie/', label: 'Каталог безрамного остекления' },
+      { href: '/bezramnoe-osteklenie/moskva-i-mo/', label: 'Поставщики в Москве и МО' },
+      { href: '/postavshchiki/', label: 'Сравнить всех поставщиков' },
+    ],
+    faq: [
+      {
+        question: 'Какая ошибка самая дорогая при заказе безрамного остекления?',
+        answer: 'Чаще всего дороже всего обходится неверное ожидание по сценарию использования: когда заказчик ждёт почти тёплое капитальное помещение, а получает красивую, но не рассчитанную на такой режим систему.',
+      },
+      {
+        question: 'Нужно ли проверять монтаж отдельно от самой системы?',
+        answer: 'Да. Даже хорошая система безрамного остекления может работать плохо, если основание неровное, направляющие выставлены неточно или подрядчик не учёл нагрузки и особенности проёма.',
+      },
+    ],
+  },
+  {
     slug: 'prozrachnye-rolstavni-ili-myagkie-okna-dlya-verandy',
     title: 'Прозрачные рольставни или мягкие окна для веранды: что выбрать',
     description:
@@ -33,7 +123,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '9 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'bezramnoe-osteklenie-ili-prozrachnye-rolstavni'],
+    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'skolko-stoyat-prozrachnye-rolstavni'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
       { href: '/myagkie-okna/', label: 'Каталог мягких окон' },
@@ -63,7 +153,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '10 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['bezramnoe-osteklenie-terras', 'prozrachnye-rolstavni-ili-myagkie-okna-dlya-verandy'],
+    relatedSlugs: ['bezramnoe-osteklenie-terras', 'oshibki-pri-zakaze-bezramnogo-ostekleniya'],
     internalLinks: [
       { href: '/bezramnoe-osteklenie/', label: 'Каталог безрамного остекления' },
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
@@ -123,7 +213,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '8 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'bezramnoe-osteklenie-terras'],
+    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'skolko-stoyat-prozrachnye-rolstavni'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
@@ -153,7 +243,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '10 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'sektsionnye-vorota-garazh'],
+    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'kak-vybrat-podryadchika-na-prozrachnye-rolstavni'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Все поставщики прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Поставщики в Москве и МО' },
