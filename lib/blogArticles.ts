@@ -21,6 +21,40 @@ export interface BlogArticle {
 
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
+    slug: 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma',
+    title: 'Ошибки при выборе прозрачных рольставней для веранды и террасы: как не переплатить',
+    description:
+      'Разбираем главные ошибки при выборе прозрачных рольставней для частного дома: цена, сценарий использования, автоматика, монтаж, смета и выбор подрядчика.',
+    excerpt:
+      'Показываем, где владельцы домов чаще всего ошибаются при выборе прозрачных рольставней для веранды, террасы и беседки, и как проверить подрядчика до заказа.',
+    categoryLabel: 'Прозрачные рольставни',
+    categorySlug: 'prozrachnye-rolstavni',
+    publishedAt: '2026-04-26',
+    updatedAt: '2026-04-26',
+    readingTime: '10 мин',
+    coverImage: '/hero-banner.webp',
+    relatedSlugs: [
+      'prozrachnye-rolstavni-dlya-verandy',
+      'skolko-stoyat-prozrachnye-rolstavni',
+      'kak-vybrat-podryadchika-na-prozrachnye-rolstavni',
+    ],
+    internalLinks: [
+      { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
+      { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
+      { href: '/postavshchiki/', label: 'Сравнить всех поставщиков' },
+    ],
+    faq: [
+      {
+        question: 'Какая ошибка при выборе прозрачных рольставней самая дорогая?',
+        answer: 'Чаще всего дороже всего обходится выбор по минимальной цене без понимания сценария использования, состава системы и качества монтажа. Такая экономия быстро превращается в неудобство, переделки и доплаты.',
+      },
+      {
+        question: 'Можно ли выбрать прозрачные рольставни без выезда замерщика?',
+        answer: 'Для предварительной оценки бюджета можно, но для нормального выбора подрядчика и корректной сметы выезд на объект почти всегда нужен. Без замера сложно честно оценить проём, основание, управление и монтажные ограничения.',
+      },
+    ],
+  },
+  {
     slug: 'skolko-stoyat-prozrachnye-rolstavni',
     title: 'Сколько стоят прозрачные рольставни: из чего складывается цена',
     description:
@@ -33,7 +67,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-22',
     readingTime: '9 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'kak-vybrat-podryadchika-na-prozrachnye-rolstavni'],
+    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
@@ -63,7 +97,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-22',
     readingTime: '10 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['skolko-stoyat-prozrachnye-rolstavni', 'prozrachnye-rolstavni-ili-myagkie-okna-dlya-verandy'],
+    relatedSlugs: ['skolko-stoyat-prozrachnye-rolstavni', 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Поставщики прозрачных рольставней' },
       { href: '/postavshchiki/', label: 'Все карточки компаний' },
@@ -213,7 +247,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '8 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'skolko-stoyat-prozrachnye-rolstavni'],
+    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
@@ -243,7 +277,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '10 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'kak-vybrat-podryadchika-na-prozrachnye-rolstavni'],
+    relatedSlugs: ['prozrachnye-rolstavni-dlya-verandy', 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Все поставщики прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Поставщики в Москве и МО' },
