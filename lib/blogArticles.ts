@@ -21,6 +21,40 @@ export interface BlogArticle {
 
 export const BLOG_ARTICLES: BlogArticle[] = [
   {
+    slug: 'prozrachnye-rolstavni-dlya-besedki',
+    title: 'Прозрачные рольставни для беседки: что учитывать при выборе, чтобы не переделывать',
+    description:
+      'Разбираем, когда прозрачные рольставни подходят для беседки, на что смотреть при выборе проёма, управления, монтажа и как не ошибиться с подрядчиком.',
+    excerpt:
+      'Практическая статья для владельцев домов: когда прозрачные рольставни действительно подходят для беседки, а где важнее заранее проверить сценарий использования и монтаж.',
+    categoryLabel: 'Прозрачные рольставни',
+    categorySlug: 'prozrachnye-rolstavni',
+    publishedAt: '2026-06-30',
+    updatedAt: '2026-06-30',
+    readingTime: '9 мин',
+    coverImage: '/hero-banner.webp',
+    relatedSlugs: [
+      'prozrachnye-rolstavni-dlya-verandy',
+      'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma',
+      'kak-vybrat-podryadchika-na-prozrachnye-rolstavni',
+    ],
+    internalLinks: [
+      { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
+      { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
+      { href: '/postavshchiki/', label: 'Сравнить всех поставщиков' },
+    ],
+    faq: [
+      {
+        question: 'Подходят ли прозрачные рольставни для беседки, которой пользуются не каждый день?',
+        answer: 'Да, подходят, если важны защита от ветра и осадков, быстрый сценарий открытия и аккуратный внешний вид. Но для редкого сезонного использования всегда стоит сравнить их с более простыми решениями по бюджету и удобству.',
+      },
+      {
+        question: 'Что важнее всего проверить перед заказом прозрачных рольставней для беседки?',
+        answer: 'Ключевые пункты — размеры и геометрия проёма, сценарий управления, состояние основания и качество сметы. Если подрядчик не проговаривает эти вещи до замера, риск ошибки заметно выше.',
+      },
+    ],
+  },
+  {
     slug: 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma',
     title: 'Ошибки при выборе прозрачных рольставней для веранды и террасы: как не переплатить',
     description:
@@ -34,7 +68,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     readingTime: '10 мин',
     coverImage: '/hero-banner.webp',
     relatedSlugs: [
-      'prozrachnye-rolstavni-dlya-verandy',
+      'prozrachnye-rolstavni-dlya-besedki',
       'skolko-stoyat-prozrachnye-rolstavni',
       'kak-vybrat-podryadchika-na-prozrachnye-rolstavni',
     ],
@@ -247,7 +281,7 @@ export const BLOG_ARTICLES: BlogArticle[] = [
     updatedAt: '2026-04-21',
     readingTime: '8 мин',
     coverImage: '/hero-banner.webp',
-    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'oshibki-pri-vybore-prozrachnyh-rolstavney-dlya-chastnogo-doma'],
+    relatedSlugs: ['kak-vybrat-prozrachnye-rolstavni', 'prozrachnye-rolstavni-dlya-besedki'],
     internalLinks: [
       { href: '/prozrachnye-rolstavni/', label: 'Каталог прозрачных рольставней' },
       { href: '/prozrachnye-rolstavni/moskva-i-mo/', label: 'Компании в Москве и МО' },
